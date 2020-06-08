@@ -37,6 +37,8 @@ After these packages were updated, please also re-download the Launcher from the
 2. Download the instance by clicking the "dotnet Launcher Download" button
 3. Finally, replace the files (fiskaltrust.exe, ...) with the newly downloaded ones.
 
+Alternatively, use the _Launcher Updater_ Powershell script that is provided in the Download area of the Portal.
+
 We generally do not require manual updates of the Launcher, but had to make an exception in this release to resolve some important issues. Future releases will not require any manual interventions (except from updating package versions in the portal). We apologize for any inconvencience caused by this.
 
 ### Additional information:
