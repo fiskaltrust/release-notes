@@ -9,7 +9,7 @@ If no customer-relevant changes to the portal were made in a sprint, we will omi
 - We added a Powershell script to easily update launcher installations (which is exceptionally required once when updating to the Middleware 1.3.1). The script can be found in the **Downloads / Public Documents** section in the Portal.
 - Access to the _Receipt_ and _Action Journals_ was enabled in the German and French production Portal. These lists can be accessed via the respective buttons in the Queue list.
 - The Queue overview in the German and French production Portal now displays localization information (i.e. the _CashboxIdentification_).<br>
-![queue-urls](images/sprint-75/queue-list.png)
+![queue-journals-localization](images/sprint-75/queue-list.png)<br><br>
 - When creating Swissbit TSEs, the _Device Path_ is now a required parameter.
 - Buttons to add REST and gRPC URLs were added to Queue and SCU configuration pages.<br>
 ![queue-urls](images/sprint-75/queue-url-buttons.png)
