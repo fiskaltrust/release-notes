@@ -41,7 +41,7 @@ Alternatively, use the _Launcher Updater_ Powershell script that is provided in 
 
 We generally do not require manual updates of the Launcher, but had to make an exception in this release to resolve some important issues. Future releases will not require any manual interventions (except from updating package versions in the portal). We apologize for any inconvencience caused by this.
 
-### Additional information:
+### Additional information
 - If you are using C#, please update the _fiskaltrust.interface_ NuGet package, or directly migrate to our client packages (as mentioned above). 
 - If you are using HTTP/REST, SOAP or gRPC via Protobuf directly, no changes are required in your implementation.
 
