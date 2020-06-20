@@ -1,4 +1,4 @@
-# fiskaltrust.Portal - Sprint 76 Update
+# New Data Export Experience - Sprint 76 Update
 _June 22, 2020_
 
 In the Sprint 76 Update of fiskaltrust.Portal, we are excited to announce that we have a completely new data export experience which not only should make selecting specific exports easier, but also should finish within several minutes instead of hours. 
