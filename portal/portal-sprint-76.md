@@ -9,6 +9,17 @@ Check out the [Features](#features) list below for more.
 
 ## Features
 
+### Data Exports 
+
+------------------ TODO ADD CONTENT
+
+### E-Commerce
+
+#### Seperate template-products by market
+In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
+
+### Middleware Configuration
+
 #### Configuring Diebold Nixdorf SCU
 Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
 <br/>
@@ -21,14 +32,6 @@ When updating a Configuration in the Bulkupdate Interface a 500 error occurred. 
 <br/>
 ![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
 
-### Data Exports 
-
------------------- TODO ADD CONTENT
-
-### E-Commerce
-
-#### Seperate template-products by market
-In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
 
 ### User Management
 
