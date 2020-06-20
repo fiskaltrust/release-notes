@@ -11,9 +11,21 @@ Check out the [Features](#features) list below for more.
 
 ### Data Exports 
 
------------------- TODO ADD CONTENT
+#### New Data Export Experience
+
+#### CSV Export
+
+#### FTP Upload simplified
+
+#### FR Export Preview
 
 ### E-Commerce
+
+### Improved Usability slider
+
+### Additional information on parameters in journal.json
+
+### DSFin-VK Prototype ????
 
 #### Seperate template-products by market
 In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
