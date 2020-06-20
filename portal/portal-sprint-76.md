@@ -3,6 +3,30 @@ _June 22, 2020_
 
 ## General
 
+
+### Configuraton
+
+#### Configuring Diebold Nixdorf SCU
+Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
+<br/>
+<br/>
+![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br><br>
+
+#### Bulkupdate functionality not working
+When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
+<br/>
+<br/>
+![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
+
+### Data Exports 
+
+------------------ TODO ADD CONTENT
+
+### E-Commerce
+
+#### Seperate template-products by market
+In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
+
 ### User Management
 
 #### Sandbox Feature - Autoinvitation onboarding of PosOperators for PosDealer (DE only)
@@ -41,25 +65,6 @@ As soon as you have clicked one of the buttons the following steps are executed:
 - Additional files that can be added by the PosDealer during the invitation
 
 After performing these steps the PosOperator Account is properly configured and can be used with the fiskaltrust Services. If the PosOperators want to login they will have to reset their password during the first login. To make this experience as easy as possible the email that the PosOperator gets contains a password reset link.
-
-### Shop
-
-#### Seperate template-products by market
-In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
-
-### Configuraton
-
-#### Configuring Diebold Nixdorf SCU
-Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
-<br/>
-<br/>
-![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br><br>
-
-### Bulkupdate functionality not working
-When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
-<br/>
-<br/>
-![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
 
 ## Next steps
 In the upcoming sprints, the development team will mostly focus on further improving the customer onboarding experience in the Portal.
