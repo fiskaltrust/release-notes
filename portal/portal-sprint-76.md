@@ -1,10 +1,13 @@
-# fiskaltrust.Portal - Sprint 76
+# fiskaltrust.Portal - Sprint 76 Update
 _June 22, 2020_
 
-## General
+In the Sprint 76 Update of fiskaltrust.Portal, we are excited to announce that we have a completely new data export experience which not only should make selecting specific exports easier, but also should finish within several minutes instead of hours. 
 
+In addition, we've added a automatic onboarding flow to the german sandbox environment. Now PosDealers are able to onboard PosOperators without further manual interaction.
 
-### Configuraton
+Check out the [Features](#features) list below for more.
+
+## Features
 
 #### Configuring Diebold Nixdorf SCU
 Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
@@ -29,7 +32,7 @@ In the past we have not seperated the template-based-products for different mark
 
 ### User Management
 
-#### Sandbox Feature - Autoinvitation onboarding of PosOperators for PosDealer (DE only)
+#### Sandbox Feature - Auto-Onboarding of PosOperators (DE only)
 We have been getting many questions on how to make the onboarding experience easier for PosDealers. Since most of the PosDealers are managing many customers with the ft-Portal it is sometimes hard to get everybody on board. In the past we already had the invitation process which created the accounts for the PosOperator and sent an invitation to the PosOperator that needed to be accepted. This often led to a lot of work and sometimes it made the onboarding experience very bad. 
 
 With the latest changes that we have rolled out to our Sandbox environment customers now can test the new, fully automated onboarding process. To enable this feature you have to activate the new `Cash register dealer opt-in autoinvitation` feature as seen in the screenshot bellow.
