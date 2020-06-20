@@ -1,4 +1,4 @@
-# fiskaltrust.Portal - Sprint 75
+# fiskaltrust.Portal - Sprint 76
 _June 22, 2020_
 
 ## General
@@ -53,13 +53,13 @@ In the past we have not seperated the template-based-products for different mark
 Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
 <br/>
 <br/>
-![queue-journals-localization](images/sprint-76/diebold-scu-configuration.png)<br><br>
+![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br><br>
 
 ### Bulkupdate functionality not working
 When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
 <br/>
 <br/>
-![queue-journals-localization](images/sprint-76/bulk-update-page.png)<br><br>
+![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
 
 ## Next steps
 In the upcoming sprints, the development team will mostly focus on further improving the customer onboarding experience in the Portal.
