@@ -36,7 +36,7 @@ As soon as you have clicked one of the buttons the following steps are executed:
 1. Enable PosOperator role for PosOperator
 1. Send an Email to the PosOperator with the following documents:
 
--PosOperator Contract (signed by the PosDealer)
+- PosOperator Contract (signed by the PosDealer)
 - PosDealer Opt-In Contract
 - Additional files that can be added by the PosDealer during the invitation
 
@@ -59,7 +59,7 @@ Similar to the other SCUs we do have a Diebold Nixdorf specific configuration pa
 When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
 <br/>
 <br/>
-![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
+![bulk-update-page](images/sprint-76/bulk-update-page.PNG)<br><br>
 
 ## Next steps
 In the upcoming sprints, the development team will mostly focus on further improving the customer onboarding experience in the Portal.
