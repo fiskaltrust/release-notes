@@ -11,14 +11,14 @@ We have been getting many questions on how to make the onboarding experience eas
 With the latest changes that we have rolled out to our Sandbox environment customers now can test the new, fully automated onboarding process. To enable this feature you have to activate the new `Cash register dealer opt-in autoinvitation` feature as seen in the screenshot bellow.
 <br/>
 <br/>
-![queue-journals-localization](images/sprint-76/role-optin-activation.png)<br><br>
+![role-optin-activation](images/sprint-76/role-optin-activation.png)<br><br>
 
 Because of the fact that this is a PosDealer-only feature you need to have the PosDealer role activated as well. The contract that is currently showing up is a placeholder contract and it will be replaced by an actual contract before going into production.
 
 After that role has been activated you should see two new buttons in the PosOpeartors/Invitations view. 
 <br/>
 <br/>
-![queue-journals-localization](images/sprint-76/autoinvite-posoperators.png)<br><br>
+![autoinvitation-posoperators](images/sprint-76/autoinvite-posoperators.png)<br><br>
 
 Similar to the usual invitation feature you can either proceed for all pending invitations or just one by one. 
 
