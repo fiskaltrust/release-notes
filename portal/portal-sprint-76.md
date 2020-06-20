@@ -59,7 +59,7 @@ Similar to the other SCUs we do have a Diebold Nixdorf specific configuration pa
 When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
 <br/>
 <br/>
-![bulk-update-page](images/sprint-76/bulk-update-page.PNG)<br><br>
+![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
 
 ## Next steps
 In the upcoming sprints, the development team will mostly focus on further improving the customer onboarding experience in the Portal.
