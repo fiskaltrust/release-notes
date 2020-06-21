@@ -1,44 +1,62 @@
-# New Data Export Experience - Sprint 76 Update
+# fiskaltrust.Portal - Sprint 76
 _June 22, 2020_
 
-In the Sprint 76 Update of fiskaltrust.Portal, we are excited to announce that we have a completely new data export experience which not only should make selecting specific exports easier, but also should finish within several minutes instead of hours. 
+In the Sprint 76 update of the fiskaltrust.Portal, we are excited to announce that we have a completely new data export experience which not only should make selecting specific exports easier, but is also able to finish exports within a few minutes instead of several hours, even for very large queues.
 
-In addition, we've added a automatic onboarding flow to the german sandbox environment. Now PosDealers are able to onboard PosOperators without further manual interaction.
+In addition, we've added an automatic onboarding flow to the German sandbox environment. PosDealers are now able to onboard PosOperators without further manual actions on their side.
 
-Check out the [Features](#features) list below for more.
+These major changes are (among others) described in more detail in the following sections.
 
-## Features
+## Features and stability improvements
 
-### Data Exports 
+### Data exports 
 
-#### New Data Export Experience
+#### New data export experience
+The export experience in the Portal - i.e. the functionality to write stored Middleware data like receipt requests and responses into different file types - was completely overhauled in this sprint. The previous implementation dated back to earlier days and overall far smaller queues, and did not fit the requirements of large customers anymore. In addition to this, we regularly received feedback that the user interface was not intuitive enough.
 
-#### CSV Export
+The key features of the new functionality are:
+- Drastically improved performance, shrinking down the time for an export from hours to only minutes, even for very large queues. For example, an XML export of a queue with 800,000 receipts now takes only 15 minutes on average. Exporting smaller queues will usually be finished in 2-3 minutes.
+- Increased reliability of the overall process. Especially for large queues, the old export tended to fail sometimes, requiring users to queue several exports until one succeeds. This was resolved, as we  observed very high success rates in our ongoing tests.
+- An overall simpler architecture makes it far easier for the development to implement new export types (e.g. the French export, and the upcoming DSFinV-K export).
+- A simpler user interface that focuses on the main requirements when requesting an export. Now, users can easily select the export and (if required) optional export targets.
 
-#### FTP Upload simplified
+![export-page](images/sprint-76/export-page.png)
 
-#### FR Export Preview
+#### Simplified upload target configuration
+The previous drag-and-drop functionality for export targets was replaced by a simpler checkbox-based approach. While this slightly limits the customizability (previously, it was possible to specify multiple targets of the same type), our user tests show that the user experience is far easier to understand and use.
+
+**Even if no target is specific, the data will still be stored on our servers and can be downloaded via the Portal anytime.**
+
+When a target is selected, users can configure the required options:
+
+![ftp-upload](images/sprint-76/ftp-upload.png)
+
+#### CSV export
+In addition to the _full XML export_, a CSV export was added that exports the full data schema of the Middleware into CSV files. Among others, this includes all receipt requests and responses that were processed, journals, and all internal data that is stored in the Middleware database.
+
+#### FR export (Preview)
+A preview version of the French export (_FR-DEX_) was added to the [French sandbox](https://portal-sandbox.fiskaltrust.fr). In accordance with the InfoCert certification requirements, it can be used to export Queue data into CSV files, split by the type of the receipt chain.
+
+### Improved usability of receipt range slider
+Previously, using the receipt range slider to configure exports often lead to issues when used with large queues. The performance of this component was greatly improved, and it should thus be far more stable now, even for very large export configurations.
+
+### Additional information on parameters in journal.json
+In addition to displaying it in the portal, we now include the receipt range of exports into the `journal.json`. This should make it easier to track exports after they were downloaded.
 
 ### E-Commerce
 
-### Improved Usability slider
-
-### Additional information on parameters in journal.json
-
-### DSFin-VK Prototype ????
-
-#### Seperate template-products by market
-In the past we have not seperated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
+#### Separate template-products by market
+In the past we have not separated the template-based-products for different markets. This led to the fact that we have shown all of these products in the shop. We have made some changes to being able to separate these products between the markets and now only products that are really available for the given market are shown.
 
 ### Middleware Configuration
 
 #### Configuring Diebold Nixdorf SCU
-Similar to the other SCUs we do have a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
+Similar to the other SCUs, we added a Diebold Nixdorf specific configuration page now that should make configuring the Diebold Nixdorf SCU easier for the users.
 <br/>
 <br/>
 ![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br><br>
 
-#### Bulkupdate functionality not working
+#### Bulk update functionality not working
 When updating a Configuration in the Bulkupdate Interface a 500 error occurred. This issue was fixed and the functionality for updating middleware componenents and rebuilding the cashboxes automatically is back again.
 <br/>
 <br/>
