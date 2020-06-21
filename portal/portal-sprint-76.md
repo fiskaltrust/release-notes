@@ -29,7 +29,7 @@ _For now, this feature is only available in the German and French portal. It wil
 #### Simplified upload target configuration
 The previous drag-and-drop functionality for export targets was replaced by a simpler checkbox-based approach. While this slightly limits the customizability (previously, it was possible to specify multiple targets of the same type), our user tests show that the user experience is far easier to understand and use.
 
-**Even if no target is specific, the data will still be stored on our servers and can be downloaded via the Portal anytime.**
+**Even if no target is specified, the data will still be stored on our servers and can be downloaded via the Portal anytime.**
 
 When a target is selected, users can configure the required options:
 
