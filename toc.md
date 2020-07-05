@@ -1,5 +1,6 @@
 # [Introduction](introduction.md)
 # Middleware
+## [Version 1.3.3](middleware/middleware-1.3.3.md)
 ## [Version 1.3.2](middleware/middleware-1.3.2.md)
 ## [Version 1.3.1](middleware/middleware-1.3.1.md)
 # Portal
