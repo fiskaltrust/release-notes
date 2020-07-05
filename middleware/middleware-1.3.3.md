@@ -10,6 +10,8 @@ The Linux Middleware can easily be downloaded from the Cashbox list in the porta
 
 Linux is currently supported for Entity Framework and SQLite queues, and fiskaly and Cryptovision SCUs (others will follow soon).
 
+_As of writing this, Linux support is only rolled out to the sandbox, to gather some more feedback from key customers. We will deploy these new packages to production in the upcoming days._
+
 ## Stability improvements
 - An issue was fixed that could lead to errors when sending a request without charge items and the DSFinV-K type _Bestellung-V1_ to the fiskaly SCU (e.g. via an info-order).
 - The communication timeout between Queue and SCU can now be configured via the `-scutimeout=` switch (in seconds). This should only be used in rare scenarios where the default timeout of 75 seconds is not sufficient.
