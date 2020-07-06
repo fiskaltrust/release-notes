@@ -29,7 +29,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.EF v1.3.3_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.3_
 - _fiskaltrust.Middleware.SCU.Cryptovision v1.3.3_
-- _fiskaltrust.Middleware.SCU.Fiskaly v1.3.3-rc1_
+- _fiskaltrust.Middleware.SCU.Fiskaly v1.3.3-rc2_
 
 
 ## Next steps in the Middleware
