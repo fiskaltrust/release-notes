@@ -1,5 +1,5 @@
 # fiskaltrust.Middleware 1.3.3 (Germany)
-**Starting with this release, the German Middleware is compatible with Linux, running on Mono**. Please also have a look at our [FAQs](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html) to see all the requirements and specifics.
+**Starting with this release, the German Middleware is compatible with Linux, running on Mono**. Please also have a look at our [FAQs](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#can-i-run-the-fiskaltrust-middleware-on-linux-what-are-the-requirements-and-limitations-of-the-middleware-when-running-on-linux) to see all the requirements and specifics.
 
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
@@ -28,7 +28,9 @@ Packages not listed here were not updated, as we decided to not increase the ver
 
 - _fiskaltrust.Middleware.Queue.EF v1.3.3_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.3_
+- _fiskaltrust.Middleware.SCU.Cryptovision v1.3.3_
 - _fiskaltrust.Middleware.SCU.Fiskaly v1.3.3-rc1_
+
 
 ## Next steps in the Middleware
 We will continue improving the Linux experience and work on supporting more TSEs on this platform. In addition, our development team is continuously working on improving the stability of our Middleware, and would be very happy to hear any feedback or suggestions via info@fiskaltrust.at.
