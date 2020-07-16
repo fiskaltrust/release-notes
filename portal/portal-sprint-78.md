@@ -43,6 +43,10 @@ When creating / configuring CashBoxes you basically have two options. You can co
 
 We will continue improving this feature and add additional functionalities to make it easier to see in which outlet the selected component is running.
 
+#### Failed to load more than 1000 ReceiptJournals 
+
+In our monitoring we noticed that for some customers we do have failing requests when they try to request very large amounts of receiptjournal entries. The reason for this issue is a limitation of one of our backend systems. We fixed this by putting in a cap of 1000 receiptjournals that can be loaded.
+
 ####  FR -Fix for failing SignaturCreationFR creation if no proper outlet is configured
 
 When you created a SignaturCreationFR with an outlet that has no properly configured businessnumber the creation ended in a 500 error. This is resolved now and in the case of no properly configured outlets you are prompted with an error message:
