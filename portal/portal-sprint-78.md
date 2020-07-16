@@ -62,6 +62,19 @@ Our data showed that some of our customers are running into an issue when trying
 
 ![cashbox-wrong-queuede](images/sprint-78/cashbox-wrong-queuede.png)<br><br>
 
+#### DE - Filter ReceiptJournals and ActionJournals by Type
+
+To make it easier for you to take a look at specific kinds of ReceiptJournals or ActionJournals we added a filter to the ReceiptJournal and ActionJournal page. You should be able to select one of the following Type of receipts:
+
+- All receipts
+- Zero receipts
+- Initial operation receipts
+- Out of operation receipts
+- Monthly receipts
+- Annual receipts
+
+![de-receiptcases](images/sprint-78/de-receiptcases.png)<br><br>
+
 #### List of queues performance improvement
 
 While working on the outletmanagement feature we noticed that we are doing a lot of duplicate work while loading the queues that is not necessary. We changed a few things in the order that we call our backends and could see 8x-10x faster page loading time depending on how many queues you have configured. Especially accounts with many queues should see far better load timings. The gif bellow should give you a good overview on the difference.
@@ -87,7 +100,7 @@ Additionally to the separation between the outlet categories we reordered some f
 ![new-outlets-page-search](images/sprint-78/outlets-page-search.png)<br><br>
 
 ## Next steps
-In the upcoming sprints, the development team will continue to improve the onboarding experience, data exports, and introduce some updates to our shop.
+In the upcoming sprints, the development team will continue to improve the outlet management feature. One very frequently asked feature is the bulk import for many outlets. Additionally to that we will improve the shopping experience so that you are able to buy outlet based products.
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
