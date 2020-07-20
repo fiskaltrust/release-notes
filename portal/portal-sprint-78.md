@@ -25,8 +25,6 @@ We also revamped the export page, which can be found in the _Tools_ section. The
 
 ![new-export-page-at](images/sprint-78/new-export-list-at.png)<br><br>
 
-### E-Commerce
-
 ### Middleware Configuration
 
 #### Configuring Outlets for Middleware components
