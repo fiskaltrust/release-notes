@@ -67,7 +67,6 @@ When trying to create a SignatureCreationUnit with an outlet that has no properl
 
 _In case you are affected by this, please make sure that the company's configuration is valid that the selected outlet has a correct location ID._
 
-
 #### DE - Hide non working Helpers in German market
 Since 1.2 helpers are not compatible with the 1.3 Middleware, we removed all helpers that have a version number lower than 1.3 in the German market. This should make sure that it's impossible to create configurations that will fail at runtime.
 
@@ -87,6 +86,9 @@ To simplify finding specific receipt journals or action journals in the Portal, 
 - Annual receipts
 
 ![de-receiptcases](images/sprint-78/de-receiptcases.png)<br><br>
+
+#### Fix error when showing receipts without references
+In some cases the data that is snet to the middleware doesn´t contain the necessary information that we´d expect. We reworked the page where you can show a receipt to be more errorsafe when it comes to missing fields.
 
 #### Performance improvements for Queue list
 While working on the outlet management feature, we noticed that the Queue page performance can be improved by optimizing how we query our backend systems. Changing this lead to 8x-10x faster page loading time (depending on how many queues are configured in the respective account). Especially accounts with many queues should see greatly improved page load times. The _gif_ bellow shows the difference quite clearly.
