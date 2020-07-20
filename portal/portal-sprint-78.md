@@ -44,6 +44,19 @@ When creating or configuring CashBoxes, users now have two options: it is both p
 
 We will continue to improve this feature, and will add additional functionalities to make it easier to see in which outlet the selected component is running.
 
+#### DE - File Upload Helper and AKO file browser
+In preparation for the upcoming AKO product, a Middleware helper was created that watches a local directory and uploads all created files into our revision-safe storage. This can especially be helpful if a POS system produces files on it's own that need to be archived because of legal reasons, e.g. POS-specific exports.
+
+The helper can - as usual - be configured via _Configuration - Helpers_, where it's possible to specify an upload and an archive directory:
+
+![upload-helper-configuration](images/sprint-78/file-upload-helper.png)<br><br>
+
+All files that are created in the upload directory will be transfered to our storage, and moved to the archive folder afterwards. In this first prototype, subdirectories are not yet supported.
+
+After files were successfully uploaded, they can be displayed and downloaded from the Portal in _Tools - AKO-Filebrowser_:
+
+![upload-helper-configuration](images/sprint-78/file-browser.png)<br><br>
+
 #### Failed to load more than 1000 ReceiptJournals 
 Our monitoring showed that displaying receipt journals failed for some customers when trying to access very large queues. The reason for this issue is a limitation in one of our backend systems. We for now resolved this by setting a cap of 1000 receipt journal entries that can be loaded.
 
