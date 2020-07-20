@@ -95,6 +95,11 @@ While working on the outlet management feature, we noticed that the Queue page p
 
 ![new-export-page-at](images/sprint-78/queue_list_performance.gif)<br><br>
 
+#### Fix failing bulk update for active queues
+In some cases, bulk-updating many queues could fail when the respective queues were active and uploaded data at the same time as the update was performed. This was especially relevant for customers with a large amount of queues, as chances were high that one of them were active during the update.
+
+This issue is now resolved.
+
 ### User Management
 
 #### Outlet Management
