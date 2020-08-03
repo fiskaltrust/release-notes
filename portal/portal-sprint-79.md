@@ -67,8 +67,6 @@ To simplify the outlet management for large customers, we added a new feature th
 
 After uploading the file, an additional page is shown that shows the to-be-imported data. Possible validation errors and their detailed description are also displayed on that page (if they occur). These validations e.g. include checks for duplicate outlet numbers, invalid characters, or schema mismatches.
 
-### User Management
-
 ## Next steps
 The next sprints will be mostly focused on further improving the shop experience by simplifying the current processes and streamlining the offered products. We are also working hard on improving the Middleware and preparing additional product runtimes for customers with cloud cash registers.
 
