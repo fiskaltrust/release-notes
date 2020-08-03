@@ -33,6 +33,22 @@ Hence, we now display a warning instead of an error message in the shop that giv
 
 **Please note that customers are still required to set their companies' VAT numbers in the master data section of the Portal.**
 
+#### **Preview Feature** - PosDealer Subscription Management
+One of the most requested PosDealer features is the possibility to manage the subscriptions of attached PosOperators. From the feedback we got, we identified two main areas:
+
+- PosDealers should have the ability to view all subscriptions for their attached users and have an easy overview to see which subscriptions need action
+- PosDealers should be able to extend these subscriptions easily
+
+In this sprint we mainly covered the first area, to make sure that we show the relevant information. For this purpose we do differentiate between subscriptions that need action (expiring and expired subscriptions), and subscriptions that are good to go. 
+
+![subscription-management](images/sprint-79/subscription-management.png)
+
+At the moment we are only displaying the most necessary information. If you need additional information, like the last used moment, the possystemid, or the dealercount just click the `Download Subscriptions CSV File` button. 
+
+In addition to additional fields, this file can be used for requesting extensions of subscriptions. The column `Extend J/N` can be used to mark subscriptions that should be extended. As soon as this is filled out the file can be handed over to our support team which will do the subscription extension for you. 
+
+In the upcoming sprints and with the feedback we receive for this new feature we will further improve the functionalities, displaying of data and also integrate the flow to let users extend subscriptions with the usual checkout process in portal, which includes entitlements, moving entitlements and bulk checkout for multiple posoperators.
+
 ### Middleware Configuration
 
 #### Agency management
@@ -50,8 +66,6 @@ To simplify the outlet management for large customers, we added a new feature th
 ![outlet-csv-import](images/sprint-79/outlet-csv-import.png)
 
 After uploading the file, an additional page is shown that shows the to-be-imported data. Possible validation errors and their detailed description are also displayed on that page (if they occur). These validations e.g. include checks for duplicate outlet numbers, invalid characters, or schema mismatches.
-
-
 
 ### User Management
 
