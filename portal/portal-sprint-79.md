@@ -1,4 +1,4 @@
-# fiskaltrust.Portal - Sprint NUMBER
+# fiskaltrust.Portal - Sprint 79
 _August 3, 2020_
 
 **DSFinV-K master data handling & outlet bulk imports**
