@@ -16,6 +16,6 @@ The Middleware 1.3.4 properly handles the DSFinV-K relevant master data and appe
 
 ### Portal
 
-Aside from further polishing the fiskaltrust.Portal's outlet feature, most development effort of this sprint was put into properly injecting DSFinV-K-relevant master data (e.g. account information, outlet data, etc.) into the middleware configuration so it can be processes by the [Middleware 1.3.4](../middleware/middleware-1.3.4.md).
+Aside from further polishing the fiskaltrust.Portal's outlet feature, most development effort of this sprint was put into properly injecting DSFinV-K-relevant master data (e.g. account information, outlet data, etc.) into the middleware configuration so it can be processes by the [Middleware 1.3.4](middleware/middleware-1.3.4.md).
 
 [Portal Release Notes](portal/portal-sprint-79.md)
