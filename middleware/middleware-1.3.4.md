@@ -27,6 +27,8 @@ The picture below illustrates this flow:
 
 ![master-data-flow](images/1.3.4/master-data-flow.png)
 
+Additionally, we made sure to return all DSFinV-K relevant SignaturItems for all receipt types. This means that some items were added to _zero-_, _info-order-_ and _info-internal-receipts_ (these changes are non-breaking; only new items were added, existing ones were not modified).
+
 We are working on publishing an official procedural documentation for the steps described above as well, which can be handed out to POS Operators to explain how this flow works and what needs to be done in case of an audit.
 
 ## Stability improvements
