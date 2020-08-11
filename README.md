@@ -6,6 +6,18 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## August 17, 2020
+
+### Product Description for german market
+
+[Product Description Release Notes](productdescription-de-doc\sprint-80.md) 
+
+### FAQ
+
+update der Nichtbeanstandungsregelung hinsichtlich regionaler Ergänzungen, sowie dem Szenario "bring your own TSE"
+
+[FAQ Release Notes](faq/Sprint-80.md)
+
 ## August 3, 2020
 
 ### Middleware 1.3.4
