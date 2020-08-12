@@ -8,15 +8,15 @@ Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of 
 
 ## August 17, 2020
 
-### Product Description for german market
+### Documentation
 
-[Product Description Release Notes](productdescription-de-doc\sprint-80.md) 
+We added an onboarding guide for poscreators to help them to get a high level overview about what fiskaltrust is doing and how to use our products. In addition to this, we explain how fiskaltrust is earning money by publishing our business model. Some FAQs have been updated and added in the FAQ repository.
 
-### FAQ
+[Documentation Release Notes](documentation/sprint-80.md) 
 
-update der Nichtbeanstandungsregelung hinsichtlich regionaler Ergänzungen, sowie dem Szenario "bring your own TSE"
+### Portal
 
-[FAQ Release Notes](faq/Sprint-80.md)
+Portal updates here
 
 ## August 3, 2020
 
