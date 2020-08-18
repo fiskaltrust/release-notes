@@ -6,28 +6,31 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
-## August 17, 2020
+## August 18, 2020
 
-### Documentation
+### Middleware 1.3.5
+The Middleware 1.3.5 adds support for Android mobile devices, MySQL databases, and properly handles large amounts of parallel receipt requests.
 
-We added an onboarding guide for poscreators to help them to get a high level overview about what fiskaltrust is doing and how to use our products. In addition to this, we explain how fiskaltrust is earning money by publishing our business model. Some FAQs have been updated and added in the FAQ repository.
-
-[Documentation Release Notes](documentation/sprint-80.md) 
+[Middleware 1.3.5 Release Notes](middleware/middleware-1.3.5.md)
 
 ### Portal
+In this sprint, we focused on releasing a first preview version of the _DSFinV-K_ export to the sandbox. Although this **preview version** is not production-ready, it already creates most of the required content and only misses some final polishing that we will perform in the upcoming weeks. In addition to this, we also added the possibility to download the new [Android Launcher for our Middleware](middleware/middleware-1.3.5.md), and introduced some small, but very helpful Quality of Life-updates.
 
-Portal updates here
+[Portal Sprint 80 Release Notes](portal/portal-sprint-80.md)
+
+### Documentation
+We added an onboarding guide for poscreators to help them to get a high level overview about what fiskaltrust is doing and how to use our products. In addition to this, we explain how fiskaltrust is earning money by publishing our business model. Some FAQs have been updated and added in the FAQ repository.
+
+[Documentation Sprint 80 Release Notes](documentation/sprint-80.md) 
 
 ## August 3, 2020
 
 ### Middleware 1.3.4
-
 The Middleware 1.3.4 properly handles the DSFinV-K relevant master data and appends it to daily closing receipts, so that it can be easily used when querying an export. Aside from the changes made to support master data, we also introduced several stability improvements and fixed some bugs in this release and we updated our client packages to remove some inconsistencies between different communication protocols and Middleware versions.
 
-[Middleware Release Notes](middleware/middleware-1.3.4.md)
+[Middleware 1.3.4 Release Notes](middleware/middleware-1.3.4.md)
 
 ### Portal
-
 Aside from further polishing the fiskaltrust.Portal's outlet feature, most development effort of this sprint was put into properly injecting DSFinV-K-relevant master data (e.g. account information, outlet data, etc.) into the middleware configuration so it can be processes by the [Middleware 1.3.4](middleware/middleware-1.3.4.md).
 
-[Portal Release Notes](portal/portal-sprint-79.md)
+[Portal Sprint 79 Release Notes](portal/portal-sprint-79.md)
