@@ -1,5 +1,5 @@
 # fiskaltrust.Middleware 1.3.5 (Germany)
-The Middleware 1.3.5 adds support for Android systems, MySQL databases, and properly handles large amounts of parallel receipt requests.
+The Middleware 1.3.5 adds support for Android mobile devices, MySQL databases, and properly handles large amounts of parallel receipt requests.
 
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
