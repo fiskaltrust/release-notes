@@ -4,23 +4,23 @@
 
 ### :new:New
 
-- the product documentation has been added to [docs.fiskalrust.cloud](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/README.html) to enhance readability and searchability.
+- The product documentation has been added to [docs.fiskalrust.cloud](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/README.html) to enhance readability and searchability.
 - [Presentation of the fiskaltrust business model for the german market](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/DE-business-model.html) for a better understanding of our offer to our customers, roles & partnerships. 
 - We improved the description of goals and content of the different documentation repositories to enhance the usability of our documentation for our customers; see for example [here](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/README.html#weitere-öffentliche-fiskaltrust-repositories).
 - We added [firewall settings](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/03-sales/firewall-settings.md) for the local middleware to sales&rollout area for posdealers.
-- we added a [firewall settings trouble shooting guide](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/04-after-sales/troubleshooting-firewall.md) in the after-sales area.
+- We added a [firewall settings trouble shooting guide](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/for-posdealers/04-after-sales/troubleshooting-firewall.md) in the after-sales area.
 
 ### :repeat:Updates
 
-- [legal basis](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/DE-rechtliche-grundlagen.md) has been updated with information from 01.08.2020 | DFKA - Neue gesetzliche Anforderungen für Kassensysteme and added a disclaimer of liability.
-- we added new terms into the [glossary](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/glossar/README.html).
-- the fiskaltrust.Middleware [supports Linux & MacOs](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#linux-macos) now (in the documentation as well), and in addition to this we added [hardware prerequisites](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#hardware-voraussetzungen).
-- we moved the [rollout scenarios to a new place](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html). please update your bookmarks if needed.
-- we updated the sales area with a detailed description of [pre-sales, sales/rollout and after-sales area](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/vertriebsmodell.html) to help posdealers to find their (future) content faster
-- several additions in the [glossary](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/glossar/README.html)
-- we added the [fair use policy for posoperators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/tse-fiskaly-fair-use-policy.html) to the [Entgeltblatt](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/endkunden-preisliste.html).
+- [Legal basis](https://github.com/fiskaltrust/productdescription-de-doc/blob/master/product-service-description/DE-rechtliche-grundlagen.md) has been updated with information from 01.08.2020 | DFKA - Neue gesetzliche Anforderungen für Kassensysteme and added a disclaimer of liability.
+- We added new terms into the [glossary](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/glossar/README.html).
+- The fiskaltrust.Middleware [supports Linux & MacOs](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#linux-macos) now (in the documentation as well), and in addition to this we added [hardware prerequisites](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#hardware-voraussetzungen).
+- We moved the [rollout scenarios to a new place](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html). please update your bookmarks if needed.
+- We updated the sales area with a detailed description of [pre-sales, sales/rollout and after-sales area](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/vertriebsmodell.html) to help posdealers to find their (future) content faster.
+- Several additions in the [glossary](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/glossar/README.html).
+- We added the [fair use policy for posoperators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/tse-fiskaly-fair-use-policy.html) to the [Entgeltblatt](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/endkunden-preisliste.html).
 
-- in general smaller fixes & improvements
+- In general smaller fixes & improvements.
 
 ## FAQ
 
