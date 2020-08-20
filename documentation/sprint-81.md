@@ -4,7 +4,7 @@
 
 ### :new:New
 
-- We published an onboarding presentation for poscreators which are interested into fiskaltrust compliance as a service solution. 
+- We published a [lead presentation for poscreators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-poscreators/README.html#lead-pr%C3%A4sentation) which are interested into fiskaltrust compliance as a service solution. It is intended to provide an overview of the fiskaltrust solution and to show a possible way of integration into the POS System of the POS Creators. Potential customers can also use our presentation internally in their company to inform their colleagues about the fiskaltrust solution.
 
 ### :repeat:Updates
 
