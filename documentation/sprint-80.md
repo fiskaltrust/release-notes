@@ -28,10 +28,10 @@
 
 - We improved the description of goals and content of the different documentation repositories to enhance the usability of our documentation for our customers; see for example [here](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/README.html#weitere-öffentliche-fiskaltrust-repositories).
 - We added a how-to [guide for bringing and configuring an own TSE](https://github.com/fiskaltrust/faq/blob/master/qna/DE-bring-your-own-tse.md) to fiskaltrust.
-- we added FAQ regarding [Finanzamtmeldungen](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#unsere-cloud-kasse-arbeitet-lediglich-mit-eingabegerätenterminals-die-keine-offlinefunktionalität-bieten-und-nur-bei-internet-verbindung-zum-rechenzentrum-vorgänge-aufzeichnen-können-die-aufzeichnungen-erfolgen-ausschließlich-auf-den-servern-im-rechenzentrum-cloud-damit-ist-das-rechenzentrum-lt-bsi-das-operational-environment-kann-ich-in-meinem-rechenzentrum-eine-eigene-tse-betreiben).
+- We added FAQ regarding [Finanzamtmeldungen](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#unsere-cloud-kasse-arbeitet-lediglich-mit-eingabegerätenterminals-die-keine-offlinefunktionalität-bieten-und-nur-bei-internet-verbindung-zum-rechenzentrum-vorgänge-aufzeichnen-können-die-aufzeichnungen-erfolgen-ausschließlich-auf-den-servern-im-rechenzentrum-cloud-damit-ist-das-rechenzentrum-lt-bsi-das-operational-environment-kann-ich-in-meinem-rechenzentrum-eine-eigene-tse-betreiben).
 
 ### :repeat:Updates
-- we updated information regarding our [bring-your-own-data-center](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#voraussetzungen) concept.
+- We updated information regarding our [bring-your-own-data-center](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#voraussetzungen) concept.
 - We enhanced a current FAQ about the "Nichtbeanstandungsregelung der KassenSichV" with an [overview about regional additions](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#regionale-ergänzungen-zur-nichtbeanstandungsregelung).
 
 ## Portal Manual
