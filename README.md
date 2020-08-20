@@ -19,7 +19,7 @@ In this sprint, we focused on releasing a first preview version of the _DSFinV-K
 [Portal Sprint 80 Release Notes](portal/portal-sprint-80.md)
 
 ### Documentation
-We added an onboarding guide for poscreators to help them to get a high level overview about what fiskaltrust is doing and how to use our products. In addition to this, we explain how fiskaltrust is earning money by publishing our business model. Some FAQs have been updated and added in the FAQ repository.
+The product documentation is available on http://docs.fiskaltrust.cloud. We explain how fiskaltrust is earning money by publishing our business model. In addition to this, several improvements have been made at the product documentation. Some FAQs have been updated and added in the FAQ repository.
 
 [Documentation Sprint 80 Release Notes](documentation/sprint-80.md) 
 
