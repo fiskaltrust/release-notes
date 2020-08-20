@@ -17,7 +17,6 @@
 - The fiskaltrust.Middleware [supports Linux & MacOs](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#linux-macos) now (in the documentation as well), and in addition to this we added [hardware prerequisites](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/product-service-description/compliance-as-a-service/produkte/4445-0003-lokal-installierte-middleware.html#hardware-voraussetzungen).
 - We moved the [rollout scenarios to a new place](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html). please update your bookmarks if needed.
 - We updated the sales area with a detailed description of [pre-sales, sales/rollout and after-sales area](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/vertriebsmodell.html) to help posdealers to find their (future) content faster.
-- Several additions in the [glossary](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/glossar/README.html).
 - We added the [fair use policy for posoperators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/tse-fiskaly-fair-use-policy.html) to the [Entgeltblatt](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posoperators/endkunden-preisliste.html).
 
 - In general smaller fixes & improvements.
