@@ -18,7 +18,6 @@
 - We added a FAQ regarding [how many cash registers can be operated by a TSE](https://github.com/fiskaltrust/faq/blob/master/qna/DE-TSE-rollout-szenarien.md).
 - We added a FAQ regarding [contract cancellation and service fee reimbursement](https://github.com/fiskaltrust/faq/blob/master/qna/DE-contract-cancellation-posoperator.md).
 - We added an explanation why hardware products in [the german webshop in sandbox environment](https://github.com/fiskaltrust/faq/blob/master/qna/DE-webshop-order-sandbox.md) will not be delivered when you try to order them
-- 
 
 ### :repeat:Updates
 - [FAQ regarding tax notifications ("Finanzamtmeldungen")](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#wann-muss-ich-die-verwendung-einer-tse-dem-finanzamt-melden-welche-informationen-mu%C3%9F-ich-dem-finanzamt-%C3%BCbermitteln-ist-im-falle-eines-tse-verlusts-oder--diebstahls-eine-meldung-und-sperrung-der-tse-z-b-im-portal-oder-gg%C3%BC-dem-finanzamt-notwendig) has been improved.
