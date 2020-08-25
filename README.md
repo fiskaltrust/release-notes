@@ -6,6 +6,16 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## August 31, 2020
+
+### market-at
+
+### market-de
+
+#### Documentation
+
+### market-fr
+
 ## August 18, 2020
 
 ### Middleware 1.3.5
