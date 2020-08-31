@@ -2,7 +2,7 @@
 _August 31, 2020_
 
 **Shop and production improvements**
-TODO
+In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the Portal that should greatly simplify common e-commerce related tasks.
 
 ## Features
 
