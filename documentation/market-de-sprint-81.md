@@ -6,10 +6,6 @@
 
 - We published a [lead presentation for poscreators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-poscreators/README.html#lead-pr%C3%A4sentation) which are interested into fiskaltrust compliance as a service solution. It is intended to provide an overview of the fiskaltrust solution and to show a possible way of integration into the POS System of the POS Creators. Potential customers can also use our presentation internally in their company to inform their colleagues about the fiskaltrust solution.
 
-### :repeat:Updates
-
-- .
-
 ## Market-DE: FAQ
 
 ### :new:New
@@ -21,16 +17,4 @@
 
 ### :repeat:Updates
 - [FAQ regarding tax notifications ("Finanzamtmeldungen")](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#wann-muss-ich-die-verwendung-einer-tse-dem-finanzamt-melden-welche-informationen-mu%C3%9F-ich-dem-finanzamt-%C3%BCbermitteln-ist-im-falle-eines-tse-verlusts-oder--diebstahls-eine-meldung-und-sperrung-der-tse-z-b-im-portal-oder-gg%C3%BC-dem-finanzamt-notwendig) has been improved.
-
-## Market-DE: Portal Manual
-
-### :new:New
-
-- 
-
-## Market-DE: Interface Documentation
-
-### :new:New
-
-- 
 
