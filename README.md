@@ -13,7 +13,7 @@ In this sprint, we focused on streamlining the German e-commerce experience. Thi
 
 [Portal Sprint 81 Release Notes](portal/portal-sprint-81.md)
 
-#### Documentation
+#### Documentation (DE)
 We published a [lead presentation for poscreators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-poscreators/README.html#lead-pr%C3%A4sentation) which are interested into fiskaltrust compliance as a service solution. It is intended to provide an overview of the fiskaltrust solution and to show a possible way of integration into the POS System of the POS Creators. In addition to this, we added several new FAQ.
 
 [Documentation Release Notes](documentation/market-de-sprint-81.md)
