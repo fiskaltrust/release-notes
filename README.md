@@ -6,19 +6,17 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
-## September 01, 2020
+## August 31, 2020
 
-### market-at
+### Portal
+In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the Portal that should greatly simplify common e-commerce related tasks.
 
-### market-de
+[Portal Sprint 81 Release Notes](portal/portal-sprint-81.md)
 
 #### Documentation
-
 We published a [lead presentation for poscreators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-poscreators/README.html#lead-pr%C3%A4sentation) which are interested into fiskaltrust compliance as a service solution. It is intended to provide an overview of the fiskaltrust solution and to show a possible way of integration into the POS System of the POS Creators. In addition to this, we added several new FAQ.
 
 [Documentation Release Notes](documentation/market-de-sprint-81.md)
-
-### market-fr
 
 ## August 18, 2020
 
