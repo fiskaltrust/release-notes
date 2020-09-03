@@ -2,6 +2,7 @@
 _August 18, 2020_
 
 **DSFinV-K preview & Android Launcher download**
+
 In this sprint, we focused on releasing a first preview version of the _DSFinV-K_ export to the sandbox. Although this **preview version** is not production-ready, it already creates most of the required content and only misses some final polishing that we will perform in the upcoming weeks. In addition to this, we also added the possibility to download the new [Android Launcher for our Middleware](../middleware/middleware-1.3.5.md), and introduced some small, but very helpful Quality of Life-updates.
 
 ## Features
