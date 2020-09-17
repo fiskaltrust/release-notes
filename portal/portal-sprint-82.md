@@ -5,8 +5,6 @@ _September 14, 2020_
 
 ## Features
 
-### Data exports
-
 ### E-Commerce
 
 #### Enable Shop for FR (FR)
@@ -60,8 +58,6 @@ In some cases it happend that even though a package was shown in the selection d
 We got the feedback that in some situations it would be very helpful if PosDealers and PosCreators are able to see the raw data that has been sent to the Middleware. We added a JSON viewer that shows the raw data for the request.json and the response.json
 
 ![receipt-view-raw-data](images/sprint-82/receipt-view-raw-data.png)
-
-### User Management
 
 ## Next steps
 
