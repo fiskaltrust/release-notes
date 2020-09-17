@@ -1,11 +1,11 @@
 # fiskaltrust.Portal - Sprint 82
 _September 14, 2020_
 
-**MAIN FEATURE**
+**Usability improvements**
+
+In this sprint, we focused on improving several features in portal. Additionally to a brand new editing experience for CashBox-Templates we also added a long requested feature to display the raw content of receipts to the receipts page. One thing that we also want to highlight is the Prod release of the FR Market.
 
 ## Features
-
-### Data exports
 
 ### E-Commerce
 
@@ -61,8 +61,8 @@ We got the feedback that in some situations it would be very helpful if PosDeale
 
 ![receipt-view-raw-data](images/sprint-82/receipt-view-raw-data.png)
 
-### User Management
-
 ## Next steps
+In the next sprints we will continue to imporve the usability and the user experience in the portal to make sure that it is easy to use. Additionaly we will continue adding additional features that help our customers meeting the challenges that they are facing in the German market including things like revision safe storage for customers that don´t use the middleware, the final release of the auto-invitation process and also TAR based functionalities.
 
 ## Feedback
+We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
