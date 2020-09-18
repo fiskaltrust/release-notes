@@ -26,7 +26,7 @@ We got some customer feedback about missing information in _daily-closing_ and _
 - Equivalent to _initial-operation_ receipts, _out-of-operation_ receipts now properly create notifications in both the SignatureItems of the response and the Action Journal. While the German tax authorities still don't require this (this regulation was deferred), we're now prepared to properly handle these notifications as soon as they become mandatory.
 
 ## New feature: Strongly signed interface package
-As we received some requests from our customers for a _fiskaltrust.interface_ NuGet package with a strong name, we decided to provide an additional package with these capabilities. The [_fiskaltrust.interface.StrongName_](https://www.nuget.org/packages/fiskaltrust.interface.StrongName/) package can be downloaded from NuGet.org.
+As we received some requests from our customers for a _fiskaltrust.interface_ NuGet package with a strong name, we decided to provide an additional package with these capabilities. The _fiskaltrust.interface.StrongName_ package can be downloaded from NuGet.org.
 
 ## Stability improvement: Exception handling
 We fixed two issues related to exception handling in this release. The first one was a [bug](https://github.com/fiskaltrust/middleware-interface-dotnet/issues/24) that we accidentally introduced in version 1.3.5 and made the Middleware freeze in certain cases when an exception occurred in the Queue, e.g. when the sent `ftCashBoxId` was not matching. 
