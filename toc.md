@@ -1,11 +1,13 @@
 # [Release Notes](README.md)
 # Middleware
+## [Version 1.3.6](middleware/middleware-1.3.6.md)
 ## [Version 1.3.5](middleware/middleware-1.3.5.md)
 ## [Version 1.3.4](middleware/middleware-1.3.4.md)
 ## [Version 1.3.3](middleware/middleware-1.3.3.md)
 ## [Version 1.3.2](middleware/middleware-1.3.2.md)
 ## [Version 1.3.1](middleware/middleware-1.3.1.md)
 # Portal
+## [Sprint 82 (September 14, 2020)](portal/portal-sprint-82.md)
 ## [Sprint 81 (August 31, 2020)](portal/portal-sprint-81.md)
 ## [Sprint 80 (August 18, 2020)](portal/portal-sprint-80.md)
 ## [Sprint 79 (August 3, 2020)](portal/portal-sprint-79.md)

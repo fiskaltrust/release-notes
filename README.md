@@ -6,6 +6,18 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## September 14, 2020
+
+### Middleware 1.3.6
+This release adds the functionality to locally generate our preview version of the DSFinV-K export, and the new production-ready Diebold Nixdorf SCU. Additionally, we fixed several issues and added some smaller improvements, mostly related to special receipt responses.
+
+[Middleware 1.3.6 Release Notes](middleware/middleware-1.3.6.md)
+
+### Portal
+In this sprint, we focused on improving several features in portal. Additionally to a brand new editing experience for CashBox-Templates we also added a long requested feature to display the raw content of receipts to the receipts page. One thing that we also want to highlight is the Prod release of the FR Market.
+
+[Portal Sprint 82 Release Notes](portal/portal-sprint-82.md)
+
 ## August 31, 2020
 
 ### Portal
