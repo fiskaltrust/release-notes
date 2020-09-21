@@ -6,6 +6,13 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## September 21, 2020
+
+### Middleware 1.3.7
+Version 1.3.7 contains an important fix for Entity Framework (EF) queues, which should resolve a recurring SQL concurrency exception that multiple customers experienced. 
+
+[Middleware 1.3.7 Release Notes](middleware/middleware-1.3.7.md)
+
 ## September 14, 2020
 
 ### Middleware 1.3.6
