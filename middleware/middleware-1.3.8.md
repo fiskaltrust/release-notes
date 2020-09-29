@@ -6,9 +6,9 @@ This release of the Middleware includes the stabilized version of the DSFinV-K e
 ## Finalized feature: Local DSFinV-K export
 After publishing a preview version of our local DSFinV-K export in [version 1.3.6](middleware-1.3.6.md), we're happy to announce that this feature now leaves the preview state and is fully available as a stabilized, final functionality. We'd like to thank everyone who sent us their highly-valued feedback so far!
 
-Using this version enables POSOperators that use the free Middleware only (without any add-ons like the revision-safe cloud storage) to be fully compliant to the tax authorities' regulations. The cloud-version of our DSFinV-K export (which can be queried via the Portal and is included in our _POS Archive_) is of course up-to-date as well.
+This version is required for POSOperators that use the free Middleware only (without any add-ons like the revision-safe cloud storage) to be compliant to the tax authorities' regulations. The cloud-version of our DSFinV-K export (which can be queried via the Portal and is included in our _POS Archive_) is of course up-to-date as well.
 
-The receipt case for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/function-structures/function-structures.html#journal-function).
+The _ftJournalType_ for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/function-structures/function-structures.html#journal-function).
 
 ## New feature: Automated TSE .tar file export & backup
 Starting with this version, we automatically export the TSE .tar files - which include _transaction_, _audit_ and _system logs_ - and store them in the Queue's database. The functionality to export TAR files is required in the _BSI's Secure Element API (TR-03151)_, and thus standardized. Auditors may require these .tar files, hence we want to make them available as easy as possible.
