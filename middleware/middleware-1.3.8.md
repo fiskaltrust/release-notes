@@ -24,6 +24,13 @@ There are two options to trigger a .tar file export:
 - Via a daily-closing receipt (_automatically_). To prevent this, please add the receipt case flag `0x0000000004000000`.
 - Via a zero receipt (_optionally_). To execute this, please add the receipt case flag `0x0000000002000000`.
 
+## New feature: Configurable SCU timeouts
+To solve some special cases of customers with unusually slow TSEs, we made two SCU communication parameters configurable:
+- `scu-timeout-ms`: Determines the timeout value of the Queue to SCU communication, in ms. Default is 70 seconds.
+- `scu-max-retries`: The maximum number of retries in case an SCU operation fails with an unexpected exception. Default is 2.
+
+Both these values can be set via the Queue configuration page in the Portal - just add the Key-Value pairs there. A rebuild of the affected Cashbox is required to propagate these changes to the Middleware.
+
 ## Bug fix: Properly return TSE details of Diebold Nixdorf and Cryptovision TSEs
 We fixed two small, but important issues in the Diebold Nixdorf and the CryptoVision SCUs:
 - **CryptoVision**: Instead of the correct _logTimeFormat_, this SCU returned `noInputData`.
