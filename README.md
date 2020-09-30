@@ -6,6 +6,13 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## September 30, 2020
+
+### Middleware 1.3.8
+This release of the Middleware includes the stabilized version of the DSFinV-K export and automatically archives the TSE's _.tar_ files on daily closing receipts. 
+
+[Middleware 1.3.8 Release Notes](middleware/middleware-1.3.8.md)
+
 ## September 21, 2020
 
 ### Middleware 1.3.7

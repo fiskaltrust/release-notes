@@ -1,5 +1,5 @@
 # fiskaltrust.Middleware 1.3.8 (Germany)
-This release of the Middleware includes the stabilized version of the DSFinV-K export and automatically backups the TSE's _.tar_ files on daily closing receipts. 
+This release of the Middleware includes the stabilized version of the DSFinV-K export and automatically archives the TSE's _.tar_ files on daily closing receipts. 
 
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
@@ -10,7 +10,7 @@ This version is required for POSOperators that use the free Middleware only (wit
 
 The _ftJournalType_ for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/function-structures/function-structures.html#journal-function).
 
-## New feature: Automated TSE .tar file export & backup
+## New feature: Automated TSE .tar file export & archiving
 Starting with this version, we automatically export the TSE .tar files - which include _transaction_, _audit_ and _system logs_ - and store them in the Queue's database. The functionality to export TAR files is required in the _BSI's Secure Element API (TR-03151)_, and thus standardized. Auditors may require these .tar files, hence we want to make them available as easy as possible.
 
 Exporting and storing this in the Queue's database has several advantages:
