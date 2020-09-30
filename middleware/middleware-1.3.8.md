@@ -31,7 +31,7 @@ To solve some special cases of customers with unusually slow TSEs, we made two S
 
 Both these values can be set via the Queue configuration page in the Portal - just add the Key-Value pairs there. A rebuild of the affected Cashbox is required to propagate these changes to the Middleware.
 
-## Bug fix: Properly return TSE details of Diebold Nixdorf and Cryptovision TSEs
+## Bug fix: Properly return TSE details of Diebold Nixdorf and CryptoVision TSEs
 We fixed two small, but important issues in the Diebold Nixdorf and the CryptoVision SCUs:
 - **CryptoVision**: Instead of the correct _logTimeFormat_, this SCU returned `noInputData`.
 - **Diebold Nixdorf**: The serial number was returned as a Base64-encoded string instead of the required Octet string. 
