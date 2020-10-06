@@ -3,6 +3,8 @@ This release of the Middleware includes the stabilized version of the DSFinV-K e
 
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
+<div class="alert alert-danger" role="alert" style="border-radius: 0">This version contains a critical bug that may prevent proper usage of daily-closing receipts. Please update to versions >= 1.3.9.</div>
+
 ## Finalized feature: Local DSFinV-K export
 After publishing a preview version of our local DSFinV-K export in [version 1.3.6](middleware-1.3.6.md), we're happy to announce that this feature now leaves the preview state and is fully available as a stabilized, final functionality. We'd like to thank everyone who sent us their highly-valued feedback so far!
 
