@@ -6,7 +6,7 @@ In this version, we published an important fix for the TSE _.tar_ file export, b
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Bug fix: Resolve .tar file export issues during daily-closing receipt
-Since the previous version (1.3.8), we automatically export the TSE's _.tar_ files during the daily-closing receipt. Unfortunately, due to a communication issue between Queue and SCU, this export was executed far slower than expected - which in some cases completely prevented the creation of a daily-closing receipt when TSEs already contained too many transactions. In other cases, the daily-closing receipt took an intolerable amount of time.
+Since the previous version (1.3.8), the Middleware automatically export the TSE's _.tar_ files during the daily-closing receipt. Unfortunately, due to a communication issue between Queue and SCU, this export was executed far slower than expected - which in some cases completely prevented the creation of a daily-closing receipt when TSEs already contained too many transactions. In other cases, the daily-closing receipt took an intolerable amount of time.
 
 With this version, we drastically increased the communication speed when querying the _.tar_ export, which resolves this issue in our test scenarios. 
 
