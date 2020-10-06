@@ -26,7 +26,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 
 - _fiskaltrust.Middleware.Queue.EF v1.3.9_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.9_
-- _fiskaltrust.Middleware.Queue.MySQL v1.3.9-rc2_
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.9-rc1_
 - _fiskaltrust.Middleware.SCU.DE.CryptoVision v1.3.9_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.9_
 - _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf v1.3.9_
