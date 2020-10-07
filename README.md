@@ -20,6 +20,13 @@ This release of the Middleware includes the stabilized version of the DSFinV-K e
 
 [Middleware 1.3.8 Release Notes](middleware/middleware-1.3.8.md)
 
+## September 28, 2020
+
+## Portal
+In this sprint, we focused on improving commonly used features in the Portal. This includes the registration process, the ordering and shipping workflows, and several smaller fixes to improve the overall user experience. Additionally, we enabled the auto-invitation flow and the CSV bulk operator import in production.
+
+[Portal Sprint 83 Release Notes](portal/portal-sprint-83.md)
+
 ## September 21, 2020
 
 ### Middleware 1.3.7
