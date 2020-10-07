@@ -10,7 +10,7 @@
 ## [Version 1.3.2](middleware/middleware-1.3.2.md)
 ## [Version 1.3.1](middleware/middleware-1.3.1.md)
 # Portal
-## [Sprint 82 (September 28, 2020)](portal/portal-sprint-83.md)
+## [Sprint 83 (September 28, 2020)](portal/portal-sprint-83.md)
 ## [Sprint 82 (September 14, 2020)](portal/portal-sprint-82.md)
 ## [Sprint 81 (August 31, 2020)](portal/portal-sprint-81.md)
 ## [Sprint 80 (August 18, 2020)](portal/portal-sprint-80.md)
