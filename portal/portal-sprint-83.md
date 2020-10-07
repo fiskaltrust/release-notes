@@ -1,4 +1,4 @@
-# fiskaltrust.Portal - Sprint 82
+# fiskaltrust.Portal - Sprint 83
 _September 28, 2020_
 
 **Usability, shop & registration improvements**
