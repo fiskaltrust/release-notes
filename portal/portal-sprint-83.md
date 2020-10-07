@@ -1,7 +1,7 @@
 # fiskaltrust.Portal - Sprint 82
 _September 28, 2020_
 
-**Usability, shop & shipping improvements**
+**Usability, shop & registration improvements**
 
 In this sprint, we focused on improving commonly used features in the Portal. This includes the registration process, the UID validation, and several smaller fixes to improve the overall user experience. Additionally, we enabled the auto-invitation flow and the CSV bulk operator import in production.
 
