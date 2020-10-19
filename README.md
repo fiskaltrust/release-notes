@@ -6,12 +6,20 @@ A repository containing release notes of our customer-facing products and servic
 
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+
+## October 12, 2020
+
+## Portal
+In this sprint, the Engineering team was mostly focusing on improving our Middleware by adding new SCUs and fixing some reported issues. Still, several usability improvements and bug fixes were implemented that should resolve some common issues our users experienced.
+
+
 ## October 6, 2020
 
 ### Middleware 1.3.9
 In this version, we published an important fix for the TSE _.tar_ file export, both in the Queue and the SCU packages. This resolves a critical issue where customers with pre-existing Queues were not able to properly execute daily-closing receipts anymore.
 
 [Middleware 1.3.9 Release Notes](middleware/middleware-1.3.9.md)
+
 
 ## September 30, 2020
 
@@ -27,12 +35,14 @@ In this sprint, we focused on improving commonly used features in the Portal. Th
 
 [Portal Sprint 83 Release Notes](portal/portal-sprint-83.md)
 
+
 ## September 21, 2020
 
 ### Middleware 1.3.7
 Version 1.3.7 contains an important fix for Entity Framework (EF) queues, which should resolve a recurring SQL concurrency exception that multiple customers experienced. 
 
 [Middleware 1.3.7 Release Notes](middleware/middleware-1.3.7.md)
+
 
 ## September 14, 2020
 
@@ -46,6 +56,7 @@ In this sprint, we focused on improving several features in portal. Additionally
 
 [Portal Sprint 82 Release Notes](portal/portal-sprint-82.md)
 
+
 ## August 31, 2020
 
 ### Portal
@@ -57,6 +68,7 @@ In this sprint, we focused on streamlining the German e-commerce experience. Thi
 We published a [lead presentation for poscreators](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-poscreators/README.html#lead-pr%C3%A4sentation) which are interested into fiskaltrust compliance as a service solution. It is intended to provide an overview of the fiskaltrust solution and to show a possible way of integration into the POS System of the POS Creators. In addition to this, we added several new FAQ.
 
 [Documentation Release Notes](documentation/market-de-sprint-81.md)
+
 
 ## August 18, 2020
 
@@ -74,6 +86,7 @@ In this sprint, we focused on releasing a first preview version of the _DSFinV-K
 The product documentation is available on http://docs.fiskaltrust.cloud. We explain how fiskaltrust is earning money by publishing our business model. In addition to this, several improvements have been made at the product documentation. Some FAQs have been updated and added in the FAQ repository.
 
 [Documentation Sprint 80 Release Notes](documentation/sprint-80.md) 
+
 
 ## August 3, 2020
 
