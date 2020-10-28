@@ -1,4 +1,6 @@
 # fiskaltrust.Middleware 1.3.7 (Germany)
+_September 21, 2020_
+
 Version 1.3.7 contains an important fix for Entity Framework (EF) queues, which should resolve a recurring SQL concurrency exception that multiple customers experienced. 
 
 While this only occurred for a small percentage of receipts, it was nevertheless a critical issue for affected customers - hence we decided to release version 1.3.7 earlier than expected. The feature and stability updates we announced in the last release notes will be included in version 1.3.8.

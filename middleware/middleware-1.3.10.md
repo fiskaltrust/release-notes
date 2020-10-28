@@ -1,4 +1,5 @@
 # fiskaltrust.Middleware 1.3.10 (Germany)
+_October 28, 2020_
 
 **We highly recommend updating to this version on POS Systems that uses SQLite Queues to resolve this issue.**
 

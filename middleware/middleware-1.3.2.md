@@ -1,4 +1,6 @@
 # fiskaltrust.Middleware 1.3.2 (Germany)
+_June 16, 2020_
+
 This release includes some stability improvements and bug fixes for the German middleware, and can be used in production scenarios. Additionally, a release candidate of the Diebold Nixdorf SCU is now available on the [sandbox](https://portal-sandbox.fiskaltrust.de).
 
 No changes in the interface were made in this release.

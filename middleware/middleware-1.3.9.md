@@ -1,4 +1,6 @@
 # fiskaltrust.Middleware 1.3.9 (Germany)
+_October 6, 2020_
+
 In this version, we published an important fix for the TSE _.tar_ file export, both in the Queue and the SCU packages. This resolves a critical issue where customers with pre-existing Queues were not able to properly execute daily-closing receipts anymore.
 
 **We highly recommend updating to this version on POS Systems that use version 1.3.8 to resolve this issue.**
