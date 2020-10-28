@@ -14,6 +14,9 @@ We also improved our internal device locking to prevented some race conditions s
 
 An email was sent out to POS Creators and POS Dealers to inform them about this cause. We'd like to use this opportunity to again apologize for any inconvenience this may caused our customers, and have introduced internal measures to avoid issues like this propagating to our production systems in the future.
 
+## New SCU: ATrust (Sandbox)
+After implementing the ATrust Cloud SCU we are making it available on the sandbox for early adopters. Since the ATrust TSE is not certified yet, it won´t be available in production yet.
+
 ## How to update
 Existing configurations with versions greater than 1.3.1 continue to work, **but we strongly recommend users to update to resolve this critical issue**.
 
@@ -30,6 +33,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DE.CryptoVision v1.3.9_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.9_
 - _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf v1.3.9_
+- _fiskaltrust.Middleware.SCU.DE.ATrust v1.3.9-rc1_
 
 ## Next steps in the Middleware
 We will continue to improve the stability of our Middleware in the next sprints. As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
