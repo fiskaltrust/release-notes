@@ -1,4 +1,6 @@
 # fiskaltrust.Middleware 1.3.3 (Germany)
+_July 5, 2020_
+
 **Starting with this release, the German Middleware is compatible with Linux, running on Mono**. Please also have a look at our [FAQs](https://docs.fiskaltrust.cloud/doc/faq/qna/market-de.html#can-i-run-the-fiskaltrust-middleware-on-linux-what-are-the-requirements-and-limitations-of-the-middleware-when-running-on-linux) to see all the requirements and specifics.
 
 <div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
