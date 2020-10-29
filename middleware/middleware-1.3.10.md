@@ -23,6 +23,9 @@ Previously to this version, our Epson SCU was still based on our interface 1.3.0
 
 We are working closely together with our partners to evaluate this SCU and will push it to production as soon as we gathered enough feedback to be confident that everything is working as expected in real-world scenarios.
 
+## New feature: Bring your own datacenter swagger endpoint
+[_Bring your own Datatencer_](https://github.com/fiskaltrust/product-de-bring-your-own-datacenter) now has a `/swagger` endpoint where an API description in the OpenAPI3 format is published.
+
 ## Stability improvement: Fixed concurrency issues in Swissbit SCU
 We fixed a concurrency issue in our Swissbit SCU that lead to failed receipts and a switch to the failover-mode in some cases. While not many POS implementations were affected by this, the issue was occurring frequently for some customers, and was therefore now fixed.
 
