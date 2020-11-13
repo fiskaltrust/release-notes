@@ -1,4 +1,4 @@
-# fiskaltrust.Portal - Sprint 84
+# fiskaltrust.Portal - Sprint 85
 _October 26, 2020_
 
 **TAR file export, simplified subscription management & TSE certificate details**
