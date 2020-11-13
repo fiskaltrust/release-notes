@@ -7,6 +7,14 @@ A repository containing release notes of our customer-facing products and servic
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
 
+## November 9, 2020
+
+## Portal
+The main focus of this sprint was to further enhance the Portal's UI and UX, especially for large-scale rollout scenarios and general POS Dealer activities. In addition, we worked on improving the Android Launcher, which can now be downloaded more easily and will soon be rolled out to Google Play.
+
+[Portal Sprint 86 Release Notes](portal/portal-sprint-86.md)
+
+
 ## October 28, 2020
 
 ### Middleware 1.3.10
@@ -17,11 +25,20 @@ In addition to this, we resolved several important stability issues in version 1
 [Middleware 1.3.10 Release Notes](middleware/middleware-1.3.10.md)
 
 
+## October 26, 2020
+
+## Portal
+In this sprint, we worked in making the aggregated TAR export available in the Portal, which - together with the DSFinV-K export - enables our customers to get all audit-relevant data without requiring direct access to the POS System. Additionally, we greatly improved the subscription management, and are now displaying the expiration dates of TSEs.
+
+[Portal Sprint 85 Release Notes](portal/portal-sprint-85.md)
+
+
 ## October 12, 2020
 
 ## Portal
 In this sprint, the Engineering team was mostly focusing on improving our Middleware by adding new SCUs and fixing some reported issues. Still, several usability improvements and bug fixes were implemented that should resolve some common issues our users experienced.
 
+[Portal Sprint 84 Release Notes](portal/portal-sprint-84.md)
 
 ## October 6, 2020
 
