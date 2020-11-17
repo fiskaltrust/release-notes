@@ -33,7 +33,7 @@ To solve some special cases of customers with unusually slow TSEs, we made two S
 - `scu-timeout-ms`: Determines the timeout value of the Queue to SCU communication, in ms. Default is 70 seconds.
 - `scu-max-retries`: The maximum number of retries in case an SCU operation fails with an unexpected exception. Default is 2.
 
-Both these values can be set via the Queue configuration page in the Portal - just add the Key-Value pairs there. A rebuild of the affected Cashbox is required to propagate these changes to the Middleware.
+Both these values can be set via the SCU configuration page in the Portal - just add the Key-Value pairs there. A rebuild of the affected Cashbox is required to propagate these changes to the Middleware.
 
 ## Bug fix: Properly return TSE details of Diebold Nixdorf and CryptoVision TSEs
 We fixed two small, but important issues in the Diebold Nixdorf and the CryptoVision SCUs:
