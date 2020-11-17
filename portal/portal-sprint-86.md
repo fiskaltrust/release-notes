@@ -47,7 +47,6 @@ We added several new sub-pages to give our users more detailed information in ca
 
 In addition to this, we noticed that some special characters were not allowed in company names when inviting users (e.g. `&`), which is now not the case anymore.
 
-
 ## Next steps
 In the next sprints, we will again focus on further improving the user experience in our Portal, mostly focused on an enhanced rollout experience.
 

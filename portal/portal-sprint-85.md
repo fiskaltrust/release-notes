@@ -40,6 +40,11 @@ We hence added a _Download_ button to the German SCU page. When clicking this bu
 
 ![scu-details](images/sprint-85/scu-details.png)
 
+### User Management
+
+#### Reenable changing the Username (All markets)
+Previously, we have been facing a bug that made it impossible to correctly change the username. With this release this should be fixed and changing the username should be working again.
+
 ## Next steps
 In the next sprints, we will focus on further improving the user experience in our Portal, mostly focused on an enhanced rollout experience. This includes updates to the templating system, the invitation process, and other related workflows.
 
