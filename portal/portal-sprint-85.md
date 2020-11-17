@@ -18,11 +18,18 @@ _Please note that this feature requires Middleware version >= 1.3.9._
 
 ### E-Commerce
 
-#### Simplify subscription extension (AT)
-32252 Automated creation of sales quote from subscription extension csv
-32254 Extend PosDealer subscription page to give user the choice between "Move by Entitlements" or "Dealer package"
-32253 Extend PosDealer subscription page with selection of subscriptions to extend
-32611 User is not able to cancel subscription
+#### Self-Service subscription extension (AT)
+After receiving a lot of feedback on the currently very difficult and error prone extension process we wanted to make sure that you are able to easily extend subscriptions for you and your customers.
+
+For this reason we added a new functionality to the PosDealer-Subscriptions page which shows three categories of subscriptions for all your connected posoperators. The first category is the already expired one. It contains subscriptions that are already invalid and should either be canceled or extended to make sure that features like PosArchive are still available. The second category contains the expiring subscriptions. These subscriptions are in danger of expiring and should be extended as soon as possible.
+
+![extend-subscriptions-checkbox](images/sprint-85/extend-subscriptions-checkbox.png)
+
+You are now able to check the subscriptions that you want to extend and then scroll to the bottom and click on the "Create Quote" button. This will create a quote for you that you can then put into the shopping cart and perform a checkout. 
+
+![extend-subscriptions-quote-created](images/sprint-85/extend-subscriptions-quote-created.png)
+
+We hope that this feature makes it easier to extend subscriptions and we are happy to receive feedback on how we can further improve it.
 
 ### Middleware Configuration
 
