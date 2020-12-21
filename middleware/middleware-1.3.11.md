@@ -31,6 +31,9 @@ We therefore introduced a new Launcher parameter that completely deactivates all
 
 Please keep in mind that using this will prevent us from actively reacting to issues in the respective customer installations, as we will be completely dependent on receiving inquiries and log files in those case. Also, the new _Metrics_ section in the Portal will not be available in that case.
 
+## New feature: Bring your own datacenter proxy config
+[_Bring your own Datatencer_](https://github.com/fiskaltrust/product-de-bring-your-own-datacenter) now has proxy configuration options.
+
 ## Bug fix: Uploading data was sometimes failing for large queues
 We resolved an issue that lead to sometimes failing uploads to our cloud services for large queues, as the boundaries previously uploaded data was not always included properly. No data was lost due to this issue, and everything will be properly uploaded after a CashBox rebuild (which also updates the automatically added HelipadHelper).
 
