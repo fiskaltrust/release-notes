@@ -14,6 +14,16 @@ Therefore, aside from updating the affected packages, no further steps should be
 
 We'd like to apologize for the inconvenience created by this bug, and are currently introducing new tests and quality gates to prevent these kinds of issues in the future.
 
+## Bug fix: Fail-transaction receipt could be used with implicit flow
+Due to a missing check, the fail-transaction receipt could be used with the implicit flow in previous versions. As the implicit flow doesn't leave transactions open that could then be failed, we have modified the behavior of this case accordingly; hence, it's only possible to close transactions that were opened with an explicit start receipt with this case now.
+
+- To close **single open transactions**, an **explicit** fail-transaction receipt needs to be used. The open transaction needs to be referenced via `cbReceiptReference`. In case this value is not provided or no open transaction exists, the Middleware will throw an exception and the call will fail.
+- To close **multiple open transactions**, an **implicit** fail-transaction receipt needs to be sent. The transaction numbers that should be closed need to be passed via JSON in `ftReceiptCaseData`, using the array property `CurrentStartedTransactionNumbers` (e.g.: `ftReceiptCaseData: "{\"CurrentStartedTransactionNumbers\": [1, 2, 3]}"`). `cbReceiptReference` must be empty in this case, the Middleware will throw an exception and return an error otherwise.
+
+We're aware of the fact that some customers have been using this case to fail parts of ongoing receipt sequences with the implicit flow. This, however, is unfortunately not correct according to the DSFinV-K, and that's why we now actively prevent this. 
+
+If the receipt case was used to fail short processes (like e.g. reverting scanning items in retail scenarios), please keep in mind that the DSFinV-K doesn't require all scanned items to be sent to the TSE; it's just important to create a _"SonstigerVorgang"_ at the beginning to log the start timestamp of the business transaction. We hence recommend to only send an _info-internal_ receipt once at the beginning and one _POS receipt_ at the end of the process to fulfill these requirements. As no _info-orders_ are used in this sequence, it's not required to cancel anything in case of e.g. a duplicate scan.
+
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
