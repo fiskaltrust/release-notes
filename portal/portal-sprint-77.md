@@ -10,13 +10,13 @@ In sprint 77, development was mostly focused on syncing SCU details with the fis
 ### Signature Creation Unit details
 We updated our backend services to properly process and store the information that Signature Creation Units query from TSEs in German middleware instances. This means that details like the TSE state, the maximum number of signatures, identification numbers, certificates and public keys can now be displayed directly in the portal as soon as a SCU was initialized (by sending a initial-operation receipt to the connected Queue). The details page can be opened by clicking on the <i class="fa fa-search"></i> button in the SCU ist.
 
-![diebold-nixdorf-scu-configuration](images/sprint-77/scu-details.png)<br><br>
+![diebold-nixdorf-scu-configuration](images/sprint-77/scu-details.png)<br /><br />
 
 _The following information are displayed_: `Description`, `PackageVersion`, `CurrentState`, `MaxNumberOfClients`, `CurrentNumberOfClients`, `CurrentClientIds`, `MaxNumberOfStartedTransactions`, `CurrentNumberOfStartedTransactions`, `CurrentStartedTransactionNumbers`, `MaxNumberOfSignatures`, `CurrentNumberOfSignatures`, `MaxLogMemorySize`, `CurrentLogMemorySize`, `FirmwareIdentification`, `CertificationIdentification`, `SignatureAlgorithm`, `LogTimeFormat`, `SerialNumberOctet`, `PublicKeyBase64`, `CertificatesBase64`
 
 In addition, we made it easier to detect if an SCU was already activated by displaying this information directly in the list, as shown on the screenshot below.
 
-![diebold-nixdorf-scu-configuration](images/sprint-77/active-scus.png)<br><br>
+![diebold-nixdorf-scu-configuration](images/sprint-77/active-scus.png)<br /><br />
 
 ### User Management
 Two issues in the new simplified invitation experience were fixed in this sprint:
