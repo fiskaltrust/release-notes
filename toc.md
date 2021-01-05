@@ -1,5 +1,6 @@
 # [Release Notes](README.md)
 # Middleware
+## [Version 1.3.12](middleware/middleware-1.3.12.md)
 ## [Version 1.3.11](middleware/middleware-1.3.11.md)
 ## [Version 1.3.10](middleware/middleware-1.3.10.md)
 ## [Version 1.3.9](middleware/middleware-1.3.9.md)

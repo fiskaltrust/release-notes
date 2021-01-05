@@ -1,5 +1,5 @@
 # fiskaltrust.Middleware 1.3.11 (Germany)
-_October 28, 2020_
+_December 12, 2020_
 
 With this version, we're happy to announce that the fiskaltrust Android Middleware is now publicly available in production! Additionally, we added support for the newly available Swissbit Cloud TSE, and introduced several important stability and performance improvements to our SCUs.
 

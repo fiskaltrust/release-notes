@@ -7,6 +7,14 @@ A repository containing release notes of our customer-facing products and servic
 Please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
 
+## December 18, 2020
+
+### Middleware 1.3.12
+This version of the Middleware fixes an important bug related to creating the signature payloads of _info-order_ receipts.
+
+[Middleware 1.3.12 Release Notes](middleware/middleware-1.3.12.md)
+
+
 ## December 12, 2020
 
 ### Middleware 1.3.11
