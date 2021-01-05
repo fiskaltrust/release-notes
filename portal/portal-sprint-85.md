@@ -1,3 +1,8 @@
+---
+slug: /release-notes/portal/sprint-85
+title: Sprint 85 (October 26, 2020)
+---
+
 # fiskaltrust.Portal - Sprint 85
 _October 26, 2020_
 

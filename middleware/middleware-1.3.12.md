@@ -1,9 +1,14 @@
+---
+slug: /release-notes/middleware/1.3.12
+title: Version 1.3.12
+---
+
 # fiskaltrust.Middleware 1.3.12 (Germany)
 _December 18, 2020_
 
 This version of the Middleware fixes an important bug related to creating the signature payloads of _info-order_ receipts. **We hence strongly recommend all our users to update their versions of the Middleware in case they are using this receipt type.**
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Bug fix: Signature payloads are incorrectly generated for info-order receipts
 Due to an error in our business logic, the payload of _info-order_ receipts (i.e. receipts that ended up in a _Bestellung-V1_ bon) that was sent to the TSE was incorrectly created in some cases. This issue occurred when a _charge item_ quantity larger than `1` was used with this receipt type; instead of the expected price per item, the overall amount of the  _charge item_ was written into the payload. As this payload is signed by the TSE, the resulting signatures are incorrect as well in these cases. 

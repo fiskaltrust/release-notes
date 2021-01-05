@@ -1,3 +1,8 @@
+---
+slug: /release-notes/middleware/1.3.7
+title: Version 1.3.7
+---
+
 # fiskaltrust.Middleware 1.3.7 (Germany)
 _September 21, 2020_
 
@@ -5,7 +10,7 @@ Version 1.3.7 contains an important fix for Entity Framework (EF) queues, which 
 
 While this only occurred for a small percentage of receipts, it was nevertheless a critical issue for affected customers - hence we decided to release version 1.3.7 earlier than expected. The feature and stability updates we announced in the last release notes will be included in version 1.3.8.
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Stability improvement: Fixed concurrency error in EF queue
 We fixed an error multiple customers were experiencing when using the EF queue (SQLite was not affected). In some cases, the component that backups receipt data to the fiskaltrust.Cloud (_HelipadHelper_) was blocking sign requests from being processed. With unlucky timing, this could lead to failed requests, and exceptions similar to this one:

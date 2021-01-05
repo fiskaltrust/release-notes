@@ -1,3 +1,8 @@
+---
+slug: /release-notes/middleware/1.3.2
+title: Version 1.3.2
+---
+
 # fiskaltrust.Middleware 1.3.2 (Germany)
 _June 16, 2020_
 
@@ -5,7 +10,7 @@ This release includes some stability improvements and bug fixes for the German m
 
 No changes in the interface were made in this release.
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## New features
 - A first stable release candidate of the Diebold Nixdorf SCU implementation was published (as version `1.3.2-rc1`) to the sandbox. After extensive internal testing, we decided to release this version as RC1 to get customer feedback before publishing a final version. If you are interested in using Diebold Nixdorf TSEs in your products and need more information/notice any issues, please reach out to info@fiskaltrust.de. As always, we appreciate all forms of feedback.
