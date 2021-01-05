@@ -25,6 +25,3 @@
 ## [Sprint 77 (July 6, 2020)](portal/portal-sprint-77.md)
 ## [Sprint 76 (June 22, 2020)](portal/portal-sprint-76.md)
 ## [Sprint 75 (June 8, 2020)](portal/portal-sprint-75.md)
-# Documentation
-## [Sprint 81 (August 31, 2020)](documentation/market-de-sprint-81.md)
-## [Sprint 80 (August 18, 2020)](documentation/sprint-80.md)
