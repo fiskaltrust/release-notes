@@ -24,6 +24,9 @@ We're aware of the fact that some customers have been using this case to fail pa
 
 If the receipt case was used to fail short processes (like e.g. reverting scanning items in retail scenarios), please keep in mind that the DSFinV-K doesn't require all scanned items to be sent to the TSE; it's just important to create a _"SonstigerVorgang"_ at the beginning to log the start timestamp of the business transaction. We hence recommend to only send an _info-internal_ receipt once at the beginning and one _POS receipt_ at the end of the process to fulfill these requirements. As no _info-orders_ are used in this sequence, it's not required to cancel anything in case of e.g. a duplicate scan.
 
+## Bug fix: Fix journal endpoint for Bring Your Own Datacenter
+The journal endpoint now works like in the local Middleware.
+
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
