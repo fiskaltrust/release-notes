@@ -18,23 +18,23 @@ The new Export Creation View uses our new _Exporting system_ which drastically d
 
 We also added a new category of export to the page, called PosArchiveAT. This Export is a combination of the full export (XML) and the DEP 7 export, which is required for finance audits. 
 
-![new-export-page-at](images/sprint-78/new-export-at.png)<br><br>
+![new-export-page-at](images/sprint-78/new-export-at.png)<br /><br />
 
 #####  Export Retrieval
 We also revamped the export page, which can be found in the _Tools_ section. The new page loads very quickly and displays all exports created with the new Export System. If a previously created (older) export is missing on that page, it can be accessed by clicking on the _"Previous Exports"_ button.
 
-![new-export-page-at](images/sprint-78/new-export-list-at.png)<br><br>
+![new-export-page-at](images/sprint-78/new-export-list-at.png)<br /><br />
 
 ### Middleware Configuration
 
 #### Configuring Outlets for Middleware components
 Since we do have the requirement of binding Queues and SCUs to specific outlets in Germany, we added a setting for selecting the Outlet that the Queue/SCU should be created for. For Germany and France this setting is required. In Austria, selecting an Outlet is optional.
 
-![queue-configuration-location](images/sprint-78/queue-configuration-location.png)<br><br>
+![queue-configuration-location](images/sprint-78/queue-configuration-location.png)<br /><br />
 
 When configuring helpers you _can_ add an outlet, but it is not required. Especially for some specific helpers, it sometimes makes no sense to select an Outlet, hence it can be skipped for those.
 
-![helper-configuration-location](images/sprint-78/helper-configuration-location.png)<br><br>
+![helper-configuration-location](images/sprint-78/helper-configuration-location.png)<br /><br />
 
 When creating or configuring CashBoxes, users now have two options: it is both possible to configure the outlet, or to the field empty.
 - If the field is empty during the creation, the next available outlet number is automatically selected to make sure that the queue is not placed into an invalid outlet. 
@@ -47,13 +47,13 @@ In preparation for the upcoming AKO product, a Middleware helper was created tha
 
 The helper can - as usual - be configured via _Configuration - Helpers_, where it's possible to specify an upload and an archive directory:
 
-![upload-helper-configuration](images/sprint-78/file-upload-helper.png)<br><br>
+![upload-helper-configuration](images/sprint-78/file-upload-helper.png)<br /><br />
 
 All files that are created in the upload directory will be transfered to our storage, and moved to the archive folder afterwards. In this first prototype, subdirectories are not yet supported.
 
 After files were successfully uploaded, they can be displayed and downloaded from the Portal in _Tools - AKO-Filebrowser_:
 
-![upload-helper-configuration](images/sprint-78/file-browser.png)<br><br>
+![upload-helper-configuration](images/sprint-78/file-browser.png)<br /><br />
 
 #### Failed to load more than 1000 ReceiptJournals 
 Our monitoring showed that displaying receipt journals failed for some customers when trying to access very large queues. The reason for this issue is a limitation in one of our backend systems. We for now resolved this by setting a cap of 1000 receipt journal entries that can be loaded.
@@ -61,7 +61,7 @@ Our monitoring showed that displaying receipt journals failed for some customers
 ####  FR - Fix for failing SCU creation if no proper outlet is configured
 When trying to create a SignatureCreationUnit with an outlet that has no properly configured business number, the creation failed with a 500 error in the French portal. This was resolved, as users are now notified with an error message in case of no properly configured outlets:
 
-![fr-configuration-location-wrong](images/sprint-78/helper-configuration-location.png)<br><br>
+![fr-configuration-location-wrong](images/sprint-78/helper-configuration-location.png)<br /><br />
 
 _In case you are affected by this, please make sure that the company's configuration is valid that the selected outlet has a correct location ID._
 
@@ -71,7 +71,7 @@ Since 1.2 helpers are not compatible with the 1.3 Middleware, we removed all hel
 #### DE - Display error message when CashBox contains QueueDE without an assigned SCU
 Our monitoring showed that some of our customers were running into an issue when trying to start a CashBox with a Queue that has no SCU assigned. We extended this functionality with a check to make sure users are aware of this requirement. When the _"Rebuild configuration"_ button is clicked, an error message is now displayed in case this is configured incorrectly.
 
-![cashbox-wrong-queuede](images/sprint-78/cashbox-wrong-queuede.png)<br><br>
+![cashbox-wrong-queuede](images/sprint-78/cashbox-wrong-queuede.png)<br /><br />
 
 #### DE - Filter ReceiptJournals and ActionJournals by type
 To simplify finding specific receipt journals or action journals in the Portal, we added a filter functionality to the respective pages. It is now possible to limit the display one of the following receipt types:
@@ -83,7 +83,7 @@ To simplify finding specific receipt journals or action journals in the Portal, 
 - Monthly receipts
 - Annual receipts
 
-![de-receiptcases](images/sprint-78/de-receiptcases.png)<br><br>
+![de-receiptcases](images/sprint-78/de-receiptcases.png)<br /><br />
 
 #### Fix error when showing receipts without references
 In some cases the data that is snet to the middleware doesn´t contain the necessary information that we´d expect. We reworked the page where you can show a receipt to be more errorsafe when it comes to missing fields.
@@ -91,7 +91,7 @@ In some cases the data that is snet to the middleware doesn´t contain the neces
 #### Performance improvements for Queue list
 While working on the outlet management feature, we noticed that the Queue page performance can be improved by optimizing how we query our backend systems. Changing this lead to 8x-10x faster page loading time (depending on how many queues are configured in the respective account). Especially accounts with many queues should see greatly improved page load times. The _gif_ bellow shows the difference quite clearly.
 
-![new-export-page-at](images/sprint-78/queue_list_performance.gif)<br><br>
+![new-export-page-at](images/sprint-78/queue_list_performance.gif)<br /><br />
 
 #### Fix failing bulk update for active queues
 In some cases, bulk-updating many queues could fail when the respective queues were active and uploaded data at the same time as the update was performed. This was especially relevant for customers with a large amount of queues, as chances were high that one of them were active during the update.
@@ -106,12 +106,12 @@ One of the main features we have tried to improve in this sprint is the manageme
 ##### Distinction between primary and additional outlets
 We received the feedback that even if the old outlet page contained all necessary information, it was sometimes hard to differentiate between the _primary outlet_ (main address of the company) and the other outlets that users can add for each of their additional company addresses. To simplify the distinction between these different categories of outlets, we reworked the UI to have two main sections - one for the primary outlet, and one for all the other outlets.
 
-![new-outlets-page](images/sprint-78/outlets-page.png)<br><br>
+![new-outlets-page](images/sprint-78/outlets-page.png)<br /><br />
 
 ##### Searching / Pagination and exchanging fields that are shown in the table for outlets
 In addition to the separation between the categories, we reordered some fields and added a search box that should simplify looking up specific outlets. The look and feel of the page was adjusted to the Middleware configuration pages as well. Finally, we added pagination to make sure we are not displaying too much information at once.
 
-![new-outlets-page-search](images/sprint-78/outlets-page-search.png)<br><br>
+![new-outlets-page-search](images/sprint-78/outlets-page-search.png)<br /><br />
 
 ## Next steps
 In the upcoming sprints, the development team will continue to improve the outlet management feature. One very frequently requested feature that will be implemented is the bulk import for many outlets. Additionally, we will improve the shopping experience so that users are able to buy outlet-based products.

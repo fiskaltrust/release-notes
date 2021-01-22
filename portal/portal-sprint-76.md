@@ -61,12 +61,12 @@ We have made some changes to be able to separate these products between the mark
 #### Configuring Diebold Nixdorf SCU
 Similar to the other SCUs, we added a Diebold Nixdorf-specific configuration page now that should make configuring this SCU easier for users by requiring the mandatory COM Port setting.
 
-![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br><br>
+![diebold-nixdorf-scu-configuration](images/sprint-76/diebold-scu-configuration.png)<br /><br />
 
 #### Bulk update functionality not working
 When updating Middleware configurations via the _bulk update_ interface, an error occurred. This issue was fixed and the functionality for updating middleware components and rebuilding the cashboxes automatically is fully working again.
 
-![bulk-update-page](images/sprint-76/bulk-update-page.png)<br><br>
+![bulk-update-page](images/sprint-76/bulk-update-page.png)<br /><br />
 
 ### User Management
 
@@ -77,7 +77,7 @@ The "original" invitation process created accounts for PosOperators and sent inv
 
 With the latest changes rolled out to our German sandbox environment, customers now can test the new, fully automated onboarding process. To enable this feature, please activate the new `PosDealer auto-invitation (opt-in)` feature as shown in the screenshot below.
 
-![role-optin-activation](images/sprint-76/role-optin-activation.png)<br><br>
+![role-optin-activation](images/sprint-76/role-optin-activation.png)<br /><br />
 
 Because of the fact that this is a PosDealer-only feature, you need to have the `PosDealer` role activated as well. The contract that is currently showing up is a placeholder and will be replaced by an actual contract the feature is rolled out to production.
 
