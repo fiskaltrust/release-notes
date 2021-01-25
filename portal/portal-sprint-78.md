@@ -1,3 +1,8 @@
+---
+slug: /release-notes/portal/sprint-78
+title: Sprint 78 (July 20, 2020)
+---
+
 # fiskaltrust.Portal - Sprint 78
 _July 20, 2020_
 

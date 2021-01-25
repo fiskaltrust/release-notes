@@ -1,3 +1,8 @@
+---
+slug: /release-notes/middleware/1.3.9
+title: Version 1.3.9
+---
+
 # fiskaltrust.Middleware 1.3.9 (Germany)
 _October 6, 2020_
 
@@ -5,7 +10,7 @@ In this version, we published an important fix for the TSE _.tar_ file export, b
 
 **We highly recommend updating to this version on POS Systems that use version 1.3.8 to resolve this issue.**
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Bug fix: Resolve .tar file export issues during daily-closing receipt
 Since the previous version (1.3.8), the Middleware automatically export the TSE's _.tar_ files during the daily-closing receipt. Unfortunately, due to a communication issue between Queue and SCU, this export was executed far slower than expected - which in some cases completely prevented the creation of a daily-closing receipt when TSEs already contained too many transactions. In other cases, the daily-closing receipt took an intolerable amount of time.

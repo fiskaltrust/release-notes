@@ -1,9 +1,14 @@
+---
+slug: /release-notes/middleware/1.3.1
+title: Version 1.3.1
+---
+
 # fiskaltrust.Middleware 1.3.1 (Germany)
 _June 8, 2020_
 
 This release includes many stability and feature improvements for the German middleware, and can be used in production scenarios.
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 
 ## Features and general improvements

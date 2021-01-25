@@ -1,3 +1,8 @@
+---
+slug: /release-notes/middleware/1.3.10
+title: Version 1.3.10
+---
+
 # fiskaltrust.Middleware 1.3.10 (Germany)
 _October 28, 2020_
 
@@ -7,7 +12,7 @@ In addition to this, we resolved several important stability issues in version 1
 
 **We highly recommend updating to this version on POS Systems that use SQLite Queues to resolve this issue.**
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## New SCU: DeutscheFiskal (Sandbox)
 The _Deutsche Fiskal cloud TSE_ is the first cloud-based approach that got certified by the BSI recently. Naturally, we wanted to provide support for this solution as soon as possible, and are happy to announce that the Middleware can now be configured to use it equally to other TSEs.

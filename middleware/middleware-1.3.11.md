@@ -1,9 +1,14 @@
+---
+slug: /release-notes/middleware/1.3.11
+title: Version 1.3.11
+---
+
 # fiskaltrust.Middleware 1.3.11 (Germany)
 _December 12, 2020_
 
 With this version, we're happy to announce that the fiskaltrust Android Middleware is now publicly available in production! Additionally, we added support for the newly available Swissbit Cloud TSE, and introduced several important stability and performance improvements to our SCUs.
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## New SCU: SwissbitCloud (Sandbox)
 To increase our portfolio of supported cloud TSEs, we added a new SCU package that enables our Middleware users to include the newly available Swissbit Cloud TSE. 
