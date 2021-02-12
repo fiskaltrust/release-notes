@@ -24,7 +24,14 @@ In this sprint, the Engineering team was mostly focusing on improving and fixing
 
 #### ResetPassword for errorpage shows austrian mail address
 
+
 #### Footer should contain correct support information
+To navigate our users from diffrent markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
+ - support@fiskaltrust.at for AT market 
+ - support@fiskaltrust.de for DE market 
+ - support@fiskaltrust.fr for FR market 
+
+And also the fiskaltrust telephone number is no longer displayed in the portal footer.
 
 ## Next steps
 
