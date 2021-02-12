@@ -40,7 +40,7 @@ The bug have been fixed and now it's updated with the market specific email addr
 
 #### Footer should contain correct support information
 
-To navigate our users from diffrent markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
+To navigate our users from different markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
  - support@fiskaltrust.at for AT market 
  - support@fiskaltrust.de for DE market 
  - support@fiskaltrust.fr for FR market 
