@@ -36,7 +36,7 @@ The bug has been fixed and password client-side validation added to all forms th
 #### ResetPassword for errorpage shows austrian mail address
 
 When a failure during the ResetPassword was happening we were showing the AT mail address for all customers.
-The bug have been fixed and now its updated with the market specific email addresses.
+The bug have been fixed and now it's updated with the market specific email addresses.
 
 #### Footer should contain correct support information
 
