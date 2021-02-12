@@ -32,7 +32,7 @@ To navigate our users from diffrent markets to their specific support team, we r
  - support@fiskaltrust.fr for FR market 
 
 And also the fiskaltrust telephone number is no longer displayed in the portal footer.
-
+ ![footer](images/sprint-92/footer.png)
 ## Next steps
 
 ## Feedback
