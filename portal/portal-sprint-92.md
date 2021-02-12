@@ -15,6 +15,9 @@ In this sprint, the Engineering team was mostly focusing on improving and fixing
 ### E-Commerce
 #### Wrong Move Entitlements product is added to cart
 
+Previously, we have been facing an issue while putting some products into the cart.
+in some cases, when we put the Move Entitlements product into the cart,  the product was different from the one added to the shopping cart.
+With this release, this should be fixed and products should be correctly added to the shopping cart.
 
 ### User Management
 
