@@ -24,11 +24,14 @@ With this release, this should be fixed and products should be correctly added t
 #### Enforce permission selection when employees are invited
 
 #### Front-end Validation missing in Password Check (All markets)
+Lack of Client side validation had been caused some confusing and annoying for users. Actually, The missing a-Z error was shown when pressing the "next" button but also gets disabled. Correcting the password no longer enabled the button. The page has to be reloaded or the Confirmation of the T&C has to be disabled and reenabled.
+The bug has been already fixed and password client-side validation added to all forms that contain password.
+
+
 
 #### ResetPassword for errorpage shows austrian mail address
 When a failure during the ResetPassword is happening we were showing the AT mail address for all customers as We should show market specific email addresses in this case.
-The bug have been fixed and now its replaced with the correct email addresses.
-
+The bug have been fixed and now its updated with the correct email addresses.
 
 #### Footer should contain correct support information
 To navigate our users from diffrent markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
