@@ -28,10 +28,12 @@ In most of these cases, the users forgot to assign default access rights during 
 To make sure that we make the user aware of assigning the necessary rights, We added claim assignment during the process of invitations of the employee. All roles are shown at the bottom of the page and can be assigned to the employee during the invitation.
 Selecting access rights is not mandatory, but if no rights are selected the user will be prompted with a warning that the invited employee will not be able to login as long as no read rights are assigned.
 
+![enforce-permission](images/sprint-92/enforce-permission.png)
 #### Front-end Validation missing in Password Check (All markets)
 
 Lack of password client side validation had been caused some confusing and annoying to users. Actually, a missing a-Z error had been showing when pressing the "next" button but also got disabled. Correcting the password no longer enabled the button. The page had to be reloaded or the Confirmation of the T&C had to be disabled and reenabled.\
-The bug has been already fixed and password client-side validation added to all forms that contain password.\
+The bug has been already fixed and password client-side validation added to all forms that contain password.
+
  ![password-clientside-validation](images/sprint-92/password-clientside-validation.png)
 
 
@@ -48,6 +50,7 @@ To navigate our users from diffrent markets to their specific support team, we r
  - support@fiskaltrust.fr for FR market 
 
 And also the fiskaltrust telephone number is no longer displayed in the portal footer.
+
 ![footer](images/sprint-92/footer.png)
 ## Next steps
 
