@@ -24,9 +24,9 @@ With this release, this should be fixed and products should be correctly added t
 #### Enforce permission selection when employees are invited
 
 #### Front-end Validation missing in Password Check (All markets)
-Lack of Client side validation had been caused some confusing and annoying for users. Actually, The missing a-Z error was shown when pressing the "next" button but also gets disabled. Correcting the password no longer enabled the button. The page has to be reloaded or the Confirmation of the T&C has to be disabled and reenabled.
+Lack of password client side validation had been caused some confusing and annoying to users. Actually, a missing a-Z error had been showing when pressing the "next" button but also got disabled. Correcting the password no longer enabled the button. The page had to be reloaded or the Confirmation of the T&C had to be disabled and reenabled.
 The bug has been already fixed and password client-side validation added to all forms that contain password.
-
+  ![password-clientside-validation](images/sprint-92/password-clientside-validation.png)
 
 
 #### ResetPassword for errorpage shows austrian mail address
@@ -40,7 +40,7 @@ To navigate our users from diffrent markets to their specific support team, we r
  - support@fiskaltrust.fr for FR market 
 
 And also the fiskaltrust telephone number is no longer displayed in the portal footer.
- ![footer](images/sprint-92/footer.png)
+
 ## Next steps
 
 ## Feedback
