@@ -23,17 +23,25 @@ With this release, this should be fixed and products should be correctly added t
 
 #### Enforce permission selection when employees are invited
 
+lately, we were facing many issues with wrongly configured employees.
+In most of these cases, the users forgot to assign default access rights during the invitation.
+To make sure that we make the user aware of assigning the necessary rights, We added claim assignment during the process of invitations of the employee. All roles are shown at the bottom of the page and can be assigned to the employee during the invitation.
+Selecting access rights is not mandatory, but if no rights are selected the user will be prompted with a warning that the invited employee will not be able to login as long as no read rights are assigned.
+
 #### Front-end Validation missing in Password Check (All markets)
+
 Lack of password client side validation had been caused some confusing and annoying to users. Actually, a missing a-Z error had been showing when pressing the "next" button but also got disabled. Correcting the password no longer enabled the button. The page had to be reloaded or the Confirmation of the T&C had to be disabled and reenabled.\
 The bug has been already fixed and password client-side validation added to all forms that contain password.\
  ![password-clientside-validation](images/sprint-92/password-clientside-validation.png)
 
 
 #### ResetPassword for errorpage shows austrian mail address
+
 When a failure during the ResetPassword is happening we were showing the AT mail address for all customers as We should show market specific email addresses in this case.
 The bug have been fixed and now its updated with the correct email addresses.
 
 #### Footer should contain correct support information
+
 To navigate our users from diffrent markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
  - support@fiskaltrust.at for AT market 
  - support@fiskaltrust.de for DE market 
