@@ -49,7 +49,7 @@ And also the fiskaltrust telephone number is no longer displayed in the portal f
 
 ![footer](images/sprint-92/footer.png)
 ## Next steps
-In the next sprints we will continue to improve the usability and user experience in the portal to make sure that it is easy to use. Additionally, we will Extend CashBoxes to have a status feature in order to aware user if the configuration has changed and needs to be rebuilt. 
+In the next sprints we will continue to improve the usability and user experience in the portal to make sure that it is easy to use. Additionally, we will Extend CashBoxes to have a status feature in order to inform user if the configuration has changed and needs to be rebuilt. 
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to info@fiskaltrust.at.
