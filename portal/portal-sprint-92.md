@@ -23,6 +23,8 @@ In this sprint, the Engineering team was mostly focusing on improving and fixing
 #### Front-end Validation missing in Password Check (All markets)
 
 #### ResetPassword for errorpage shows austrian mail address
+When a failure during the ResetPassword is happening we were showing the AT mail address for all customers as We should show market specific email addresses in this case.
+The bug have been fixed and now its replaced with the correct email addresses.
 
 
 #### Footer should contain correct support information
