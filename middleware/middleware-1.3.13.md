@@ -22,11 +22,9 @@ In case a specific order of parameters was used during the Windows Service insta
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
-Due to the critical nature of this bug fix, we **strongly recommend** all users to update to the latest version.
+The latest Launcher version cannot be selected in the Portal, but is automatically included after a rebuild and manual re-download.
 
-- _fiskaltrust.Middleware.Queue.EF v1.3.12_
-- _fiskaltrust.Middleware.Queue.SQLite v1.3.12_
-- _fiskaltrust.Middleware.Queue.MySQL v1.3.12-rc1_
+- _fiskaltrust.Launcher v1.3.13_
 
 ## Next steps in the Middleware
 We will continue to improve the stability of our Middleware in the next sprints. As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
