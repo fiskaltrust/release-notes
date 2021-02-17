@@ -13,7 +13,7 @@ This quality-of-life update for the Middleware fixes multiple bugs, introduces s
 ## New feature: Cross-Origin Resource Sharing (CORS) access to the Middleware
 We've added an additional configuration parameter to our Queues that allow accessing the Middleware via CORS requests. Due to this change, the Middleware can now be correctly operated by browser-based cash registers that access the Middleware e.g. via JavaScript.
 
-**Please note that due to security reasons, CORS access is still deactivated per default.** The Queue configuration parameter described e.g. [here](TODOOOO) must be set to enable this feature.
+**Please note that due to security reasons, CORS access is still deactivated per default.** The Queue configuration parameter described e.g. [here](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/databases/sqlite) must be set to enable this feature.
 
 ## Changed behavior: Cancelling/Voiding receipts
 We've updated the behavior of the Middleware to more precisely reflect the cancellation requirements described in the DSFinV-K. Previously, sending the _reverse/voided receipt_ ftRecreiptCaseFlag (`40000`) led to the BON_TYP `AVBelegStorno` - however, this type should not be used anymore in case a TSE is used (which probably applies to 99.9% of all cases). Therefore, we've changed the Middleware behavior: 
@@ -56,7 +56,7 @@ The Middleware was updated to be compatible with the respective firmware version
 ## Dependency update: Fiskal Cloud Connector v3 (Swissbit Cloud & Deutsche Fiskal)
 On February 15, version 3.0 of the _Fiskal Cloud Connector_ was released. This 3rd party background service is required both by the Swissbit Cloud and the Deutsche Fiskal Cloud TSEs, as it contains their local SMAERS application (and is therefore part of the TSE). When using the respective SCUs with versions >= 1.3.14, version 3 is automatically installed and initialized.
 
-Due to this change, Middleware instances using Swissbit Cloud SCUs now don't require Admin privileges anymore (unless e.g. an Admin port range is used, etc.). However, to automatically add the required Firewall exceptions, Admin privileges are still required. These Firewall exceptions can also be set manually, or - in user mode - via the respective popup. Please refer to our [documentation](TODOOOOOO) for more details.
+Due to this change, Middleware instances using Swissbit Cloud SCUs now don't require Admin privileges anymore (unless e.g. an Admin port range is used, etc.). However, to automatically add the required Firewall exceptions, Admin privileges are still required. These Firewall exceptions can also be set manually, or - in user mode - via the respective popup. Please refer to our [documentation](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/basics/tse/swissbit-cloud) for more details.
 
 <div class="alert alert--warning" role="alert">Due to regulatory reasons caused by the updated TR-03153 certifications of Swissbit Cloud and Deutsche Fiskal TSEs, it's <b>not possible to update existing installations that are currently using v2 FCCs</b>. This only affects a very small amount of our partners, whom we will directly contact in the next days. SCUs that were not rolled our yet are not affected by this problem and have been automatically updated to use the latest FCC version.</div>
 
