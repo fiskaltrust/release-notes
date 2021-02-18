@@ -15,9 +15,8 @@ Due to an issue in the Launcher, loading very large configurations could lead to
 
 The memory leak was removed, and the Launcher now consumes normal amounts of memory, no matter how many components are used in one Cashbox.
 
-## Bug fix: Misleading warning message during installation
-In case a specific order of parameters was used during the Windows Service installation of the Middleware, a warning was printed that stated that the installation was not successful. While this wasn't actually the case, the warning was highly misleading, and the behavior is now fixed.
-
+## Bug fix: Misleading warning message during installation and uninstallation
+In case a specific order of parameters was used during the Windows Service installation or uninstallation of the Middleware, a warning was printed that stated that the installation was not successful. While this wasn't actually the case, the warning was highly misleading, and the behavior is now fixed.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).

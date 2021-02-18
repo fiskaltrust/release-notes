@@ -6,9 +6,12 @@ title: Version 1.3.14
 # fiskaltrust.Middleware 1.3.14 (Germany)
 _February 17, 2021_
 
-This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware.
+This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware. Additionally, the MySQL Queue now officially left the RC status and is fully supported in production.
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+
+## Production release: MySQL Queue
+We've removed the _Release Candidate_ flag from our MySQL Queue, stating that it is now officially supported for production use cases. We'd like to thank all the partners who tested this package and provided highly valuable feedback.
 
 ## Changed behavior: Cancelling/Voiding receipts
 We've updated the behavior of the Middleware to more precisely reflect the cancellation requirements described in the DSFinV-K. Previously, sending the _reverse/voided receipt_ ftRecreiptCaseFlag (`40000`) led to the BON_TYP `AVBelegStorno` - however, this type should not be used anymore in case a TSE is used (which probably applies to 99.9% of all cases). Therefore, we've changed the Middleware behavior: 
@@ -67,8 +70,8 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.14_
 - _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.14_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.14_
-- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.14_
 - _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf v1.3.14_
+- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.14-rc1_
 - _fiskaltrust.Launcher v1.3.14_
 
 ## Next steps in the Middleware

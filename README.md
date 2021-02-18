@@ -14,6 +14,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 
 ### Middleware 1.3.14 (Germany)
 This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware.
+Additionally, the MySQL Queue now officially left the RC status and is fully supported in production.
 
 [Middleware 1.3.14 Release Notes](middleware/middleware-1.3.14.md)
 
