@@ -6,14 +6,9 @@ title: Version 1.3.14
 # fiskaltrust.Middleware 1.3.14 (Germany)
 _February 17, 2021_
 
-This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and adds CORS support to our Queues.
+This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware.
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
-
-## New feature: Cross-Origin Resource Sharing (CORS) access to the Middleware
-We've added an additional configuration parameter to our Queues that allow accessing the Middleware via CORS requests. Due to this change, the Middleware can now be correctly operated by browser-based cash registers that access the Middleware e.g. via JavaScript.
-
-**Please note that due to security reasons, CORS access is still deactivated per default.** The Queue configuration parameter described e.g. [here](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/databases/sqlite) must be set to enable this feature.
 
 ## Changed behavior: Cancelling/Voiding receipts
 We've updated the behavior of the Middleware to more precisely reflect the cancellation requirements described in the DSFinV-K. Previously, sending the _reverse/voided receipt_ ftRecreiptCaseFlag (`40000`) led to the BON_TYP `AVBelegStorno` - however, this type should not be used anymore in case a TSE is used (which probably applies to 99.9% of all cases). Therefore, we've changed the Middleware behavior: 

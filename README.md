@@ -13,7 +13,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## February 17, 2021
 
 ### Middleware 1.3.14 (Germany)
-This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and adds CORS support to our Queues.
+This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware.
 
 [Middleware 1.3.14 Release Notes](middleware/middleware-1.3.14.md)
 
