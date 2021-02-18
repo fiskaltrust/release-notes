@@ -10,6 +10,22 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## February 17, 2021
+
+### Middleware 1.3.14 (Germany)
+This quality-of-life update for the Middleware fixes multiple bugs, introduces stability improvements, and should enhance the overall user experience of the Middleware.
+Additionally, the MySQL Queue now officially left the RC status and is fully supported in production.
+
+[Middleware 1.3.14 Release Notes](middleware/middleware-1.3.14.md)
+
+
+## January 22, 2021
+
+### Middleware 1.3.13 (Germany)
+This version of the Middleware fixes two issues in the Launcher that affected users with specific configurations.
+
+[Middleware 1.3.13 Release Notes](middleware/middleware-1.3.13.md)
+
 
 ## December 18, 2020
 
