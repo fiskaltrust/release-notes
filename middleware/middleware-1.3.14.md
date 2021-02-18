@@ -18,6 +18,8 @@ We've updated the behavior of the Middleware to more precisely reflect the cance
 - Sending this flag now does not alter the type of the receipt anymore, i.e. a _Beleg_ stays what it is (and does not turn into a _AVBelegStorno_). 
 - The flag is now only used for the `BON_STORNO` column while generating the DSFinV-K export.
 
+Our [documentation](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase#ftreceiptcaseflag) was updated to reflect these changes as well.
+
 **Known issue**: This change is not yet reflected in the local DSFinV-K export (which can be queried via the _Journal_ endpoint). However, the data is stored correctly, and a backwards-compatible export will be included in version 1.3.15.
 
 ## Changed behavior: DSFinV-K receipt referencing
