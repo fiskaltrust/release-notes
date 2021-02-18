@@ -14,7 +14,7 @@ This quality-of-life update for the Middleware fixes multiple bugs, introduces s
 We've removed the _Release Candidate_ flag from our MySQL Queue, stating that it is now officially supported for production use cases. We'd like to thank all the partners who tested this package and provided highly valuable feedback.
 
 ## Changed behavior: Cancelling/Voiding receipts
-We've updated the behavior of the Middleware to more precisely reflect the cancellation requirements described in the DSFinV-K. Previously, sending the _reverse/voided receipt_ ftRecreiptCaseFlag (`40000`) led to the BON_TYP `AVBelegStorno` - however, this type should not be used anymore in case a TSE is used (which probably applies to 99.9% of all cases). Therefore, we've changed the Middleware behavior: 
+We've updated the behavior of the Middleware to more precisely reflect the cancellation requirements described in the DSFinV-K. Previously, sending the _reverse/voided receipt_ ftReceiptCaseFlag (`40000`) led to the BON_TYP `AVBelegStorno` - however, this type should not be used anymore in case a TSE is used (which probably applies to 99.9% of all cases). Therefore, we've changed the Middleware behavior: 
 - Sending this flag now does not alter the type of the receipt anymore, i.e. a _Beleg_ stays what it is (and does not turn into a _AVBelegStorno_). 
 - The flag is now only used for the `BON_STORNO` column while generating the DSFinV-K export.
 
