@@ -18,6 +18,20 @@ Additionally, the MySQL Queue now officially left the RC status and is fully sup
 
 [Middleware 1.3.14 Release Notes](middleware/middleware-1.3.14.md)
 
+## February 15, 2021
+
+### Portal
+In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
+
+[Portal Sprint 93 Release Notes](portal/portal-sprint-93.md)
+
+## February 1, 2021
+
+### Portal
+In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
+
+[Portal Sprint 92 Release Notes](portal/portal-sprint-92.md)
+
 ## January 18, 2021
 
 ### Portal

@@ -1,21 +1,23 @@
 ---
-slug: /release-notes/portal/sprint-92
-title: Sprint 92 (February 1, 2021)
+slug: /release-notes/portal/sprint-93
+title: Sprint 93 (February 15, 2021)
 ---
 
-# fiskaltrust.Portal - Sprint 92
-_February 1, 2021_
+# fiskaltrust.Portal - Sprint 93
+_February 15, 2021_
 
 **Improving user experience in portal**
 
-In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
+In this sprint we were focused fixing several issues and also trying to improve the usability.
 
 ## Features
 
 ### E-Commerce
 
-#### Productdescription, image and name not showing up correctly.
-In some cases we have been facing issues when customers added products to the cart and didn't see the correct descriptions, image and name of the added products. Nevertheless, the product was correctly added to the cart, but the visualization was wrong. We fixed this behavior und users should be able to see the correct description, image and name now.
+#### Wrong Move Entitlements product is added to cart(DE market)
+Previously, we were facing an issue while putting some products into the cart.
+in some cases, when we put the Move Entitlements product into the cart,  the product was different from the one added to the shopping cart.
+With this release, this should be fixed and products should be correctly added to the shopping cart.
 
 ### User Management
 
