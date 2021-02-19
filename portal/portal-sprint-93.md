@@ -53,7 +53,7 @@ Some of our customers reached out to us, that they wanted to create agencies, bu
 ![exclusive-validator](images/sprint-93/exclusive-validator.png)
 
 ## Next steps
-In the next weeks we will focus on improving the stability and usabiltiy of the portal.
+In the next weeks we will focus on improving the rollout experience.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
