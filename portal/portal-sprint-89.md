@@ -1,6 +1,6 @@
 ---
 slug: /release-notes/portal/sprint-89
-title: Sprint 89 (December 20, 2020)
+title: Sprint 89 (December 21, 2020)
 ---
 
 # fiskaltrust.Portal - Sprint 89
@@ -8,11 +8,9 @@ _December 20, 2020_
 
 **Change the primary contact of an account**
 
-One of the most requested feature across all markets was the possiblity to make a different employee of the company the primary contact. This is especially helpful if employees that had been the primary contact are not part of a company anymore. This feature has been rolled out as a preview feature and is not available for all customers. 
+In this sprint we have focused on implementing a long requested feature: Changing the primary contact of an account. Additionally, we have added some improvements to the overall user experience.
 
 ## Features
-
-### Data exports
 
 ### E-Commerce
 
