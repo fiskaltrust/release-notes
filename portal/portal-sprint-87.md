@@ -8,11 +8,9 @@ _November 23, 2020_
 
 **Improve Shopping experience**
 
-The main focus of this sprint was to further enhance the Portal's Shopping experience, especially the selection of the outlet, searching experience and the basic visualization of different categories of products. 
+The main focus of this sprint was to further enhance the Portal's Shopping experience, especially the selection of the outlet and the basic visualization of different categories of products. 
 
 ## Features
-
-### Data exports
 
 ### Middleware Configuration
 
@@ -49,5 +47,7 @@ In the past we noticed that in cases where the PosDealer was missing Read Claims
 ![Screenshot_1.png](images/sprint-87/surrogation-error-message.png =800x)
 
 ## Next steps
+In the next sprints, we will again focus on further improving the user experience in our Portal, mostly focused on an enhanced shopping experience.
 
 ## Feedback
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
