@@ -1,9 +1,14 @@
+---
+slug: /release-notes/middleware/1.3.5
+title: Version 1.3.5
+---
+
 # fiskaltrust.Middleware 1.3.5 (Germany)
 _August 18, 2020_
 
 The Middleware 1.3.5 adds support for Android mobile devices, MySQL databases, and properly handles large amounts of parallel receipt requests.
 
-<div class="alert alert-warning" role="alert" style="border-radius: 0">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
+<div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## New feature: Android support
 Our architectural changes in the Middleware 1.3 allowed us to add an all-new Launcher to the Middleware. In addition to Windows and Linux machines, we now also support mobile devices running Android 7.0+! As mobile POS Systems are becoming more and more relevant, we consider this an important step to support our users in reaching new markets segments, and are proud to provide them a very similar user experience over as many platforms as possible.

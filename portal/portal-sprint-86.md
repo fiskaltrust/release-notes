@@ -1,3 +1,8 @@
+---
+slug: /release-notes/portal/sprint-86
+title: Sprint 86 (November 9, 2020)
+---
+
 # fiskaltrust.Portal - Sprint 86
 _November 9, 2020_
 

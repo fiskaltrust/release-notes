@@ -1,3 +1,8 @@
+---
+slug: /release-notes/portal/sprint-75
+title: Sprint 75 (June 8, 2020)
+---
+
 # fiskaltrust.Portal - Sprint 75
 _June 8, 2020_
 
