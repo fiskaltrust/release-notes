@@ -22,7 +22,7 @@ We also improved our internal device locking to prevented some race conditions s
 An email was sent out to POS Creators and POS Dealers to inform them about this cause. We'd like to use this opportunity to again apologize for any inconvenience this may caused our customers, and have introduced internal measures to avoid issues like this propagating to our production systems in the future.
 
 ## New SCU: ATrust (Sandbox)
-After implementing the ATrust Cloud SCU we are making it available on the sandbox for early adopters. Since the ATrust TSE is not certified yet, it won´t be available in production yet.
+After implementing the ATrust Cloud SCU we are making it available on the sandbox for early adopters. Since the ATrust TSE is not certified yet, it won't be available in production yet.
 
 ## How to update
 Existing configurations with versions greater than 1.3.1 continue to work, **but we strongly recommend users to update to resolve this critical issue**.
