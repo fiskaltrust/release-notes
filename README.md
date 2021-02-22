@@ -18,6 +18,33 @@ Additionally, the MySQL Queue now officially left the RC status and is fully sup
 
 [Middleware 1.3.14 Release Notes](middleware/middleware-1.3.14.md)
 
+## February 15, 2021
+
+### Portal
+In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
+
+[Portal Sprint 93 Release Notes](portal/portal-sprint-93.md)
+
+## February 1, 2021
+
+### Portal
+In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
+
+[Portal Sprint 92 Release Notes](portal/portal-sprint-92.md)
+
+## January 18, 2021
+
+### Portal
+In Sprint 91 most of the team was on vacation. Therefore we used the time to improve internal processes to having a baseline for future development.
+
+[Portal Sprint 91 Release Notes](portal/portal-sprint-91.md)
+
+## December 28, 2020
+
+### Portal
+In this sprint we have focused on improving the labeling of the different functionalitiets in the invitation view. Additionally, we have removed some not needed features that have led to confusions in the past.
+
+[Portal Sprint 90 Release Notes](portal/portal-sprint-90.md)
 
 ## January 22, 2021
 
@@ -26,6 +53,12 @@ This version of the Middleware fixes two issues in the Launcher that affected us
 
 [Middleware 1.3.13 Release Notes](middleware/middleware-1.3.13.md)
 
+## December 20, 2020
+
+### Portal
+In this sprint we have focused on implementing a long requested feature: Changing the primary contact of an account. Additionally, we have added some improvements to the overall user experience.
+
+[Portal Sprint 89 Release Notes](portal/portal-sprint-89.md)
 
 ## December 18, 2020
 
@@ -34,13 +67,27 @@ This version of the Middleware fixes an important bug related to creating the si
 
 [Middleware 1.3.12 Release Notes](middleware/middleware-1.3.12.md)
 
-
 ## December 12, 2020
 
 ### Middleware 1.3.11
 With this version, we're happy to announce that the fiskaltrust Android Middleware is now publicly available in production! Additionally, we added support for the newly available Swissbit Cloud TSE, and introduced several important stability and performance improvements.
 
 [Middleware 1.3.11 Release Notes](middleware/middleware-1.3.11.md)
+
+## December 7, 2020
+
+### Portal
+The main focus of this sprint was to further enhance the Portal's Shopping experience, especially the searching experience.
+
+
+[Portal Sprint 88 Release Notes](portal/portal-sprint-88.md)
+
+## November 23, 2020
+
+### Portal
+The main focus of this sprint was to further enhance the Portal's Shopping experience, especially the selection of the outlet and the basic visualization of different categories of products. 
+
+[Portal Sprint 87 Release Notes](portal/portal-sprint-87.md)
 
 ## November 9, 2020
 

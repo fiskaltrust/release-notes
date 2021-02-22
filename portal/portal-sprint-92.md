@@ -1,55 +1,39 @@
 ---
 slug: /release-notes/portal/sprint-92
-title: Sprint 92 (February 12, 2021)
+title: Sprint 92 (February 1, 2021)
 ---
 
 # fiskaltrust.Portal - Sprint 92
-_February 12, 2021_
+_February 1, 2021_
 
 **Improving user experience in portal**
 
-In this sprint, the Engineering team was mostly focusing on improving and fixing reported issues. several usability improvements and bug fixes were implemented that should resolve some common issues of our users.
+In this sprint we have focused on improving the permission selection and also worked on several improvements of different features.
 
 ## Features
 
 ### E-Commerce
-#### Wrong Move Entitlements product is added to cart(DE market)
-Previously, we were facing an issue while putting some products into the cart.
-in some cases, when we put the Move Entitlements product into the cart,  the product was different from the one added to the shopping cart.
-With this release, this should be fixed and products should be correctly added to the shopping cart.
+
+#### Productdescription, image and name not showing up correctly.
+In some cases we have been facing issues when customers added products to the cart and didn't see the correct descriptions, image and name of the added products. Nevertheless, the product was correctly added to the cart, but the visualization was wrong. We fixed this behavior und users should be able to see the correct description, image and name now.
 
 ### User Management
 
 #### Enforce permission selection when employees are invited
-lately, we were facing many issues with wrongly configured employees.
-In most of these cases, the users forgot to assign default access rights during the invitation. To make sure that the user is aware of assigning the necessary rights, We added claim assignment during the process of invitations of the employee. All roles are shown at the bottom of the page and can be assigned to the employee during the invitation.
-Selecting access rights is not mandatory, but if no rights are selected the user will be prompted with a warning that the invited employee will not be able to login as long as no read rights are assigned.
+One issue that has been poping up frequently is the fact that users are unable to login because of missing permissions. While this fix can be prevented by assigning the employee read permissions right after the employee has been created, this second manual step is unnecessary complicated. For this reason we slightly changed the UI to extend the add employee dialog by a permission selection so that users can immediately assign the necessary access rights. We also added a check to inform users about issues if no read right is assigned.
 
 ![enforce-permission](images/sprint-92/enforce-permission.png)
-#### Front-end Validation missing in Password Check (All markets)
-Not showing a-Z error in the front-end validation, giving the impression that the password is correct. Actually, after the "Next" button was clicked, in addition to the missing a-Z error, the button got disabled. Correcting the password no longer enabled the button. The page had to be reloaded or the Confirmation of the T&C had to be disabled and reenabled.\
-The bug has been fixed and password client-side validation added to all forms that contain password.
+
+#### Unable to continue with password reset
+Another issue that customers have frequently been facing was a wrong validation that we have fixed now. Since we do have different complexity criterias for passwords we are performing checks in the backend, but have not performed this check on the clientside. When users have used a password that didn´t meet the complexity criteria they got a error message and the button was disabled. We have fixed this behavior and users should see a errormessage if something is wrong with the password.
 
  ![password-clientside-validation](images/sprint-92/password-clientside-validation.png)
 
-
 #### ResetPassword for errorpage shows austrian mail address
+We got the information that some customers that had problems with the resetpassword functionality were seing the AT support mail address even though they are using the Portal-DE. This lead to some confusions and customers had been reaching out to the AT colleagues instead of the DE support. We changed the view to have a market speficic address showing up.
 
-When a failure during the ResetPassword was happening we were showing the AT mail address for all customers.
-The bug have been fixed and now it's updated with the market specific email addresses.
-
-#### Footer should contain correct support information
-
-To navigate our users from different markets to their specific support team, we replaced the general email in the portal footer to particular email based on the market.
- - support@fiskaltrust.at for AT market 
- - support@fiskaltrust.de for DE market 
- - support@fiskaltrust.fr for FR market 
-
-And also the fiskaltrust telephone number is no longer displayed in the portal footer.
-
-![footer](images/sprint-92/footer.png)
 ## Next steps
-In the next sprints we will continue to improve the usability and user experience in the portal to make sure that it is easy to use. Additionally, we will Extend CashBoxes to have a status feature in order to inform user if the configuration has changed and needs to be rebuilt. 
+In the next weeks we will focus on improving the stability and usabiltiy of the portal.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to info@fiskaltrust.at.
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
