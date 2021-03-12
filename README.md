@@ -10,9 +10,18 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+
+## March 12, 2021
+
+## Middleware 1.3.16 (Germany)
+We're happy to announce that the fiskaly SCU is now available in our production systems (please see our [blog post]() for more details). Additionally, we've added a new signature that contains the TSE certification ID and (if required) information about the state of the certification and operational environment regulations. Finally, this version contains some bug fixes and usability improvements for the Middleware.
+
+[Middleware 1.3.16 Release Notes](middleware/middleware-1.3.16.md)
+
+
 ## March 3, 2021
 
-### Middleware 1.3.14 (Germany)
+### Middleware 1.3.15 (Germany)
 This Middleware version contains a hotfix for Epson SCUs that fixes a potentially blocking issue when using the Middleware with an uninitialized TSE.
 
 [Middleware 1.3.15 Release Notes](middleware/middleware-1.3.15.md)
