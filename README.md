@@ -14,7 +14,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## March 12, 2021
 
 ## Middleware 1.3.16 (Germany)
-We're happy to announce that the fiskaly SCU is now available in our production systems (please see our [blog post]() for more details). Additionally, we've added a new signature that contains the TSE certification ID and (if required) information about the state of the certification and operational environment regulations. Finally, this version contains some bug fixes and usability improvements for the Middleware.
+We're happy to announce that the fiskaly SCU is now available in our production systems (please see our [blog post](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/) for more details). Additionally, we've added a new signature that contains the TSE certification ID and (if required) information about the state of the certification and operational environment regulations. At least in the latter case, this needs to printed onto the receipt. Finally, this version contains some bug fixes and usability improvements for the Middleware.
 
 [Middleware 1.3.16 Release Notes](middleware/middleware-1.3.16.md)
 

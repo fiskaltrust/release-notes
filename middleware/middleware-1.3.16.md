@@ -6,7 +6,7 @@ title: Version 1.3.16
 # fiskaltrust.Middleware 1.3.16 (Germany)
 _March 12, 2021_
 
-We're happy to announce that the fiskaly SCU is now available in our production systems (please see our [blog post](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/) for more details). Additionally, we've added a new signature that contains the TSE certification ID and (if required) information about the state of the certification and operational environment regulations. Finally, this version contains some bug fixes and usability improvements for the Middleware.
+We're happy to announce that the fiskaly SCU is now available in our production systems (please see our [blog post](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/) for more details). Additionally, we've added a new signature that contains the TSE certification ID and (if required) information about the state of the certification and operational environment regulations. At least in the latter case, this needs to printed onto the receipt. Finally, this version contains some bug fixes and usability improvements for the Middleware.
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
@@ -23,6 +23,8 @@ The signature item was added for all TSEs, including hardware devices. Currently
 | fiskaltrust.Middleware.SCU.DE.Fiskaly        | BSI-K-TR-0403 [TSE in Evaluierung]  |
 | fiskaltrust.Middleware.SCU.DE.SwissbitCloud  | BSI-K-TR-0456-2021 [USK ausgesetzt] |
 | fiskaltrust.Middleware.SCU.DE.DeutscheFiskal | BSI-K-TR-0457-2021 [USK ausgesetzt] |
+
+**At least in those three cases, it is mandatory to print these signatures onto the physical receipt.**
 
 ## Stability improvement: Fiskal Cloud Connector
 We've updated our hosting of the _Fiskal Cloud Connector_ (FCC). This background service that is required by _Deutsche Fiskal_ and _Swissbit Cloud_ TSEs is automatically downloaded, initialized and started by our Middleware. However, we did not handle some initialization errors, leading to confusing errors for our users. We've changed the behavior so that the SCU now throws an exception and stops at startup time in case the FCC cannot initialized properly. If this happens, the error logs of the FCC are now printed into the console/our log file, allowing easier error diagnostics.
