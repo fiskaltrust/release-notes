@@ -8,7 +8,7 @@ In this Sprint, we were focused on establishing a secure platform for configurin
 
 We frequently got the information that (new) customers could not find the Login to Portal. Until now, if a user wanted to login/register to portal, it was not clear while navigating the main page of https://portal.fiskaltrust.de. We changed the existing  button to make clear that the login / registration is happening here:  
  
-
+![login.png](https://github.com/fiskaltrust/release-notes/blob/user/opa/release_notes_94/portal/images/sprint-94/login.png)
 
 #### Clarify usage of CashBox State indicator  
 
@@ -31,6 +31,7 @@ After:
 
 A Prototype of the new Orders Page has been created. In the past, issues such as failed orders, long loading times of the ordering page, TSEs not received at the checkout and so on, arose very frequently.  Various components of the new Orders Page have already been integrated to deal with the aforementioned issues, and more information will be shared, as more changes are implemented:
 
+![orderspage.png](https://github.com/fiskaltrust/release-notes/blob/user/opa/release_notes_94/portal/images/sprint-94/orderspage.png)
 
 
 
