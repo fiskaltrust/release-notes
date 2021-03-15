@@ -8,13 +8,13 @@ In this Sprint, we were focused on establishing a secure platform for configurin
 
 We frequently got the information that (new) customers could not find the Login to Portal. Until now, if a user wanted to login/register to portal, it was not clear while navigating the main page of https://portal.fiskaltrust.de. We changed the existing  button to make clear that the login / registration is happening here:  
  
-(picture???)
+
 
 #### Clarify usage of CashBox State indicator  
 
-With the purpose of improving usability, the configuration change status and rebuild button have been merged into one column.
+With the purpose of improving usability, the configuration change status and rebuild button have been merged into one column:
 
-![image.png](https://fiskaltrust.visualstudio.com/6902c73f-5b4e-498b-8f0e-a130ceee1cc8/_apis/git/repositories/97165144-8048-4407-905f-c23eaee320b8/pullRequests/3284/attachments/image.png) 
+![cashboxstate.png](https://github.com/fiskaltrust/release-notes/blob/user/opa/release_notes_94/portal/images/sprint-94/cashboxstate.png)
 
 ### Data Exports
 
