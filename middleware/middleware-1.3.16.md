@@ -57,6 +57,9 @@ In a previous version, we've introduced a more helpful warning message in case t
 ## Bug fix: Local DSFinV-K generation does not include the latest voiding/cancellation changes
 We've fixed the known issue from Middleware 1.3.14, so that the DSFinV-K now properly displays the _BON_TYP_ and the _BON_STORNO_ according to the changes made in the previous version.
 
+## Bug fix: Raised bring your own datacenter pod resouce limits
+We've raised the resouce limits on the byodc pods reducing crashes due to containers exceeding their resource limits.
+
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
