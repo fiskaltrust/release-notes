@@ -21,19 +21,18 @@ With the purpose of improving usability, the configuration change status and reb
 The TAR file is finally in a state that is correctly usable and therefore we should officially release and enable it for all customers.  The preview flag has been discarded, and the feature flags are cleaned.
 
 Before:
-![image.png](https://dev.azure.com/fiskaltrust/6902c73f-5b4e-498b-8f0e-a130ceee1cc8/_apis/git/repositories/97165144-8048-4407-905f-c23eaee320b8/pullRequests/3273/attachments/image.png) 
+![before.png](https://github.com/fiskaltrust/release-notes/blob/user/opa/release_notes_94/portal/images/sprint-94/before.png)
 
 After:
-![image (2).png](https://dev.azure.com/fiskaltrust/6902c73f-5b4e-498b-8f0e-a130ceee1cc8/_apis/git/repositories/97165144-8048-4407-905f-c23eaee320b8/pullRequests/3273/attachments/image%20%282%29.png) 
+![after.png](https://github.com/fiskaltrust/release-notes/blob/user/opa/release_notes_94/portal/images/sprint-94/after.png) 
 
 
 ### Prototype of the new Orders Page
 
-A Prototype of the new Orders Page has been created. In the past, issues such as failed orders, long loading times of the ordering page, TSEs not received at the checkout and so on, arose very frequently.  Various components of the new Orders Page have already been integrated to deal with the aforementioned issues, and more information will be shared, as more changes are implemented
+A Prototype of the new Orders Page has been created. In the past, issues such as failed orders, long loading times of the ordering page, TSEs not received at the checkout and so on, arose very frequently.  Various components of the new Orders Page have already been integrated to deal with the aforementioned issues, and more information will be shared, as more changes are implemented:
 
 
 
-Figure 01. /api/orders response data including paged model
-![image (2).png](https://fiskaltrust.visualstudio.com/6902c73f-5b4e-498b-8f0e-a130ceee1cc8/_apis/git/repositories/97165144-8048-4407-905f-c23eaee320b8/pullRequests/3283/attachments/image%20%282%29.png) 
+
 
 
