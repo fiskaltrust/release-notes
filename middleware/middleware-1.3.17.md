@@ -3,7 +3,7 @@ slug: /release-notes/middleware/1.3.17
 title: Version 1.3.17
 ---
 
-# fiskaltrust.Middleware 1.3.15 (Germany)
+# fiskaltrust.Middleware 1.3.17 (Germany)
 _March 18, 2021_
 
 This Middleware version contains a hotfix for Diebold Nixdorf SCUs that fixes a potentially blocking issue that could occur while reading the status of the TSE.
