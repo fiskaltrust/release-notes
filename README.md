@@ -34,6 +34,12 @@ This Middleware version contains a hotfix for Epson SCUs that fixes a potentiall
 
 [Middleware 1.3.15 Release Notes](middleware/middleware-1.3.15.md)
 
+## March 1, 2021
+
+### Portal
+In this Sprint, we were focused on establishing a secure platform for configuring Middleware components, as well as creating a prototype for the new Orders page.
+
+[Portal Sprint 94 Release Notes](portal/portal-sprint-94.md)
 
 ## February 17, 2021
 
