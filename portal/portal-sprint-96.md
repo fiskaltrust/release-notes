@@ -64,6 +64,10 @@ To make sure that users that are using the ft-Middleware are aware of latest rel
 
 ### Show Last Rebuild Time of CashBox
 
+After the rollout of the new cashbox rebuild indicator we got the feedback that some of our users have been using the timestamp for several manual checks. We added back the timestamp to the button so that users are able to see when the last rebuild happened.
+
+![timestamp-rebuild](images/sprint-96/timestamp-rebuild.png)
+
 ## E-Commerce
 
 ### Warn users before logging out if Products are in the cart
