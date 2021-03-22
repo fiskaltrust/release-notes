@@ -10,6 +10,12 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## March 22, 2021
+
+### Portal
+In this sprint, we have introduced the Rollout Management feature that should greatly improve the rollout experience for PosDealers. 
+
+[Portal Sprint 96 Release Notes](portal/portal-sprint-96.md)
 
 ## March 18, 2021
 
@@ -18,7 +24,6 @@ This Middleware version contains a hotfix for Diebold Nixdorf SCUs that fixes a 
 
 [Middleware 1.3.17 Release Notes](middleware/middleware-1.3.17.md)
 
-
 ## March 12, 2021
 
 ## Middleware 1.3.16 (Germany)
@@ -26,6 +31,12 @@ We're happy to announce that the fiskaly SCU is now available in our production 
 
 [Middleware 1.3.16 Release Notes](middleware/middleware-1.3.16.md)
 
+## March 8, 2021
+
+### Portal
+In this sprint we have been focusing to further improve the new orders page to being able to put it into public preview so that all of our users can use it.
+
+[Portal Sprint 95 Release Notes](portal/portal-sprint-95.md)
 
 ## March 3, 2021
 
