@@ -28,6 +28,9 @@ module.exports = {
       type: 'category',
       label: 'Portal',
       items: [
+        'release-notes/portal/portal-sprint-96',
+        'release-notes/portal/portal-sprint-95',
+        'release-notes/portal/portal-sprint-94',
         'release-notes/portal/portal-sprint-93',
         'release-notes/portal/portal-sprint-92',
         'release-notes/portal/portal-sprint-91',
