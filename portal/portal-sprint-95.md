@@ -16,7 +16,7 @@ In this sprint we have been focusing to further improve the new orders page to b
 - [New orders page in public preview](#new-orders-page-in-public-preview)
 - [Search by ordernumber](#search-by-ordernumber)
 - [Filter on order state](#filter-on-order-state)
-- [Rendering all records available & pagination](#rendering-all-records-available-&-pagination)
+- [Rendering all records available & pagination](#rendering-all-records-available--pagination)
 - [Highlight failed orders](#highlight-failed-orders)
 - [Sorting orders](#sorting-orders)
 
