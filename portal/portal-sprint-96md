@@ -7,16 +7,52 @@ title: Sprint 96 (March 22, 2021)
 _March 22, 2021_
 
 **Rolloutmanagement in public preview**
+In this sprint, we have introduced a new feature that should greatly improve the rollout experience for PosDealers. 
 
 ## Features
 
-### User Management
-
-### Data Exports
+### General
+- [Show ft-Partners on Main Page](#show-ft-partners-on-main-page)
+### Rollout platform
+- [Rollout planning in public preview (DE)](#rollout-planning-in-public-preview)
 
 ### Middleware Configuration
+- [Inform users about new middleware releases (DE)](#inform-users-about-new-middleware-releases)
+- [Show Last Rebuild Time of CashBox](#show-last-rebuild-time-of-cashBox)
 
-### E-Commerce
+### E-Commerce 
+- [Warn users before logging out if Products are in the cart](#warn-users-before-logging-out-if-products-are-in-the-cart)
+
+### User Management
+- [Change Location ID for Outlets to a better identifiable field](#change-location-id-for-outlets-to-a-better-identifiable-field)
+- [Highlight the unalterability of outletnumbers](#highlight-the-unalterability-of-outletnumbers)
+- [Replaced legacy map with enhanced map control](#replaced-legacy-map-with-enhanced-map-control)
+
+## General
+
+### Show ft-Partners on Main Page
+
+## Rollout Platform
+
+### Rollout planning in public preview (DE)
+
+## Middleware Configuration
+
+### Inform users about new middleware releases (DE)
+
+### Show Last Rebuild Time of CashBox
+
+## E-Commerce
+
+### Warn users before logging out if Products are in the cart
+
+## User Management
+
+### Change Location ID for Outlets to a better identifiable field
+
+### Highlight the unalterability of outletnumbers
+
+### Replaced legacy map with enhanced map control
 
 ## Next steps
 In the next weeks we will focus on improving the performance of the portal in addition to a brand new component that should greatly enhance the rollout experience.
