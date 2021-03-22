@@ -55,7 +55,7 @@ A Prototype of the new Orders Page has been created. In the past, issues such as
 ![orderspage.png](images/sprint-94/orderspage.png)
 
 ## Next steps
-In the next weeks we will focus on improving the performance of the portal in addition to a brand new component that should greatly enhance the rollout experience.
+In the next weeks we will focus on finishing the new orders experience to being able to put it into public preview.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
