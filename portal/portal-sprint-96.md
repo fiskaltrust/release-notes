@@ -6,8 +6,9 @@ title: Sprint 96 (March 22, 2021)
 # fiskaltrust.Portal - Sprint 96
 _March 22, 2021_
 
-**Rolloutmanagement in public preview**
-In this sprint, we have introduced a new feature that should greatly improve the rollout experience for PosDealers. 
+**Rollout Management in public preview**
+
+In this sprint, we have introduced the Rollout Management feature that should greatly improve the rollout experience for PosDealers. 
 
 ## Features
 
