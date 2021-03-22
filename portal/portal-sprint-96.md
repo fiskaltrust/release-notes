@@ -15,11 +15,11 @@ In this sprint, we have introduced the Rollout Management feature that should gr
 ### General
 - [Show ft-Partners on Main Page](#show-ft-partners-on-main-page)
 ### Rollout platform
-- [Rollout planning in public preview (DE)](#rollout-planning-in-public-preview)
+- [Rollout planning in public preview (DE)](#rollout-planning-in-public-preview-de)
 
 ### Middleware Configuration
-- [Inform users about new middleware releases (DE)](#inform-users-about-new-middleware-releases)
-- [Show Last Rebuild Time of CashBox](#show-last-rebuild-time-of-cashBox)
+- [Inform users about new middleware releases (DE)](#inform-users-about-new-middleware-releases-de)
+- [Show Last Rebuild Time of CashBox](#show-last-rebuild-time-of-cashbox)
 
 ### E-Commerce 
 - [Warn users before logging out if Products are in the cart](#warn-users-before-logging-out-if-products-are-in-the-cart)
