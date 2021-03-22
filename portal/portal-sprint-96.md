@@ -39,6 +39,20 @@ Since our partner network is currently rapidly growing we wanted to give users t
 ## Rollout Platform
 
 ### Rollout planning in public preview (DE)
+With this sprint we are establishing a new baseline for the future rollout experience. Since the main purpose of portal is to make the rollout as easy as possible we have thought about how we can make things easier. One of the main areas of improvement that we identified is the purchasing and asigning of products to connected PosOperators. In the past this involved several steps and a pretty complicated process that was error-prone. With the new Planning feature of the Rollout Management we hope that we can improve this. 
+
+Starting by today users should see a new navigation element Rollout Management with a submenu Plan. When navigating to this page there is an easy 4-steps process to perform the rollout for as many outlets as needed.
+
+- Select the rollout base plan - We have defined a new entity that wraps several products that are commonly purchased. Users can use either the dealerpackage based or the move entitlements approach.
+- Select the account - This page includes all connected posoperators as well as the current users account
+- Select the outlets - This page can be used to select one or more outlets that should be included in the rollout. Each of the selected outlets will be included in the quote
+- Create quote - In the last step users can asign a specific name to the quote that will be created. The summary page shows all information for the current rollout. 
+
+After creating the quote users can just put the quote into the cart and should be good to go.
+
+![rolloutmanagement-plan](images/sprint-96/rolloutmanagement-plan.gif)
+
+We hope that this process greatly improves the rollout experience of portal users and we plan to add additional features like including templates, defining favorites and reporting on the rollout state for connected posoperators.
 
 ## Middleware Configuration
 
@@ -73,7 +87,7 @@ In the past we have been using the Bing Maps control to indicate the current loc
 ![enhanced-map-control](images/sprint-96/enhanced-map-control.png)
 
 ## Next steps
-In the next weeks we will focus on improving the performance of the portal in addition to a brand new component that should greatly enhance the rollout experience.
+In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
