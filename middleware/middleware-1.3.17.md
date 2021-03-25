@@ -17,6 +17,12 @@ Due to an issue in the Diebold Nixdorf SCU, the following exception could be thr
 
 We've resolved these issues, and the Diebold Nixdorf SCU should now operate normally in scenarios where they occurred. We'd also like to thank our partners how helped us investigate this problem and verified the fix!
 
+## Feature: Multiple bring your own datacenter deployments on one cluster
+It is now possible to run multiple byodc deployments on a single kubernetes cluster.
+
+## Bug fix: Cannot change bring your own datacenter redis port
+We resolved an issue in the byodc helm chart which prevented changing the redis port on the internal redis instance.
+
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
