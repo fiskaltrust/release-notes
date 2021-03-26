@@ -10,6 +10,14 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## March 26, 2021
+
+### Middleware 1.3.18 (Germany)
+This Middleware version contains bug fixes for issues that could occur when using _Siwssbit Cloud_ or _Deutsche Fiskal_ TSEs behind a proxy server, a stability improvement for our _CryptoVision_ SCU to handle Windows' USB power saving mode, and a minor improvement for generating TSE order payloads.
+
+[Middleware 1.3.18 Release Notes](middleware/middleware-1.3.18.md)
+
+
 ## March 22, 2021
 
 ### Portal
