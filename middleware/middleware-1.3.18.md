@@ -6,7 +6,7 @@ title: Version 1.3.18
 # fiskaltrust.Middleware 1.3.18 (Germany)
 _March 26, 2021_
 
-This Middleware version contains bug fixes for issues that could occur when using _Siwssbit Cloud_ or _Deutsche Fiskal_ TSEs behind a proxy server, a stability improvement for our _CryptoVision_ SCU to handle Windows' USB power saving mode, and a minor improvement for generating TSE order payloads.
+This Middleware version contains bug fixes for issues that could occur when using _Swissbit Cloud_ or _Deutsche Fiskal_ TSEs behind a proxy server, a stability improvement for our _CryptoVision_ SCU to handle Windows' USB power saving mode, and a minor improvement for generating TSE order payloads.
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
