@@ -13,7 +13,7 @@ Very often customers were entering accidentally a misspelled email address and w
 In the new React-based index page for Queue in the German market, users will be able to quickly overview all queues, so that they can search them, configure them and also get the most important information. All previous UI/UX elements and functionalities are kept:
 
 
-![QueueDE](images/sprint-98/QueueDE.png)
+![QueueDe](images/sprint-98/QueueDe.png)
 
 In the following graph the difference in the speed (in seconds) compared to the previous Queue Page versus the new React-based one can be shown:
 
