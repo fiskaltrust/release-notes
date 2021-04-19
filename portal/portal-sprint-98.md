@@ -1,4 +1,4 @@
-The goal this past Sprint was to work on the migration of the Outles page and the Queue page to React, as part of our effort to improve performance of roll-out relevant Portal sections.
+The goal this past Sprint was to work on the migration of the Queue page to React, as part of our effort to improve performance of roll-out relevant Portal sections.
 
 ## User Management
 
