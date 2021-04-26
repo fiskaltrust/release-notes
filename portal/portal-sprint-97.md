@@ -10,7 +10,7 @@ A new checkbox was added to the Queue Create Page in Germany. Clicking on it let
 ![CashBoxIdentification.png](images/sprint-97/CashBoxIdentification.png) 
 
 ##### New page for the overview of the signature creation units (DE market) 
-As a part of the migration process of the portal to react-based components, a new page was integrated that offers a quick overview of the signature creation units for DE market, as well a search functionality and the option to configure them. Aside from previous functionalities that are still there, some additional points can be found:
+As a part of the migration process of the portal to react-based components, a new page was integrated that offers a quick overview of the signature creation units for DE market, as well as search functionality and the option to configure them. Aside from previous functionalities that are still there, some additional points can be found:
  
 - Outlet number is shown inside of the table
 - Serial number is moved to expander
@@ -25,7 +25,7 @@ As part of the migration of the Helpers page, old service helpers are removed fr
 - Cashbox edit by list page
 - Cashbox edit by drag&drop page
  
-##### Saving search in localstorage
+##### Persisting filters on React pages
 As a part of the migration process of the CashBoxes pages, we worked on persisting the state of tableviews across sessions, so that PosDealers can find quicker the info they need to work with. So, now when a User types a searchterm and refreshes the page, the same searchterm is appearing. Additionally, if a user selects an order for the page, the same order will still appear after refreshing the page. Similarly, the same page will appear after refreshing the page when a user changes pagination.
 
 ##### Clear AccountSettings for localstorage based settings
