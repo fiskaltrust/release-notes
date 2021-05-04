@@ -10,6 +10,14 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## May 4, 2021
+
+### Middleware 1.3.19 (Germany)
+With this Middleware version, we added the possibility to switch the connected SCU for already started Queues. This change allows users of the Middleware to change the used TSE without having to create a new Queue. Additionally, we've included several important bug fixes in this update.
+
+[Middleware 1.3.19 Release Notes](middleware/middleware-1.3.19.md)
+
+
 ## March 26, 2021
 
 ### Middleware 1.3.18 (Germany)
