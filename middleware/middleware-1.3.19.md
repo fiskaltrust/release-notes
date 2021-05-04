@@ -14,24 +14,48 @@ With this Middleware version, we added the possibility to switch the connected S
 
 
 ## Updated SCU: A-Trust
+As A-Trust has stabilized their API and their architectural design, we have updated our A-Trust SCU to reflect these latest changes. This means that A-Trust TSEs can now again be used by the Middleware. We recommend to create a new A-Trust SCU, as the configuration parameters have changed heavily.
+
+**Please note**: A-Trust is currently working on their TSE cockpit. Meanwhile, please use the username and password that are described in the [A-Trust partner center](https://www.a-trust-tse.de/TsePartner/KassenSichV/Default.aspx).
 
 ## Changed behavior: Fail-transaction-receipt executable in failed mode
+With this version, it's now possible to execute the fail-transaction-receipt when the Queue is operated in failed mode (i.e. when the communication with the TSE is interrupted). We've changed this behavior to support scenarios that require to close open transactions before proceeding with a zero-receipt, e.g. when the amount of started transactions on the TSE has reached the maximum.
+
+After sending the fail-transaction-receipt, the Queue remains in failed mode. A zero receipt is still required to re-enable the SCU communication.
 
 ## Changed behavior: Retrying on empty responses is now optional on CryptoVision
+In a previous version, we've altered our CryptoVision SCU to retry reading data from the TSE in case the response body is empty. However, we've noticed that this behavior doesn't resolve the underlying issue and leads to higher receipt processing times without improving the overall situation. We've hence disabled this per default.
 
 ## Bug fix: Wrong TSE payload when transformed PayItems are used
+Due to an issue when computing the payload that is sent to the TSE, wrong values were generated in some specific cases when PayItems were used that are transformed to DSFinV-K business cases by the Middleware (e.g. vouchers). In these cases, the _payments_ part was not computed correctly, which lead to partially duplicated entries, as the data was also (correctly) written to the _turnover_ part of the payload.
 
-## Bug fix: Improved time update precision in some SCUs
+The DSFinV-K export was not affected by this issue, as it's computed directly from the processed receipt requests and their responses. However, the TSE payloads may not match the DSFinV-K data in those cases.
+
+This issue has now been resolved.
+
+## Stability improvement: More precise time updates in some SCUs
+We've improved the precision of the _time update_ mechanism that is required by some TSEs (_CryptoVision_, _Swissbit_, _Epson_ and _Diebold Nixdorf_). Previously, the set time may have differed slightly from the system time due to the internal procedure; this should now be resolved.
 
 ## Bug fix: Reading high number of started transactions fails on Diebold Nixdorf SCU
+Due to a timeout that occurred when reading very high amounts of started transactions from the _Diebold Nixdorf_ SCU, the _GetTseInfo_ command - and thus the startup of the Middleware - was blocked in some specific cases, rendering the Middleware unable to process operations on the TSE. 
 
-## Bug fix: Fixed wrong time format in DSFinV-K transaction table
+This issue mostly occurred when installing the Middleware as a service with limited permissions to system files. The issue and it's underlying cause have been resolved.
 
 ## Bug fix: DSFinV-K threw exception when PayItem.Quantity was set to 0
+An issue was fixed that prevented the generation of DSFinV-K exports when the _Quantity_ of send _PayItem_ was set to 0. Although this issue was occurring very rarely, it has now been resolved.
 
 ## Bug fix: DSFinV-K cash payment table included wrong data
+We altered the behavior of our DSFinV-K export to exclude non-cash payments in the `cash_per_currency.csv` file.
+
+## Bug fix: Fixed wrong time format in DSFinV-K transaction table
+We've updated our DSFinV-K export to correctly format the TSE's _start_ and _finish transaction_ timestamps in the `transactions_tse.csv`. Previously, these values were lacking the required milliseconds.
+
+Please note that as of now, all TSEs use unix timestamps, which only contain seconds (and no milliseconds). The last part of these values therefore is always '.000'.
 
 ## Bug fix: Mono service could not be installed on some Linux versions
+Due to an issue in our Launcher, it was not possible to install the fiskaltrust.Middleware as a Mono service on some Debian-based Linux versions. This issue has been resolved.
+
+**Please note**: This change requires users to update the Launcher, i.e. to re-download the package that contains the `fiskaltrust.exe` from the Portal after rebuilding the Cashbox.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
