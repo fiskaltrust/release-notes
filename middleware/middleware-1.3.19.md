@@ -10,8 +10,24 @@ With this Middleware version, we added the possibility to switch the connected S
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
-## Feature: Switch connected SCU without creating a new Queue
+## Feature: Switch connected TSE without creating a new Queue
+In the last weeks, we've already received lots of feedback and questions from partners who needed to switch TSEs due to numerous reasons. Until now, this was only possible indirectly by also creating a new Queue and retiring the old one. However, this leads to additional effort on all sides, and will be even more inconvenient when cloud TSEs that are currently in certification will need to be replaced by their certified follow-up version.
 
+We've therefore implemented a way to switch SCUs and therefore TSEs of existing Queues (SCUs are "bound" to a specific TSE and therefore cannot be re-used with other TSEs).
+
+In short, the switch process consists of these steps:
+1. The SCU switch is prepared in the portal, i.e. the target SCU is added to the Cashbox and marked as _switch target_.
+2. The Middleware is restarted to pull the latest changes after the config was rebuilt.
+3. The switch is initiated with an "initiate SCU switch" receipt. After this, no SCU is connected to the Queue anymore.
+4. (_Optional_): If a hardware TSE is used and e.g. only one SD card slot is available, the TSE is changed.
+5. The switch is finalized with a "finish SCU switch" receipt. This receipt connects the Queue to the new SCU.
+
+![scu-switch](images/1.3.19/scu-switch.png)
+
+
+Notifications for the tax authorities are created during this process and - as usually - automatically sent to our cloud services. If products with the required feature are active for the used outlet, these notifications will be automatically processed in the future (as soon as the financial authorities define the interface).
+
+This process is documented in more detail in our [rollout documentation](https://link.fiskaltrust.cloud/market-de/scu-switch). PosCreators should implement the new two new receipt cases if they want their products to support this new feature, which are described at the end of [this section](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftreceiptcase#type-of-receipt-ftreceiptcase).
 
 ## Updated SCU: A-Trust
 As A-Trust has stabilized their API and their architectural design, we have updated our A-Trust SCU to reflect these latest changes. This means that A-Trust TSEs can now again be used by the Middleware. We recommend to create a new A-Trust SCU, as the configuration parameters have changed heavily.
