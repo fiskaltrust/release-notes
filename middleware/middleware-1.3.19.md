@@ -18,9 +18,10 @@ We've therefore implemented a way to switch SCUs and therefore TSEs of existing 
 In short, the switch process consists of these steps:
 1. The SCU switch is prepared in the portal, i.e. the target SCU is added to the Cashbox and marked as _switch target_.
 2. The Middleware is restarted to pull the latest changes after the config was rebuilt.
-3. The switch is initiated with an "initiate SCU switch" receipt. After this, no SCU is connected to the Queue anymore.
-4. (_Optional_): If a hardware TSE is used and e.g. only one SD card slot is available, the TSE is changed.
-5. The switch is finalized with a "finish SCU switch" receipt. This receipt connects the Queue to the new SCU.
+3. A daily-closing receipt is sent
+4. The switch is initiated with an "initiate SCU switch" receipt. After this, no SCU is connected to the Queue anymore.
+5. (_Optional_): If a hardware TSE is used and e.g. only one SD card slot is available, the TSE is changed.
+6. The switch is finalized with a "finish SCU switch" receipt. This receipt connects the Queue to the new SCU.
 
 ![scu-switch](images/1.3.19/scu-switch.png)
 
