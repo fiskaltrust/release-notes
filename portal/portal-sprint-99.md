@@ -8,7 +8,7 @@ _May 3, 2021_
 
 **Usability improvements for various features**
 
-In this sprint, we have introduced several usability improvements.
+In this sprint, we have introduced several usability improvements, especially when working with the AO148 generator, or the entitlements history page.
 
 ## Features
 

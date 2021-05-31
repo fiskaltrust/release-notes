@@ -10,6 +10,20 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## May 31, 2021
+
+### Portal
+In this sprint, we have introduced several usability improvements including improving the overall performance.
+
+[Portal Sprint 101 Release Notes](portal/portal-sprint-101.md)
+
+## May 17, 2021
+
+### Portal
+In this sprint, we have introduced the ft-Knowledege base, that should provide users with informative articles on how to troubleshoot issues that they are facing in any of the fiskaltrust products.
+
+[Portal Sprint 100 Release Notes](portal/portal-sprint-100.md)
+
 ## May 4, 2021
 
 ### Middleware 1.3.19 (Germany)
@@ -17,6 +31,26 @@ With this Middleware version, we added the possibility to switch the connected S
 
 [Middleware 1.3.19 Release Notes](middleware/middleware-1.3.19.md)
 
+## May 3, 2021
+
+### Portal
+In this sprint, we have introduced several usability improvements, especially when working with the AO148 generator, or the entitlements history page.
+
+[Portal Sprint 99 Release Notes](portal/portal-sprint-99.md)
+
+## April 19, 2021
+
+### Portal
+In this sprint, we have been focusing on creating a tool that should give users the ability to easily create AO 148 applications.
+
+[Portal Sprint 98 Release Notes](portal/portal-sprint-98.md)
+
+## April 5, 2021
+
+### Portal
+In this sprint, we have focused to improve overall usability and to make sure that users have the same capabilities to generate unique CashBoxIdentifications as they have when using ft-Helipad.
+
+[Portal Sprint 97 Release Notes](portal/portal-sprint-97.md)
 
 ## March 26, 2021
 
