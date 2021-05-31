@@ -3,7 +3,7 @@ slug: /release-notes/portal/sprint-97
 title: Sprint 97 (April 5, 2021)
 ---
 
-# fiskaltrust.Portal - Sprint 96
+# fiskaltrust.Portal - Sprint 97
 _April 5, 2021_
 
 **Usability improvements**
