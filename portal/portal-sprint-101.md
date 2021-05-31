@@ -8,7 +8,7 @@ _May 31, 2021_
 
 **Usability improvements**
 
-In this sprint, we have introduced several usability improvements including improving the overall performance..
+In this sprint, we have introduced several usability improvements including improving the overall performance.
 
 ## Features
 
