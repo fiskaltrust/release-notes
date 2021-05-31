@@ -37,7 +37,7 @@ In this sprint, we have been focusing on creating a tool that should give users 
 ### Introduce tool for generating AO148 applications (DE)
 
 ## Next steps
-In the next weeks we will focus on improving the performance of the portal.
+In the next weeks we will focus on improving the usability of the portal.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
