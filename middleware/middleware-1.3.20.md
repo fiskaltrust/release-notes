@@ -1,5 +1,5 @@
 ---
-slug: /release-notes/middleware/1.3.19
+slug: /release-notes/middleware/1.3.20
 title: Version 1.3.20
 ---
 
