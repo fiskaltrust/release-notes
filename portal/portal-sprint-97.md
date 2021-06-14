@@ -16,9 +16,9 @@ In Germany it is required by law to use a vendor-unique identifier for the CashB
 
 The SignaturCreationUnit DE page was been reworked. Even though it appears to be similar with the old page, response times of the page are faster and the overall data overview is impoved. Aside from previous functionalities that are still there, some additional points can be found:
 
-Outlet number is shown inside of the table
-Serial number is moved to expander
-Certification identification and number of the signatures are added to expander
+- Outlet number is shown inside of the table
+- Serial number is moved to expander
+- Certification identification and number of the signatures are added to expander
 
 ![image.png](images/sprint-97/40999.png) 
 
@@ -35,9 +35,6 @@ There are Global Service 1.2 helpers that do not work with the Middleware 1.3 fo
 ### Icons are not highlighted while changing user claims
 
 Until now, raw icons were not highlighted when a user was changing claims. Icons were highlighted after the page was reloaded. This has now been modified, so when a user us changing the claims, the relevant changes are shown by highlighted icons showing up in the employee list without needing to refresh the page.
-
-## Next steps
-In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
