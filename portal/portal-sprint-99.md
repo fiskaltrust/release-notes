@@ -26,6 +26,8 @@ In this sprint, we have introduced several usability improvements, especially wh
 
 PosCreators can now stay informed on new Middleware releases (DE), getting updates on new features and bug fixes for which they might have been waiting. For this purpose, a new notification bar has been added on every configuration page (Cashbox, Queue, Helper, SCU, Template, Configuration update). This bar will be shown whenever a new version of the Middleware is available. Users will be able to click on it and then get redirected to the latest release notes. The bar can be closed from the user and it won’t reappear again till a new Middleware version is available.
 
+![new-version-upates](images/sprint-99/new-version-upates.png)
+
 ### Visual improvements of Queue page (DE)
  
 Some minor visual improvements of the Queue page (DE) have been implemented. We invested some time in improving the way our tables are displayed in the Queue page (DE). Visually nothing major should have changed but we managed to reduce updates on the tables and reduced necessary memory. A wider range of monitor resolutions should now also be supported. 
