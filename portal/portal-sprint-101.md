@@ -13,16 +13,24 @@ In this sprint, we have introduced several usability improvements including impr
 ## Features
 
 ### Middleware Configuration
-- [Visualization improvements to Middleware component dialogs](#visualization-improvements-to-middleware-component-dialogs)
+- [Visual improvements to Middleware component dialogs](#visual-improvements-to-middleware-component-dialogs)
 - [Feedback on Cashbox rebuild](#feedback-on-cashbox-rebuild)
 
 ## Middleware Configuration
 
-### Visualization improvements to Middleware component dialogs
+### Visual improvements to Middleware component dialogues
+
+Some minor visual improvements of the TableViews in Portal (DE) have been implemented. We invested some time in improving the way our tables are displayed. Visually nothing major should have changed, aside from a smaller screen size -in which the user is navigating the TableViews page- does not affect anymore the way the tables are shown. The performance of the page in different resolutions has also been improved.
+
 ### Feedback on Cashbox rebuild
 
+When rebuilding a Cashbox, Users can now get some more (visual) feedback on when the rebuild is finished.
+A notification has been added to inform Users when CashBox rebuild is finished. 
+
+![toast-notification](images/sprint-101/toast-notification.png)
+
 ## Next steps
-In the next weeks we will focus on improving the Knowledeg base experience in portal.
+In the next weeks we will focus on improving the Knowledge base experience in portal.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
