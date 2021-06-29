@@ -20,7 +20,7 @@ In this sprint, we have introduced some usability improvements including improvi
 
 ### Visual improvements to Middleware component dialogues
 
-Some minor visual improvements of the TableViews in Portal have been implemented. We invested some time in improving the way our tables are displayed. Visually nothing major should have changed, aside from a smaller screen size -in which the user is navigating the TableViews page- does not affect anymore the way the tables are shown. The performance of the page in different resolutions has also been improved.
+Some minor visual improvements of the TableViews in Portal have been implemented. We invested some time in improving the way our tables are displayed. Visually nothing major should have changed, aside from a smaller screen size -in which the user is navigating the TableViews page- does not affect anymore the way the tables are shown. The performance of the page in different resolutions has also been improved, and lastly, the precision of the search results when using the search function has been improved.
 
 ### Feedback on Cashbox rebuild
 
