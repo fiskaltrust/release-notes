@@ -10,7 +10,7 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
-## July 13, 2021
+## July 20, 2021
 
 ### Middleware 1.3.21 (Germany)
 In this release, we've added the possibility to deactivate Queues and switch SCUs even in cases when the TSE is not reachable anymore. Additionally, we've further improved our DSFinV-K export after successfully receiving the [GoBD certification from Audicon](https://fiskaltrust.de/fiskaltrust-middleware-dsfinv-k-schnittstelle-jetzt-gobd-zertifiziert/), including using fallback master data, automatically resolving references over different days, and several stability improvements and fixes.
