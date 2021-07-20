@@ -46,7 +46,7 @@ To be able to diagnose issues faster, we've added more extensive debug- and trac
 Due to an issue, the proxy settings made in _Swissbit Cloud_ and _Deutsche Fiskal_ were ignored in some cases. While the FCC could be initialized properly in these scenarios, it afterwards failed to start. After updating to 1.3.21, the affected Cashboxes should be startable without needing any further changes.
 
 ## Bug fix: High memory consumption and errors when uploading large datasets
-We've fixed an issue where large datasets (e.g. large TAR files) could not be pushed to our cloud services, which lead to a memory leak in the library we use and ultimately to high memory consumption. If you are experiencing any memory issues, please consider performing this update.
+We've fixed an issue where large datasets (e.g. large TAR files) could not be pushed to our cloud services, which led to a memory leak in the library we use and ultimately to high memory consumption. If you are experiencing any memory issues, please consider performing this update.
 
 The Helipad helper (the affected package) is automatically added to Cashboxes without requiring further actions. The latest version will be inserted when the Cashbox is rebuilt (no "manual" package updates in the Portal are required, therefore).
 
