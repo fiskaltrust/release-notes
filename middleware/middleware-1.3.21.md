@@ -4,7 +4,7 @@ title: Version 1.3.21
 ---
 
 # fiskaltrust.Middleware 1.3.21 (Germany)
-_July 13, 2021_
+_July 20, 2021_
 
 In this release, we've added the possibility to deactivate Queues and switch SCUs even in cases when the TSE is not reachable anymore. Additionally, we've further improved our DSFinV-K export after successfully receiving the [GoBD certification from Audicon](https://fiskaltrust.de/fiskaltrust-middleware-dsfinv-k-schnittstelle-jetzt-gobd-zertifiziert/), including using fallback master data, automatically resolving references over different days, and several stability improvements and fixes.
 
