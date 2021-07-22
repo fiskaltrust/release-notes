@@ -13,7 +13,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## May 31, 2021
 
 ### Middleware 1.3.20 (Germany)
-In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our Carefree package. This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
+In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our fiskaltrust.CarefreeBundle . This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
 
 [Middleware 1.3.20 Release Notes](middleware/middleware-1.3.20.md)
 
@@ -209,7 +209,7 @@ In addition to this, we resolved several important stability issues in version 1
 ## October 26, 2020
 
 ### Portal
-In this sprint, we worked in making the aggregated TAR export available in the Portal, which - together with the DSFinV-K export - enables our customers to get all audit-relevant data without requiring direct access to the POS System. Additionally, we greatly improved the subscription management, and are now displaying the expiration dates of TSEs.
+In this sprint, we worked in making the aggregated TAR export available in the Portal, which - together with the DSFinV-K export - enables our customers to get all audit-relevant data without requiring direct access to the POS-System. Additionally, we greatly improved the subscription management, and are now displaying the expiration dates of TSEs.
 
 [Portal Sprint 85 Release Notes](portal/portal-sprint-85.md)
 
@@ -268,7 +268,7 @@ In this sprint, we focused on improving several features in portal. Additionally
 ## August 31, 2020
 
 ### Portal
-In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the Portal that should greatly simplify common e-commerce related tasks.
+In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the fiskaltrust.Portal that should greatly simplify common e-commerce related tasks.
 
 [Portal Sprint 81 Release Notes](portal/portal-sprint-81.md)
 

@@ -6,16 +6,16 @@ title: Version 1.3.20
 # fiskaltrust.Middleware 1.3.20 (Germany)
 _May 31, 2021_
 
-In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our Carefree package. This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
+In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our fiskaltrust.CarefreeBundle . This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Feature: Outlet-based Swissbit Cloud SCUs
-If the Swissbit Cloud TSE is bought as part of our carefree package, it's now possible to connect multiple Queues to a single SCU (i.e. to a single TSE). This effectively removes the previous limitation to a single client, supporting a broader variety of rollout scenarios and setups, and therefore enabling the full feature-set of our _fiskaltrust.Carefree_ package. 
+Ifthe Swissbit cloudbased TSE  is bought as part of our fiskaltrust.CarefreeBundle , it's now possible to connect multiple Queues to a single SCU (i.e. to a single TSE). This effectively removes the previous limitation to a single client, supporting a broader variety of rollout scenarios and setups, and therefore enabling the full feature-set of our _fiskaltrust.Carefree_ package. 
 
 This change also applies when using the SCU with a TSE that was _not_ bought via fiskaltrust - altough in that case, additional costs may be billed from Swissbit for each registered client (which is not the case when using the TSE-as-a-service).
 
-**Please note that the one-client-limitation is still in place when buying the Swissbit Cloud TSE as a single product via our shop.** Only TSEs-as-a-service, which are included into our Carefree packages, can be operated on an outlet-based pricing model.
+**Please note that the one-client-limitation is still in place when buyingthe Swissbit cloudbased TSE  as a single product via our shop.** Only TSEs-as-a-service, which are included into our fiskaltrust.CarefreeBundle s, can be operated on an outlet-based pricing model.
 
 You can find more details about this change in our [blog](https://fiskaltrust.de/news/).
 

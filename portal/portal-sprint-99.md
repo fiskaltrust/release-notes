@@ -24,7 +24,7 @@ In this sprint, we have introduced several usability improvements, especially wh
 
 ## Middleware Configuration
 
-PosCreators can now stay informed on new Middleware releases (DE), getting updates on new features and bug fixes for which they might have been waiting. For this purpose, a new notification bar has been added on every configuration page (Cashbox, Queue, Helper, SCU, Template, Configuration update). This bar will be shown whenever a new version of the Middleware is available. Users will be able to click on it and then get redirected to the latest release notes. The bar can be closed from the user and it won’t reappear again till a new Middleware version is available.
+PosCreators can now stay informed on new Middleware releases (DE), getting updates on new features and bug fixes for which they might have been waiting. For this purpose, a new notification bar has been added on every configuration page (CashBox, Queue, Helper, SCU, Template, Configuration update). This bar will be shown whenever a new version of the Middleware is available. Users will be able to click on it and then get redirected to the latest release notes. The bar can be closed from the user and it won’t reappear again till a new Middleware version is available.
 
 ![new-version-upates](images/sprint-99/new-version-upates.png)
 

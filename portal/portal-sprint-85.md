@@ -8,14 +8,14 @@ _October 26, 2020_
 
 **TAR file export, simplified subscription management & TSE certificate details**
 
-In this sprint, we worked in making the aggregated TAR export available in the Portal, which - together with the DSFinV-K export - enables our customers to get all audit-relevant data without requiring direct access to the POS System. Additionally, we greatly improved the subscription management, and are now displaying the expiration dates of TSEs.
+In this sprint, we worked in making the aggregated TAR export available in the Portal, which - together with the DSFinV-K export - enables our customers to get all audit-relevant data without requiring direct access to the POS-System. Additionally, we greatly improved the subscription management, and are now displaying the expiration dates of TSEs.
 
 ## Features
 
 ### Data exports
 
-#### PosArchive export for TAR files (DE)
-In addition to the already existing DSFinV-K export, we added the possibility to download aggregated TSE tar files directly from the PosArchive storage. This means that a user-definable range of the TAR files that our Middleware automatically stores during each daily closing receipt (and later uploads to our cloud storage) is packed and served as a zip file.
+#### fiskaltrust.PosArchive export for TAR files (DE)
+In addition to the already existing DSFinV-K export, we added the possibility to download aggregated TSE tar files directly from the fiskaltrust.PosArchive storage. This means that a user-definable range of the TAR files that our Middleware automatically stores during each daily closing receipt (and later uploads to our cloud storage) is packed and served as a zip file.
 
 ![scu-details](images/sprint-85/tar-export.png)
 
@@ -26,7 +26,7 @@ _Please note that this feature requires Middleware version >= 1.3.9._
 #### Self-Service subscription extension (AT)
 After receiving a lot of feedback on the currently very difficult and error prone extension process we wanted to make sure that you are able to easily extend subscriptions for you and your customers.
 
-For this reason we added a new functionality to the PosDealer-Subscriptions page which shows three categories of subscriptions for all your connected posoperators. The first category is the already expired one. It contains subscriptions that are already invalid and should either be canceled or extended to make sure that features like PosArchive are still available. The second category contains the expiring subscriptions. These subscriptions are in danger of expiring and should be extended as soon as possible.
+For this reason we added a new functionality to the PosDealer-Subscriptions page which shows three categories of subscriptions for all your connected posoperators. The first category is the already expired one. It contains subscriptions that are already invalid and should either be canceled or extended to make sure that features like fiskaltrust.PosArchive are still available. The second category contains the expiring subscriptions. These subscriptions are in danger of expiring and should be extended as soon as possible.
 
 ![extend-subscriptions-checkbox](images/sprint-85/extend-subscriptions-checkbox.png)
 

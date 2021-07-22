@@ -34,4 +34,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DieboldNixdorf v1.3.2-rc1_
 
 ## Next steps
-As also announced in the previous release notes, we are working on improving our portal to create a better onboarding, development and middleware rollout experience. 
+As also announced in the previous release notes, we are working on improving our fiskaltrust.Portal to create a better onboarding, development and middleware rollout experience. 

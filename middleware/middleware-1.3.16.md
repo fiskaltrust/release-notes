@@ -11,7 +11,7 @@ We're happy to announce that the fiskaly SCU is now available in our production 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
 ## Production release: fiskaly SCU
-In close collaboration with our partners, we've released the fiskaly SCU to production. To fulfill the legal requirements, we followed fiskaly's advice and added the informational phrase _"TSE in Evaluierung"_ ("TSE in evaluation") into the newly added certification identification signature item (see below). Please keep in mind that the fiskaly TSE is still in evaluation, and switching to the certified state will require an update of the SCU. Please refer to our [blog post about the state of cloud TSEs](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/) for more details.
+In close collaboration with our partners, we've released the fiskaly SCU to production. To fulfill the legal requirements, we followed fiskaly's advice and added the informational phrase _"TSE in Evaluierung"_ ("TSE in evaluation") into the newly added certification identification signature item (see below). Please keep in mind that the fiskaly Cloud-TSE is still in evaluation, and switching to the certified state will require an update of the SCU. Please refer to our [blog post about the state of cloud TSEs](https://fiskaltrust.de/news/aktueller-status-zur-cloud-tse-202103/) for more details.
 
 ## New signature item: Certification identification
 We've added an additional signature item to the receipt response of POS receipts that contains the certification identification of the used TSE (e.g. `BSI-K-TR1234-5677`), and additionally contains a hint about the current state of the certification process or the operational environment. The _ftSignatureType_ of the newly added item is `0x4445000000000022`, more information can be found [here](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftsignaturetype).
@@ -20,7 +20,7 @@ The signature item was added for all TSEs, including hardware devices. Currently
 
 | **SCU**                                      | **Certification identification**    |
 |----------------------------------------------|-------------------------------------|
-| fiskaltrust.Middleware.SCU.DE.Fiskaly        | BSI-K-TR-0403 [TSE in Evaluierung]  |
+| fiskaltrust.Middleware.SCU.DE.fiskaly        | BSI-K-TR-0403 [TSE in Evaluierung]  |
 | fiskaltrust.Middleware.SCU.DE.SwissbitCloud  | BSI-K-TR-0456-2021 [USK ausgesetzt] |
 | fiskaltrust.Middleware.SCU.DE.DeutscheFiskal | BSI-K-TR-0457-2021 [USK ausgesetzt] |
 
@@ -34,7 +34,7 @@ In addition, we've changed the default directory for the FCC installation from `
 ## Compatibility improvement: Fiskal Cloud Connector on Linux
 During the last two weeks, our partners informed us that the FCC could not be successfully installed on some Linux distributions without manually making some files executable. We have changed this behavior so that no manual action is needed anymore when setting up a _Swissbit Cloud_ or a _Deutsche Fiskal_ TSE on Linux.
 
-## Bug fix: Deleting logs on fiskaly TSEs
+## Bug fix: Deleting logs on fiskaly Cloud-TSEs
 To ensure equal functionality in all our TSE implementations, we've updated our fiskaly SCU to now mark logs that have been exported during a daily closing receipt as deleted. This resolves two issues:
 - Previously, the fiskaly SCU always did a full export when daily-closing receipts were processed, and stored the results in the database. When a range-based `/Journal` export of those TAR files was called, the response could hence include more logs than requested. 
 - Due to the full export, the duration of daily-closing receipts on fiskaly SCUs increased with each processed transaction, ultimately making the process very slow when many transactions were performed. 
@@ -66,7 +66,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.EF v1.3.16_
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.16_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.16_
-- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.16_
+- _fiskaltrust.Middleware.SCU.DE.fiskaly v1.3.16_
 - _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.16_
 - _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.16_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.16_

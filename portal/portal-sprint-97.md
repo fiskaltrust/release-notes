@@ -14,7 +14,7 @@ In this sprint, we have focused to improve overall usability and to make sure th
 
 #### Autogenerate unique CashBoxIdentification for QueuesDE (DE)
 
-In Germany it is required by law to use a vendor-unique identifier for the CashBoxIdentification. Now, the new functionality allows users to generate themselves a CashboxIdentification easily in the Portal. The generated identifier is based on the queueid and is globally unique.
+In Germany it is required by law to use a vendor-unique identifier for the CashBoxIdentification. Now, the new functionality allows users to generate themselves a CashBoxIdentification easily in the Portal. The generated identifier is based on the queueid and is globally unique.
 
 ![CashBoxIdentification.png](images/sprint-97/CashBoxIdentification.png) 
 
@@ -34,7 +34,7 @@ Until now, the expiration date for SCUs has been shown in the German Portal. Eve
 
 #### Hide unsupported helpers in DE (DE)
 
-There are Global Service 1.2 helpers that do not work with the Middleware 1.3 for Germany, and thus should not be displayed in this market, as they create confusion since they are not really available for usage in Portal. These are not displayed anymore in the German Portal (Sandbox & Production).
+There are Global Service 1.2 helpers that do not work with the Middleware 1.3 for Germany, and thus should not be displayed in this market, as they create confusion since they are not really available for usage in Portal. These are not displayed anymore in the German fiskaltrust.Portal (Sandbox & Production).
 
 ## User Management
 

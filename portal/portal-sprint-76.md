@@ -6,7 +6,7 @@ title: Sprint 76 (June 22, 2020)
 # fiskaltrust.Portal - Sprint 76
 _June 22, 2020_
 
-**Automatic POS operator onboarding & overhauled export experience**
+**Automatic PosOperator onboarding & overhauled export experience**
 
 In the Sprint 76 update of the fiskaltrust.Portal, we are excited to announce that we have a completely new data export experience which not only should make selecting specific exports easier, but is also able to finish exports within a few minutes instead of several hours, even for very large queues.
 
@@ -19,7 +19,7 @@ These major changes are - among others - described in more detail in the followi
 ### Data exports 
 
 #### New data export experience
-The export experience in the Portal - i.e. the functionality to write stored Middleware data like receipt requests and responses into different file types - was completely overhauled in this sprint. The previous implementation dated back to earlier days and overall far smaller queues, and did not fit the requirements of large customers anymore. In addition to this, we regularly received feedback that the user interface was not intuitive enough.
+The export experience in the fiskaltrust.Portal - i.e. the functionality to write stored Middleware data like receipt requests and responses into different file types - was completely overhauled in this sprint. The previous implementation dated back to earlier days and overall far smaller queues, and did not fit the requirements of large customers anymore. In addition to this, we regularly received feedback that the user interface was not intuitive enough.
 
 The key features of the new functionality are:
 - Drastically improved performance, shrinking down the time for an export from hours to only minutes, even for very large queues. For example, an XML export of a queue with 800,000 receipts now takes only 15 minutes on average. Exporting smaller queues will usually be finished in 2-3 minutes.
@@ -34,7 +34,7 @@ _For now, this feature is only available in the German and French portal. It wil
 #### Simplified upload target configuration
 The previous drag-and-drop functionality for export targets was replaced by a simpler checkbox-based approach. While this slightly limits the customizability (previously, it was possible to specify multiple targets of the same type), our user tests show that the user experience is far easier to understand and use.
 
-**Even if no target is specified, the data will still be stored on our servers and can be downloaded via the Portal anytime.**
+**Even if no target is specified, the data will still be stored on our servers and can be downloaded via the fiskaltrust.Portal anytime.**
 
 When a target is selected, users can configure the required options:
 
@@ -116,7 +116,7 @@ _For now, this feature is only available in the German sandbox._
 ## Next steps
 In the upcoming sprints, the development team will mostly focus on further improving the customer onboarding experience in the Portal.
 
-In addition to this, we will continue to improve the _Export_ features in the portal and offer additional exports for the German market.
+In addition to this, we will continue to improve the _Export_ features in the fiskaltrust.Portal and offer additional exports for the German market.
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).

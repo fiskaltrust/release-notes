@@ -8,7 +8,7 @@ _October 6, 2020_
 
 In this version, we published an important fix for the TSE _.tar_ file export, both in the Queue and the SCU packages. This resolves a critical issue where customers with pre-existing Queues were not able to properly execute daily-closing receipts anymore.
 
-**We highly recommend updating to this version on POS Systems that use version 1.3.8 to resolve this issue.**
+**We highly recommend updating to this version on POS-Systems that use version 1.3.8 to resolve this issue.**
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 

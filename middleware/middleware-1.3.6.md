@@ -23,14 +23,14 @@ Please note that this is a **preview version** of the DSFinV-K export, and still
 We decided for releasing this preview versions despite the known limitations to both give POS Creators the opportunity to already implement everything, and also gather as much direct feedback as possible. We will focus on resolving the open points as soon as possible and will release a new version with a feature-complete export soon.
 
 ## New SCU: Diebold Nixdorf
-After testing our Diebold Nixdorf SCU thoroughly on the sandbox and obtaining some customer feedback (also via Github - thanks to everyone who reached out), we released the Diebold Nixdorf SCU to production. It therefore can be used and configured via the Portal the exact same way as our other SCUs.
+After testing our Diebold Nixdorf SCU thoroughly on the sandbox and obtaining some customer feedback (also via Github - thanks to everyone who reached out), we released the Diebold Nixdorf SCU to production. It therefore can be used and configured via the fiskaltrust.Portal the exact same way as our other SCUs.
 
 Combined with the possibility to order these TSEs via our Portal's shop, we hope to be able to support all customer demands who plan to work with this hardware now.
 
 ## New feature: More detailed responses for closing and out-of-operation receipts
 We got some customer feedback about missing information in _daily-closing_ and _out-of-operation_ receipt responses, and therefore included some additional data to them:
 - Responses to _daily-closing_ receipts now contain the upcounting `DailyClosingNumber` property in the JSON body of the `ftStateData` field. This makes it possible to reference this number e.g. in later receipts without the requirement to count the daily closings in the POS software itself.
-- Equivalent to _initial-operation_ receipts, _out-of-operation_ receipts now properly create notifications in both the SignatureItems of the response and the Action Journal. While the German tax authorities still don't require this (this regulation was deferred), we're now prepared to properly handle these notifications as soon as they become mandatory.
+- Equivalent to _initial-operation_ receipts, _out-of-operation_ receipts now properly create notifications in both the SignatureItems of the response and the fiskaltrust.ActionJournal . While the German tax authorities still don't require this (this regulation was deferred), we're now prepared to properly handle these notifications as soon as they become mandatory.
 
 ## New feature: Strongly signed interface package
 As we received some requests from our customers for a _fiskaltrust.interface_ NuGet package with a strong name, we decided to provide an additional package with these capabilities. The [_fiskaltrust.interface.StrongName_](https://www.nuget.org/packages/fiskaltrust.interface.StrongName) package can be downloaded from NuGet.org.

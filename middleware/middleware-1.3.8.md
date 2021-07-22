@@ -15,7 +15,7 @@ This release of the Middleware includes the stabilized version of the DSFinV-K e
 ## Finalized feature: Local DSFinV-K export
 After publishing a preview version of our local DSFinV-K export in [version 1.3.6](middleware-1.3.6.md), we're happy to announce that this feature now leaves the preview state and is fully available as a stabilized, final functionality. We'd like to thank everyone who sent us their highly-valued feedback so far!
 
-This version is required for POSOperators that use the free Middleware only (without any add-ons like the revision-safe cloud storage) to be compliant to the tax authorities' regulations. The cloud-version of our DSFinV-K export (which can be queried via the Portal and is included in our _POS Archive_) is of course up-to-date as well.
+This version is required for PosOperators that use the free Middleware only (without any add-ons like the revision-safe cloud storage) to be compliant to the tax authorities' regulations. The cloud-version of our DSFinV-K export (which can be queried via the fiskaltrust.Portal and is included in our _POS Archive_) is of course up-to-date as well.
 
 The _ftJournalType_ for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/function-structures/function-structures.html#journal-function).
 
@@ -38,7 +38,7 @@ To solve some special cases of customers with unusually slow TSEs, we made two S
 - `scu-timeout-ms`: Determines the timeout value of the Queue to SCU communication, in ms. Default is 70 seconds.
 - `scu-max-retries`: The maximum number of retries in case an SCU operation fails with an unexpected exception. Default is 2.
 
-Both these values can be set via the Queue configuration page in the Portal - just add the Key-Value pairs there. A rebuild of the affected Cashbox is required to propagate these changes to the Middleware.
+Both these values can be set via the Queue configuration page in the fiskaltrust.Portal - just add the Key-Value pairs there. A rebuild of the affected CashBox is required to propagate these changes to the Middleware.
 
 ## Bug fix: Properly return TSE details of Diebold Nixdorf and CryptoVision TSEs
 We fixed two small, but important issues in the Diebold Nixdorf and the CryptoVision SCUs:

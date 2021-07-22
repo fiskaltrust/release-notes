@@ -23,7 +23,7 @@ Very often, we could see that our product documentation was not enough to cover 
 
 So in order to address the lack of information that can help with troubleshooting, we are therefore creating a knowledge base, which will contain articles whose topics come from common customer questions and inquiries, all structured in the form of a problem and offering its respective solution. 
 
-Now, portal users can access all published articles under the KBArticle page (KB = Knowledge-based) in Portal. The structured content of these articles, alongside pictures and useful visualizations can help users identify the steps needed to tackle issues they are facing. When Users want to see all publicly available KBArticles, they can use the Navigation to open a list of them. When Users want to search for a specific word in the KBArticles, they can do so by using the search that is provided as part of the list.
+Now, fiskaltrust.Portal users can access all published articles under the KBArticle page (KB = Knowledge-based) in Portal. The structured content of these articles, alongside pictures and useful visualizations can help users identify the steps needed to tackle issues they are facing. When Users want to see all publicly available KBArticles, they can use the Navigation to open a list of them. When Users want to search for a specific word in the KBArticles, they can do so by using the search that is provided as part of the list.
 
 ![list-of-articles](images/sprint-100/list-of-articles.png)
 

@@ -55,4 +55,4 @@ We generally do not require manual updates of the Launcher, but had to make an e
 Please also note that 1.3.0 and 1.3.1 Queues and SCUs are **not** compatible with each other – this means that in order to use a 1.3.1 SCU, you need to update the Queue as well, and vice versa.
 
 ## Next steps
-In the upcoming weeks, we will focus on improving our portal to create a better onboarding, development and middleware rollout experience. 
+In the upcoming weeks, we will focus on improving our fiskaltrust.Portal to create a better onboarding, development and middleware rollout experience. 

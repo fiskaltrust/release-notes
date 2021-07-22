@@ -46,7 +46,7 @@ Some of our products require the selection of an outlet. Beside the outlet based
 
 #### New interface for editing CashBox templates (All markets)
 
-We added a new functionality for editing the content of cashbox templates. With the newly integrated JSON editor it should be far easier to create, edit and check cashbox templates. Additionally to these new editing capabilities, the JSON editor highlights JSON errors to make it easier to spot potential issues.
+We added a new functionality for editing the content of CashBox templates. With the newly integrated JSON editor it should be far easier to create, edit and check CashBox templates. Additionally to these new editing capabilities, the JSON editor highlights JSON errors to make it easier to spot potential issues.
 
 ![template-code-editor-code-view](images/sprint-82/template-code-editor-code-view.png)
 
@@ -67,7 +67,7 @@ We got the feedback that in some situations it would be very helpful if PosDeale
 ![receipt-view-raw-data](images/sprint-82/receipt-view-raw-data.png)
 
 ## Next steps
-In the next sprints we will continue to improve the usability and the user experience in the portal to make sure that it is easy to use. Additionally, we will continue adding new features that help our customers meeting the challenges that they are facing in the German market including things like revision safe storage for customers that don't use the middleware, the final release of the auto-invitation process and also TAR based functionalities.
+In the next sprints we will continue to improve the usability and the user experience in the fiskaltrust.Portal to make sure that it is easy to use. Additionally, we will continue adding new features that help our customers meeting the challenges that they are facing in the German market including things like revision safe storage for customers that don't use the middleware, the final release of the auto-invitation process and also TAR based functionalities.
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).

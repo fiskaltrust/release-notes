@@ -13,7 +13,7 @@ In sprint 77, development was mostly focused on syncing SCU details with the fis
 ## Features and stability improvements
 
 ### Signature Creation Unit details
-We updated our backend services to properly process and store the information that Signature Creation Units query from TSEs in German middleware instances. This means that details like the TSE state, the maximum number of signatures, identification numbers, certificates and public keys can now be displayed directly in the portal as soon as a SCU was initialized (by sending a initial-operation receipt to the connected Queue). The details page can be opened by clicking on the <i class="fa fa-search"></i> button in the SCU ist.
+We updated our backend services to properly process and store the information that Signature Creation Units query from TSEs in German middleware instances. This means that details like the TSE state, the maximum number of signatures, identification numbers, certificates and public keys can now be displayed directly in the fiskaltrust.Portal as soon as a SCU was initialized (by sending a initial-operation receipt to the connected Queue). The details page can be opened by clicking on the <i class="fa fa-search"></i> button in the SCU ist.
 
 ![diebold-nixdorf-scu-configuration](images/sprint-77/scu-details.png)<br /><br />
 

@@ -10,7 +10,7 @@ We're happy to announce that starting from this version, we provide SCUs for all
 
 In addition to this, we resolved several important stability issues in version 1.3.10, which should result in an overall greatly increased reliability, especially when working with Swissbit SCUs. Also, we fixed an important issue in our SQLite implementation that lead to data not being 100% correctly read from the database (although no data was lost, as everything was written correctly).
 
-**We highly recommend updating to this version on POS Systems that use SQLite Queues to resolve this issue.**
+**We highly recommend updating to this version on POS-Systems that use SQLite Queues to resolve this issue.**
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 

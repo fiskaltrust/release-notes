@@ -48,9 +48,9 @@ In this sprint we mainly covered the first area, to make sure that we show the r
 
 ![subscription-management](images/sprint-79/subscription-management.png)
 
-At the moment we are only displaying the most necessary information. If you need additional information, like the last used moment, the possystemid, or the dealercount just click the `Download Subscriptions CSV File` button. 
+At the moment we are only displaying the most necessary information. If you need additional information, like the last used moment, the POS-Systemid, or the dealercount just click the `Download Subscriptions CSV File` button. 
 
-In addition to additional fields, this file can be used for requesting extensions of subscriptions. The column `Extend J/N` can be used to mark subscriptions that should be extended. As soon as this is filled out the file can be handed over to our support team which will do the subscription extension for you. 
+In addition to additional fields, this file can be used for requesting extensions of subscriptions. The column `Extend J/N` can be used to mark subscriptions that should be extended. As soon as this is filled out the file can be handed over to our fiskaltrust.Support which will do the subscription extension for you. 
 
 In the upcoming sprints and with the feedback we receive for this new feature we will further improve the functionalities, displaying of data and also integrate the flow to let users extend subscriptions with the usual checkout process in portal, which includes entitlements, moving entitlements and bulk checkout for multiple posoperators.
 
@@ -61,7 +61,7 @@ The DSFinV-K specification requires the ability to handle agency businesses - a 
 
 With the changes we made, it's now possible to handle these agencies within accounts. Added agencies will be assigned an ID that should be sent to the Middleware when performing agency business transactions (via ftChargeItemCaseData, [as described in the docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/data-structures/data-structures.html#charge-items-entry)).
 
-The Portal will then automatically inject this data into the configuration, as described [here](../middleware/middleware-1.3.4.md). This process will furthermore be described in more detail in the upcoming _procedural documentation_ for the DSFinV-K export.
+The fiskaltrust.Portal will then automatically inject this data into the configuration, as described [here](../middleware/middleware-1.3.4.md). This process will furthermore be described in more detail in the upcoming _procedural documentation_ for the DSFinV-K export.
 
 ![agencies](images/sprint-79/agencies.png)
 

@@ -73,7 +73,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.14_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.14_
 - _fiskaltrust.Middleware.SCU.DE.DieboldNixdorf v1.3.14_
-- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.14-rc1_
+- _fiskaltrust.Middleware.SCU.DE.fiskaly v1.3.14-rc1_
 - _fiskaltrust.Launcher v1.3.14_
 
 ## Next steps in the Middleware

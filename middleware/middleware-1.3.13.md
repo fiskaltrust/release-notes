@@ -10,10 +10,10 @@ This version of the Middleware fixes two issues in the Launcher that affected us
 
 <div class="alert alert--warning" role="alert">Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.</div>
 
-## Bug fix: Memory leak when using very large Cashbox configurations
-Due to an issue in the Launcher, loading very large configurations could lead to memory leaks, and thus ultimately to a crashing Launcher _at startup_. This issue only occurred when many packages Queues and SCU were used in a single Cashbox, and doesn't affect the runtime behavior after the startup phase.
+## Bug fix: Memory leak when using very large CashBox configurations
+Due to an issue in the Launcher, loading very large configurations could lead to memory leaks, and thus ultimately to a crashing Launcher _at startup_. This issue only occurred when many packages Queues and SCU were used in a single CashBox, and doesn't affect the runtime behavior after the startup phase.
 
-The memory leak was removed, and the Launcher now consumes normal amounts of memory, no matter how many components are used in one Cashbox.
+The memory leak was removed, and the Launcher now consumes normal amounts of memory, no matter how many components are used in one CashBox.
 
 ## Bug fix: Misleading warning message during installation and uninstallation
 In case a specific order of parameters was used during the Windows Service installation or uninstallation of the Middleware, a warning was printed that stated that the installation was not successful. While this wasn't actually the case, the warning was highly misleading, and the behavior is now fixed.

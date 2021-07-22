@@ -8,12 +8,12 @@ _June 8, 2020_
 
 Beginning with this sprint, we will release bi-weekly updates on the changes made in the **fiskaltrust.Portal**. These release notes will contain a sum-up of all customer-relevant changes that were made, although these changes might be already rolled out at that time (depending on the severity and the user region).
 
-If no customer-relevant changes to the portal were made in a sprint, we will omit publishing empty release notes. Since constant effort is put into improving our services, this usually means that only our non-customer-facing backend services were improved during these sprints.
+If no customer-relevant changes to the fiskaltrust.Portal were made in a sprint, we will omit publishing empty release notes. Since constant effort is put into improving our services, this usually means that only our non-customer-facing backend services were improved during these sprints.
 
 ## Features and general improvements
 - We added a Powershell script to easily update launcher installations (which is exceptionally required once when updating to the Middleware 1.3.1). The script can be found in the **Downloads / Public Documents** section in the Portal.
 - Access to the _Receipt_ and _Action Journals_ was enabled in the German and French production Portal. These lists can be accessed via the respective buttons in the Queue list.
-- The Queue overview in the German and French production Portal now displays localization information (i.e. the _CashboxIdentification_).<br />
+- The Queue overview in the German and French production fiskaltrust.Portal now displays localization information (i.e. the _CashBoxIdentification_).<br />
 ![queue-journals-localization](images/sprint-75/queue-list.png)<br /><br />
 - When creating Swissbit TSEs, the _Device Path_ is now a required parameter.
 - Buttons to add REST and gRPC URLs were added to Queue and SCU configuration pages.<br />

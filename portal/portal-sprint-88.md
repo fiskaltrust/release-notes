@@ -14,8 +14,8 @@ The main focus of this sprint was to further enhance the Portal's Shopping exper
 
 ### Data exports
 
-#### POSArchive powered TAR Export
-In addition to the already existing DSFinV-K export, we added the possibility to download aggregated TSE tar files directly from the PosArchive storage. This means that a user-definable range of the TAR files that our Middleware automatically stores during each daily closing receipt (and later uploads to our cloud storage) is packed and served as a zip file.
+#### fiskaltrust.PosArchive powered TAR Export
+In addition to the already existing DSFinV-K export, we added the possibility to download aggregated TSE tar files directly from the fiskaltrust.PosArchive storage. This means that a user-definable range of the TAR files that our Middleware automatically stores during each daily closing receipt (and later uploads to our cloud storage) is packed and served as a zip file.
 
 ![tar-export-details](images/sprint-88/tar-export.png)
 

@@ -14,9 +14,9 @@ In this sprint, we focused on improving commonly used features in the Portal. Th
 
 ### User Management
 
-#### Activated POS Operator auto-invitation flow and outlet bulk import in production (DE)
-After many successful tests in our sandbox systems, we're happy to announce that two highly requested features in the German portal were now enabled on our production systems:
-- The automated POS Operator invitation, which allows to automatically connect operators by signing their partner contracts as a representative. Please make sure to carefully go through the contract before using this feature - a detailed description about this workflow can be found in the [release notes of sprint 76](portal-sprint-76.md#automatic-onboarding-of-posoperators-preview-germany-only).
+#### Activated PosOperator auto-invitation flow and outlet bulk import in production (DE)
+After many successful tests in our sandbox systems, we're happy to announce that two highly requested features in the German fiskaltrust.Portal were now enabled on our production systems:
+- The automated PosOperator invitation, which allows to automatically connect operators by signing their partner contracts as a representative. Please make sure to carefully go through the contract before using this feature - a detailed description about this workflow can be found in the [release notes of sprint 76](portal-sprint-76.md#automatic-onboarding-of-posoperators-preview-germany-only).
 - The bulk import functionality for outlets, which enables the creation of outlets directly from a CSV file. With this feature, we want to especially simplify the roll-out for very large customers. More details and a description of the steps can be found in the [release notes of sprint 79](portal-sprint-79.md#outlet-csv-import).
 
 #### Registration improvements (All markets)
@@ -46,7 +46,7 @@ Customers notified us that (due to JavaScript's limitations in handling large nu
 
 ![request-response-cases](images/sprint-83/request-response-cases.png)
 
-#### Make Cashbox Identification less error-prone (DE)
+#### Make CashBox Identification less error-prone (DE)
 As we use the _cashbox identification_ both as the cash register serial number (e.g. in DSFinV-K) and as the TSE's client ID, customers were sometimes running into issues when using a value that was not supported by some TSEs (e.g. a GUID). We hence limited the possible values for this field:
 - It must contain between 2 and 30 characters
 - It must only contain alphanumeric characters or dashes (`-`)
@@ -56,7 +56,7 @@ These limitations fulfill the shared requirements of all currently supported TSE
 ![cashbox-identification-info](images/sprint-83/cashbox-identification.png)
 
 ## Next steps
-In the next sprints, we will continue to improve the usability and the user experience in the portal to make sure that it is easy to use. Additionally, we are focusing on improving the Middleware and adding more commonly requested products.
+In the next sprints, we will continue to improve the usability and the user experience in the fiskaltrust.Portal to make sure that it is easy to use. Additionally, we are focusing on improving the Middleware and adding more commonly requested products.
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).

@@ -13,7 +13,7 @@ _July 5, 2020_
 ## New feature: Linux support
 Linux compatibility already exists for the Austrian and the French Middleware, and was now also included for the German market. As we use Mono, an established runtime to execute .NET applications on Linux, we support all commonly used Linux distributions (like Ubuntu, Debian, CentOS and Fedora). 
 
-The Linux Middleware can easily be downloaded from the Cashbox list in the portal by clicking the Linux download button.
+The Linux Middleware can easily be downloaded from the CashBox list in the fiskaltrust.Portal by clicking the Linux download button.
 
 Linux is currently supported for Entity Framework and SQLite queues, and fiskaly and Cryptovision SCUs (others will follow soon).
 
@@ -23,7 +23,7 @@ _As of writing this, Linux support is only rolled out to the sandbox, to gather 
 - An issue was fixed that could lead to errors when sending a request without charge items and the DSFinV-K type _Bestellung-V1_ to the fiskaly SCU (e.g. via an info-order).
 - The communication timeout between Queue and SCU can now be configured via the `-scutimeout=` switch (in seconds). This should only be used in rare scenarios where the default timeout of 75 seconds is not sufficient.
 - When sending a daily-, monthly- or yearly-closing receipt without the _implicit_ ftReceiptCaseFlag, a wrong error message was returned stating that the "out-of-operations receipt cannot be used without the implicit flag". This was now resolved.
-- The queue ID was shown as the cash register serial number/_Kassenseriennummer_ in the initial-operations-receipt, while POS receipts returned the ftCashboxIdentification as the value for this. To fulfill all legal requirements, we settled on the ftCashboxIdentification, which is now returned by all affected receipts.
+- The queue ID was shown as the cash register serial number/_Kassenseriennummer_ in the initial-operations-receipt, while POS receipts returned the ftCashBoxIdentification as the value for this. To fulfill all legal requirements, we settled on the ftCashBoxIdentification, which is now returned by all affected receipts.
 
 ## How to update
 Existing configurations with versions greater than 1.3.1 continue to work, but we recommend updating to this new version in case you are experiencing any issues that resemble the ones listed above.
@@ -36,7 +36,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.EF v1.3.3_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.3_
 - _fiskaltrust.Middleware.SCU.Cryptovision v1.3.3_
-- _fiskaltrust.Middleware.SCU.Fiskaly v1.3.3-rc2_
+- _fiskaltrust.Middleware.SCU.fiskaly v1.3.3-rc2_
 
 
 ## Next steps in the Middleware

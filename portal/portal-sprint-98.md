@@ -40,7 +40,7 @@ Very often, customers were accidentally entering a misspelled email address, and
  
 ### Introduce tool for generating AO148 applications (DE)
 Since many of the PosOperators haven’t had the chance to roll out everything the way the new regulations require, the authorities have given them the opportunity to create the  so-called ”AO 148 Antrag” that can be created to extend the period. We wanted to give customers the possibility to create those applications on their own, and also enable them to send it to the authorities very easily.
-For this purpose, a generator was implemented to create the application for AO 148 extension. A PDF file is generated with most fields automatically filled with already existing data. Then the user is able to download and send this PDF file to the authorities any way they prefer. Users that have purchased the carefree bundle can send it automatically via fax.
+For this purpose, a generator was implemented to create the application for AO 148 extension. A PDF file is generated with most fields automatically filled with already existing data. Then the user is able to download and send this PDF file to the authorities any way they prefer. Users that have purchased the fiskaltrust.CarefreeBundle can send it automatically via fax.
  
 ## Next steps
  

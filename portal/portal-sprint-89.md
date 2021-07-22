@@ -15,7 +15,7 @@ In this sprint we have focused on implementing a long requested feature: Changin
 ### E-Commerce
 
 #### Wrong price showing up when user has selected multiple roles
-Because of the fact that we are calculating the price of a product (and also if a product can be purchased) based on the role (and also other criterias) we have been showing up a price in the shop and a different one during the checkout. The main reason for this was the fact that the consultant and the posdealer role has been selected, and that prices for those roles are different. We changed the prioritization of the pricelists so that we are now showing the consultant price in the shop if the customer has the consultant role enabled.
+Because of the fact that we are calculating the price of a product (and also if a product can be purchased) based on the role (and also other criterias) we have been showing up a price in the fiskaltrust.Shop and a different one during the checkout. The main reason for this was the fact that the consultant and the posdealer role has been selected, and that prices for those roles are different. We changed the prioritization of the pricelists so that we are now showing the consultant price in the shop if the customer has the consultant role enabled.
 
 ### Middleware Configuration
 
@@ -23,7 +23,7 @@ Because of the fact that we are calculating the price of a product (and also if 
 Some customers reached out to us, that they are frequently facing issues with blocked ports when using REST and gRPC. We have noticed that we are assigning the same default port for both endpoints when users had been using the button to assign these endpoints. To make sure that we are preventing such cases we have changed the default port for newly assigned REST endpoints to 1501.
 
 #### Validate if DevicePath for CryptoVision has been set
-Since many of our customers are using the portal to manually configure SCUs we have noticed that some of them are not setting the DevicePath and are facing issues while rolling out the middleware. To make sure that we make customers aware of configuration issues as soon as possible we added validation to the CryptoVision scu configuration.
+Since many of our customers are using the fiskaltrust.Portal to manually configure SCUs we have noticed that some of them are not setting the DevicePath and are facing issues while rolling out the middleware. To make sure that we make customers aware of configuration issues as soon as possible we added validation to the CryptoVision scu configuration.
 
 ![cryptovision-required-devicepath](images/sprint-89/cryptovision-required-devicepath.png)
 

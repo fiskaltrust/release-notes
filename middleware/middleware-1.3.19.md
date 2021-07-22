@@ -16,7 +16,7 @@ In the last weeks, we've already received lots of feedback and questions from pa
 We've therefore implemented a way to switch SCUs and therefore TSEs of existing Queues (SCUs are "bound" to a specific TSE and therefore cannot be re-used with other TSEs).
 
 In short, the switch process consists of these steps:
-1. The SCU switch is prepared in the portal, i.e. the target SCU is added to the Cashbox and marked as _switch target_.
+1. The SCU switch is prepared in the portal, i.e. the target SCU is added to the CashBox and marked as _switch target_.
 2. The Middleware is restarted to pull the latest changes after the config was rebuilt.
 3. A daily-closing receipt is sent
 4. The switch is initiated with an "initiate SCU switch" receipt. After this, no SCU is connected to the Queue anymore.
@@ -72,7 +72,7 @@ Please note that as of now, all TSEs use unix timestamps, which only contain sec
 ## Bug fix: Mono service could not be installed on some Linux versions
 Due to an issue in our Launcher, it was not possible to install the fiskaltrust.Middleware as a Mono service on some Debian-based Linux versions. This issue has been resolved.
 
-**Please note**: This change requires users to update the Launcher, i.e. to re-download the package that contains the `fiskaltrust.exe` from the Portal after rebuilding the Cashbox.
+**Please note**: This change requires users to update the Launcher, i.e. to re-download the package that contains the `fiskaltrust.exe` from the fiskaltrust.Portal after rebuilding the CashBox.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).

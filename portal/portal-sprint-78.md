@@ -48,7 +48,7 @@ When creating or configuring CashBoxes, users now have two options: it is both p
 We will continue to improve this feature, and will add additional functionalities to make it easier to see in which outlet the selected component is running.
 
 #### DE - File Upload Helper and AKO file browser
-In preparation for the upcoming AKO product, a Middleware helper was created that watches a local directory and uploads all created files into our revision-safe storage. This can especially be helpful if a POS system produces files on it's own that need to be archived because of legal reasons, e.g. POS-specific exports.
+In preparation for the upcoming AKO product, a Middleware helper was created that watches a local directory and uploads all created files into our revision-safe storage. This can especially be helpful if a POS-System produces files on it's own that need to be archived because of legal reasons, e.g. POS-specific exports.
 
 The helper can - as usual - be configured via _Configuration - Helpers_, where it's possible to specify an upload and an archive directory:
 
@@ -56,7 +56,7 @@ The helper can - as usual - be configured via _Configuration - Helpers_, where i
 
 All files that are created in the upload directory will be transfered to our storage, and moved to the archive folder afterwards. In this first prototype, subdirectories are not yet supported.
 
-After files were successfully uploaded, they can be displayed and downloaded from the Portal in _Tools - AKO-Filebrowser_:
+After files were successfully uploaded, they can be displayed and downloaded from the fiskaltrust.Portal in _Tools - AKO-Filebrowser_:
 
 ![upload-helper-configuration](images/sprint-78/file-browser.png)<br /><br />
 
@@ -78,8 +78,8 @@ Our monitoring showed that some of our customers were running into an issue when
 
 ![cashbox-wrong-queuede](images/sprint-78/cashbox-wrong-queuede.png)<br /><br />
 
-#### DE - Filter ReceiptJournals and ActionJournals by type
-To simplify finding specific receipt journals or action journals in the Portal, we added a filter functionality to the respective pages. It is now possible to limit the display one of the following receipt types:
+#### DE - Filter ReceiptJournals and fiskaltrust.ActionJournals by type
+To simplify finding specific receipt journals or fiskaltrust.ActionJournal s in the Portal, we added a filter functionality to the respective pages. It is now possible to limit the display one of the following receipt types:
 
 - All receipts
 - Zero receipts

@@ -39,7 +39,7 @@ Since our partner network is currently rapidly growing we wanted to give users t
 ## Rollout Platform
 
 ### Rollout planning in public preview (DE)
-With this sprint we are establishing a new baseline for the future rollout experience. Since the main purpose of portal is to make the rollout as easy as possible we have thought about how we can make things easier. One of the main areas of improvement that we identified is the purchasing and asigning of products to connected PosOperators. In the past this involved several steps and a pretty complicated process that was error-prone. With the new Planning feature of the Rollout Management we hope that we can improve this. 
+With this sprint we are establishing a new baseline for the future rollout experience. Since the main purpose of fiskaltrust.Portal is to make the rollout as easy as possible we have thought about how we can make things easier. One of the main areas of improvement that we identified is the purchasing and asigning of products to connected PosOperators. In the past this involved several steps and a pretty complicated process that was error-prone. With the new Planning feature of the Rollout Management we hope that we can improve this. 
 
 Starting by today users should see a new navigation element Rollout Management with a submenu Plan. When navigating to this page there is an easy 4-steps process to perform the rollout for as many outlets as needed.
 
@@ -52,19 +52,19 @@ After creating the quote users can just put the quote into the cart and should b
 
 ![rolloutmanagement-plan](images/sprint-96/rolloutmanagement-plan.gif)
 
-We hope that this process greatly improves the rollout experience of portal users and we plan to add additional features like including templates, defining favorites and reporting on the rollout state for connected posoperators.
+We hope that this process greatly improves the rollout experience of fiskaltrust.Portal users and we plan to add additional features like including templates, defining favorites and reporting on the rollout state for connected posoperators.
 
 ## Middleware Configuration
 
 ### Inform users about new middleware releases (DE)
 
-To make sure that users that are using the ft-Middleware are aware of latest releases the PosCreator Experience Team reached out to us to dicuss how we can improve the portal to highlight new release of the middleware. After several ideas we decided to display the information in the configuration section of the portal so if users are navigating to one of the subpages they will be informed about new releases and can directly navigate to the release notes. By clicking on the X icon it is possible to hide this information.
+To make sure that users that are using the ft-Middleware are aware of latest releases the PosCreator Experience Team reached out to us to dicuss how we can improve the fiskaltrust.Portal to highlight new release of the middleware. After several ideas we decided to display the information in the configuration section of the fiskaltrust.Portal so if users are navigating to one of the subpages they will be informed about new releases and can directly navigate to the release notes. By clicking on the X icon it is possible to hide this information.
 
 ![middleware-release-information](images/sprint-96/middleware-release-information.png)
 
 ### Show Last Rebuild Time of CashBox
 
-After the rollout of the new cashbox rebuild indicator we got the feedback that some of our users have been using the timestamp for several manual checks. We added back the timestamp to the button so that users are able to see when the last rebuild happened.
+After the rollout of the new CashBox rebuild indicator we got the feedback that some of our users have been using the timestamp for several manual checks. We added back the timestamp to the button so that users are able to see when the last rebuild happened.
 
 ![timestamp-rebuild](images/sprint-96/timestamp-rebuild.png)
 

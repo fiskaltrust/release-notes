@@ -19,12 +19,12 @@ The recently implemented check that should prevent customers from buying duplica
 
 ### Middleware Configuration
 
-#### Make POS system version configurable (All markets)
-To be fully compliant with the DSFinV-K, the master data module needs to contain the version of the POS system. Hence, we added this field in the POS system configuration dialogs.
+#### Make POS-System version configurable (All markets)
+To be fully compliant with the DSFinV-K, the master data module needs to contain the version of the POS-System. Hence, we added this field in the POS-System configuration dialogs.
 
-In addition, we generally improved the performance of the POS system functionality in the Portal.
+In addition, we generally improved the performance of the POS-System functionality in the Portal.
 
-<div class="alert alert--info" role="alert">POS system data must be included in the DSFinV-K. To allow us to properly generate this, POS Creators need to add their POS systems to the fiskaltrust Portal in the respective configuration view, and POS dealers need to link to them. The data will automatically be available for for their linked operators reports then.</div>
+<div class="alert alert--info" role="alert">POS-System data must be included in the DSFinV-K. To allow us to properly generate this, POS Creators need to add their POS-Systems to the fiskaltrust fiskaltrust.Portal in the respective configuration view, and POS dealers need to link to them. The data will automatically be available for for their linked operators reports then.</div>
 
 #### Enable bulk updating for German SCUs (DE)
 While bulk-updating Queues of connected accounts (which enables POS Dealers to update their operators in a simple way) was already possible, updating the SCUs was not yet supported in the German Portal. To fully make use of this feature, we updated this page to now show the SCUs as well. We therefore now have the same behavior as in our other markets.

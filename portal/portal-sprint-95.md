@@ -63,7 +63,7 @@ While users have been able to use sorting in the past, this sort was only perfor
 ![orders-sorting](images/sprint-95/orders-sorting.gif)
 
 ## Next steps
-In the next weeks we will focus on improving the performance of the portal in addition to a brand new component that should greatly enhance the rollout experience. Startin by today you should see two navigation elements. 
+In the next weeks we will focus on improving the performance of the fiskaltrust.Portal in addition to a brand new component that should greatly enhance the rollout experience. Startin by today you should see two navigation elements. 
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).

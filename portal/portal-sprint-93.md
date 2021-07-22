@@ -15,7 +15,7 @@ In this sprint we were focused on adding a new feature that should make it easie
 ### Data exports
 
 #### Inform users of Sandbox about limitations of PosArchive
-While the export features are only available for customers that have purchased the PosARchive (e.g. as part of the Sorglos package), we wanted to give all users in the Sandbox environment the chance to test these functionalities without PosArchive. To prevent confusions why this is showing up in Sandbox and not in Production we have added a warning sign.
+While the export features are only available for customers that have purchased the fiskaltrust.PosArchive (e.g. as part of the Sorglos package), we wanted to give all users in the Sandbox environment the chance to test these functionalities without PosArchive. To prevent confusions why this is showing up in Sandbox and not in Production we have added a warning sign.
 
 ![posachive-warning-sandbox](images/sprint-93/posachive-warning-sandbox.png)
 
@@ -41,7 +41,7 @@ One thing worth mentioning is the fact that at the moment we are only considerin
 We do not yet consider changes to the following fields as state change:
 - Account data (MasterData)
 - Outlet data 
-- PosSystem data
+- POS-System data
 
 If any of these things is changed a rebuild is needed even though we will show that the state is correct.
 

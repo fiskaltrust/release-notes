@@ -8,7 +8,7 @@ _August 31, 2020_
 
 **Shop and production improvements**
 
-In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the Portal that should greatly simplify common e-commerce related tasks.
+In this sprint, we focused on streamlining the German e-commerce experience. This includes full support for ordering, producing and shipping digital and hardware products, enabling missing features in the entitlement based sale processes, and various UX improvements in the fiskaltrust.Portal that should greatly simplify common e-commerce related tasks.
 
 ## Features
 
@@ -23,8 +23,8 @@ In this sprint, we put great effort into the our e-commerce systems to finish up
 
 If you are a POS dealer and need help or an introduction session about how to work with these new features, please reach out to our [support](mailto:support@fiskaltrust.de) anytime.
 
-#### Buy carefree package and AKO from outlet page (DE)
-Similar to features in our Austrian and French portal, it's now possible to directly buy a carefree package or an AKO subscription from the outlet page of the Portal.
+#### Buy fiskaltrust.CarefreeBundle and AKO from outlet page (DE)
+Similar to features in our Austrian and French portal, it's now possible to directly buy a fiskaltrust.CarefreeBundle or an AKO subscription from the outlet page of the Portal.
 Clicking on the button in the respective row of the table will move the product into the shopping cart.
 
 ![carefree-outlet](images/sprint-81/carefree-outlet.png)
@@ -49,10 +49,10 @@ To avoid the creation of invalid exports, we now validate all fields in the new 
 
 ### Middleware Configuration
 
-#### New template variables for outlets and CashboxIdentification (All markets)
+#### New template variables for outlets and CashBoxIdentification (All markets)
 We added two new template variables to simplify template creation and execution in the German market:
-- `queue{0-9}_id_base64withoutspecialchars`: These fields are automatically computed by encoding the queue ID with Base64 and removing special characters. **We mainly introduced this variable to provide unique values for the _CashboxIdentification_ in Germany (i.e. the "Kassenseriennummer"), and recommend using it for this field in templates to fulfill legal requirements.**
-- `outlet_number`: This is passed by the Portal when a template product is bought via the shop, and also used internally to assign the products to the correct outlet.
+- `queue{0-9}_id_base64withoutspecialchars`: These fields are automatically computed by encoding the queue ID with Base64 and removing special characters. **We mainly introduced this variable to provide unique values for the _CashBoxIdentification_ in Germany (i.e. the "Kassenseriennummer"), and recommend using it for this field in templates to fulfill legal requirements.**
+- `outlet_number`: This is passed by the fiskaltrust.Portal when a template product is bought via the shop, and also used internally to assign the products to the correct outlet.
 
 #### Active POS Archive is now displayed directly in the Queue overview (DE)
 Similar to the view in our Austrian Portal, the German queue list now directly displays if the POS Archive product is enabled for each queue. 
@@ -65,20 +65,20 @@ We fixed an issue some customers experienced when downloading the offline Launch
 ### User Management
 
 #### Usability improvements to prevent non-supported actions (All markets)
-We distilled some common issues from customer feedback and noticed that it was possible to perform some actions in the Portal that could lead to later issues. Hence, we introduced some minor UI changes to both simplify user flows and prevent these non-supported actions:
+We distilled some common issues from customer feedback and noticed that it was possible to perform some actions in the fiskaltrust.Portal that could lead to later issues. Hence, we introduced some minor UI changes to both simplify user flows and prevent these non-supported actions:
 - In some cases, issues during registrations were not displayed to the user and the registration process continued with errors, which lead to confusion and issues later. All errors are now properly displayed during the process.
 - Another issue could occur if a user deactivated the POS dealer role while the auto-invitation role was still active. We fixed this by enforcing that the latter must be disabled first.
-- Removing the primary employee of an account in the portal could lead to different issues and in the worst-case lock users out of their accounts. We hence disabled this option for now - please contact our support in case you need to remove/change the primary contact.
+- Removing the primary employee of an account in the fiskaltrust.Portal could lead to different issues and in the worst-case lock users out of their accounts. We hence disabled this option for now - please contact our support in case you need to remove/change the primary contact.
 
 ### Various
 
-#### Display the latest release notes directly in the Portal (All markets)
+#### Display the latest release notes directly in the fiskaltrust.Portal (All markets)
 To more actively notify our users about recent changes in the Portal, we now display the summary of the latest release notes directly on the [start page](https://portal.fiskaltrust.de/Home/Dashboard) of the Portal. 
 
 ![release-notes-in-portal](images/sprint-81/release-notes-in-portal.png)
 
 ## Next steps
-We will continue improving our e-commerce functionalities in the Portal in the upcoming sprints, both for the German and the French market. Additionally, we will continue to work on German features like the DSFinV-K export (both the cloud and the offline-version). Finally, we continuously work on improving the usability of our products, especially the Portal.
+We will continue improving our e-commerce functionalities in the fiskaltrust.Portal in the upcoming sprints, both for the German and the French market. Additionally, we will continue to work on German features like the DSFinV-K export (both the cloud and the offline-version). Finally, we continuously work on improving the usability of our products, especially the Portal.
 
 ## Feedback
 We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).

@@ -19,7 +19,7 @@ While this TSE is running smoothly in our tests so far, there are some limitatio
 - The SwissbitCloud TSE was only certified for Windows 10 and Ubuntu 20.04 so far. Although the producer is working on additional certifications for other OSs, it can meanwhile officially only be operated on these systems. We're in continuous communication with Swissbit and will notify our users as soon as there are only news about this topic.
 - Due to the pricing model (pricing is calculated per client, not per TSE), our usual rollout scenarios are limited. We are working on updating our [documentation](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html) to reflect these limitations.
 
-Finally, we'd like to emphasize that currently the Swissbit Cloud TSE is the fastest of all the TSEs we have tested, _including_ hardware devices.
+Finally, we'd like to emphasize that currentlythe Swissbit cloudbased TSE  is the fastest of all the TSEs we have tested, _including_ hardware devices.
 
 ## Stability improvements for hardware TSEs
 In this version, we implemented various changes in our hardware SCU packages that should greatly improve the overall stability when working with **Swissbit, CryptoVision or Epson** TSEs. 
@@ -30,11 +30,11 @@ We especially focused on the stability of log exports and recurring operations l
 While introducing the stability improvements mentioned above, we also worked hard to increase the performance of the **Swissbit, CryptoVision and Epson** TSEs. This is mostly reflecting in the performance of the log file exports, which - depending on the TSE - should now consume up to 50% less time.
 
 ## New feature: Opt-out of telemetry collection in online mode
-The fiskaltrust Middleware collects usage and especially error telemetry, using Microsoft Application Insights. Previously, it was only possible to opt-out of the telemetry collection by using the Middleware in the offline mode, which comes with several disadvantages (e.g. no data upload). 
+The fiskaltrust.Middleware collects usage and especially error telemetry, using Microsoft Application Insights. Previously, it was only possible to opt-out of the telemetry collection by using the Middleware in the offline mode, which comes with several disadvantages (e.g. no data upload). 
 
 We therefore introduced a new Launcher parameter that completely deactivates all logging to Application Insights, `--telemetry-optout`.
 
-Please keep in mind that using this will prevent us from actively reacting to issues in the respective customer installations, as we will be completely dependent on receiving inquiries and log files in those case. Also, the new _Metrics_ section in the Portal will not be available in that case.
+Please keep in mind that using this will prevent us from actively reacting to issues in the respective customer installations, as we will be completely dependent on receiving inquiries and log files in those case. Also, the new _Metrics_ section in the fiskaltrust.Portal will not be available in that case.
 
 ## New feature: Bring your own datacenter proxy config
 [_Bring your own Datatencer_](https://github.com/fiskaltrust/product-de-bring-your-own-datacenter) now has proxy configuration options.

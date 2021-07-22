@@ -33,12 +33,12 @@ _* This is not a legal requirement, but will be implemented for convenience reas
 ### E-Commerce
 
 #### Automatically allow users to move entitlements
-Until now, Portal users had to manually enable the feature to move entitlements from one account to another (e.g. from POS Dealer to POS Operator). This was changed, and it's now possible for everybody to move entitlements without having to enable it in any way.
+Until now, fiskaltrust.Portal users had to manually enable the feature to move entitlements from one account to another (e.g. from POS Dealer to PosOperator). This was changed, and it's now possible for everybody to move entitlements without having to enable it in any way.
 
 ### Middleware Configuration
 
 #### Android Launcher download
-The architectural changes from Middleware 1.2 to 1.3 enabled us to add a new supported runtime environment to our Middleware: **Android**! With the new Android Launcher, users are able to install and use the German Middleware on Android as they are used to from the Desktop experience - we provide a separate Launcher app that can installed on Android, and POS System Apps can access the interface via gRPC. More details about these changes are available in the [Middleware 1.3.5 release notes](../middleware/middleware-1.3.5.md).
+The architectural changes from Middleware 1.2 to 1.3 enabled us to add a new supported runtime environment to our Middleware: **Android**! With the new Android Launcher, users are able to install and use the German Middleware on Android as they are used to from the Desktop experience - we provide a separate Launcher app that can installed on Android, and POS-System Apps can access the interface via gRPC. More details about these changes are available in the [Middleware 1.3.5 release notes](../middleware/middleware-1.3.5.md).
 
 To integrate the Android Launcher as good as possible in our previous user experience, we added a new download button in the CashBox view of the Portal:
 

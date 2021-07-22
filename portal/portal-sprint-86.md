@@ -30,15 +30,15 @@ To simplify the creation of our newly added SCUs, we added configuration pages f
 
 When ordering these items via the shop, SCUs with the appropriate configuration are automatically created.
 
-#### Enforce _CashboxIdentification_ rules when creating templates (DE)
-In a previous sprint, we introduced specific rules for the _CashboxIdentification_ field, as it's used as the TSE client ID and therefore has to fulfill certain requirements defined by the hardware producers. To avoid the creation of non-supported values, we now also enforce these validation rules when users create templates.
+#### Enforce _CashBoxIdentification_ rules when creating templates (DE)
+In a previous sprint, we introduced specific rules for the _CashBoxIdentification_ field, as it's used as the TSE client ID and therefore has to fulfill certain requirements defined by the hardware producers. To avoid the creation of non-supported values, we now also enforce these validation rules when users create templates.
 
 Additionally, we make use of our new editor's capabilities to ensure that the entered templates are valid JSON documents.
 
 ![cashboxidentification-templates](images/sprint-86/cashboxidentification-templates.png)
 
-#### Fix filter in Cashbox configuration (All markets)
-When selecting cashbox components in the _list_ view, the filter that can be entered by the user was applied to SCUs and Helpers, but not to Queues. This issue was now resolved.
+#### Fix filter in CashBox configuration (All markets)
+When selecting CashBox components in the _list_ view, the filter that can be entered by the user was applied to SCUs and Helpers, but not to Queues. This issue was now resolved.
 
 ### User Management
 
