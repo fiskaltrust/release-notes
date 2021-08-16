@@ -21,6 +21,11 @@ Due do legal regulations by fiskaly, existing TSEs can not be migrated to versio
 
 :::
 
+### Known issues
+- As of now, updating transactions is not supported by this SCU and will lead to an error with package version `-rc1`. This is due to the fact that fiskaly does not allow to process _update-transaction_ requests without a proper _Process Type_ - which is not compatible with the Middleware's interface. 
+
+We are working on the issues listed above and will release and updated `-rc2` as soon as possible. This post will be updated in that case.
+
 ## Stability improvement: Fiskaly v1 client update
 We've updated the fiskaly client packages in our `fiskaltrust.Middleware.SCU.DE.Fiskaly` SCU, which should lead to increased stability and performance. While we strongly recommend switching to legally compliant v2 TSEs, we've introduced this (most likely last) update into our v2 SCU to hopefully reduce some instabilities our partners have been experiencing in the last weeks.
 
@@ -32,21 +37,15 @@ We've altered our HelipadUpload helper, which automatically runs each 5 minutes 
 ## Bug fix: Amount and quantity were not converted correctly to DSFinV-K business cases in some edge cases
 We've altered our DSFinV-K implementation, as the amount and quantity was not correctly transformed from _PayItems_ in some rare use-cases. The issue should now be resolved, this change is backwards-compatible to existing data.
 
-## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
-We've updated our dependency to the _Fiskal Cloud Connector_ (used by the _Deutsche Fiskal_ and the _Swissbit Cloud_ SCUs) to version 3.2.2. This update enables our users to benefit from bug fixes and improvements the TSE vendors implemented in the new versions. The regular Middleware behavior was not changed by this update.
-
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
-- _fiskaltrust.Middleware.Queue.EF v1.3.21_
-- _fiskaltrust.Middleware.Queue.MySQL v1.3.21_
-- _fiskaltrust.Middleware.Queue.SQLite v1.3.21_
-- _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.21_
-- _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.21_
-- _fiskaltrust.Middleware.SCU.DE.CryptoVision v1.3.21_
-- _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.21_
-- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.21_
-- _fiskaltrust.Middleware.Helper.Helipad v1.3.21_
+- _fiskaltrust.Middleware.Queue.EF v1.3.22_
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.22_
+- _fiskaltrust.Middleware.Queue.SQLite v1.3.22_
+- _fiskaltrust.Middleware.SCU.DE.FiskalyCertified v1.3.22-rc1_
+- _fiskaltrust.Middleware.SCU.DE.Fiskaly v1.3.22_
+- _fiskaltrust.Middleware.Helper.Helipad v1.3.22_
 
 ## Next steps in the Middleware
 As the upcoming, certified version of the fiskaly TSE will be released in a few days, we will make sure to properly test and then release our updated SCU as soon as possible afterwards. Additionally, we will provide templates for cash registers' process documentations (_Verfahrensdokumentationen_). As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
