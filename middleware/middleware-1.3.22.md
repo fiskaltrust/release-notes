@@ -27,7 +27,7 @@ Due do legal regulations by fiskaly, existing TSEs can not be migrated to versio
 We are working on the issues listed above and will release and updated `-rc2` as soon as possible. This post will be updated in that case.
 
 ## Stability improvement: Fiskaly v1 client update
-We've updated the fiskaly client packages in our `fiskaltrust.Middleware.SCU.DE.Fiskaly` SCU, which should lead to increased stability and performance. While we strongly recommend switching to legally compliant v2 TSEs, we've introduced this (most likely last) update into our v2 SCU to hopefully reduce some instabilities our partners have been experiencing in the last weeks.
+We've updated the fiskaly client packages in our `fiskaltrust.Middleware.SCU.DE.Fiskaly` SCU, which should lead to increased stability and performance. While we strongly recommend switching to legally compliant v2 TSEs, we've introduced this (most likely last) update into our v1 SCU to hopefully reduce some instabilities our partners have been experiencing in the last weeks.
 
 ## Stability improvement: Automatically clean up memory after cloud uploads
 As we're using .NET for our products, cleaning up memory manually is usually not required. However, some of our partners noticed increasing memory consumption by the Middleware, which (according to our investigations) are caused by fragmentation of the _Large Object Heap_ (LOH). Unlike other objects, the LOH is not compacted automatically ([only under specific circumstances](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/large-object-heap#when-is-a-large-object-collected)). As some objects in the German Middleware tend to be large enough to end up in the LOH, this could lead to a fragmented LOH over time in some situations.
