@@ -10,6 +10,14 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## August 16, 2021
+
+### Middleware 1.3.22 (Germany)
+In this version of the Middleware, we have added support for the certified version 2 of the fiskaly Cloud TSE. Additionally, some minor issues in the DSFinV-K related to transformed PayItems were resolved, and we've introduced a mechanism to reduce the Middleware's memory consumption in some scenarios.
+
+[Middleware 1.3.22 Release Notes](middleware/middleware-1.3.22.md)
+
+
 ## July 20, 2021
 
 ### Middleware 1.3.21 (Germany)
