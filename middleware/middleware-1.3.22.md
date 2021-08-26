@@ -22,9 +22,9 @@ Due do legal regulations by fiskaly, existing TSEs can not be migrated to versio
 :::
 
 ### Known issues
-- As of now, updating transactions is not supported by this SCU and will lead to an error with package version `-rc1`. This is due to the fact that fiskaly does not allow to process _update-transaction_ requests without a proper _Process Type_ - which is not compatible with the Middleware's interface. 
+- ~~As of now, updating transactions is not supported by this SCU and will lead to an error with package version `-rc1`. This is due to the fact that fiskaly does not allow to process _update-transaction_ requests without a proper _Process Type_ - which is not compatible with the Middleware's interface.~~
 
-We are working on the issues listed above and will release and updated `-rc2` as soon as possible. This post will be updated in that case.
+We've published an updated `-rc2` released, in which the update-transaction is not executed on fiskaly v2 TSEs. The Middleware returns an empty result in these cases, the call does not fail.
 
 ## Stability improvement: Fiskaly v1 client update
 We've updated the fiskaly client packages in our `fiskaltrust.Middleware.SCU.DE.Fiskaly` SCU, which should lead to increased stability and performance. While we strongly recommend switching to legally compliant v2 TSEs, we've introduced this (most likely last) update into our v1 SCU to hopefully reduce some instabilities our partners have been experiencing in the last weeks.
