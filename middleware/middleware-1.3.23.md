@@ -22,7 +22,13 @@ TBD
 
 ## Stability improvement: TBD
 
-## Bug fix: TBD
+## Feature: Bring your own datacenter swissbit cloud support
+
+Bring your own datacentern now supports SwissbitCloud TSEs using [selfhosted FCCs](https://docs.fiskaltrust.cloud/docs/product-description/germany/products-and-services/caas/features/basics/tse/swissbit-cloud).
+
+## Bug fix: Bring your own datacenter custom redis instance
+
+We fixed an issue where the connectionstring to custom redis instances would be assembled wongly.
 
 
 ## Affected packages
