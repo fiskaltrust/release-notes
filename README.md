@@ -13,7 +13,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## May 31, 2021
 
 ### Middleware 1.3.20 (Germany)
-In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our fiskaltrust.CarefreeBundle . This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
+In this Middleware version, we've removed the _one-client-limitation_ of our Swissbit Cloud SCU in cases where it has been bought as a part of our fiskaltrust.CarefreeBundle. This enables our partners to get the "fully unlimited" Carefree experience with this TSE-as-a-service, as only our fair use regulations are in place now. Additionally, we've updated third party dependencies, fixed some issues in our SCUs, and added requested features and stability improvements to the Middleware for Android.
 
 [Middleware 1.3.20 Release Notes](middleware/middleware-1.3.20.md)
 
