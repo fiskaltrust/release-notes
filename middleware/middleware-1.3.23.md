@@ -27,7 +27,7 @@ Please note that this behavior can be deactivated by setting the Queue configura
 :::
 
 ## Feature: Automatically update FCC with SCU update
-Starting from this version, each _SwissbitCloud_ and _DeutscheFiskal_ SCU are connected to a specific minimal Fiskal Cloud Connector (FCC) version. If the currently installed FCC version is lower than this, the Middleware will automatically download and update the newer FCC. This should enable users that have already installed previous versions to profit from the latest improvements in this external dependency.
+Starting from this version, each _SwissbitCloud_ and _DeutscheFiskal_ SCU version is tied to a specific minimal Fiskal Cloud Connector (FCC) version. If the currently installed FCC version is lower than this, the Middleware will automatically download and update the newer FCC. This should enable users that have already installed previous versions to profit from the latest improvements in this external dependency.
 
 ## Feature: Make HTTP timeout and proxy settings configurable in FiskalyCertified SCU
 We've made the HTTP timeout and the used HTTP proxy configurable when using the _FiskalyCertified_ SCU for fiskaly's v2 TSEs. The following parameters have been added:
