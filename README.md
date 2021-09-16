@@ -13,7 +13,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## September 15, 2021
 
 ### Middleware 1.3.23 (Germany)
-In this version of the Middleware, we added the possibility to easily identify mandatory and optional signature items when printing receipts. Additionally, the Middleware is now able to automatically update the _Fiskal Cloud Connector_, and several bugs and stability issues have been resolved.
+In this version of the Middleware, we added the possibility to easily identify mandatory and optional signature items when printing receipts. Additionally, the Middleware is now able to automatically update the _Fiskal Cloud Connector_, and several bugs and stability issues have been resolved. This release also marks the first non-RC version of the _FiskalyCertified_ SCU (which added support for fiskaly's certified version 2).
 
 [Middleware 1.3.23 Release Notes](middleware/middleware-1.3.23.md)
 

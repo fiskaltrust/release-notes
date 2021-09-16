@@ -6,7 +6,7 @@ title: Version 1.3.23
 # fiskaltrust.Middleware 1.3.23 (Germany)
 _September 15, 2021_
 
-In this version of the Middleware, we added the possibility to easily identify mandatory and optional signature items when printing receipts. Additionally, the Middleware is now able to automatically update the _Fiskal Cloud Connector_, and several bugs and stability issues have been resolved.
+In this version of the Middleware, we added the possibility to easily identify mandatory and optional signature items when printing receipts. Additionally, the Middleware is now able to automatically update the _Fiskal Cloud Connector_, and several bugs and stability issues have been resolved. This release also marks the first non-RC version of the _FiskalyCertified_ SCU (which added support for fiskaly's certified version 2).
 
 
 :::caution
@@ -18,18 +18,24 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Feature: Flag optional signature items
 Starting with this version, we're adding the _ftSignatureFormatFlag_ `0x0000000000010000` to signatures that are not mandatory to print. Especially with the recently changed _KassenSichV_ regulations in Germany (which allow to omit printing most texts when a QR code is added), this should enable PosCreators to more easily decide which information needs to be printed onto the receipt and which information is optional.
 
-More information can be found in the [respective docs](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftsignatureformat). Please note that this behavior can be deactivated by setting the Queue configuration parameter `FlagOptionalSignatures` to `false`.
+More information can be found in the [respective docs](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/reference-tables/ftsignatureformat). 
+
+:::tip 
+
+Please note that this behavior can be deactivated by setting the Queue configuration parameter `FlagOptionalSignatures` to `false`.
+
+:::
 
 ## Feature: Automatically update FCC with SCU update
 Starting from this version, each _SwissbitCloud_ and _DeutscheFiskal_ SCU are connected to a specific minimal Fiskal Cloud Connector (FCC) version. If the currently installed FCC version is lower than this, the Middleware will automatically download and update the newer FCC. This should enable users that have already installed previous versions to profit from the latest improvements in this external dependency.
 
 ## Feature: Make HTTP timeout and proxy settings configurable in FiskalyCertified SCU
 We've made the HTTP timeout and the used HTTP proxy configurable when using the _FiskalyCertified_ SCU for fiskaly's v2 TSEs. The following parameters have been added:
-- FiskalyClientTimeout (in milliseconds, default: `30000`)
-- ProxyServer
-- ProxyPort
-- ProxyUsername (leave empty for anonymous access)
-- ProxyPassword (leave empty for anonymous access)
+- `FiskalyClientTimeout` (in milliseconds, default: `30000`)
+- `ProxyServer`
+- `ProxyPort`
+- `ProxyUsername` (leave empty for anonymous access)
+- `ProxyPassword` (leave empty for anonymous access)
 
 ## Feature: Support automatically removing already closed transactions in zero-receipts
 The _ftReceiptCaseFlag_ `0x0000000020000000`, which removes open transactions from our database that are already marked as closed on the TSE, is now also supported in zero-receipts (previously, this was only the case for daily-closing receipts). This should enable Middleware users to escape rare cases in which e.g. the TSE's answer got lost, but the request to the device or service was actually processed.
