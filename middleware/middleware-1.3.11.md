@@ -19,7 +19,7 @@ While this TSE is running smoothly in our tests so far, there are some limitatio
 - The SwissbitCloud TSE was only certified for Windows 10 and Ubuntu 20.04 so far. Although the producer is working on additional certifications for other OSs, it can meanwhile officially only be operated on these systems. We're in continuous communication with Swissbit and will notify our users as soon as there are only news about this topic.
 - Due to the pricing model (pricing is calculated per client, not per TSE), our usual rollout scenarios are limited. We are working on updating our [documentation](https://docs.fiskaltrust.cloud/doc/productdescription-de-doc/for-posdealers/02-pre-sales/rollout-scenarios.html) to reflect these limitations.
 
-Finally, we'd like to emphasize that currentlythe Swissbit cloudbased TSE  is the fastest of all the TSEs we have tested, _including_ hardware devices.
+Finally, we'd like to emphasize that currently the Swissbit cloudbased TSE  is the fastest of all the TSEs we have tested, _including_ hardware devices.
 
 ## Stability improvements for hardware TSEs
 In this version, we implemented various changes in our hardware SCU packages that should greatly improve the overall stability when working with **Swissbit, CryptoVision or Epson** TSEs. 
