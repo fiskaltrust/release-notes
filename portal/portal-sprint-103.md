@@ -28,6 +28,8 @@ Some minor improvements of the QueueSCUDEConnectionList TableView (DE)  in Porta
 
 A new Cases View of the cases of the current user has been implemented. This new case page has all the same functionalities  (filtering, sorting, pagination etc) as our other tables.  All active cases of the user after logging in, as well as the progress of each case can now be displayed.
 
+![image](images/sprint-103/image.png)
+
 ## Next steps
 In the next weeks we will focus on improving the Knowledge base experience in portal.
 
