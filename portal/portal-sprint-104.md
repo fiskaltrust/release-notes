@@ -30,13 +30,13 @@ Users can now enjoy a better experience while navigating through those pages, as
 Features such as user warning when canceling subscription if a renewal product is in the shopping cart, as well as the disabling of the renewal button for cancelled subscriptions have been included.
 
 
-![scu](images/sprint-102/scu.png)
+![subscriptions-page](images/sprint-104/subscriptions-page.png)
 
 ### Reworked Employees Page
 
 The Employees Page in Portal has been reworked and now the user experience has been improved. The performance of the page has increased and a bigger amount of data can now be handled more efficiently. Aside from that, toast notifications for all available actions have now been added. 
 
-![production-status](images/sprint-102/production-status.png)
+![employees-page](images/sprint-104/employees-page.png)
 
 ## Support
 
