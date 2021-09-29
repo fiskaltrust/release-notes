@@ -1,4 +1,3 @@
-
 ---
 slug: /release-notes/portal/sprint-104
 title: Sprint 104 (July 12, 2021)
@@ -15,7 +14,7 @@ This Sprint’s main goals were improving the user experience of the Subscriptio
 
 ### Middleware Configuration
 
-- [Reworked Subscriptions Page DE & FR)](#Reworked-Subscriptions-Page-DE-&-FR)
+- [Reworked Subscriptions Page DE & FR](#Reworked-Subscriptions-Page-DE-&-FR)
 - [Reworked Employees Page](#Reworked-Employees-Page)
 
 ### Support
