@@ -22,15 +22,13 @@ _June 14, 2021_
 
 Some minor improvements of the SignaturCreationUnit DE TableView(DE)  in Portal have been implemented. We invested some time in improving the way our tables are displayed. All previous functionalities are kept, but the consistency of all operations, as well as the performance of the page in different resolutions, has also been improved.
 
-<img src="images/sprint-102/scu.png" width="850">
+<img src="images/sprint-102/scu.png" width="750">
 
 ### Preview of Public Dashboard for Uptime of our Services
 
 A Preview of the Public Dashboard for Uptime of our Services is available, with options such as detailed view on response time, events view and overall uptime metrics.
 
-![production-status](images/sprint-102/production-status.png)
-
-<production-status src="images/sprint-102/production-status.png" width="850">
+<img src="images/sprint-102/production-status.png" width="650">
 
 ## Support
 
@@ -41,14 +39,14 @@ Using the feedback that we received about the user experience of the Knowledge-B
 - Internal articles are not shown in Portal anymore, to make it easier for users to navigate through material that is truly relevant to them.
 - Only articles in the language of the user are shown, and not all possible available content.
 - The Feedback and rate section of each article have been highlighted, so the readers can easily detect where they can leave their feedback/rating of the article.
-
-![kba-improvements](images/sprint-102/kba-improvements.png)
+  
+  <img src="images/sprint-102/kba-improvements.png" width="750">
   
 
 - By removing some headers and footers, shrinking the size of the images and enlarging the usable space of the article, the reading experience is more pleasant and allows for more focus.
 - Selected Articles are now highlighted in gray, which makes it easier for the users to see if they have already selected the article in their selection list.
 
-![highlited-Selected-Article](images/sprint-102/highlited-Selected-Article.png)
+  <img src="images/sprint-102/highlited-Selected-Article.png" width="750">
 
 
 ## Next steps
