@@ -26,7 +26,7 @@ Some minor improvements of the QueueSCUDEConnectionList TableView (DE)  in Porta
 
 ### Visualization of onboarded customer cases in portal
 
-A new Cases View of the cases of the current user has been implemented. This new case page has all the same functionalities  (filtering, sorting, pagination etc) as our other tables.  All active cases of the user after logging in, as well as the progress of each case can now be displayed.
+A new Cases View of the cases of the current user has been implemented. When a customer calls or sends an email request, a case is created internally and a case-onboarding message is sent to the customer, summarizing the case. Email is sent out and the cases statuts is incremented, and after that, the case is visible in Portal. This new Cases page has all the same functionalities  (filtering, sorting, pagination etc) as our other tables.  All active cases of the user after login, as well as the progress of each case can now be displayed. 
 
 ![image](images/sprint-103/image.png)
 
