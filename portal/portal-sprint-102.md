@@ -22,13 +22,15 @@ _June 14, 2021_
 
 Some minor improvements of the SignaturCreationUnit DE TableView(DE)  in Portal have been implemented. We invested some time in improving the way our tables are displayed. All previous functionalities are kept, but the consistency of all operations, as well as the performance of the page in different resolutions, has also been improved.
 
-![scu](images/sprint-102/scu.png)
+<img src="images/sprint-102/scu.png" width="850">
 
 ### Preview of Public Dashboard for Uptime of our Services
 
 A Preview of the Public Dashboard for Uptime of our Services is available, with options such as detailed view on response time, events view and overall uptime metrics.
 
 ![production-status](images/sprint-102/production-status.png)
+
+<production-status src="images/sprint-102/production-status.png" width="850">
 
 ## Support
 
@@ -41,6 +43,7 @@ Using the feedback that we received about the user experience of the Knowledge-B
 - The Feedback and rate section of each article have been highlighted, so the readers can easily detect where they can leave their feedback/rating of the article.
 
 ![kba-improvements](images/sprint-102/kba-improvements.png)
+  
 
 - By removing some headers and footers, shrinking the size of the images and enlarging the usable space of the article, the reading experience is more pleasant and allows for more focus.
 - Selected Articles are now highlighted in gray, which makes it easier for the users to see if they have already selected the article in their selection list.
