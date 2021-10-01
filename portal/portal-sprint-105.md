@@ -14,11 +14,11 @@ The goal of this Sprint was mainly the improvement of the user experience for th
 
 ### Middleware Configuration
 
-- [Add confirmation dialogue when removing employees in the Employees Page in Portal](Add-confirmation-dialogue-when-removing-employees-in-the-Employees-Page-in-Portal)
-- [Reworked Shop/Quotes Pages](Reworked-Shop/Quotes-Pages)
-- [Reworked Shop/Invoices Pages](Reworked-Shop/Invoices-Pages)
-- [Reworked CashBox Edit Page](Reworked-CashBox-Edit-Page)
-- [Display Subscription Period](Display-Subscription-Period)
+- [Add confirmation dialogue when removing employees in the Employees Page in Portal](#add-confirmation-dialogue-when-removing-employees-in-the-employees-page-in-portal)
+- [Reworked Quotes Pages](#reworked-quotes-pages)
+- [Reworked Invoices Pages](#reworked-invoices-pages)
+- [Reworked CashBox Edit Page](#reworked-cashbox-edit-page)
+- [Display Subscription Period](#display-subscription-period)
 
 
 ## Middleware Configuration
@@ -30,15 +30,15 @@ The user can either confirm or cancel the dialogue, in order to proceed or go ba
 
 ![image](images/sprint-105/confirmation_dialogue.png)
 
-### Reworked Shop/Quotes Pages
+### Reworked Quotes Pages
 
-The Quotes Page in Portal has been reworked and now the user experience has been improved. The performance of the page has increased and a bigger amount of data can now be handled more efficiently. A better view is offered in different resolutions for the Quotes Page, and the API has improved significantly.
+The Quotes Page in the Shop in Portal has been reworked and now the user experience has been improved. The performance of the page has increased and a bigger amount of data can now be handled more efficiently. A better view is offered in different resolutions for the Quotes Page, and the API has improved significantly.
 
 ![image](images/sprint-105/quotes-page.png)
 
-### Reworked Shop/Invoices Pages
+### Reworked Invoices Pages
 
-The Quotes Page in Portal has been reworked and now the user experience has been improved. The performance of the page has increased significantly, and a bigger amount of data can now be handled more efficiently. The general functionalities are identical to the past, but a search bar and pagination functionality have now been added.
+The Quotes Page in the Shop in Portal has been reworked and now the user experience has been improved. The performance of the page has increased significantly, and a bigger amount of data can now be handled more efficiently. The general functionalities are identical to the past, but a search bar and pagination functionality have now been added.
 
 ![image](images/sprint-105/invoicepage.png)
 
