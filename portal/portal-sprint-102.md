@@ -10,7 +10,6 @@ _June 14, 2021_
 
 ### Middleware Configuration
 - [Visual improvements to Middleware component dialogues](#visual-improvements-to-middleware-component-dialogues)
-- [Preview of Public Dashboard for Uptime of our Services](#preview-of-public-dashboard-for-uptime-of-our-services)
 
 ### Support
 
@@ -23,12 +22,6 @@ _June 14, 2021_
 Some minor improvements of the SignaturCreationUnit DE TableView(DE)  in Portal have been implemented. We invested some time in improving the way our tables are displayed. All previous functionalities are kept, but the consistency of all operations, as well as the performance of the page in different resolutions, has also been improved.
 
 <img src="images/sprint-102/scu.png" width="750">
-
-### Preview of Public Dashboard for Uptime of our Services
-
-A Preview of the Public Dashboard for Uptime of our Services is available, with options such as detailed view on response time, events view and overall uptime metrics.
-
-<img src="images/sprint-102/production-status.png" width="650">
 
 ## Support
 
