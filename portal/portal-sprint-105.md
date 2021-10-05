@@ -46,8 +46,6 @@ The Quotes Page in the Shop in Portal has been reworked and now the user experie
 
 The CashBox Edit Page in Portal has been reworked and now the user experience has been improved. The performance of the page has increased significantly, and a bigger amount of data can now be handled more efficiently. The general functionalities are identical to the past, and now the refactored dropdown Box is able to deal with more general scenarios. Aside from this, updating the selected outlet on the Cashbox Edit page, now also updates the outlet filter. 
 
-![image](images/sprint-105/cashbox-edit-page.png)
-
 ### Display Subscription Period
 
 PosDealers -aside from being able to extend and cancel subscriptions- are now able to know exactly when those subscriptions started or ended, when navigating through the Subscriptions Table Page. This is an important improvement, as in the past PosDealers had no idea about the runtime of subscriptions. Now, while loading subscription data the Start and Expire Date of products are calculated and are being displayed in separate columns in the Subscriptions Page Table.
@@ -69,20 +67,3 @@ API
 Training
 Blog
 About
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
