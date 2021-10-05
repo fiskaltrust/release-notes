@@ -42,7 +42,7 @@ So far, the wrong error message was being displayed when inviting employees, whe
 
 ### PosOperator Page Improvements
 
-The Posoperator page that can be found at https://portal-sandbox.fiskaltrust.de/PosOperator,  is showing up only for the roles of  Posoperator, Posdealer or Consultant. So, if the admin user’s role is not one of those, the page is showing up empty and there is no list for them. This has been reworked and now Admin users get a message that their role doesn’t contain POSOperator, POSDealer or Consultant and see POSOperator page Empty​.
+The Posoperator page that can be found [here](https://portal-sandbox.fiskaltrust.de/PosOperator), is showing up only for the roles of  Posoperator, Posdealer or Consultant. So, if the admin user’s role is not one of those, the page is showing up empty and there is no list for them. This has been reworked and now Admin users get a message that their role doesn’t contain POSOperator, POSDealer or Consultant and see POSOperator page Empty.
 
 ## Next steps
 In the next weeks we will focus on improving the PosOperators View.
