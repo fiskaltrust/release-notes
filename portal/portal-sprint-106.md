@@ -19,7 +19,7 @@ _August 9, 2021_
 
 ### Reworked Agencies Page
 
-The Agencies  Page in Portal has been reworked and now the user experience has been greatly improved. All functionalities are kept but the user -aside from a significant improvement in the performance of the page- will also notice an improved experience when it comes to the following functionalities:
+The Agencies  Page in Portal has been reworked and now the user experience has been greatly improved. All functionalities are kept but the user -aside from a significant improvement in the performance of the page- will also notice an improved experience when it comes to the following functionalities, as it can be shown in the pictures below:
 - Searching
 - Sorting
 - Pagination
@@ -28,11 +28,20 @@ The Agencies  Page in Portal has been reworked and now the user experience has b
 - Validation
 - Routing
 
+![agencies-overview](images/sprint-106/agencies-overview.png)
+
+
+![create-agency](images/sprint-106/create-agency.png)
+
+
+![edit-agency](images/sprint-106/edit-agency.png)
+
+
 ### Highlighting Primary Contact on Employees Page
 
 The order of displaying data in the Employees Page table has been changed, and now, when Users navigate to the new employee's page, the primary contact will show up in the first row, as the “first” employee. 
 
-![image](images/sprint-103/image.png)
+![employees](images/sprint-106/employees.png)
 
 ### Employees Page Improvements
 
