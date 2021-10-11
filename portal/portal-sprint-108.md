@@ -10,28 +10,28 @@ _September 9, 2021_
 
 ### Middleware Configuration
 
-- [Improved Queue SCU Page DE](#visual-improvements-to-middleware-component-dialogues)
-
-### Support
-
-- [Visualization of onboarded customer cases in portal](#visualization-of-onboarded-customer-cases-in-portal)
+- [Reworked POS Dealer and POS Operators connections](#reworked-pos-dealer-and-pos-operators-connections)
+- [Reworked CashBoxEdit Pages for AT and FR](#reworked-cashboxedit-pages-for-at-and-fr)
 
 ## Middleware Configuration
 
-### Improved Queue SCU Page DE
+### Reworked POS Dealer and POS Operators connections
 
-Some minor improvements of the QueueSCUDEConnectionList TableView (DE)  in Portal have been implemented. We invested some time in improving the way our tables are displayed. Visually nothing major has changed, aside from the styling of the Radio button, the addition of the title on the browser tab, and the addition of a Sorting option on the Outlet column. All previous functionalities are kept, but the consistency of all operations, as well as the performance of the page in different resolutions, has also been improved.
+Now, aside from all the previous functionalities, POS Dealers, when they navigate to the POS Operators page, they now have access to a list of all connected POS Operators so they can perform their day to day operations easily. In the same way, POS Operators, when they navigate to the POS Dealers page, they now have access to a list of all connected POS Dealers. Those lists are now shown immediately, pagination is supported, and the users can enjoy an overall better experience navigating those pages.
 
-## Support
+![posdealerconnections](images/sprint-108/posdealerconnections.png)
 
-### Visualization of onboarded customer cases in portal
+### Reworked CashBoxEdit Pages for AT and FR
 
-A new Cases View of the cases of the current user has been implemented. When a customer calls or sends an email request, a case is created internally and a case-onboarding message is sent to the customer, summarizing the case. Email is sent out and the cases statuts is incremented, and after that, the case is visible in Portal. This new Cases page has all the same functionalities  (filtering, sorting, pagination etc) as our other tables.  All active cases of the user after login, as well as the progress of each case can now be displayed. 
+The CashBoxEdit Pages for France and Austria have been reworked and improved. Aside from the previous functionalities which are still available,and the overall improved performance of those pages, now users can use a new filter that is based on Outlets. Aside from that, the configuration link/button is not visible for global helpers, and only Helpers with a version higher than 1.3 are shown
 
-![image](images/sprint-103/image.png)
+![queues108](images/sprint-108/queues108.png)
+
+![helpers](images/sprint-108/helpers.png)
 
 ## Next steps
-In the next weeks we will focus on improving the Knowledge base experience in portal.
+
+In the next weeks, we will focus on improving error messages in Portal and improving the usability of the Help section. 
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
