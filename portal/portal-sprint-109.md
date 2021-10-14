@@ -66,6 +66,9 @@ Various improvements have been implemented when it comes to selecting the langua
 The following rollout plans have been activated for the french market:
 
 - Archive Auditable with Dealerpackage
+
+<img src="images/sprint-109/4652-0002.png" alt="4652-0002" width="250"/>
+
    - Number: 4652-0002 
    - Title: fiskaltrust.ArchiveAuditable (Reseller Package)
    - Description: Buy an entitlement for a fiskaltrust.ArchiveAuditable. The entitlement is transferred to the outlet of choice and is created (redeemed) there.
@@ -73,17 +76,16 @@ The following rollout plans have been activated for the french market:
      - 4652-021020 fiskaltrust.ArchiveAuditable (Forfait Revendeur)
      - 4652+020020 fiskaltrust.ArchiveAuditable [subscription] by Outlet
 
-![4652-0002](images/sprint-109/4652-0002.png)
-
 - Archive Auditable with Move Entitlements
+
+<img src="images/sprint-109/4652-0011.png" alt="4652-0011" width="250"/>
+
    - Number: 4652-0011 
    - Title: fiskaltrust.ArchiveAuditable (Move Entitlements)
    - Description: Buy an entitlement for a fiskaltrust.ArchiveAuditable. The entitlement is transferred from the account to the outlet of choice there.
    - Included Products:
      - Move Entitlement for ArchiveAuditable
      - 4652+020020 fiskaltrust.ArchiveAuditable [subscription] by Outlet
-
-![4652-0011](images/sprint-109/4652-0011.png)
 
 ## Next steps
 In the next weeks, we will focus on improving error messages in Portal and improving the usability of the Help section. 
