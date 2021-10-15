@@ -10,6 +10,13 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
 
+## October 15, 2021
+
+### Middleware 1.3.24 (Germany)
+In this quality-of-life release of the Middleware, we resolved several issues that were occurring for segments of our users, and introduced multiple stability improvements to further improve the behavior of the Middleware during implementation and runtime.
+
+[Middleware 1.3.24 Release Notes](middleware/middleware-1.3.24.md)
+
 ## September 15, 2021
 
 ### Middleware 1.3.23 (Germany)
