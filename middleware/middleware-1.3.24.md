@@ -46,6 +46,13 @@ We've received note that some Android devices tend to kill the Middleware Launch
 
 We've improved the overall lifecycle handling of the underlying Android service, so that the App is now able to automatically recover when the service is killed by the Android OS. Additionally, we've added improved logging and simplified our service management to enhance the Developer experience when implementing and testing the Middleware on Android.
 
+:::info
+
+This change was based on a code contribution from one of our partners, and we'd like to take the opportunity to again thank everyone who helps improving the Middleware. If you'd also like to already get involved before the Middleware becomes fully Open-Sourced, please reach out to us at [info@fiskaltrust.de](mailto:info@fiskaltrust.de)!
+
+:::
+
+
 ## Documentation: Improved process documentation for DSFinV-K exports
 We've received and incorporated some feedback about the DSFinV-K process documentation templates added last month, including a clear changelog, details about timestamps, and several smaller terminology clarifications.
 
