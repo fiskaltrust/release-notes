@@ -27,7 +27,7 @@ Please note that installing an already running Cashbox on a different machine is
 :::
 
 ## Bug fix: TAR export via the API failed on some Linux distributions
-We've received reports about an issue that lead to failing TAR exports on some Linux distributions due to a missing dependency. The issue has been resolved.
+We've received reports about an issue that has led to failing TAR exports on some Linux distributions due to a missing dependency. The issue has been resolved.
 
 ## Bug fix: Large numbers were incorrectly formatted in TSE process data
 We've resolved an issue in the Middleware that could lead to incorrectly formatted TSE process data in some rare cases when the overall amount of a single receipt exceeded € 1000. Due to this error, a thousand separator was inserted, although this is not provided for in the DSFinV-K. 
