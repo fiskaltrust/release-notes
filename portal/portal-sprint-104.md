@@ -47,11 +47,7 @@ The recently implemented Cases View Page that visualizes the onboarded customers
 ![ListOfCases](images/sprint-104/ListOfCases.png)
 
 ## Next steps
-In the next weeks we will focus on improving the performance of the portal.Display correct Progress for all cases​
-
-Link to Knowledge Base Article​
-
-Keep customer posted with last update
+In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
