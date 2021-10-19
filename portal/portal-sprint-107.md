@@ -37,7 +37,7 @@ Quotes Page has been reworked and improved. The layout has been modified in a wa
 
 ### Securing Agency Page
 
-The Agency page has been reworked and is now properly secured. The user that is trying to load or update agencies, must have respectively the necessary access/read and access/write rights. In case those rights have not been granted, the create/edit button is now hidden. the user hasn't got the necessary access rights, the create/edit button should be hidden. 
+The Agency page has been reworked and is now properly secured. The user that is trying to load or update agencies, must have respectively the necessary access/read and access/write rights. In case those rights have not been granted, the create/edit button is now hidden. 
 
 ![agencies-overview2.](images/sprint-107/agencies-overview2.png)
 
