@@ -6,6 +6,8 @@ title: Sprint 108 (September 9, 2021)
 # fiskaltrust.Portal - Sprint 108
 _September 9, 2021_
 
+In this sprint we have been working on improving the usability and the user experience of the connections page, one of the most used pages in portal.
+
 ## Features
 
 ### Middleware Configuration
@@ -34,4 +36,4 @@ The CashBoxEdit Pages for France and Austria have been reworked and improved. As
 In the next weeks, we will focus on improving error messages in Portal and improving the usability of the Help section. 
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

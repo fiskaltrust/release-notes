@@ -58,7 +58,7 @@ A Prototype of the new Orders Page has been created. In the past, issues such as
 In the next weeks we will focus on finishing the new orders experience to being able to put it into public preview.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 
 
 

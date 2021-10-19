@@ -94,7 +94,7 @@ In the past we have been using the Bing Maps control to indicate the current loc
 In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 
 
 

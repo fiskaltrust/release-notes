@@ -52,4 +52,4 @@ _The Android Launcher is currently only available on the Sandbox. We will roll t
 In the upcoming days and weeks, we want to put most effort into finalizing the Portal's shop, including production and shipping features. Aside from this, the development team is also working hard on improving the overall user experience in the Portal.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

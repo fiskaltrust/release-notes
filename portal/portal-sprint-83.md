@@ -59,4 +59,4 @@ These limitations fulfill the shared requirements of all currently supported TSE
 In the next sprints, we will continue to improve the usability and the user experience in the portal to make sure that it is easy to use. Additionally, we are focusing on improving the Middleware and adding more commonly requested products.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

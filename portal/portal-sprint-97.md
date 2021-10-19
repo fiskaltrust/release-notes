@@ -43,7 +43,7 @@ There are Global Service 1.2 helpers that do not work with the Middleware 1.3 fo
 Until now, raw icons were not highlighted when a user was changing claims. Icons were highlighted after the page was reloaded. This has now been modified, so when a user us changing the claims, the relevant changes are shown by highlighted icons showing up in the employee list without needing to refresh the page.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 
 
 

@@ -8,7 +8,15 @@ A repository containing release notes of our customer-facing products and servic
 
 These release notes will contain a sum-up of all customer-relevant changes that were made. Depending on the service, the severity of the change, and the affected markets, these changes may already be rolled out for some time when they are published here. 
 
-If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [info@fiskaltrust.de](mailto:info@fiskaltrust.de) / [info@fiskaltrust.at](mailto:info@fiskaltrust.at) / [info@fiskaltrust.fr](mailto:info@fiskaltrust.fr).
+If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
+
+
+## October 18, 2021
+
+### Portal
+The focus of this sprint was improving the overall user experience of the Shop/Products page and the german scu selection.
+
+[Portal Sprint 111 Release Notes](portal/portal-sprint-111.md)
 
 ## October 15, 2021
 
@@ -17,6 +25,20 @@ In this quality-of-life release of the Middleware, we resolved several issues th
 
 [Middleware 1.3.24 Release Notes](middleware/middleware-1.3.24.md)
 
+## October 4, 2021
+
+### Portal
+In the past weeks we have been hardly working on creating the Technical Rollout which should help our customers to rollout Middleware configurations similar as they are currently rolling out products with the Rollout Management.
+
+[Portal Sprint 110 Release Notes](portal/portal-sprint-110.md)
+
+## September 20, 2021
+
+### Portal
+In this past Sprint, the main focus was the scaled rollout for the french market and general user experience improvements.
+
+[Portal Sprint 109 Release Notes](portal/portal-sprint-109.md)
+
 ## September 15, 2021
 
 ### Middleware 1.3.23 (Germany)
@@ -24,6 +46,19 @@ In this version of the Middleware, we added the possibility to easily identify m
 
 [Middleware 1.3.23 Release Notes](middleware/middleware-1.3.23.md)
 
+## September 9, 2021
+
+### Portal
+In this sprint we have been working on improving the usability and the user experience of the connections page, one of the most used pages in portal.
+
+[Portal Sprint 108 Release Notes](portal/portal-sprint-108.md)
+
+## August 23, 2021
+
+### Portal
+In this sprint we have introduced some overall usability improvements as well as security enhancements.
+
+[Portal Sprint 107 Release Notes](portal/portal-sprint-107.md)
 
 ## August 16, 2021
 
@@ -32,6 +67,19 @@ In this version of the Middleware, we have added support for the certified versi
 
 [Middleware 1.3.22 Release Notes](middleware/middleware-1.3.22.md)
 
+## August 9, 2021
+
+### Portal
+This sprint we have been working on improving the overall usability of employee and agencies management.
+
+[Portal Sprint 106 Release Notes](portal/portal-sprint-106.md)
+
+## July 27, 2021
+
+### Portal
+The goal of this Sprint was mainly the improvement of the user experience for the Subscriptions, Invoices and Quotes Pages in Portal. 
+
+[Portal Sprint 105 Release Notes](portal/portal-sprint-105.md)
 
 ## July 20, 2021
 
@@ -39,6 +87,27 @@ In this version of the Middleware, we have added support for the certified versi
 In this release, we've added the possibility to deactivate Queues and switch SCUs even in cases when the TSE is not reachable anymore. Additionally, we've further improved our DSFinV-K export after successfully receiving the [GoBD certification from Audicon](https://fiskaltrust.de/fiskaltrust-middleware-dsfinv-k-schnittstelle-jetzt-gobd-zertifiziert/), including using fallback master data, automatically resolving references over different days, and several stability improvements and fixes.
 
 [Middleware 1.3.21 Release Notes](middleware/middleware-1.3.21.md)
+
+## July 12, 2021
+
+### Portal
+This sprint we have been working on improving the user experience of the Subscriptions Page, as well as the new Cases View page in Portal.
+
+[Portal Sprint 104 Release Notes](portal/portal-sprint-104.md)
+
+## June 28, 2021
+
+### Portal
+In this sprint, we have been working hardly to give customers the chance to follow along with the onboarded cases in portal.
+
+[Portal Sprint 103 Release Notes](portal/portal-sprint-103.md)
+
+## June 14, 2021
+
+### Portal
+In this sprint, we have introduced several usability improvements for knowledge base articles and configuration management.
+
+[Portal Sprint 102 Release Notes](portal/portal-sprint-102.md)
 
 ## May 31, 2021
 

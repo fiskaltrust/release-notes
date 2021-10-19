@@ -71,4 +71,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.23_
 
 ## Next steps in the Middleware
-We will focus on further increasing the Middleware's stability and performance in the upcoming sprints. As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
+We will focus on further increasing the Middleware's stability and performance in the upcoming sprints. As always, we're happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud) or directly via issues in our GitHub repositories.

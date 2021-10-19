@@ -6,7 +6,7 @@ title: Sprint 107 (August 23, 2021)
 # fiskaltrust.Portal - Sprint 107
 _August 23, 2021_
 
-This Sprint's main goal was to enforce access rights on working with Agencies, as well as to improve the DATEV MeinFiskal onboarding process.
+In this sprint we have introduced some overall usability improvements as well as security enhancements.
 
 ## Features
 
@@ -72,11 +72,9 @@ In the past, there have been a few different available labels for DATEV MeinFisk
  
 So far, contracting emails were being sent to the contact that was enabling the role. This has now been reworked, and contacting emails are sent to both email addresses: to the account and the contact that is enabling a role.
 
-![contracting-email](images/sprint-107/contracting-email.png)
-
 ## Next steps
 In the next weeks we will focus on improving the PosOperators View and the validation flow.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 

@@ -1,10 +1,12 @@
 ---
-slug: /release-notes/portal/sprint-101
-title: Sprint 101 (June 28, 2021)
+slug: /release-notes/portal/sprint-103
+title: Sprint 103 (June 28, 2021)
 ---
 
 # fiskaltrust.Portal - Sprint 103
 _June 28, 2021_
+
+In this sprint, we have been working hardly to give customers the chance to follow along with the onboarded cases in portal.
 
 ## Features
 
@@ -34,4 +36,4 @@ A new Cases View of the cases of the current user has been implemented. When a c
 In the next weeks we will focus on improving the Knowledge base experience in portal.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

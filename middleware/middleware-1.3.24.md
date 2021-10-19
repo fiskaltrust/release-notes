@@ -68,4 +68,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Helper.FileUploadHelper v1.3.24-rc1_
 
 ## Next steps in the Middleware
-We will focus on introducing several improvements in our data exports in the next sprints. As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
+We will focus on introducing several improvements in our data exports in the next sprints. As always, we're happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud) or directly via issues in our GitHub repositories.

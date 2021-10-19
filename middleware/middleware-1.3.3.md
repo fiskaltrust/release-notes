@@ -40,4 +40,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 
 
 ## Next steps in the Middleware
-We will continue improving the Linux experience and work on supporting more TSEs on this platform. In addition, our development team is continuously working on improving the stability of our Middleware, and would be very happy to hear any feedback or suggestions via info@fiskaltrust.at.
+We will continue improving the Linux experience and work on supporting more TSEs on this platform. In addition, our development team is continuously working on improving the stability of our Middleware, and would be very happy to hear any feedback or suggestions via feedback+middleware@fiskaltrust.cloud.

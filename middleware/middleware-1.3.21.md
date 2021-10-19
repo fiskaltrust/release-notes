@@ -72,4 +72,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Helper.Helipad v1.3.21_
 
 ## Next steps in the Middleware
-As the upcoming, certified version of the fiskaly TSE will be released in a few days, we will make sure to properly test and then release our updated SCU as soon as possible afterwards. Additionally, we will provide templates for cash registers' process documentations (_Verfahrensdokumentationen_). As always, we're happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at) or directly via issues in our GitHub repositories.
+As the upcoming, certified version of the fiskaly TSE will be released in a few days, we will make sure to properly test and then release our updated SCU as soon as possible afterwards. Additionally, we will provide templates for cash registers' process documentations (_Verfahrensdokumentationen_). As always, we're happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud) or directly via issues in our GitHub repositories.

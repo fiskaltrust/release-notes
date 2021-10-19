@@ -48,4 +48,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.5-rc1_
 
 ## Next steps in the Middleware
-We will continue to enhance the data experience in the Middleware to be make sure to fulfill all audit requirements before September 30. This includes DSFinV-K and TAR file exports, both locally and from the data stored in our cloud platform. As we added all-new products and packages with this update, we would be especially happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We will continue to enhance the data experience in the Middleware to be make sure to fulfill all audit requirements before September 30. This includes DSFinV-K and TAR file exports, both locally and from the data stored in our cloud platform. As we added all-new products and packages with this update, we would be especially happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud).

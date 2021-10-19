@@ -54,4 +54,4 @@ Previously, we have been facing a bug that made it impossible to correctly chang
 In the next sprints, we will focus on further improving the user experience in our Portal, mostly focused on an enhanced rollout experience. This includes updates to the templating system, the invitation process, and other related workflows.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

@@ -6,6 +6,8 @@ title: Sprint 106 (August 9, 2021)
 # fiskaltrust.Portal - Sprint 106
 _August 9, 2021_
 
+This sprint we have been working on improving the overall usability of employee and agencies management.
+
 ## Features
 
 ### Middleware Configuration
@@ -52,5 +54,5 @@ So far, the wrong error message was being displayed when inviting employees, whe
 In the next weeks we will focus on improving the PosOperators View.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 
