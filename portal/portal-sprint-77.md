@@ -37,4 +37,4 @@ Additionally, we fixed an issue that could lead to server errors when displaying
 In the upcoming sprints, the development team will continue to improve the onboarding experience, data exports, and introduce some updates to our shop.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

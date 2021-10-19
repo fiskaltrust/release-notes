@@ -48,4 +48,4 @@ The AO148 Generator (DE) page’s UX and usability is improved including fixing 
 In the next weeks we will focus on integrating a Knowledge Base into portal. This will contain knowledge articles for any number of issues our customers encounter when using our products and services, with the purpose of troubleshooting those issues and of adressing topics that cannot be solved with the help of the product documentation.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

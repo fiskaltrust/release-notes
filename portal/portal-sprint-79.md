@@ -76,4 +76,4 @@ After uploading the file, an additional page is shown that shows the to-be-impor
 The next sprints will be mostly focused on further improving the shop experience by simplifying the current processes and streamlining the offered products. We are also working hard on improving the Middleware and preparing additional product runtimes for customers with cloud cash registers.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

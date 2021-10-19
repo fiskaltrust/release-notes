@@ -6,7 +6,7 @@ title: Sprint 110 (October 4, 2021)
 # fiskaltrust.Portal - Sprint 110
 _October 4, 2021_
 
-This Sprint's main focus was the Technical Rollout in the Portal in DE.
+In the past weeks we have been hardly working on creating the Technical Rollout which should help our customers to rollout Middleware configurations similar as they are currently rolling out products with the Rollout Management.
 
 ## Features
 
@@ -58,4 +58,4 @@ Up until now, the RolloutPlans were not being translated. In order to make thing
 In the next weeks we will focus on connecting the Technical Rollout to the business Rollout
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

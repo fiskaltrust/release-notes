@@ -119,4 +119,4 @@ In the upcoming sprints, the development team will mostly focus on further impro
 In addition to this, we will continue to improve the _Export_ features in the portal and offer additional exports for the German market.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

@@ -44,4 +44,4 @@ A customer of us reached out to us, that they are facing problems with adding co
 In the next sprints, we will continue to focus on further improving the user experience in our Portal, mostly focused on an enhanced rollout experience.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

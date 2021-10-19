@@ -26,4 +26,4 @@ After discussions with some of our users we noticed that many problems can be tr
 In the next weeks we will focus on recovering and getting some quality time with our loved ones. Most of the engineering teams are on vacation and we will be back in 2021. 
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

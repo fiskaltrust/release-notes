@@ -6,9 +6,7 @@ title: Sprint 104 (July 12, 2021)
 # fiskaltrust.Portal - Sprint 104
 _July 12, 2021_
 
-
-This Sprint’s main goals were improving the user experience of the Subscriptions Page, as well as the new Cases View page in Portal.
-
+This sprint we have been working on improving the user experience of the Subscriptions Page, as well as the new Cases View page in Portal.
 
 ## Features
 
@@ -50,5 +48,5 @@ The recently implemented Cases View Page that visualizes the onboarded customers
 In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 

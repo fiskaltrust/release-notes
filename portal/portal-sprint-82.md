@@ -70,4 +70,4 @@ We got the feedback that in some situations it would be very helpful if PosDeale
 In the next sprints we will continue to improve the usability and the user experience in the portal to make sure that it is easy to use. Additionally, we will continue adding new features that help our customers meeting the challenges that they are facing in the German market including things like revision safe storage for customers that don't use the middleware, the final release of the auto-invitation process and also TAR based functionalities.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

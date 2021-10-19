@@ -6,16 +6,16 @@ title: Sprint 111 (October 18, 2021)
 # fiskaltrust.Portal - Sprint 111
 _October 18, 2021_
 
-In this Sprint, the main focus was on reworking the Products (Shop) Page.
+The focus of this sprint was improving the overall user experience of the Shop/Products page and the german scu selection.
 
 ## Features
 
 ### Middleware Configuration
 
-- [Highlight target SCU when SCU switch has been configured in Portal](#highlight-target-SCU-when-SCU-switch-has-been-configured-in-Portal)
-- [Reworked Products Page](#Reworked-Products-Page)
-- [Improved error messages on CashBox Rebuild Failures](#Improved-error-messages-on-CashBox-Rebuild-Failures)
-- [Improved CashBox Metrics Page](#[Improved-CashBox-Metrics-Page)
+- [Highlight target SCU when SCU switch has been configured in Portal](#highlight-target-scu-when-scu-switch-has-been-configured-in-portal)
+- [Reworked Products Page](#reworked-products-page)
+- [Improved error messages on CashBox Rebuild Failures](#improved-error-messages-on-cashbox-rebuild-failures)
+- [Improved CashBox Metrics Page](#improved-cashbox-metrics-page)
 
 ### Support
 
@@ -29,7 +29,7 @@ SCUs that are about to be switched are now highlighted in the portal by an icon.
 
 ![highlight-scu](images/sprint-111/highlight-scu.png)
 
-### Reworked Products  Page
+### Reworked Products Page
 
 The Products Page has been reworked. All markets are affected by this and now -aside from all previous functionalities- the user can enjoy an improved experience while navigating. Furthermore, now OutletID and SearchText are persisted in session storage.
 
@@ -65,4 +65,4 @@ For example, all of the following mail addresses (including plus addressing) wil
 In the next weeks, we will focus on improving Bulk Import Features and on improving generally the user experience. 
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

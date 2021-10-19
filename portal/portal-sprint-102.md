@@ -6,6 +6,8 @@ title: Sprint 102 (June 14, 2021)
 # fiskaltrust.Portal - Sprint 102
 _June 14, 2021_
 
+In this sprint, we have introduced several usability improvements for knowledge base articles and configuration management.
+
 ## Features
 
 ### Middleware Configuration
@@ -46,7 +48,7 @@ Using the feedback that we received about the user experience of the Knowledge-B
 In the next weeks we will focus on improving the performance of the portal.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
 
 
 

@@ -81,4 +81,4 @@ To more actively notify our users about recent changes in the Portal, we now dis
 We will continue improving our e-commerce functionalities in the Portal in the upcoming sprints, both for the German and the French market. Additionally, we will continue to work on German features like the DSFinV-K export (both the cloud and the offline-version). Finally, we continuously work on improving the usability of our products, especially the Portal.
 
 ## Feedback
-We would love to hear what you think about these features. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these features. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

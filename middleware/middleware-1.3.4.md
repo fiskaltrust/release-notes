@@ -65,4 +65,4 @@ Packages not listed here were not updated, as we decided to not increase the ver
 
 
 ## Next steps in the Middleware
-We will continue to enhance the data experience in the Middleware to be make sure to fulfill all audit requirements before September 30. This includes DSFinV-K and TAR file exports, both locally and from the data stored in our cloud platform. As always, we would be very happy to hear feedback and suggestions via [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We will continue to enhance the data experience in the Middleware to be make sure to fulfill all audit requirements before September 30. This includes DSFinV-K and TAR file exports, both locally and from the data stored in our cloud platform. As always, we would be very happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud).

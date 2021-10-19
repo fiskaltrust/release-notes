@@ -46,4 +46,4 @@ We noticed that our UID (Ust-ID) check for companies outside of Germany was not 
 In the next sprints, we will focus on improving the Middleware, especially in terms of SCU stability, and are working on supporting additional TSEs (like the newly certified _Deutsche Fiskal TSE_). Aside from this, we will continue to improve the user experience in our Portal, mostly focused on an enhanced rollout experience.
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).

@@ -7,7 +7,6 @@ title: Sprint 105 (July 27, 2021)
 # fiskaltrust.Portal - Sprint 105
 _July 27, 2021_
 
-
 The goal of this Sprint was mainly the improvement of the user experience for the Subscriptions, Invoices and Quotes Pages in Portal. 
 
 ## Features
@@ -53,4 +52,4 @@ PosDealers -aside from being able to extend and cancel subscriptions- are now ab
 ![image](images/sprint-105/display-subscription-period.png)
 
 ## Feedback
-We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [info@fiskaltrust.at](mailto:info@fiskaltrust.at).
+We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
