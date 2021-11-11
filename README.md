@@ -11,6 +11,8 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
 
+## November 12, 2021
+
 ### Middleware 1.3.25 (Germany)
 In this version of the Middleware, we added the possibility to update the firmware of Swissbit TSEs. Additionally, some minor issues in the DSFinV-K were resolved and we improved logging for the _Fiskal Cloud Connector_.
 
