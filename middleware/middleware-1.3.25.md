@@ -44,6 +44,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.25_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.25_
 - _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.25_
+- _fiskaltrust.Middleware.Helper.FileUploadHelper v1.3.25-rc2_
 
 ## Next steps in the Middleware
 We will focus on development of the next version of the fiskaltrust.Launcher in the next sprints.
