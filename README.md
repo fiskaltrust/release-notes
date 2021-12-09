@@ -11,6 +11,14 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
 
+## December 9, 2021
+
+### Middleware 1.3.26 (Germany)
+In this version of the Middleware, we introduced compatibility with the upcoming fiskaly v2 standalone product and implemented some fixes that should improve the runtime behavior of the Middleware, especially when using the CryptoVision TSE or in cases our users experienced memory or performance issues.
+
+[Middleware 1.3.26 Release Notes](middleware/middleware-1.3.26.md)
+
+
 ## November 12, 2021
 
 ### Middleware 1.3.25 (Germany)
