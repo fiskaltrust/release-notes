@@ -29,7 +29,7 @@ Attempting the update without following the steps described there will destroy y
 :::
 
 ## Bug Fix: Proxy credentials are ignored during data upload on some systems
-We've resolved an issue that caused the HelipadHelper (which is responsible for uploading receipt data to our systems) to ignore the proxy credentials set via the command line parameters of the Middleware Launcher. This issue did not occur on all system configurations and never occurred if a system proxy was set.
+We've resolved an issue that caused the HelipadHelper (which is responsible for uploading receipt data to our systems) and the optional FileUploadHelper to ignore the proxy credentials set via the command line parameters of the Middleware Launcher. This issue did not occur on all system configurations and never occurred if a system proxy was set.
 
 This issue has been resolved, proxy credentials are now correctly set. Unlike regular package updates, this change requires a re-download of the Launcher from the Portal. Users who are not experiencing upload problems related to proxy credentials don't have to update the Launcher.
 
