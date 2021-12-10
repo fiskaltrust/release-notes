@@ -22,6 +22,7 @@ We've upgraded byodcs loadbalancer to the [Ambassador 2.0 stack](https://www.get
 
 :::danger
 
+This update will lead to short downtime during the update process.
 Please follow the [Migration Guide](https://github.com/fiskaltrust/helm-charts/blob/master/bring-your-own-datacenter/MIGRATION.md#v1326) when *updating* to this version of byodc. 
 Attempting the update without following the steps described there will destroy your byodc installation.
 
