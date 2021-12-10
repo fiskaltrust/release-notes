@@ -51,6 +51,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.SCU.DE.FiskalyCertified v1.3.26_
 - _fiskaltrust.Middleware.SCU.DE.CryptoVision v1.3.26_
 - _fiskaltrust.Middleware.Helper.Helipad v1.3.26_
+- _fiskaltrust.Middleware.Helper.FileUpload v1.3.26_
 - _fiskaltrust.Launcher v1.3.26_
 
 ## Next steps in the Middleware
