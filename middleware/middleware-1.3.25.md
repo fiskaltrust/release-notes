@@ -23,13 +23,13 @@ When enabled the update is performed at startup of the Middleware and can take u
 
 :::
 
-## Bux Fix: SCU switch was failing due to unread Portal configuration in some cases
+## Bug Fix: SCU switch was failing due to unread Portal configuration in some cases
 The Middleware was unable to read SCU switch configurations from the Portal in some rare cases, mostly when the Queue was put into failed mode while the configuration was being changed with a specific order and timing. This could lead to the following error message, altough the SCU switch was properly configured in the Portal:
 > _The SCU switch must be initiated properly in the fiskaltrust.Portal before sending this receipt. See https://link.fiskaltrust.cloud/market-de/scu-switch for more details._
 
 This issue has been resolved.
 
-## Bux Fix: Amount and quantity were not converted correctly to DSFinV-K business cases in some edge cases
+## Bug Fix: Amount and quantity were not converted correctly to DSFinV-K business cases in some edge cases
 We've altered our DSFinV-K implementation, as the amount and quantity were not correctly transformed in some rare use-cases.
 In some cases the payload was also incorrectoy calculated.
 
@@ -43,6 +43,11 @@ If we detect a mismatch between the `FccDirectory` from the configuration and th
 
 ## Stability improvement: Reduced memory consumption of Helipad helper when uploads fail
 Due to an issue in the HelipadHelper, memory consumption could increase unexpectedly in case the regular data uploads were failing to our services, e.g. due to an internet outage or server errors. This issue only occured to a small percentage of users and has been resolved. As the Helipad helper package is automatically added to CashBoxes, rebuilding configurations will automatically add the latest version without further actions required.
+
+## Updated third party dependencies: Swissbit hardware TSE SDK
+We've updated the version of the 3rd party dependency to the _Swissbit SDK_ (used by the _Swissbit_ SCU for hardware TSEs) to version 5.8.1. This update enables our users to benefit from bug fixes and improvements the TSE vendor implemented in the new version, including the firmware update described above. 
+
+Additionally, Swissbit activated the keep-alive functionality of the SDK by default starting with this version. The SDK will therefore make sure that the TSE is not turned into power-safe mode by the operating system anymore, which could lead to unexpected behavior in some rare cases.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
