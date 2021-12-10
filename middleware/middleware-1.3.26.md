@@ -6,7 +6,7 @@ title: Version 1.3.26
 # fiskaltrust.Middleware 1.3.26 (Germany)
 _December 9, 2021_
 
-In this version of the Middleware, we introduced compatibility with the upcoming fiskaly v2 standalone product and implemented some fixes that should improve the runtime behavior of the Middleware, especially when using the CryptoVision TSE or in cases our users experienced memory or performance issues.
+In this version of the Middleware, we introduced compatibility with the upcoming fiskaly v2 standalone product and implemented some fixes that should improve the runtime behavior of the Middleware, especially when using the CryptoVision TSE or in cases our users experienced memory or performance issues. Additionally, we've updated the Ambassador stack in _Bring your own Datacenter_ to support new Kubernetes versions. Please make sure to read the [Migration Guide](https://github.com/fiskaltrust/helm-charts/blob/master/bring-your-own-datacenter/MIGRATION.md#v1326) before updating.
 
 :::caution
 
@@ -17,14 +17,14 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Feature: Introduced compatibility with fiskaly v2 standalone product
 As we'll make the fiskaly v2 standalone (or "single product") publicly available in our shop in the upcoming weeks, we enabled a convenience feature that will prevent accidental registration of multiple clients on a single TSE, which would lead to additional costs. This feature will only be activated if the TSE was bought as a standalone product; TSEs-as-a-Service and TSEs that are individually bought by the users themselves are not affected.
 
-## Improvement: Bring you own datacenter now supports kubernetes v1.22+
-We've upgraded byodcs loadbalancer to the [Ambassador 2.0 stack](https://www.getambassador.io/docs/emissary/latest/about/changes-2.0.0/) which is now compatible with kubernetes v1.22+.
+## Improvement: Bring you own Datacenter now supports Kubernetes v1.22+
+We've upgraded BYODCs loadbalancer to the [Ambassador 2.0 stack](https://www.getambassador.io/docs/emissary/latest/about/changes-2.0.0/) which is now compatible with Kubernetes v1.22+.
 
 :::danger
 
 This update will lead to short downtime during the update process.
-Please follow the [Migration Guide](https://github.com/fiskaltrust/helm-charts/blob/master/bring-your-own-datacenter/MIGRATION.md#v1326) when *updating* to this version of byodc. 
-Attempting the update without following the steps described there will destroy your byodc installation.
+Please follow the [Migration Guide](https://github.com/fiskaltrust/helm-charts/blob/master/bring-your-own-datacenter/MIGRATION.md#v1326) when *updating* to this version of BYODC. 
+Attempting the update without following the steps described there will destroy your BYODC installation.
 
 :::
 

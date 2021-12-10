@@ -14,7 +14,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## December 9, 2021
 
 ### Middleware 1.3.26 (Germany)
-In this version of the Middleware, we introduced compatibility with the upcoming fiskaly v2 standalone product and implemented some fixes that should improve the runtime behavior of the Middleware, especially when using the CryptoVision TSE or in cases our users experienced memory or performance issues.
+In this version of the Middleware, we introduced compatibility with the upcoming fiskaly v2 standalone product and implemented some fixes that should improve the runtime behavior of the Middleware, especially when using the CryptoVision TSE or in cases our users experienced memory or performance issues. Additionally, we've updated the Ambassador stack in _Bring your own Datacenter_ to support new Kubernetes versions. Please make sure to read the [Migration Guide](https://github.com/fiskaltrust/helm-charts/blob/master/bring-your-own-datacenter/MIGRATION.md#v1326) before updating.
 
 [Middleware 1.3.26 Release Notes](middleware/middleware-1.3.26.md)
 
