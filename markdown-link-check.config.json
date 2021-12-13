@@ -4,7 +4,7 @@
       { "pattern": "^https?://signaturcloud\\.fiskaltrust\\.fr/?$" },
       { "pattern": "^https?://helipad\\.fiskaltrust\\.cloud/?$" },
       { "pattern": "^https?://packages\\.fiskaltrust\\.cloud/?$" },
-      { "pattern": "^https?://fiskaltrust\\.de/?$" },
+      { "pattern": "^https?://fiskaltrust\\.de.*" },
       { "pattern": "^https?://eur-lex\\.europa\\.eu.*" },
       { "pattern": "^https://dc.services\\.visualstudio\\.com/?$" },
       { "pattern": "^https://auth\\.fiskaly\\.com/?$" }
