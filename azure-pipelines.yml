@@ -18,7 +18,7 @@ steps:
     Get-ChildItem -Path "./" -Filter "*.md" -Recurse | ForEach-Object {
       $path = Resolve-Path -Path $_.FullName -Relative
       if(!($path -match "\\\.[^\.\\]+")) {
-        markdown-link-check -q $path
+        markdown-link-check -c markdown-link-check.config.json -q $path
       }
     }
   failOnStderr: true
