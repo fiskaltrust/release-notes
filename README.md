@@ -14,7 +14,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## December 20, 2021
 
 ### Middleware 1.3.27 (Germany)
-In this version of the Middleware, we updated the FCC used in the `SwissbitCloud` and `DeutscheFiskal` SCUs to protect gainst Log4Shell exploits.
+In this version of the Middleware, we updated the FCC used in the `SwissbitCloud` and `DeutscheFiskal` SCUs to protect against Log4Shell exploits.
 
 [Middleware 1.3.27 Release Notes](middleware/middleware-1.3.27.md)
 
