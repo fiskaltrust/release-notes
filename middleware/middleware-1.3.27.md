@@ -6,7 +6,7 @@ title: Version 1.3.26
 # fiskaltrust.Middleware 1.3.26 (Germany)
 _December 20, 2021_
 
-In this version of the Middleware, we updated the FCC used in the `SwissbitCloud` and `DeutscheFiskal` SCUs to protect against Log4Shell exploits.
+In this version of the Middleware, we updated the FCC used in the `SwissbitCloud` and `DeutscheFiskal` SCUs to protect against [Log4Shell](https://en.wikipedia.org/wiki/Log4Shell) exploits.
 
 :::caution
 
