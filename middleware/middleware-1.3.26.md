@@ -18,7 +18,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 As we'll make the fiskaly v2 standalone (or "single product") publicly available in our shop in the upcoming weeks, we enabled a convenience feature that will prevent accidental registration of multiple clients on a single TSE, which would lead to additional costs. This feature will only be activated if the TSE was bought as a standalone product; TSEs-as-a-Service and TSEs that are individually bought by the users themselves are not affected.
 
 ## Improvement: Bring you own Datacenter now supports Kubernetes v1.22+
-We've upgraded BYODCs loadbalancer to the [Ambassador 2.0 stack](https://www.getambassador.io/docs/emissary/latest/about/changes-2.0.0/) which is now compatible with Kubernetes v1.22+.
+We've upgraded BYODCs loadbalancer to the [Ambassador 2.0 stack](https://www.getambassador.io/docs/emissary/latest/about/changes-2.x/) which is now compatible with Kubernetes v1.22+.
 
 :::danger
 
