@@ -10,6 +10,12 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## February 16, 2022
+
+### Middleware 1.3.28 (Germany)
+In this version of the Middleware, we've added a warning dialog when clearing app data and a prompt for disabling battery optimization in the Android Launcher. Additionaly, we've fixed the notification in the the Android Launcher and a bug when sending empty `cbReceiptReference`s to the Middleware.
+
+[Middleware 1.3.28 Release Notes](middleware/middleware-1.3.28.md)
 
 ## December 20, 2021
 
