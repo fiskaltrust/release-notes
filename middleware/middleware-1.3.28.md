@@ -28,7 +28,7 @@ The close button in the notification of the Android Launcher is now correctly st
 
 ## Bug Fix: Inconsistent state when sending empty cbReceiptReferences
 
-We fixed a bug where sending a empty `cbReceiptReference` led to an inconsistent state in the Middleware.
+We fixed a bug where sending an empty `cbReceiptReference` led to an inconsistent state in the Middleware.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
