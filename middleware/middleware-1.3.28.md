@@ -6,7 +6,7 @@ title: Version 1.3.27
 # fiskaltrust.Middleware 1.3.28 (Germany)
 _February 16, 2022_
 
-In this version of the Middleware, we have added new features to the Android Launcher 
+In this version of the Middleware, we've added a warning dialog when clearing app data and a prompt for disabling battery optimization in the Android Launcher. Additionaly, we've fixed the notification in the the Android Launcher and a bug when sending empty `cbReceiptReference`s to the Middleware.
 
 :::caution
 
