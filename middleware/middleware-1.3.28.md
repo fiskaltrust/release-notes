@@ -20,7 +20,7 @@ When clearing the app data fom the system settings a new warning dialog opens up
 
 ## Feature: Add disable battery optimization prompt in Android Launcher
 
-When starting the Middleware with battery optimization enabled a propmt is shown asking the user for permission to disable battery optimization.
+When starting the Middleware with battery optimization enabled a prompt is shown asking the user for permission to disable battery optimization.
 
 ## Bug Fix: Close button in notification in Android Launcher
 
