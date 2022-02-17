@@ -1,6 +1,6 @@
 ---
-slug: /release-notes/middleware/1.3.27
-title: Version 1.3.27
+slug: /release-notes/middleware/1.3.28
+title: Version 1.3.28
 ---
 
 # fiskaltrust.Middleware 1.3.28 (Germany)
