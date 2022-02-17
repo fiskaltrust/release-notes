@@ -1,0 +1,44 @@
+---
+slug: /release-notes/middleware/1.3.27
+title: Version 1.3.27
+---
+
+# fiskaltrust.Middleware 1.3.28 (Germany)
+_February 16, 2022_
+
+In this version of the Middleware, we've added a warning dialog when clearing app data and a prompt for disabling battery optimization in the Android Launcher. Additionaly, we've fixed the notification in the the Android Launcher and a bug when sending empty `cbReceiptReference`s to the Middleware.
+
+:::caution
+
+Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.
+
+:::
+
+## Feature: Warn users before clearing app data in Android Launcher
+
+When clearing the app data fom the system settings a new warning dialog opens up where the user is warned of the consequences before they can proceed.
+
+## Feature: Add disable battery optimization prompt in Android Launcher
+
+When starting the Middleware with battery optimization enabled a prompt is shown asking the user for permission to disable battery optimization.
+
+## Bug Fix: Close button in notification in Android Launcher
+
+The close button in the notification of the Android Launcher is now correctly stopping the Middleware again.
+
+## Bug Fix: Inconsistent state when sending empty cbReceiptReferences
+
+We fixed a bug where sending an empty `cbReceiptReference` led to an inconsistent state in the Middleware.
+
+## Affected packages
+Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
+
+- _fiskaltrust.Middleware.Queue.SQLite v1.3.28_
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.28_
+- _fiskaltrust.Middleware.Queue.EF v1.3.28_
+
+## Next steps in the Middleware
+We will focus on development of the next version of the fiskaltrust.Launcher in the next sprints.
+This version will be developed open-source and a first proof-of-concept can be found in the `proof-of-concept` branch of the public repository https://github.com/fiskaltrust/middleware-launcher.
+
+As always, we're happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud) or directly via issues in our GitHub repositories.
