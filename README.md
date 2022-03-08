@@ -10,6 +10,13 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## March 8, 2022
+
+### Middleware 1.3.29 (Germany)
+In this version of the Middleware, we now automatically clear up old tar files in the fiskaltrust/service/Exports/ folder.
+
+[Middleware 1.3.29 Release Notes](middleware/middleware-1.3.29.md)
+
 ## February 16, 2022
 
 ### Middleware 1.3.28 (Germany)
