@@ -13,7 +13,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## March 8, 2022
 
 ### Middleware 1.3.29 (Germany)
-In this version of the Middleware, we now automatically clear up old tar files in the fiskaltrust/service/Exports/ folder.
+In this version of the Middleware, we now automatically clear up old tar files in the `fiskaltrust/service/Exports/` folder.
 
 [Middleware 1.3.29 Release Notes](middleware/middleware-1.3.29.md)
 
