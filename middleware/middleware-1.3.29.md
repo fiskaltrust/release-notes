@@ -23,7 +23,7 @@ Temporary files in the `fiskaltrust/service/Exports/` folder are now automatical
 There is a new queue configuration parameter `StoreTemporaryExportFiles` which can be set in the portal for all queues. The default is `false` and can be set to `true` to keep temporary export files.
 
 ## Affected packages
-Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
+Packages not listed here were not updated, as we decided not to increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.29_
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.29_
