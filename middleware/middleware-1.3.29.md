@@ -1,5 +1,3 @@
-
-
 ---
 slug: /release-notes/middleware/1.3.29
 title: Version 1.3.29
@@ -21,6 +19,9 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 Temporary files in the `fiskaltrust/service/Exports/` folder are now automatically cleaned after they're no longer needed. Unneeded tmp files will also be cleaned up at startup.
 
 There is a new queue configuration parameter `StoreTemporaryExportFiles` which can be set in the portal for all queues. The default is `false` and can be set to `true` to keep temporary export files.
+
+## Bug fix: SCU state not correctly displayed in Portal when using ByoDC
+When using our _Bring your own Data Center_ solution, the state of SCUs was not fully uploaded to the Portal, and hence not displayed correctly. This issue was fixed in this version.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided not to increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
