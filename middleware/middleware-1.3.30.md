@@ -28,6 +28,13 @@ The source of the exception about data fragmentation on transport layer has been
 We fixed a bug happening during Tar files export with a TSE failed with a timeout error.
 This bug only occurred when very large TAR files were exported, and only affected a small subset of users.
 
+:::info
+
+Please note that exports may take noticably longer in these cases, as the Middleware falls back to a slower export method. The duration of normally-sized exports is not increased.
+
+:::
+
+
 ## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
 
 We've updated our dependency to the Fiskal Cloud Connector (used by the Deutsche Fiskal and the Swissbit Cloud SCUs) to version 3.2.5. This update enables our users to benefit from bug fixes and improvements the TSE vendors implemented in the new versions. 
