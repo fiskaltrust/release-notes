@@ -21,7 +21,7 @@ This can be achieved by setting the new parameter to `false` for the non-master 
 
 :::info
 
-If multiple Queues use the same TSE the tar file from the TSE will only end up in the POSArchive (if the Queue has an active POSArchive) of the 'Master Queue' which triggered the export.
+If multiple Queues use the same TSE the TAR file from the TSE will only end up in the POSArchive of the 'Master Queue' which triggered the export, given that queue has an active POSArchive subscription.
 
 :::
 
