@@ -19,6 +19,12 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 When setting up the parameter `EnableTarFileExport`, there is a possibility to select one queue which will be responsible for the daily closing and Tar file export.
 This can be achieved by setting the new parameter to `false` for the non-master Queues.
 
+:::info
+
+If multiple Queues use the same TSE the tar file from the TSE will only end up in the POSArchive of the 'Master Queue' which triggered the export.
+
+:::
+
 ## Bug Fix: CryptoVision execption about data fragmentation on transport layer
 
 The source of the exception about data fragmentation on transport layer has been identified and corrected.
