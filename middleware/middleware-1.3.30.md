@@ -4,7 +4,7 @@ title: Version 1.3.30
 ---
 
 # fiskaltrust.Middleware 1.3.30 (Germany)
-_March 17, 2022_
+_March 18, 2022_
 
 In this version of the Middleware, we've added the possibility to declare a 'Master Queue' if there are multiple Queues connected to one TSE, in order to avoid long timeouts during daily closings and have one tar file export for all queues.
 
@@ -17,6 +17,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Feature: Possibility to enable a 'Master Queue' for TAR file export
 
 When setting up the parameter `EnableTarFileExport`, there is a possibility to select one queue which will be responsible for the daily closing and Tar file export.
+This can be achieved by setting the new parameter to `false` for the non-master Queues.
 
 ## Bug Fix: CryptoVision execption about data fragmentation on transport layer
 
@@ -25,8 +26,15 @@ The source of the exception about data fragmentation on transport layer has been
 ## Bug Fix: Cryptovision timeout when downloading TAR file
 
 We fixed a bug happening during Tar files export with a TSE failed with a timeout error.
+This bug only occurred when very large TAR files were exported, and only affected a small subset of users.
+
+## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
+
+We've updated our dependency to the Fiskal Cloud Connector (used by the Deutsche Fiskal and the Swissbit Cloud SCUs) to version 3.2.5. This update enables our users to benefit from bug fixes and improvements the TSE vendors implemented in the new versions. 
+The regular Middleware behavior was not changed by this update.
 
 ## Affected packages
+
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.29_
