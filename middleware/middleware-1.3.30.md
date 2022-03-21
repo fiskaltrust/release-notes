@@ -40,6 +40,8 @@ Please note that exports may take noticably longer in these cases, as the Middle
 
 :::
 
+## Bug Fix: Very large exports from SwissbitCloud and DeutscheFiskal TSEs could not be processed
+We've fixed an issue where the Fiskal Cloud Connector (FCC) blocked daily exports due to their size. In these cases, log entries with the error message `TOO_MANY_RECORDS` were written.
 
 ## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
 
