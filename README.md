@@ -10,6 +10,13 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## March XX, 2022
+
+### Middleware 1.3.31 (Germany)
+In this version of the Middleware, we've updated the Fiskal Cloud Connector (which is used by the _Swissbit Cloud_ and _Deutsche Fiskal_ SCUs). Additionally, we've resolved an issue in the Launcher that could lead to delayed processing of sign calls while journals where running on rare occassions. 
+
+[Middleware 1.3.31 Release Notes](middleware/middleware-1.3.31.md)
+
 ## March 18, 2022
 
 ### Middleware 1.3.30 (Germany)
