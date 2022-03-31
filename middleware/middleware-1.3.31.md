@@ -15,7 +15,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 :::
 
 ## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
-We've updated our dependency to the Fiskal Cloud Connector (used by the Deutsche Fiskal and the Swissbit Cloud SCUs) to version 4.0.1. The Middleware's behavior was not changed by this update. Users can update to the latest FCC version by updatin to version 1.3.21 of the _DeutscheFiskal_ or _SwissbitCloud_ SCU - the update will be automatically installed.
+We've updated our dependency to the Fiskal Cloud Connector (used by the Deutsche Fiskal and the Swissbit Cloud SCUs) to version 4.0.1. The Middleware's behavior was not changed by this update. Users can update to the latest FCC version by updatin to version 1.3.31 of the _DeutscheFiskal_ or _SwissbitCloud_ SCU - the update will be automatically installed.
 
 :::warning
 
