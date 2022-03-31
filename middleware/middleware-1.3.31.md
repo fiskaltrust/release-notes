@@ -6,7 +6,7 @@ title: Version 1.3.31
 # fiskaltrust.Middleware 1.3.31 (Germany)
 _March XX, 2022_
 
-In this version of the Middleware, we've updated the Fiskal Cloud Connector (which is used by the _Swissbit Cloud_ and _Deutsche Fiskal_ SCUs). Additionally, we've resolved an issue in the Launcher that could lead to delayed processing of sign calls while journals where running on rare occassions. 
+In this version of the Middleware, we've updated the Fiskal Cloud Connector (which is used by the _Swissbit Cloud_ and _Deutsche Fiskal_ SCUs). Additionally, we've resolved an issue in the Launcher that could lead to delayed processing of sign requests while journal requests were being executed concurrently.
 
 :::caution
 
