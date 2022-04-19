@@ -14,15 +14,14 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 
 :::
 
+## Feature: Content Provider has been added to the Android application
+A content provider has been added to the Middleware for Android, which should enable users to download log files even if the Middleware cannot be started. We've also extended our [Android samples](https://github.com/fiskaltrust/middleware-demo-android/blob/master/xamarin/MainActivity.cs#L206) to demonstrate the usage of this new feature.
+
 ## Feature: Application Insights has been activated for the Android Middleware
 We've enabled Application Insights for the Android Middleware app, which enables us to offer cloud CashBox monitoring in the Portal for Android instances.
 
-
 ## Feature: Use fallback PosSystems in DSFinV-K
 In case no PosSystems are set in the current master data configuration, the DSFinV-K export now falls back to all PosSystems connected to the operator's account. This will ensure that data used during implementation will be used if some fields in the cloud export are empty.
-
-## Feature: Content Provider has been added to the Android application
-A content provider has been added to the Middleware for Android, which should enable users to download log files even if the Middleware cannot be started. We've also extended our [Android samples](https://github.com/fiskaltrust/middleware-demo-android/blob/master/xamarin/MainActivity.cs#L206) to demonstrate the usage of this new feature.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
