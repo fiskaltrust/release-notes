@@ -13,7 +13,11 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ## April 19, 2022
 
 ### Middleware 1.3.32 (Germany)
-In this version of the Middleware, we activated the Appinsight for the Android middleware application in order to collect logs and have a monitoring in place. 
+In this version of the Middleware, we've improved the overall logging experience on Android by enabling cloud logging and adding a content provider to directly access log files even if the Middleware cannot be started.
+
+[Middleware 1.3.31 Release Notes](middleware/middleware-1.3.32.md)
+
+
 ## March 31, 2022
 
 ### Middleware 1.3.31 (Germany)
