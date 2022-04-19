@@ -10,6 +10,10 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## April 19, 2022
+
+### Middleware 1.3.32 (Germany)
+In this version of the Middleware, we activated the Appinsight for the Android middleware application in order to collect logs and have a monitoring in place. 
 ## March 31, 2022
 
 ### Middleware 1.3.31 (Germany)
