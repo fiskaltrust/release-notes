@@ -33,7 +33,7 @@ We are very happy to announce that we are finally releasing the new version of t
 
 ## Next steps
 
-In the next weeks, we will focus on improving Bulk Import Features and on improving generally the user experience. 
+In the next weeks, we will focus on improving the user experience. 
 
 ## Feedback
 We would love to hear what you think about these improvements and fixes. To get in touch, please reach out to [feedback+portal@fiskaltrust.cloud](mailto:feedback+portal@fiskaltrust.cloud).
