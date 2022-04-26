@@ -5,6 +5,7 @@ module.exports = {
       type: 'category',
       label: 'Middleware',
       items: [
+        'release-notes/middleware/middleware-1.3.33',
         'release-notes/middleware/middleware-1.3.32',
         'release-notes/middleware/middleware-1.3.31',
         'release-notes/middleware/middleware-1.3.30',
