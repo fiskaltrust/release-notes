@@ -15,13 +15,15 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 ### Middleware 1.3.33 (Germany)
 In this version of the Middleware, we've fixed an issue that could lead to failing requests when switching to another SCU. While the switch itself was successfully performed in these cases, the Middleware returned an error.
 
+[Middleware 1.3.33 Release Notes](middleware/middleware-1.3.33.md)
+
 
 ## April 19, 2022
 
 ### Middleware 1.3.32 (Germany)
 In this version of the Middleware, we've improved the overall logging experience on Android by enabling cloud logging and adding a content provider to directly access log files even if the Middleware cannot be started.
 
-[Middleware 1.3.31 Release Notes](middleware/middleware-1.3.32.md)
+[Middleware 1.3.32 Release Notes](middleware/middleware-1.3.32.md)
 
 
 ## March 31, 2022
