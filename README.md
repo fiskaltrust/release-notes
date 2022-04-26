@@ -10,6 +10,12 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## April 26, 2022
+
+### Middleware 1.3.33 (Germany)
+In this version of the Middleware, we've fixed an issue that could lead to failing requests when switching to another SCU. While the switch itself was successfully performed in these cases, the Middleware returned an error.
+
+
 ## April 19, 2022
 
 ### Middleware 1.3.32 (Germany)
