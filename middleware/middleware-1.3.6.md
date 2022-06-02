@@ -13,7 +13,7 @@ This release adds the functionality to locally generate our preview version of t
 ## New feature: Local DSFinV-K export (Preview)
 Starting with this version, Middleware users can download the DSFinV-K export not only from the Portal, but also directly from the Middleware's _Journal_ endpoint. This enables users that use the free Middleware only (without any add-ons like the revision-safe cloud storage) to be fully compliant to the tax authorities' regulations. 
 
-The _ftJournalType_ for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/general/function-structures/function-structures.html#journal-function).
+The _ftJournalType_ for getting a DSFinV-K export is `0x4445000000000002`, the returned file is a .zip stream. More details about how to access this endpoint can be found in our [docs](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/general/function-structures).
 
 Please note that this is a **preview version** of the DSFinV-K export, and still contains a few issues and minor limitations:
 - Some VAT rates are currently not calculated correctly, e.g. in `lines_vat.csv`

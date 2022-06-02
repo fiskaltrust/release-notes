@@ -59,7 +59,7 @@ In the upcoming sprints and with the feedback we receive for this new feature we
 #### Agency management
 The DSFinV-K specification requires the ability to handle agency businesses - a common example for this is selling toll stickers for the ASFINAG. In these cases, the company is selling something in the name of a third party company, which both has to be printed on the receipt and is written into the DSFinV-K export.
 
-With the changes we made, it's now possible to handle these agencies within accounts. Added agencies will be assigned an ID that should be sent to the Middleware when performing agency business transactions (via ftChargeItemCaseData, [as described in the docs](https://docs.fiskaltrust.cloud/doc/interface-doc/doc/appendix-de-kassensichv/data-structures/data-structures.html#charge-items-entry)).
+With the changes we made, it's now possible to handle these agencies within accounts. Added agencies will be assigned an ID that should be sent to the Middleware when performing agency business transactions (via ftChargeItemCaseData, [as described in the docs](https://docs.fiskaltrust.cloud/docs/poscreators/middleware-doc/germany/data-structures)).
 
 The Portal will then automatically inject this data into the configuration, as described [here](../middleware/middleware-1.3.4.md). This process will furthermore be described in more detail in the upcoming _procedural documentation_ for the DSFinV-K export.
 
