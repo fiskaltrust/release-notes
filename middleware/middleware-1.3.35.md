@@ -15,7 +15,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 :::
 
 ## Feature: Removal of cspSystemTime property for Swissbit Cloud & Deutsche Fiskal
-We modified the cspSystemTime property for  _SwissbitCloud_ and _DeutscheFiskal_ TSEs to optional. In some rare cases having this property led to exceptions. Additionnally we removed all non-needed properties for FCC model classes.
+In previous versions, we've used auto-generated models for communicating with the Fiskal Cloud Connector, that included properties that we did not use in our implementation of the _SwissbitCloud_ and _DeutscheFiskal_ TSEs. In some rare cases, properties marked as "mandatory" were not returned by the FCC, which led to exceptions. We've removed all non-needed properties in our FCC model classes to increase the stability.
 
 ## Feature:  DSFinV-K export fallback in case of empty "ITemCaseName"
 If the field ZAHLART is empty because of an empty ITemCaseName in ftReceiptCaseData, we automated that it would be filled with the payitem descrption. This will enable auditors to distinguish between the different payment types.
