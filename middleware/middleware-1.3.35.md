@@ -24,7 +24,7 @@ If the field ZAHLART is empty because of an empty `ItemCaseName` property in `ft
 Our _Bring your own Data Center_ solution is now working with a FCC container to be compatible with _SwissbitCloud_ and _DeutscheFiskal_ TSEs.
 
 ## Bug fix: TAR export failed
-We´ve resolved an issue where headers could not be parsed resulting in failing TAR export. 
+We've resolved a rare issue where TAR headers could not be parsed, resulting in failing TAR exports for a small amount of installations. 
 
 ## Bug fix: Check contente equality failed for EF queue
 We´ve fixed an issue whene running an export on a ef queue the tar files were not deleted.
