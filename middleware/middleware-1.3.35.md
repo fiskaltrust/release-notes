@@ -6,7 +6,7 @@ title: Version 1.3.35
 # fiskaltrust.Middleware 1.3.35 (Germany)
 _July 05, 2022_
 
-In this version of the Middleware, we removed non needed properties for FCC model classes, we also solved several bugs and created a FCC container for our _Bring your own Data Center_ solution.
+In this version of the Middleware, we've increased the resilience of our implementation of the Fiskal Cloud Connector in the _Swissbit Cloud_ and _Deutsche Fiskal_ SCUs and improved the compatibility and stability of our TAR and DSFinV-K exports.
 
 :::caution
 
