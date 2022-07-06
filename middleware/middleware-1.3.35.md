@@ -17,7 +17,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Stability improvement: Removed unused FCC properties Swissbit Cloud & Deutsche Fiskal SCUs
 In previous versions, we've used auto-generated models for communicating with the Fiskal Cloud Connector, that included properties that we did not use in our implementation of the _SwissbitCloud_ and _DeutscheFiskal_ TSEs. In some rare cases, properties marked as "mandatory" were not returned by the FCC, which led to exceptions. We've removed all non-needed properties in our FCC model classes to increase the stability.
 
-## Feature:  DSFinV-K export fallback in case of empty "ITemCaseName"
+## Feature:  DSFinV-K export fallback in case of empty "ItemCaseName"
 If the field ZAHLART is empty because of an empty `ItemCaseName` property in `ftReceiptCaseData`, we automated that it would be filled with the PayItem's description. This will enable auditors to distinguish between the different payment types.
 
 ## Feature: SwissbitCloud support in Bring your own Data Center
