@@ -14,7 +14,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 
 :::
 
-## Feature: Removal of cspSystemTime property for Swissbit Cloud & Deutsche Fiskal
+## Stability improvement: Removed unused FCC properties Swissbit Cloud & Deutsche Fiskal SCUs
 In previous versions, we've used auto-generated models for communicating with the Fiskal Cloud Connector, that included properties that we did not use in our implementation of the _SwissbitCloud_ and _DeutscheFiskal_ TSEs. In some rare cases, properties marked as "mandatory" were not returned by the FCC, which led to exceptions. We've removed all non-needed properties in our FCC model classes to increase the stability.
 
 ## Feature:  DSFinV-K export fallback in case of empty "ITemCaseName"
