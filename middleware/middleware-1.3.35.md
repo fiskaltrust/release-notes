@@ -30,7 +30,7 @@ We´ve resolved an issue where headers could not be parsed resulting in failing 
 We´ve fixed an issue whene running an export on a ef queue the tar files were not deleted.
 
 ## Documentation: Signaturecloud single pod manual
-We've created a guide for running the launcher on Docker. It is a step-by-step guide on how to run the launcher on Docker, mainly focusing on running a signle container instance.
+We've created a [step-by-step guide](https://github.com/fiskaltrust/product-de-bring-your-own-datacenter/blob/master/howto-single-instance.md) for running the Launcher image in a single Docker container instance (instead of spinning up a full-blown K8s instance). We recommend to use this possibility only for very small installations where reliability and fail-safety is not a critical issue.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
