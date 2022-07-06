@@ -27,7 +27,7 @@ Our _Bring your own Data Center_ solution is now working with a FCC container to
 We've resolved a rare issue where TAR headers could not be parsed, resulting in failing TAR exports for a small amount of installations. 
 
 ## Bug fix: Check contente equality failed for EF queue
-We´ve fixed an issue whene running an export on a ef queue the tar files were not deleted.
+We've fixed an issue where a missing dependency prevented the deletion of temporary files when running an export on a EF Queue. After updating to this version, previously (wrongly) stored files will be deleted to create a clean state.
 
 ## Documentation: Signaturecloud single pod manual
 We've created a [step-by-step guide](https://github.com/fiskaltrust/product-de-bring-your-own-datacenter/blob/master/howto-single-instance.md) for running the Launcher image in a single Docker container instance (instead of spinning up a full-blown K8s instance). We recommend to use this possibility only for very small installations where reliability and fail-safety is not a critical issue.
