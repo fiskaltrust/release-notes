@@ -10,6 +10,15 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## July 5, 2022
+
+### Middleware 1.3.35 (Germany)
+
+In this version of the Middleware, we removed non needed properties for FCC model classes, we also solved several bugs and created a FCC container for our _Bring your own Data Center_ solution.
+
+[Middleware 1.3.35 Release Notes](middleware/middleware-1.3.35.md)
+
+
 ## June 2, 2022
 
 ### Middleware 1.3.34 (Germany)
