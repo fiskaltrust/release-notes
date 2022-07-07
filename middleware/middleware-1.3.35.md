@@ -17,16 +17,13 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Stability improvement: Removed unused FCC properties Swissbit Cloud & Deutsche Fiskal SCUs
 In previous versions, we've used auto-generated models for communicating with the Fiskal Cloud Connector, that included properties that we did not use in our implementation of the _SwissbitCloud_ and _DeutscheFiskal_ TSEs. In some rare cases, properties marked as "mandatory" were not returned by the FCC, which led to exceptions. We've removed all non-needed properties in our FCC model classes to increase the stability.
 
-## Feature:  DSFinV-K export fallback in case of empty "ItemCaseName"
-If the field ZAHLART is empty because of an empty `ItemCaseName` property in `ftReceiptCaseData`, we automated that it would be filled with the PayItem's description. This will enable auditors to distinguish between the different payment types.
-
 ## Feature: SwissbitCloud support in Bring your own Data Center
 Our _Bring your own Data Center_ solution is now working with a FCC container to be compatible with _SwissbitCloud_ and _DeutscheFiskal_ TSEs.
 
 ## Bug fix: TAR export failed
 We've resolved a rare issue where TAR headers could not be parsed, resulting in failing TAR exports for a small amount of installations. 
 
-## Bug fix: Check contente equality failed for EF queue
+## Bug fix: Check content equality failed for EF queue
 We've fixed an issue where a missing dependency prevented the deletion of temporary files when running an export on a EF Queue. After updating to this version, previously (wrongly) stored files will be deleted to create a clean state.
 
 ## Documentation: Signaturecloud single pod manual
