@@ -19,7 +19,7 @@ With the operational experience we have collected since the go-live in Germany, 
 
 
 ## Feature: Added localization to Android App
-The android App will now detect the used language and display all warning and error messages in the choosen language.
+The android App will now detect the used language and display all warning and error messages in the chosen language.
 
 
 ## Affected packages
