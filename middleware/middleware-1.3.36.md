@@ -15,7 +15,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 :::
 
 ## Stability improvement: Added necessary indices to MW databases to improve query performance
-As we now have plenty of operational experience, we should introduced indices to the databases so that frequent queries (e.g. while doing /sign or /journal calls) are optimized. The Amount of RW operations on the HDD should be significantly reduced.
+With the operational experience we have collected since the go-live in Germany, we have added new indices to the Middleware database so that frequent queries (e.g. while doing /sign or /journal calls) are optimized. The Amount of RW operations on the HDD should be significantly reduced, as well as the execution time.
 
 
 ## Feature: Added localization to Android App
