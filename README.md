@@ -10,6 +10,23 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## July 22, 2022
+
+### Middleware 1.3.37 (Germany)
+
+In this version of the Middleware, we've added missing database indices to MySQL.
+
+[Middleware 1.3.37 Release Notes](middleware/middleware-1.3.37.md)
+
+## July 21, 2022
+
+### Middleware 1.3.36 (Germany)
+
+In this version of the Middleware, we've added Database indices for frequently accessed fields and localization to our Android App.
+
+[Middleware 1.3.36 Release Notes](middleware/middleware-1.3.36.md)
+
+
 ## July 5, 2022
 
 ### Middleware 1.3.35 (Germany)

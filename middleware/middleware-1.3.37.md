@@ -1,0 +1,30 @@
+---
+slug: /release-notes/middleware/1.3.37
+title: Version 1.3.37
+---
+
+# fiskaltrust.Middleware 1.3.37 (Germany)
+_July 22, 2022_
+
+In this version of the Middleware, we've added missing database indices to MySQL.
+
+:::caution
+
+Version 1.3 of the Middleware is meant for the German market only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.
+
+:::
+
+## Bug fix: Added missing database indices to MySQL
+We've noticed that database indices were missing in the changes made in version 1.3.36 in MySQL, which has been added in this version.
+
+## Affected packages
+Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
+
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.37_
+
+
+## Next steps in the Middleware
+We will focus on developing of the next version of the fiskaltrust.Launcher in the next sprints.
+This version will be developed open-source, and our first public prototype can be found in the public repository https://github.com/fiskaltrust/middleware-launcher.
+
+As always, we're happy to hear feedback and suggestions via [feedback+middleware@fiskaltrust.cloud](mailto:feedback+middleware@fiskaltrust.cloud) or directly via issues in our GitHub repositories.
