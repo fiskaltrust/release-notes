@@ -4,9 +4,9 @@ title: Version 1.3.38
 ---
 
 # fiskaltrust.Middleware 1.3.38 (Germany)
-_August 12, 2022_
+_August 19, 2022_
 
-In this version of the Middleware, we've updated the Fiskal Cloud Connector (FCC) to version 4.0.3 after previous versions stopped working due to an expired code-signing certificate in the TSE (please see our [blog post](https://fiskaltrust.de/wichtige-information-swissbit-cloud-ausfall/) and the [Deutsche Fiskal status page](https://deutschefiskal.statuspage.io/incidents/vyd0z587c9xb) for more details).
+In this version of the Middleware, we've updated the Fiskal Cloud Connector (FCC) to version 4.0.4 after previous versions stopped working due to an expired code-signing certificate in the TSE (please see our [blog post](https://fiskaltrust.de/wichtige-information-swissbit-cloud-ausfall/) and the [Deutsche Fiskal status page](https://deutschefiskal.statuspage.io/incidents/vyd0z587c9xb) for more details).
 
 :::danger
 
@@ -23,7 +23,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 :::
 
 ## Updated third party dependencies: Swissbit Cloud & Deutsche Fiskal
-We've updated the FCC to version 4.0.3 that was released today by the TSE vendor to re-enable the TSE, which was not working anymore with previous FCC versions due to an expired certificate in the SMAERS component of the TSE.
+We've updated the FCC to version 4.0.4 that was released today by the TSE vendor to re-enable the TSE, which was not working anymore with previous FCC versions due to an expired certificate in the SMAERS component of the TSE.
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).

@@ -10,11 +10,11 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
-## August 12, 2022
+## August 19, 2022
 
 ### Middleware 1.3.38 (Germany)
 
-In this version of the Middleware, we've updated the Fiskal Cloud Connector (FCC) to version 4.0.3 after previous versions stopped working due to an expired code-signing certificate in the TSE (please see our [blog post](https://fiskaltrust.de/wichtige-information-swissbit-cloud-ausfall/) and the [Deutsche Fiskal status page](https://deutschefiskal.statuspage.io/incidents/vyd0z587c9xb) for more details).
+In this version of the Middleware, we've updated the Fiskal Cloud Connector (FCC) to version 4.0.4 after previous versions stopped working due to an expired code-signing certificate in the TSE (please see our [blog post](https://fiskaltrust.de/wichtige-information-swissbit-cloud-ausfall/) and the [Deutsche Fiskal status page](https://deutschefiskal.statuspage.io/incidents/vyd0z587c9xb) for more details).
 
 [Middleware 1.3.38 Release Notes](middleware/middleware-1.3.38.md)
 
