@@ -4,7 +4,7 @@ title: Version 1.3.39
 ---
 
 # fiskaltrust.Middleware 1.3.39 (Germany)
-_August 29, 2022_
+_September 05, 2022_
 
 In this version of the Middleware, we've fixed an out of memory bug.
 
