@@ -32,7 +32,7 @@ Packages not listed here were not updated, as we decided to not increase the ver
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.37_
 - _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.38_
 - _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.39_
-
+- _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.39_
 
 ## Next steps in the Middleware
 We will focus on developing of the next version of the fiskaltrust.Launcher in the next sprints.
