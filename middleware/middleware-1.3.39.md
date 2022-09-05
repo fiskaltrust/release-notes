@@ -6,7 +6,7 @@ title: Version 1.3.39
 # fiskaltrust.Middleware 1.3.39 (Germany)
 _September 05, 2022_
 
-In this version of the Middleware, we've fixed an out of memory bug.
+In this version of the Middleware, we've fixed an out of memory bug where an exeception was thrown during the TAR export.
 
 :::caution
 
@@ -16,6 +16,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 
 ## Bug Fix FCC Out of memory
 We've fixed a bug happening during the TAR export where the FCC threw an out of memory exception. We made it possible to configure the heap memory via a scu parameter fccHeapMemory and chosen heap memory size 256, 512 or 1024.
+
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
