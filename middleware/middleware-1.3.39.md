@@ -6,7 +6,7 @@ title: Version 1.3.39
 # fiskaltrust.Middleware 1.3.39 (Germany)
 _September 05, 2022_
 
-In this version of the Middleware,we made it possible to run the German middleware on an ARM device, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions om the FailedStartTransaction table in the database.
+In this version of the Middleware,we made it possible to run the German middleware on an ARM device, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions on the FailedStartTransaction table in the database.
 
 :::caution
 
