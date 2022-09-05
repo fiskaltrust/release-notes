@@ -22,7 +22,8 @@ We now offer support for customers using ARM devices and wish to implement our G
 
 
 ## Bug Fix Explicit fail-transaction-receipt doesn't remove failed start transactions
-We´ve solved a bug where in some cases the Fail-transaction receipt did not remove the failed start transactions from the FailedStartTransaction table in the database, resulting in an exception thrown.
+We´ve solved a bug where in some cases the Fail-transaction receipt did not remove the failed start transactions from the FailedStartTransaction table in the database, resulting in an exception thrown. Now when an explicit failed is sent, it closes all failed start transaction in failed mode.
+
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
