@@ -6,7 +6,7 @@ title: Version 1.3.39
 # fiskaltrust.Middleware 1.3.39 (Germany)
 _September 05, 2022_
 
-In this version of the Middleware,we made it possible to run the German middleware on an ARM device, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions on the FailedStartTransaction table in the database.
+In this version of the Middleware,we made it possible to run the German middleware on an ARM device,moreover, we implemented an automatic retry when updating the FCC, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions on the FailedStartTransaction table in the database.
 
 :::caution
 
@@ -20,10 +20,12 @@ We now offer support for customers using ARM devices and wish to implement our G
 - Swissbit Hardware TSE
 - SwissbitCloud TSE
 
+## Feature: Automatic FCC update retry implemented
+We have implemented an automatic retry when updating the FCC.
 
-## Bug Fix Explicit fail-transaction-receipt doesn't remove failed start transactions
+
+## Bug Fix: Explicit fail-transaction-receipt doesn't remove failed start transactions
 We´ve solved a bug where in some cases the Fail-transaction receipt did not remove the failed start transactions from the FailedStartTransaction table in the database, when beeing in failed mode. Now when an explicit failed is sent, it closes all failed start transactions.
-
 
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
