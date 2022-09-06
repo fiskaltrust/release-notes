@@ -15,10 +15,10 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 :::
 
 ## Feature: ARM support for the German middleware
-We now offer support for customers using ARM devices and wish to implement our German middleware. These are the configurations working on ARM devices:
-- SQLITE
-- Swissbit Hardware TSE
-- SwissbitCloud TSE
+We now offer support for customers using ARM devices and wish to implement our German middleware. Most packages should work on ARM processors, except for these ones , because they do not offer ARM support in their software development kits:
+- Epson SCU
+- Diebold Nixdorf SCU
+- Swissbit Hardware on ARM64
 
 ## Feature: Automatic FCC update retry implemented
 We have implemented an automatic retry when updating the FCC.
