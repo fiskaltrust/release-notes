@@ -17,7 +17,7 @@ Version 1.3 of the Middleware is meant for the German market only, customers in 
 ## Feature: ARM support for the German middleware
 We now offer support for customers using ARM devices and wish to implement our German middleware. These are the configurations working on ARM devices:
 - SQLITE
-- Swissbit hqrdware TSE
+- Swissbit Hardware TSE
 - SwissbitCloud TSE
 
 
