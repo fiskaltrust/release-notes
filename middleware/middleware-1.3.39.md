@@ -22,7 +22,7 @@ We now offer support for customers using ARM devices and wish to implement our G
 
 
 ## Bug Fix Explicit fail-transaction-receipt doesn't remove failed start transactions
-We´ve solved a bug where in some cases the Fail-transaction receipt did not remove the failed start transactions from the FailedStartTransaction table in the database, resulting in an exception thrown. Now when an explicit failed is sent, it closes all failed start transaction in failed mode.
+We´ve solved a bug where in some cases the Fail-transaction receipt did not remove the failed start transactions from the FailedStartTransaction table in the database, when beeing in failed mode. Now when an explicit failed is sent, it closes all failed start transactions.
 
 
 ## Affected packages
