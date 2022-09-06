@@ -28,12 +28,13 @@ We´ve solved a bug where in some cases the Fail-transaction receipt did not rem
 ## Affected packages
 Packages not listed here were not updated, as we decided to not increase the version of unchanged packages. All packages with versions greater or equal to 1.3.1 are compatible with each other (it is e.g. possible to use _fiskaltrust.Middleware.SCU.Swissbit.1.3.1_ with the new queue packages).
 
-- _fiskaltrust.Middleware.Queue.EF v1.3.36_
-- _fiskaltrust.Middleware.Queue.SQLite v1.3.39_
-- _fiskaltrust.Middleware.Queue.MySQL v1.3.37_
-- _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.38_
+- _fiskaltrust.Middleware.SCU.DE.DeutscheFiskal v1.3.39_
 - _fiskaltrust.Middleware.SCU.DE.SwissbitCloud v1.3.39_
-- _fiskaltrust.Middleware.SCU.DE.Swissbit v1.3.39_
+- _fiskaltrust.Launcher v1.3.39__
+- _fiskaltrust.Middleware.Helper.Helipad v1.3.39__
+- _fiskaltrust.Middleware.Interface.Client.Grpc v1.3.39__
+- _fiskaltrust.Middleware.Interface.Client.Http v1.3.39__
+- _fiskaltrust.Middleware.Interface.Client.Soap v1.3.39__
 
 ## Next steps in the Middleware
 We will focus on developing of the next version of the fiskaltrust.Launcher in the next sprints.
