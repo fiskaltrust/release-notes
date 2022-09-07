@@ -14,7 +14,7 @@ If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cl
 
 ### Middleware 1.3.39 (Germany)
 
-In this version of the Middleware,we made it possible to run the German middleware on an ARM device,moreover, we implemented an automatic retry when updating the FCC, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions on the FailedStartTransaction table in the database.
+In this version of the Middleware, we made it possible to run the German middleware on an ARM device, moreover,  we implemented an automatic retry when updating the FCC, we've also fixed a bug concerning Fail-transactions not removing the failed start transactions on the FailedStartTransaction table in the database.
 
 [Middleware 1.3.39 Release Notes](middleware/middleware-1.3.39.md)
 
