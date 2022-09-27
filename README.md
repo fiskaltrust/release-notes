@@ -10,6 +10,11 @@ These release notes will contain a sum-up of all customer-relevant changes that 
 
 If you're viewing this on GitHub, please navigate to https://docs.fiskaltrust.cloud for a more convenient view of this content and open the section of interest to the left. If you have any questions regarding the changes described here, please directly reach out to us via [feedback+releasenotes@fiskaltrust.cloud](mailto:feedback+releasenotes@fiskaltrust.cloud).
 
+## September 27, 2022
+
+### Middleware 1.3.40 (Germany)
+
+In this version of the Middleware, we have added a SCU parameter to configure the Heap memory of the FCC, we also have added a timeout command for Entity Framework queue to perform a migration, we have modified the DSFINV-K export to exclude non pos-receipts, we have created some modi for the TAR-Export and we have fixed bugs regarding failing TAR-Export using a Fiskaly SCU and a bug concerning the indexes creation.
 ## September 05, 2022
 
 ### Middleware 1.3.39 (Germany)
