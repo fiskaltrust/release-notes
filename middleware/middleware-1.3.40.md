@@ -50,6 +50,8 @@ We´ve solved a bug where in some cases either a bad gateaway or a timeout error
 ## Bug Fix: Index creation when they do not exist 
 We´ve fixed a bug where an error message was thrown when updating the middleware version because the indexes already existed. We modified the index creation so that it only happens if the indexes do not exist. 
 ### Affected packages:
+- _fiskaltrust.Middleware.Queue.EF v1.3.40_
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.40_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.40
 
 ## Affected packages
