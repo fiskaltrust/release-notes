@@ -35,7 +35,8 @@ We have modified the DSFINV-K export so that non pos-receipts (e.g. zero receipt
 
 ## Feature: EF timeout command configurable for migration
 
-We have made possible to configure the timeout duration for EF queue to perform a migration. In some cases when performing a migration for a big EF queue the default timeout was not long enough leading to some errors.
+We have made possible to configure the migration timeout duration for queues. In some cases when performing a migration for a big queues the default timeout was not long enough leading to some errors.
+
 ### Affected packages:
 - _fiskaltrust.Middleware.Queue.EF v1.3.40_
 
