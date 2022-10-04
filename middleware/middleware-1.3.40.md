@@ -33,7 +33,7 @@ We have modified the DSFINV-K export so that non pos-receipts (e.g. zero receipt
 - _fiskaltrust.Middleware.Queue.MySQL v1.3.40_
 - _fiskaltrust.Middleware.Queue.SQLite v1.3.40
 
-## Feature: EF timeout command configurable for migration
+## Feature: Queue migration timeout is now configurable
 
 We have made possible to configure the migration timeout duration for queues. In some cases when performing a migration for a big queues the default timeout was not long enough leading to some errors.
 
