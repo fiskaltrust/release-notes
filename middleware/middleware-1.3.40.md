@@ -42,6 +42,6 @@ We have made possible to configure the migration timeout duration for queues. In
 
 ## Feature: TAR export modi for the queue
 We have added several TAR export modi for the queue for the TAR-File export during the daily closing to avoid a growth of the database due to open transactions. We noticed that more and more database size were increasing leading to issues in terms of perfomance and data upload.To solve this issue we implemented a queue parameter allowing to configure different modi for the TAR-File export:
-- all, this modi enables the automatic TAR-File export from the TSE on the queue
-- none, this modi disables the automatic TAR-File export
-- erased, this modi works in a way that TAR-files are only exported and saved when they can be deleted from the TSE. 
+- all, this mode enables the automatic TAR-File export from the TSE on the queue
+- none, this mode disables the automatic TAR-File export
+- erased, this mode works in a way that TAR-files are only exported and saved when they can be deleted from the TSE. 
