@@ -39,6 +39,8 @@ We have made possible to configure the migration timeout duration for queues. In
 
 ### Affected packages:
 - _fiskaltrust.Middleware.Queue.EF v1.3.40_
+- _fiskaltrust.Middleware.Queue.MySQL v1.3.40_
+- _fiskaltrust.Middleware.Queue.SQLite v1.3.40_
 
 ## Feature: TAR export modi for the queue
 We have added several TAR export modi for the queue for the TAR-File export during the daily closing to avoid a growth of the database due to open transactions. We noticed that more and more database size were increasing leading to issues in terms of perfomance and data upload.To solve this issue we implemented a queue parameter allowing to configure different modi for the TAR-File export:
