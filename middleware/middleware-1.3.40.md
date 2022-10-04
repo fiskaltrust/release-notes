@@ -1,6 +1,7 @@
 ---
-slug: /release-notes/middleware/1.3.40
-title: Version 1.3.40
+authors: poscreator
+slug: middleware/1.3.40
+tags: [Middleware, Germany]
 ---
 
 # fiskaltrust.Middleware 1.3.40 (Germany)
