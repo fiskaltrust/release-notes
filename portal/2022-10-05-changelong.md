@@ -1,6 +1,6 @@
 ---
 authors:
-  - name: team-posdealer   
+  - name: posdealer   
 slug: display_queue_description
 tags: [portal]
 ---
