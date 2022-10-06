@@ -1,8 +1,6 @@
 ---
 authors:
-  - name: Mina Moeini
-    url: https://github.com/MinaMoeini
-    image_url: https://github.com/MinaMoeini.png
+  - name: team-posdealer   
 slug: display_queue_description
 tags: [portal]
 ---
