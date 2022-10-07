@@ -1,7 +1,7 @@
 ---
 authors:
   - name: posdealer   
-slug: display_queue_description
+slug: portal/display-queue-description
 tags: [portal]
 ---
 
