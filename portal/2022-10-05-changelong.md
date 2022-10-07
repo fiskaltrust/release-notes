@@ -2,7 +2,7 @@
 authors:
   - name: posdealer   
 slug: portal/display-queue-description
-tags: [portal]
+tags: [Portal]
 ---
 
 # New changelog
