@@ -5,4 +5,4 @@ tags: [Portal,BugFix]
 ---
 
 # Fix for receipt calculation
-We have fixed receipt calculation when it contains negative quantity for amount or quantity. Total amount is summed up correctly now for all receipts.
+We have fixed receipt calculation when it contains negative quantity or amount. Total amount is summed up correctly now for all receipts.
