@@ -1,6 +1,6 @@
 ---
 authors: posdealer
-slug: portal/PosOperator Overview
+slug: portal/posoperator-overview
 tags: [Portal]
 ---
 
