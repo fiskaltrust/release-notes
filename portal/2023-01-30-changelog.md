@@ -1,6 +1,6 @@
 ---
 authors: posdealer
-slug: portal/Configuration - Queue
+slug: portal/receiptjournal-filter-fix
 tags: [Portal]
 ---
 
