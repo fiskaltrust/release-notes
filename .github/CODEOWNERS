@@ -1,5 +1,6 @@
-*              @fiskaltrust/site-reliability-engineering
-README.md      @fiskaltrust/pos-creator-experience-team @fiskaltrust/pos-dealer-experience-team
-toc.js         @fiskaltrust/pos-creator-experience-team @fiskaltrust/pos-dealer-experience-team
-/middleware/   @fiskaltrust/pos-creator-experience-team
-/portal/       @fiskaltrust/pos-dealer-experience-team
+*                 @fiskaltrust/site-reliability-engineering
+README.md         @fiskaltrust/pos-creator-experience-team @fiskaltrust/pos-dealer-experience-team
+toc.js            @fiskaltrust/pos-creator-experience-team @fiskaltrust/pos-dealer-experience-team
+/middleware/      @fiskaltrust/pos-creator-experience-team
+/portal/          @fiskaltrust/pos-dealer-experience-team
+/digital-receipt/ @fiskaltrust/receipt-and-payment-experience-team
