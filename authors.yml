@@ -9,3 +9,9 @@ posdealer:
   title: The team working on the Portal and other services for PosDealers
   email: feedback+portal@fiskaltrust.cloud
   image_url: https://avatars.githubusercontent.com/u/19596496?s=200&v=4
+  
+digital_receipt:
+  name: Digital Receipt Team
+  title: The team working on the digital receipt
+  email: feedback+middleware@fiskaltrust.cloud
+  image_url: https://avatars.githubusercontent.com/u/19596496?s=200&v=4
