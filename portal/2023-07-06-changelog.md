@@ -4,7 +4,7 @@ slug: portal/landing page
 tags: [Portal, landing page, update, redesign]
 ---
 
-# Redesign of our landing page:
+# Redesign of our landing page
 We are pleased to present our newly designed landing pages:  
 * [Sandbox Austria](https://portal-sandbox.fiskaltrust.at/ "Sandbox AT")
 * [Sandbox France](https://portal-sandbox.fiskaltrust.fr/ "Sandbox France") 
