@@ -1,6 +1,6 @@
 ---
 authors: posdealer
-slug: portal/posdealerapi
+slug: portal/posdealerapi-postman-release
 tags: [Portal, PosDealerAPI]
 ---
 
