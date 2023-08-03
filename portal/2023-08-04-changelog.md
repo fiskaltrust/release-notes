@@ -19,7 +19,7 @@ Utilize the check of available entitlements and use rollout plans to transfer en
 
 For those who prefer a graphical user interface, all operations are accessible in the fiskaltrust.Portal.
 
-## where to begin?
+## Where to begin?
 
 Discover the convenience and usability of our [PosDealer API Postman Collection](https://posdealer-samples.docs.fiskaltrust.cloud/ "PosDealer API") now!  
-Your feedback is crucial in helping us improve. Reach out to us at [feedback+portal](feedback+portal@fiskaltrust.cloud).
+Your feedback is crucial in helping us improve. [Reach out to us](mailto:feedback+portal@fiskaltrust.cloud).
