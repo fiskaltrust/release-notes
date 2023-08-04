@@ -1,7 +1,7 @@
 ---
 authors: posdealer
 slug: portal/posdealerapi-postman-release
-tags: [Portal, PosDealerAPI]
+tags: [Portal, PosDealer API, Samples]
 ---
 
 # PosDealer API Postman Collection Released!
