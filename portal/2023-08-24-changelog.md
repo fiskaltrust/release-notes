@@ -1,7 +1,7 @@
 ---
 authors: posdealer
-slug: portal/posdealerapi-postman-release
-tags: [Portal, PosDealer API, Samples, digital_receipt]
+slug: portal/configuration-cashbox
+tags: [Portal, Configuration, CashBox, PIN, InStore App]
 ---
 
 # CashBox configuration extended with PIN for InStore App!
