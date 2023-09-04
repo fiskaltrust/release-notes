@@ -1,7 +1,7 @@
 ---
 authors: posdealer
-slug: portal/posdealerapi-postman-release
-tags: [Portal, PosDealer API, Samples, digital_receipt]
+slug: portal/configuration-cashbox
+tags: [Portal, Configuration, CashBox, PIN, InStore App]
 ---
 
 # CashBox configuration extended with PIN for InStore App!
@@ -18,6 +18,6 @@ A `refresh button` will obtain you with a new PIN. That new PIN is displayed for
 
 ## How do I get started?
 
-For more information about the InStore App configuration, please visit [Digital Receipt / InStore App](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/digital-receipt/InStore-App).
+For more information about the InStore App configuration, please read [InStore App](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/digital-receipt/InStore-App/ "InStore App").
 
 Your feedback is crucial in helping us improve. [Reach out to us](mailto:feedback+portal@fiskaltrust.cloud).
