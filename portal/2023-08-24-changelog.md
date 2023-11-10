@@ -18,6 +18,6 @@ A `refresh button` will obtain you with a new PIN. That new PIN is displayed for
 
 ## How do I get started?
 
-For more information about the InStore App configuration, please read [InStore App](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/digital-receipt/InStore-App/ "InStore App").
+For more information about the InStore App configuration, please read [InStore App](https://docs.fiskaltrust.cloud/de/docs/poscreators/middleware-doc/digital-receipt/instore-app).
 
 Your feedback is crucial in helping us improve. [Reach out to us](mailto:feedback+portal@fiskaltrust.cloud).
