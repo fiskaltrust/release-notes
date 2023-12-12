@@ -1,0 +1,35 @@
+---
+authors: poscreator
+slug: middleware/1.3.53
+tags: [Middleware, Germany]
+---
+
+# Middleware 1.3.52 (Germany)
+In this version of the Middleware, we updated Receipt responses to include TSE SerialNumber while based on "DE 2024 KassenSichV", it is mandatory. and also some issues regarding closing receipts were fixed. 
+
+<!--truncate-->
+
+:::caution
+
+Version 1.3 of the Middleware is meant for the German and Italian markets only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.
+
+:::
+## Added TSE SerialNumber on receipt
+The TSE SerialNumber has added on receipt while the new AEAO / KassenSichV valid from 1.1.2024 requires the TSE serialnumber to be printed on the receipt if the QR-Code isn't used.
+
+### Affected packages:
+- _fiskaltrust.Middleware.Queue.*  v1.3.53_
+
+## Bug Fix: Daily/Monthly/Yearly closing is only halfway processed in Germany when SCU is not reachable. 
+Halfway process of closing receipts leads to wrong automatic export ranges - like MeinFiskal and PosArchive which report somehow actionjournals. It has fixed to do a full process and creating action journals eventhough the SCU is not reachable during that time (or fails, e.g. due to timeouts, etc.).
+
+### Affected packages:
+- _fiskaltrust.Middleware.Queue.*  v1.3.53_
+
+## Bug Fix: update cbReceiptReference exception for wrong receiptCase
+We've updated Exceptions regarding single open transaction in the TSE
+
+### Affected packages:
+- _fiskaltrust.Middleware.Queue.*  v1.3.53_
+
+> As always, we're happy to hear feedback and suggestions directly via issues in our [GitHub repositories](https://github.com/fiskaltrust).
