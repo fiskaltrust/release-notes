@@ -4,8 +4,9 @@ slug: middleware/1.3.53
 tags: [Middleware, Germany]
 ---
 
-# Middleware 1.3.53 (Germany)
-In this version of the Middleware, we have updated Receipt responses to include TSE SerialNumber and fixed some issues regarding closing receipts. 
+# Middleware 1.3.53
+
+In this version of the Middleware, we improved quality and performance of the DSFinV-K Export, we've added an optional Receipt Signature which contains the TSE serialnumber and fixed an issue regarding closing receipts. 
 
 <!--truncate-->
 
@@ -14,20 +15,22 @@ In this version of the Middleware, we have updated Receipt responses to include 
 Version 1.3 of the Middleware is meant for the German and Italian markets only, customers in Austria and France should continue to use version 1.2. We will unify these experiences in an upcoming version.
 
 :::
-## Added TSE SerialNumber on receipt
-The TSE SerialNumber has been added to the receipt while the new AEAO / KassenSichV valid from 1.1.2024 requires the TSE serial number to be printed on the receipt if the QR-Code isn't used.
+## 🇩🇪 Feature: Added TSE SerialNumber on receipt ([fiskaltrust/middleware#180](https://github.com/fiskaltrust/middleware/issues/180)
+
+The new AEAO / KassenSichV valid from 1.1.2024 requires the TSE serialnumber to be printed on the receipt if the QR-Code isn't used.
+To support that we have added a new Signature with the `ftSignatureType` of `0x4445000000000023` to the ReceiptResponse which contains the TSE serialnumber
 
 ### Affected packages:
 - _fiskaltrust.Middleware.Queue.*  v1.3.53_
 
-## Bug Fix: Daily/Monthly/Yearly closing is only halfway processed in Germany when SCU is not reachable. 
-The halfway process of closing receipts leads to wrong automatic export ranges - like MeinFiskal and PosArchive which report somehow actionjournals. It has fixed to do a full process and create action journals even though the SCU is not reachable during that time (or fails, e.g. due to timeouts, etc.).
+## 🇩🇪 Bug Fix: Action Journal for Daily/Monthly/Yearly closing is not created when SCU is not reachable ([fiskaltrust/middleware#226](https://github.com/fiskaltrust/middleware/issues/226))
+When the SCU was not reachable during the processing of a Daily/Monthly/Yearly closing the Action Journal entries would not be created this could lead to wrong automatic export ranges in MeinFiskal and PosArchive.
+This issue has been fixed we now create Action Journals and perform masterdata updates eventhough the SCU is not reachable during that time (or fails, e.g. due to timeouts, etc.).
 
 ### Affected packages:
 - _fiskaltrust.Middleware.Queue.*  v1.3.53_
 
-## Bug Fix: Update cbReceiptReference exception
-We've handled throwing Exceptions regarding single open transactions in the TSE
+## 🇩🇪 Bug Fix: Added hint about "Requests to close transactions" flag to Error messages ([fiskaltrust/middleware#227](https://github.com/fiskaltrust/middleware/pull/227))
 
 ### Affected packages:
 - _fiskaltrust.Middleware.Queue.*  v1.3.53_
