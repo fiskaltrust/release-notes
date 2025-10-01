@@ -1,6 +1,6 @@
 ---
 authors: platform
-slug: portal
+slug: portal/2025-36
 tags: [Portal, Exports]
 ---
 
