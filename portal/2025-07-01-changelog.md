@@ -1,7 +1,7 @@
 ---
 authors: platform
 slug: portal/2025-27
-tags: [Portal, CashBox, PosSystem, Configuration, Outlet]
+tags: [Portal,Notifications, CashBox, PosSystem, Configuration, Outlet]
 ---
 
 # Platform 2025-27
