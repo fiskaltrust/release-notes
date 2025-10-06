@@ -27,6 +27,8 @@ This release includes performance improvements and user experience enhancements 
 
 **Why it matters:** Provides a solution for German notification management by reducing data entry errors, offering clearer guidance and troubleshooting support, enabling manual control over notification timing, and improving operator communication. These enhancements reduce support requests while ensuring faster compliance processing and better user experience.
 
+**Visuals:**
+
 ## Cashbox Loading Performance Improvements
 <sub>Available since July 14, 2025</sub>
 
@@ -57,3 +59,7 @@ This release includes performance improvements and user experience enhancements 
 **Improved:** Added outlet number display to table views across CashBox, Queue, SignatureCreationUnit, and Helper pages. The system now clearly shows valid outlet numbers and highlights invalid outlet as errors, eliminating the need to open detail dialogs to identify outlet information.
 
 **Why it matters:** Users can quickly identify outlet configurations directly from table views, reducing navigation time and improving workflow efficiency.
+
+**Visuals:**
+
+![Outlet Number Display Enhancement](images/2025-07-01/outlets.png)
