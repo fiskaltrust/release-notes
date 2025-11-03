@@ -36,7 +36,7 @@ This release introduces Belgian market support and various platform enhancements
 **Why it matters:** Provides a consistent, modern user experience across all configuration pages while improving performance and eliminating cache synchronization issues that previously required manual page refreshes.
 
 ## Exports stuck in pending state fix
-<sub>Available since October 10, 2025</sub>
+<sub>Available since October 3, 2025</sub>
 
 **Affected markets:** ALL
 
