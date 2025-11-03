@@ -35,7 +35,7 @@ This release introduces Belgian market support and various platform enhancements
 
 **Why it matters:** Provides a consistent, modern user experience across all configuration pages while improving performance and eliminating cache synchronization issues that previously required manual page refreshes.
 
-## Exports stuck in pending state fix
+## Exports stuck in pending state fix (#1011)
 <sub>Available since October 3, 2025</sub>
 
 **Affected markets:** ALL
@@ -45,4 +45,12 @@ This release introduces Belgian market support and various platform enhancements
 <img width="1610" height="130" alt="image" src="https://github.com/user-attachments/assets/d5dee785-9bc3-4bf6-88d0-3af2056b7024" />
 
 **Why it matters:** The in progress state lead to the blocking of downloads since we considered the export unfished. Fixing this issue resolves this and makes sure that users are always able to download the results in case of exports being finished.
+
+## [Exports][DE] DFKA export does export VATId even if it is invalid (#1018)
+<sub>Available since October 3, 2025</sub>
+
+**Affected markets:** DE
+
+A fix for the DFKA export has been rolled out that handles wrongly configured VAT Numbers more gracefully. There are certain scenarios where accounts are setup with a correct TaxId, but a invalid VATId. In the past we have always included both of these numbers into the DFKA export as soon as they have been set. With this change we hande invalid VAT numbers the same way as if it would not be configured and do not include them in the export. This allows accounts that have setup a correct TaxId to correctly validate the DFKA and as a result of that transfer to MeinFiskal.
+
 
