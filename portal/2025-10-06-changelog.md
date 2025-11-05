@@ -24,7 +24,7 @@ This release introduces Belgian market support and various platform enhancements
 
 **Fixed:** Resolved issue where hidden queues and signature creation units (SCUs) were still appearing in CashBox configuration. Hidden entities are now properly filtered out from selection lists, while previously selected hidden entities remain visible when already assigned to a CashBox.
 
-**Why it matters:** Prevents confusion during CashBox configuration by ensuring only active, visible entities are available for selection, while maintaining functionality for existing configurations that use previously hidden entities.
+**Why it matters:** Makes CashBox setup much easier as only relevant items are shown as options to choose from.
 
 ## Helper Configuration Migration to React
 <sub>Available since October 10, 2025</sub>
