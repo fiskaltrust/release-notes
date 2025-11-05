@@ -1,7 +1,7 @@
 ---
-authors: digital_receipt
-slug: digital-receipt/2023-09-01-changelog
-tags: [Digital receipt]
+authors: receiptapi
+slug: receipt-api/2023-09-01-changelog
+tags: [Receipt Api, Experience, Europe]
 ---
 
 # Added PDF download function to the digital receipt

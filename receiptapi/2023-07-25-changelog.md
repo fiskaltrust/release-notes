@@ -1,7 +1,7 @@
 ---
-authors: digital_receipt
-slug: digital-receipt/2023-07-25-changelog
-tags: [Digital receipt]
+authors: receiptapi
+slug: receipt-api/2023-07-25-changelog
+tags: [Receipt Api, Experience, Europe]
 ---
 
 # Rework of card payment and voucher visualization
