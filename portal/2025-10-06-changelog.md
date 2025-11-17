@@ -13,7 +13,13 @@ This release introduces Belgian market support and various platform enhancements
 
 **Affected markets:** 🇧🇪
 
-**Improved:** Added Belgian portal functionality, now available in sandbox environment for testing and validation. The portal includes all features requerd for management of the configuration, users and connections.
+**Improved:** Added Belgian portal functionality, now available in sandbox and production environments for testing and validation. The portal includes all features required for management of the configuration, users and connections.
+
+**Access Links:**
+- Sandbox: [https://portal-sandbox.fiskaltrust.be](https://portal-sandbox.fiskaltrust.be)
+- Production: [https://portal.fiskaltrust.be](https://portal.fiskaltrust.be)
+
+**Interested in the Belgian market?** Contact our sales team to learn more about fiskaltrust services in Belgium.
 
 **Why it matters:** Expands platform reach to the Belgian market, enabling local customers to access fiskaltrust services with proper localization and regulatory compliance.
 
