@@ -66,17 +66,33 @@ Below is a list of frequently occurring errors and how to resolve them.
     a) The tax number does not match the scheme for the Bundesland (state)
     b) The company must report to another state than where it physically operates
     c) A regional 10–11 digit tax number is used instead of the required 13-digit number
+
+  ![alt text](images/2025-11-28/TaxId_error.png)
+  ![alt text](images/2025-11-28/Error_1.png)
+  ![alt text](images/2025-11-28/Taxid_eric.png)
 ________________________________________
 2. Missing or Invalid Data: Third-Party CashRegister (TSE Serial Number)
 
     Error: TSE serial number must be at least 64 characters and hexadecimal (0-9, a-f, A-F)
+
+
+ ![alt text](images/2025-11-28/Tse_SerialNumber.png)
 ________________________________________
 3. Invalid TSE BSI Certification Number
 Required format: YYYY-NNNN
+
+ ![alt text](images/2025-11-28/Bsi_error.png)
+ ![alt text](images/2025-11-28/Error_1.png)
+ ![alt text](images/2025-11-28/Bsi_eric.png)
+
 ________________________________________
 4. Missing Notification Product in the Outlet
 Problem:
 The outlet does not have an active notification product or carefree package.
+
+ ![alt text](images/2025-11-28/outletProduct_1.png)
+ ![alt text](images/2025-11-28/outletProduct_2.png)
+
 ________________________________________
 5. ERIC Exception: Duplicate Serial Numbers
 Error:
@@ -89,6 +105,8 @@ Remove duplicates:
 •	Send “Out of Operation” receipt, or
 •	Hide queue if it does not exist physically
 Then re-trigger the notification.
+
+ ![alt text](images/2025-11-28/Error_1.png)
 ________________________________________
 6. Missing TSE Information (TseInfoJson)
 Cause:
@@ -97,18 +115,29 @@ Solution:
 Check last End-of-Day receipt:
 •	If TSE data exists → re-trigger notification
 •	If not → fix the TSE connection problem or send a zero receipt to restore connection
+
+ ![alt text](images/2025-11-28/Error_1.png)
 ________________________________________
 7. Missing POS System Data (Model, Manufacturer)
 Cause:
 No valid POS System ID in the last End-of-Day receipt.
+
+ ![alt text](images/2025-11-28/Error_1.png)
+ ![alt text](images/2025-11-28/Invalid_register.png)
 ________________________________________
 8. Invalid Date Order (PurchaseDate vs CommissioningDate)
 Error:
 Purchase date cannot be later than commissioning date.
+
+ ![alt text](images/2025-11-28/date.png)
+ ![alt text](images/2025-11-28/Error_1.png)
+ ![alt text](images/2025-11-28/date_eric.png)
 ________________________________________
 9. ERIC Exception: Illegal Characters in Fields
 Error:
 Some characters in the legal company name or address are invalid.
+
+![alt text](images/2025-11-28/Error_1.png)
 ________________________________________
 Additional Notes
 
@@ -136,9 +165,11 @@ Last daily closing must show a correct POS System ID that exists in DE Dynamic
          https://github.com/fiskaltrust/market-de-services
 
 Useful links:
-*Correct tax identification number formats:
+* Knowledge base article on Notification Management:( you can find solutions for common error messages here)
+    https://portal.fiskaltrust.de/KBArticle#/KA-01146/Tax%20office%20notifications:%20Solutions%20for%20error%20messages
+* Correct tax identification number formats:
     https://de.wikipedia.org/wiki/Steuernummer
 
-** 13-digit tax identification number converter:
+* 13-digit tax identification number converter:
 https://www.ueberbrueckungshilfe-unternehmen.de/DE/Infothek/Steuernummer-Umrechner/steuernummer-umrechner.html
 
