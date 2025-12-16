@@ -3,15 +3,13 @@ authors: platform
 slug: portal/2025-11-27
 tags: [subscriptions]
 ---
-# Platform 2025-42
+# Subscription Management
 
 This release introduces Subscription Management Page Improvements.
 
-<sub>Available since Portal November 2025</sub>
+<sub>Available Since April 2025</sub>
 
 **Affected markets:** ALL
-
-## Subscription Management
 
 
 **Subscription Page Overview**
@@ -28,13 +26,13 @@ As a PosDealer, you can get an overview of all your PosOperators' subscriptions 
 
   ![subscription-management](images/2025-11-27/subscriptions-optout-contract.jpg)
 
-  Once the renewal is enabled ,Invoicing Type will be set to automatic and  all subscriptions that posdealer has been managing will be automatically renewed upon expiration.
+  Once the renewal is enabled ,Invoicing Type will be set to automatic and  all subscriptions that PosDealer has been managing will be automatically renewed upon expiration.
 
-  If pos dealer decides to opt out from automatic renewals, a contract will be presented. After signing the contract, the automatic renewal feature will be deactivated.
+  If PosDealer decides to opt out from automatic renewals, a contract will be presented. After signing the contract, the automatic renewal feature will be deactivated.
   At that time ,the Invoicing Type will be set to manual, and all subscriptions managed by the PosDealer will require manual renewal upon expiration.
 
-  Pos Dealer is able to set automatic renewal individually for each subscription as well.Once the individual renewal is enabled for a subscription that subscription will be renewed automaticaly upon expiration.
-  
+  PosDealer is able to set automatic renewal individually for each subscription as well.Once the individual renewal is enabled for a subscription that subscription will be renewed automaticaly upon expiration.
+
   ![subscription-management](images/2025-11-27/subscriptions-individual-renewal.jpg)
   
   Renewals can be performed in bulk, allowing users to select multiple subscriptions and renew them simultaneously.
@@ -65,11 +63,11 @@ As a PosDealer, you can get an overview of all your PosOperators' subscriptions 
 
    ![subscription-management](images/2025-11-27/subscriptions-products-at-basket.jpg)
 
-  User can proceed to checkout from shopping basket page to complete the payment process.
+  PosDealer can proceed to checkout from shopping basket page to complete the payment process.
 
   **Cancellation**
 
-  Subscriptions can be canceled either individually or in bulk. Users can select multiple subscriptions using checkboxes and click on the "Cancel Subscription" button at the bottom of the page to cancel them in bulk. 
+  Subscriptions can be canceled either individually or in bulk. PosDealer can select multiple subscriptions using checkboxes and click on the "Cancel Subscription" button at the bottom of the page to cancel them in bulk. 
  
  ![subscription-management](images/2025-11-27/subscriptions-cancellation-bulk.jpg)
 
@@ -81,11 +79,11 @@ As a PosDealer, you can get an overview of all your PosOperators' subscriptions 
 
   ![subscription-management](images/2025-11-27/subscriptions-cancellation-confirmation.jpg)  
 
-  In that dialog user will be informed about the cancellation status and the remaining validity period of the subscription. Dealer can choose wheter to inform pos operator via Email by using the **Notify Pos Operator** checkbox in the dialog or not.
+  In that dialog user will be informed about the cancellation status and the remaining validity period of the subscription. Dealer can choose wheter to inform PosOperator via Email by using the **Notify PosOperator** checkbox in the dialog or not.
   
   By confirming the cancellation the selected subscriptions will be canceled and PosDealer will receive a notification indicating the cancellation status and the remaining validity period of the subscription.
 
-  If notify PosOperator option was selected in the confirmation dialog pos operator will receive an email notification about the cancellation.
+  If notify PosOperator option was selected in the confirmation dialog PosOperator will receive an email notification about the cancellation.
    
   ![subscription-management](images/2025-11-27/subscriptions-cancellation-success-banner.jpg)
 
