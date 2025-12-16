@@ -6,7 +6,7 @@ tags: [Portal, Exports]
 
 This release introduces Notification Management Process
 
-<sub>Available since Portal June 2025</sub>
+<sub>Available since June 2025</sub>
 
 **Affected markets:** DE
 
