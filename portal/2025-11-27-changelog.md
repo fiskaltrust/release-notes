@@ -7,7 +7,7 @@ tags: [subscriptions]
 
 This release introduces Subscription Management Page Improvements.
 
-<sub>Available since Portal November 2025</sub>
+<sub>Available Since April 2025</sub>
 
 **Affected markets:** ALL
 
