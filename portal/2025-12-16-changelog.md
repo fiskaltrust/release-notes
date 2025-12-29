@@ -14,4 +14,6 @@ This release introduces Product Page Improvements.
 
 ## Shop/Products Page Improvement
 
-**Improved:** The No Outlet option has been removed from the outlet selection on the product page. Selecting an outlet is mandatory when placing an order, with Outlet number one set as the default.
+**Improved:** Outlet selection is now mandatory when placing an order. The "No Outlet" option has been removed, and Outlet 1 is automatically set as the default selection.
+
+**Why it matters:** This change ensures that every order is properly assigned to an outlet, preventing potential issues with order fulfillment. By making outlet selection mandatory and setting a sensible default, the system reduces user errors and improves data accuracy across the platform.

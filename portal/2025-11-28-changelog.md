@@ -4,13 +4,13 @@ slug: portal/2025-43
 tags: [Portal, Exports]
 ---
 
+# Notification Management Process
+
 This release introduces Notification Management Process
 
 <sub>Available since June 2025</sub>
 
 **Affected markets:** DE
-
-## Notification Management Process
 
 **Overview**
 
