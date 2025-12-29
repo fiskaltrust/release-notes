@@ -1,6 +1,6 @@
 ---
 authors: platform
-slug: portal/2025-11-27
+slug: portal/subscription-management
 tags: [subscriptions]
 ---
 # Subscription Management

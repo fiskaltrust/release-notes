@@ -1,6 +1,6 @@
 ﻿---
 authors: platform
-slug: portal/2025-43
+slug: portal/notification-management
 tags: [Portal, Exports]
 ---
 
