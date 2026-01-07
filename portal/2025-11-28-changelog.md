@@ -163,9 +163,6 @@ Last daily closing must show a correct POS System ID that exists in DE Dynamic
 
 •	Notification will be send for active queues . Hidden queues or queues that became inactive before July 1st, 2025 will not receive notifications
 
-•	Github repository for Notification  Worker and Notification_API  can be found here:
-         https://github.com/fiskaltrust/market-de-services
-
 Useful links:
 * Knowledge base article on Notification Management:( you can find solutions for common error messages here)
     https://portal.fiskaltrust.de/KBArticle#/KA-01146/Tax%20office%20notifications:%20Solutions%20for%20error%20messages

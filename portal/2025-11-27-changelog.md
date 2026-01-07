@@ -32,8 +32,6 @@ As a PosDealer, you can get an overview of all your PosOperators' subscriptions 
   At that time ,the Invoicing Type will be set to manual, and all subscriptions managed by the PosDealer will require manual renewal upon expiration.
 
   PosDealer is able to set automatic renewal individually for each subscription as well.Once the individual renewal is enabled for a subscription that subscription will be renewed automaticaly upon expiration.
-
-  ![subscription-management](images/2025-11-27/subscriptions-individual-renewal.jpg)
   
   Renewals can be performed in bulk, allowing users to select multiple subscriptions and renew them simultaneously.
   
