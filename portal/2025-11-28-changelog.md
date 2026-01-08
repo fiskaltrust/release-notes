@@ -28,12 +28,13 @@ ________________________________________
 
 1. Notification Management Page (Dealer Portal)
 A new management interface is available for dealers, providing the ability to:
-    <ul>
-        <li>View and manage all operators under their dealership</li>
-        <li>Enable or disable automatic or manual notifications for each operator</li>
-        <li>Review all sent notifications along with their statuses (successful, failed, pending)</li>
-        <li>Trigger notifications manually for specific operators if needed</li>
-    </ul>
+
+<ul>
+    <li>View and manage all operators under their dealership</li>
+    <li>Enable or disable automatic or manual notifications for each operator</li>
+    <li>Review all sent notifications along with their statuses (successful, failed, pending)</li>
+    <li>Trigger notifications manually for specific operators if needed</li>
+</ul>
 
 2. Operator Data Page
 
