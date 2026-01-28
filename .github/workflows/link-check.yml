@@ -1,7 +1,7 @@
 name: Check Links
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize, reopened]
 
 jobs:
@@ -15,6 +15,8 @@ jobs:
 
       - uses: lycheeverse/lychee-action@v2
         id: lychee
+        with:
+          args: --no-progress
 
       - name: Comment Broken Links
         uses: marocchino/sticky-pull-request-comment@v2
