@@ -13,10 +13,10 @@ jobs:
       - uses: lycheeverse/lychee-action@v2
         id: lychee
 
-      - name: Create comment
-        uses: peter-evans/create-or-update-comment@v5
+      - name: Comment Broken Links
+        uses: marocchino/sticky-pull-request-comment@v2
         with:
-          body-path: lychee/out.md
+          path: lychee/out.md
 
       - name: Fail if broken links found
         if: steps.lychee.outcome == 'failure'
