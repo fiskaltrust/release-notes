@@ -1,0 +1,23 @@
+name: Check Links
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: lycheeverse/lychee-action@v2
+        id: lychee
+
+      - name: Create comment
+        uses: peter-evans/create-or-update-comment@v5
+        with:
+          body-path: lychee/out.md
+
+      - name: Fail if broken links found
+        if: steps.lychee.outcome == 'failure'
+        run: exit 1
