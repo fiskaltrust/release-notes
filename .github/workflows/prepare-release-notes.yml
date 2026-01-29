@@ -1,0 +1,93 @@
+name: Prepare Middleware Release Notes
+
+on:
+  repository_dispatch:
+    types: [release-notes-command]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-release-notes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Validate repository and branch
+        id: validate
+        run: |
+          repo="${{ github.event.client_payload.github.payload.repository.full_name }}"
+          branch="${{ github.event.client_payload.pull_request.head.ref }}"
+
+          # Check repository
+          if [ "$repo" != "fiskaltrust/middleware" ]; then
+            echo "Error: This workflow only works for fiskaltrust/middleware repository"
+            echo "Current repository: $repo"
+            exit 1
+          fi
+
+          # Check branch pattern
+          if [[ ! "$branch" =~ ^release/v ]]; then
+            echo "Error: This workflow only works for release/v* branches"
+            echo "Current branch: $branch"
+            exit 1
+          fi
+
+          echo "Repository and branch validated successfully"
+
+      - name: Get version from branch name
+        id: get-version
+        run: |
+          branch="${{ github.event.client_payload.pull_request.head.ref }}"
+          # Extract version from release/v1.3.80 -> 1.3.80
+          version="${branch#release/v}"
+
+          if [ -z "$version" ]; then
+            echo "Error: Could not extract version from branch name"
+            echo "Branch: $branch"
+            exit 1
+          fi
+
+          echo "version=$version" >> $GITHUB_OUTPUT
+          echo "Triggering release notes creation for version: $version"
+
+      - name: Create branch for release notes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          branch_name="release-notes/middleware-${{ steps.get-version.outputs.version }}"
+          git checkout -b "$branch_name"
+          echo "branch=$branch_name" >> $GITHUB_ENV
+
+      - name: Commit and push changes
+        run: |
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Prepare release notes for Middleware ${{ steps.get-version.outputs.version }}"
+          git push origin "${{ env.branch }}"
+
+      - name: Create pull request with Copilot instructions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          pr_body="@copilot /prepare-middleware-release-notes ${{ steps.get-version.outputs.version }}
+
+          Please use the prompt file \`.github/prompts/prepare-middleware-release-notes.prompt.md\` to generate release notes for Middleware version \`${{ steps.get-version.outputs.version }}\`.
+
+          ---
+
+          This PR was automatically created to generate release notes. Once Copilot completes the task, review the generated release notes and merge if appropriate."
+
+          gh pr create \
+            --title "Release notes for Middleware ${{ steps.get-version.outputs.version }}" \
+            --body "$pr_body" \
+            --base master \
+            --head "${{ env.branch }}" \
+            --draft
