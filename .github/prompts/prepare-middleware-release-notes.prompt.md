@@ -76,7 +76,7 @@ You are tasked with creating comprehensive release notes for the fiskaltrust Mid
 Each release note entry should:
 - Be written from a user perspective
 - Explain WHAT changed for the user and WHY it matters
-- Don't explain WHAT changed technically
+- Don't explain what changed technically
 - Don't Include technical details especially not any code
 - Reference the PR number for traceability
 - Be concise but informative
