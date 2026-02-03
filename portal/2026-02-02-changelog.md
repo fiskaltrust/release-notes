@@ -1,7 +1,7 @@
 ---
 authors: platform
 slug: portal/2026-05
-tags: [Portal, Configuration, Employee]
+tags: [Portal, Configuration, Employee, SalesAreas]
 ---
 
 # Platform 2026-05
