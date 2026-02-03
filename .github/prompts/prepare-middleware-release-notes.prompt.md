@@ -1,6 +1,6 @@
 ---
 agent: agent
-tools: ['read/problems', 'read/readFile', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search', 'agent', 'github/get_file_contents', 'github/issue_read', 'github/list_issues', 'github/list_pull_requests', 'github/pull_request_read', 'github/search_code', 'github/search_issues', 'github/search_pull_requests']
+tools: ['read/problems', 'read/readFile', 'edit/createDirectory', 'edit/createFile', 'edit/editFiles', 'search', 'github/get_file_contents', 'github/issue_read', 'github/list_issues', 'github/list_pull_requests', 'github/pull_request_read', 'github/search_code', 'github/search_issues', 'github/search_pull_requests', 'github/search_repositories', 'agent']
 argument-hint: Provide the version to create releasenotes for
 ---
 
@@ -26,7 +26,8 @@ You are tasked with creating comprehensive release notes for the fiskaltrust Mid
       - The affected queue packages are specified by the `queue-<package>` labels
       - If the `queue` label is set then all queues are affected (Get all queue packages from the fiskaltrust/middleware repository workflow `.github/workflows/queue-package.yml`. Fetch the workflow files using `github/get_file_contents`.)
       - The affected SCU packages are specified by the `scu-<market>-<package>` labels
-      - Fetch linked issues using `github/issue_read` to understand the context and requirements
+      - Fetch linked issues using `github/issue_read` to understand the context and requirements.
+        Also fetch issues that are linked from from other repositories.
       - Use `web/githubRepo` to examine the code changes in the PR
       - Analyze the technical implementation and business impact
       - Draft a concise, user-focused release note entry. 
