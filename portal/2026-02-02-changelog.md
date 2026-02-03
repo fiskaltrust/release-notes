@@ -21,6 +21,21 @@ This release introduces template management improvements, user experience enhanc
 
 **Why it matters:** Creating templates is now faster. You'll get instant feedback if something is wrong, and the there is still the same editor for editing json files.
 
+## Sales Areas Management Migrated to React
+<sub>Available since January 31, 2026</sub>
+
+**Affected markets:** ALL
+
+**Improved:** The Sales Areas pages now use the same React framework as the rest of the portal. Page rendering is significantly faster and the UI is unified.
+
+**Key enhancements:**
+- Used standardized components from design system
+- Improved performance
+
+ ![Sales Areas page](images/2026-02-02/sales-areas.png)
+
+**Why it matters:** Dealers and internal teams can edit Sales Areas in seconds, with less waiting.
+
 ## Employee Permission Default Settings Fixed
 <sub>Available since January 29, 2026</sub>
 
