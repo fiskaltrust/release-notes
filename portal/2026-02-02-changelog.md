@@ -28,7 +28,7 @@ This release introduces template management improvements, user experience enhanc
 
 **Fixed:** Creating new employees no longer results in permission errors. Read and Write access permissions are now automatically selected by default when you add a new team member.
 
- ![Employee page](./images/2026-02-02/employee.png)
+ ![Employee page](images/2026-02-02/employee.png)
 
 **Why it matters:** Adding new employees to your team is now less error-prone. You don't have to worry about permission problems - the system automatically sets up the most common permissions, so your team members can start working right away.
 
@@ -53,6 +53,6 @@ This release introduces template management improvements, user experience enhanc
 
 **Fixed:** The queue list in Portugal now works correctly. Previously, clicking on one queue would expand all queues at once. Now when you click on a queue, only that specific queue expands, making it much easier to work with your queue list.
 
- ![PT queue page](./images/2026-02-02/pt-queue.png)
+ ![PT queue page](images/2026-02-02/pt-queue.png)
 
 **Why it matters:** You can now easily view details for individual queues without all of them opening at the same time. This makes managing your queues much simpler and brings Portugal in line with how the queue list works in all other countries.
