@@ -7,6 +7,8 @@ tags: [Portal, Configuration, CashBox, PIN, InStore App]
 # CashBox configuration extended with PIN for InStore App!
 
 We are pleased to announce a new feature for CashBox configuration in the fiskaltrust.Portal.
+
+<!-- truncate -->
 As an InStore App user, you needed a convenient way to connect your InStore App to your CashBox. You did not want to manually enter the CashBox ID and access token on your digital device.
 
 Pairing an **InStore App** with a CashBox uses a temporary PIN that our system recognizes. This PIN is now displayed in the fiskaltrust.Portal.

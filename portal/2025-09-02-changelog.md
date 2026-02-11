@@ -8,6 +8,8 @@ tags: [Portal, Exports]
 
 The main focus of this release is to improve existing processes and fix minor bugs.
 
+<!-- truncate -->
+
 ## Exports Redirection Fix
 **Fixed:** Navigating to exports no longer redirects users to the legacy exports page. Users are now correctly redirected to the new exports page.
 

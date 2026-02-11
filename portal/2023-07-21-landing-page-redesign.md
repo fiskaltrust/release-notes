@@ -8,6 +8,8 @@ tags: [Portal, Landing Page, Redesign]
 
 We have improved our landing pages in the sandbox, and rolled it out to our Italian and Spanish production Portals as well.
 
+<!-- truncate -->
+
 These pages are now:
 * optimized for mobile devices as well
 * supplemented with the logos of our partners

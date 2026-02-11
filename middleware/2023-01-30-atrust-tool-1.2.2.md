@@ -5,7 +5,10 @@ tags: [Middleware, Austria, Tools]
 ---
 
 # A-Trust smartcard tool 1.2.2 (Austria)
+
 We've updated our smartcard personalization tool to make it compatible with the latest ACOS-ID smartcards distributed by A-Trust. Old card generations continue to be supported.
+
+<!-- truncate -->
 
 The latest version can be downloaded in the [Portal's download area](https://portal.fiskaltrust.at/AccountProfile/Download) both for Windows x86 and x64.
 

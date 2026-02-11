@@ -8,6 +8,8 @@ tags: [Portal, Exports]
 
 This release introduces Notification Management Process
 
+<!-- truncate -->
+
 <sub>Available since June 2025</sub>
 
 **Affected markets:** DE
