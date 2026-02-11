@@ -1,4 +1,4 @@
-name: Check Links
+name: Build
 
 on:
   pull_request_target:
@@ -17,3 +17,9 @@ jobs:
         id: lychee
         with:
           fail: true
+
+  build:
+    uses: fiskaltrust/service-docs-ui/.github/workflows/build.yml@main
+    needs: check-links
+    secrets:
+      DOCS_REPOS_READ_TOKEN: ${{ secrets.DOCS_REPOS_READ_TOKEN }}
