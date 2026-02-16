@@ -1,6 +1,5 @@
 ---
 authors: posdealer
-slug: portal/responsive-landing-page
 tags: [Portal, Landing Page, Redesign]
 ---
 

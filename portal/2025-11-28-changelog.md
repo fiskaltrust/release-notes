@@ -1,6 +1,5 @@
 ﻿---
 authors: platform
-slug: portal/notification-management
 tags: [Portal, Exports]
 ---
 
@@ -174,4 +173,3 @@ Useful links:
 
 * 13-digit tax identification number converter:
 https://www.ueberbrueckungshilfe-unternehmen.de/DE/Infothek/Steuernummer-Umrechner/steuernummer-umrechner.html
-

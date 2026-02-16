@@ -1,6 +1,5 @@
 ---
 authors: posdealer
-slug: portal/configuration-cashbox
 tags: [Portal, Configuration, CashBox, PIN, InStore App]
 ---
 

@@ -1,6 +1,5 @@
 ---
 authors: platform
-slug: portal/2025-27
 tags: [Portal,Notifications, CashBox, PosSystem, Configuration, Outlet]
 ---
 

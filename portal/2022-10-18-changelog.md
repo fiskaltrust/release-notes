@@ -1,6 +1,5 @@
 ---
 authors: posdealer
-slug: portal/bugfix-receipt-calculation
 tags: [Portal,BugFix]
 ---
 

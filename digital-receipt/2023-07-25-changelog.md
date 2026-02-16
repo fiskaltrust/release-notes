@@ -1,6 +1,5 @@
 ---
 authors: digital_receipt
-slug: digital-receipt/2023-07-25-changelog
 tags: [Digital receipt]
 ---
 
