@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/posdealerapi-postman-release
 tags: [Portal, PosDealer API, Samples]
 ---
 

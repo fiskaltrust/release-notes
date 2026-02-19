@@ -1,5 +1,6 @@
 ---
 authors: platform
+slug: portal/subscription-management
 tags: [subscriptions]
 ---
 # Subscription Management
@@ -91,3 +92,4 @@ As a PosDealer, you can get an overview of all your PosOperators' subscriptions 
 **Access Links:**
 - Sandbox: [https://portal-sandbox.fiskaltrust.de/PosDealer/Subscriptions](https://portal-sandbox.fiskaltrust.de/PosDealer/Subscriptions)
 - Production: [https://portal.fiskaltrust.de/PosDealer/Subscriptions](https://portal.fiskaltrust.de/PosDealer/Subscriptions)
+

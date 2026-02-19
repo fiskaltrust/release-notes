@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/display-queue-description
 tags: [Portal]
 ---
 

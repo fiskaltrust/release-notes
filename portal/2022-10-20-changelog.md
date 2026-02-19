@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/optOut-receipt-check
 tags: [Portal]
 ---
 

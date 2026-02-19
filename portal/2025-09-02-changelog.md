@@ -1,5 +1,6 @@
 ---
 authors: platform
+slug: portal/2025-36
 tags: [Portal, Exports]
 ---
 
@@ -28,3 +29,4 @@ The main focus of this release is to improve existing processes and fix minor bu
 **Improved:** Enhanced the role management interface to clearly indicate when roles have been disabled. When a role is deactivated, users now see a descriptive message explaining the status and how to re-enable it, such as "The PosCreator role has been disabled. If you want to enable it again, please use the toggle to start the sign process again."
 
 **Why it matters:** Eliminates confusion about role activation status and provides clear guidance for users who need to re-enable roles, reducing support inquiries and improving user experience.
+

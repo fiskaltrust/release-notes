@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/reset-receipt-check
 tags: [Portal]
 ---
 

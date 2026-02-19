@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/receiptjournal-filter-fix
 tags: [Portal]
 ---
 

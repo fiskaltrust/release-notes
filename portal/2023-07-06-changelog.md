@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/landing page
 tags: [Portal, landing page, update, redesign]
 ---
 

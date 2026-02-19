@@ -1,5 +1,6 @@
 ---
 authors: poscreator
+slug: middleware/tools/atrust-1.4
 tags: [Middleware, Austria, Tools]
 ---
 

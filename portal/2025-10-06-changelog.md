@@ -1,5 +1,6 @@
 ---
 authors: platform
+slug: portal/2025-41
 tags: [Portal]
 ---
 
@@ -59,3 +60,5 @@ This release introduces Belgian market support and various platform enhancements
 **Affected markets:** DE
 
 A fix for the DFKA export has been rolled out that handles wrongly configured VAT Numbers more gracefully. There are certain scenarios where accounts are setup with a correct TaxId, but a invalid VATId. In the past we have always included both of these numbers into the DFKA export as soon as they have been set. With this change we hande invalid VAT numbers the same way as if it would not be configured and do not include them in the export. This allows accounts that have setup a correct TaxId to correctly validate the DFKA and as a result of that transfer to MeinFiskal.
+
+

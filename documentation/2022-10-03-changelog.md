@@ -3,6 +3,7 @@ authors:
   - name: Tom Schmiedlechner
     url: https://github.com/TSchmiedlechner
     image_url: https://github.com/TSchmiedlechner.png
+slug: docs/new-changelog
 tags: [Documentation]
 ---
 

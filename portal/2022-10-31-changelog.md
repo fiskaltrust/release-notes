@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/cashbox-delete-dialog
 tags: [Portal]
 ---
 

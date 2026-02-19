@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/cashbox-bulk-update
 tags: [Portal,BulkUpdate]
 ---
 

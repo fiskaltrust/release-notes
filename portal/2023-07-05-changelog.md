@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/update-configuration
 tags: [Portal, configuration,update]
 ---
 

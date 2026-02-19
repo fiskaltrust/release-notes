@@ -1,5 +1,6 @@
 ---
 authors: platform
+slug: portal/2025-48
 tags: [Portal]
 ---
 

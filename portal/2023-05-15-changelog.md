@@ -1,5 +1,6 @@
 ---
 authors: posdealer
+slug: portal/atfon-management-austria
 tags: [Portal,FinanzOnline]
 ---
 
