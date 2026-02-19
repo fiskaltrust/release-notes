@@ -8,6 +8,7 @@ tags: [Portal,Notifications, CashBox, PosSystem, Configuration, Outlet]
 
 This release includes performance improvements and user experience enhancements delivered from July to September. Key highlights include performance optimizations for customers with large numbers of cashboxes, German notification management improvements with automated date handling and enhanced guidance, PosSystem pages performance improvements, and added outlet number visibility across all table views to streamline workflows.
 
+<!-- truncate -->
 
 ## Cashbox Loading Performance Improvements
 <sub>Available since July 14, 2025</sub>

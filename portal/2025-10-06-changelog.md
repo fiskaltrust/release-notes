@@ -8,6 +8,8 @@ tags: [Portal]
 
 This release introduces Belgian market support and various platform enhancements.
 
+<!-- truncate -->
+
 ## Belgian Portal Launch
 <sub>Available since October 30, 2025</sub>
 

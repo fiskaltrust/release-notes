@@ -8,6 +8,8 @@ tags: [Portal, PosDealer API, Samples]
 
 We're excited to launch our Postman Collection for the PosDealer API, designed to offer the most needed actions for our partners. This collection enables PosDealers to manage PosOperators, outlets, and product rollouts effortlessly.
 
+<!-- truncate -->
+
 ## What's Included?
 
 Sample requests to manage PosOperators, and outlets and perform product rollouts.

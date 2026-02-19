@@ -7,6 +7,8 @@ tags: [Portal,BulkUpdate]
 # Improve performance and UX of CashBox bulk update page
 
 As we find this page beneficial to PosDealers, we made a couple of improvements in the last weeks:
+
+<!-- truncate -->
 - Update of the records are parallelized, and this will reduce your time of waiting to 5 times.
 - Pagination - The summary page has pagination that will speed up rendering time, as now we are rendering 100 items per page
 - Status - All CashBoxes will show their update status so you can be sure if a CashBox is updated. The column "Status" shows an icon; hovering over this provides you with additional information.

@@ -5,7 +5,10 @@ tags: [Portal, configuration,update]
 ---
 
 # Enable the new bulk update page in Austria and France
+
 The new bulk update page has been launched in Austria and France. This feature is designed to enhance the user experience by providing effortless configuration and updates for multiple packages and CashBoxes.
+
+<!-- truncate -->
 Compared to the legacy page, the new bulk update page comes with several exciting enhancements:
 - Filter Functionality: Easily filter packages based on PosOperators, allowing for streamlined package management.
 - Affected CashBox Display: Instantly view the number of CashBoxes affected when configuring a package, providing better visibility into the impact of changes.

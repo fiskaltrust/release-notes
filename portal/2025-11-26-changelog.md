@@ -6,6 +6,7 @@ tags: [Portal]
 
 # Platform 2025-48
 
+<!-- truncate -->
 
 ## Tax Id Validation (Syntax and Erict Checks)
 <sub>Available since November 26, 2025</sub>

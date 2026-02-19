@@ -5,7 +5,10 @@ tags: [Portal, landing page, update, redesign]
 ---
 
 # Redesign of our landing page
-We are pleased to present our newly designed landing pages:  
+
+We are pleased to present our newly designed landing pages:
+
+<!-- truncate -->
 * [Sandbox Austria](https://portal-sandbox.fiskaltrust.at/ "Sandbox AT")
 * [Sandbox France](https://portal-sandbox.fiskaltrust.fr/ "Sandbox France") 
 * [Sandbox Germany](https://portal-sandbox.fiskaltrust.de/ "Sandbox  Germany")

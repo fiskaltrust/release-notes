@@ -7,6 +7,8 @@ tags: [subscriptions]
 
 This release introduces Subscription Management Page Improvements.
 
+<!-- truncate -->
+
 <sub>Available Since April 2025</sub>
 
 **Affected markets:** ALL
