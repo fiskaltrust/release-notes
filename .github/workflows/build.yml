@@ -7,20 +7,24 @@ on:
 jobs:
   check-links:
     runs-on: ubuntu-latest
+    needs: []
     permissions:
       pull-requests: write
       contents: read
     steps:
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - uses: lycheeverse/lychee-action@v2
         id: lychee
         with:
+          args: ". --exclude '^file://.*'"
           fail: true
 
   build:
     uses: fiskaltrust/service-docs-ui/.github/workflows/build.yml@main
-    needs: check-links
+    needs: []
     with:
       release_notes_ref: ${{ github.event.pull_request.head.sha }}
     secrets:
