@@ -1,0 +1,17 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  dispatch-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch deploy-docs event
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.DOCS_REPOS_DISPATCH_TOKEN }}
+          repository: fiskaltrust/service-docs-ui
+          event-type: deploy-docs
