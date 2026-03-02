@@ -14,4 +14,9 @@ jobs:
         with:
           token: ${{ secrets.DOCS_REPOS_DISPATCH_TOKEN }}
           repository: fiskaltrust/service-docs-ui
-          event-type: deploy-docs
+          event-type: update-docs
+          client-payload: |-
+            {
+              "sha": "${{ github.sha }}",
+              "repository": "${{ github.repository }}"
+            }
