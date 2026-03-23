@@ -8,6 +8,8 @@ tags: [Portal, Partner Dashboard]
 
 The Partner Dashboard has been completely redesigned to give partners faster, more actionable insight into the health of their fleet. The headline addition is SCU certificate expiration tracking, but almost every part of the dashboard has been improved.
 
+<!-- truncate -->
+
 ## SCU certificate expiration tracking
 
 The dashboard now shows when each SCU's certificate expires (DE market). Expiration dates are color-coded — green when more than 3 months out, yellow within 3 months, and red when expired — so operators can plan renewals before they become an emergency. The exact expiry date and timezone are available in a tooltip, and the queue detail view surfaces this information as well.
