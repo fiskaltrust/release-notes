@@ -29,8 +29,6 @@ The old stat-card filters have been replaced with multiple dropdown filters in t
 - **CashBox Type filter** — Cloud vs. Local
 - **Sorglos filter** — Premium status
 
-Filters can also be typed directly in the search bar using prefixes like `type:cloud`, `state:active`, or `issue:noreceipt`, and appear as removable chips.
-
 ## In-app receipt preview
 
 Clicking a receipt link now opens an in-app preview modal instead of navigating to an external URL. The modal embeds the digital receipt and optionally shows Request and Response tabs with the raw JSON data, making debugging faster without leaving the portal.
