@@ -10,7 +10,7 @@ tags: []
 
 ## Summary
 We've made an important update to the role management in the fiskaltrust Service Portal. Now, if you are assigned only the PosOperator role, you won’t be able to sign into any other roles.
-
+<!--truncate-->
 ## Why This Matters
 This change helps ensure that users with the PosOperator role focus on their specific responsibilities without the confusion of managing multiple roles. It simplifies the role management process and enhances compliance with our long-term goal of role restrictions.
 
