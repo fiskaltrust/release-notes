@@ -19,5 +19,8 @@ This change helps ensure that users with the PosOperator role focus on their spe
 - When hovering over any disabled role, a helpful tooltip will appear, explaining that you can't sign any other roles while the PosOperator role is active.
 - Existing users with multiple roles, including PosOperator, will not experience any changes to their current access.
 
+![pos-operator-role-restriction](images/pos-operator-role-restriction/pos-operator-role-restriction.png)
+
 ## Impact
-This update primarily affects users who hold the PosOperator role exclusively. If you are one of these users, you will notice the new restrictions in place. If you have multiple roles, you can continue using them as before, so no action is needed on your part.
+This update primarily affects users who hold the PosOperator role exclusively. If you are one of these users, you will notice the new restrictions in place. If you have multiple roles, you can continue using them as before for now, so no immediate action is required on your side. However, our long-term goal is to separate these roles more clearly. Therefore, users who are both POS Dealers and POS Operators should plan to migrate their POS Operator activities to a separate account in the future.
+
