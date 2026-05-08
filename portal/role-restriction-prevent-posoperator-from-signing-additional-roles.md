@@ -2,7 +2,6 @@
 title: "Role Restriction: Prevent PosOperator from Signing Additional Roles"
 authors: platform
 slug: portal/role-restriction-prevent-posoperator-from-signing-additional-roles
-source: https://github.com/fiskaltrust/service-portal-ui/issues/260
 milestone: "n/a"
 date: 2026-05-06
 tags: []
