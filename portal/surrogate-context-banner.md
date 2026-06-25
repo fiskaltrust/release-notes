@@ -26,4 +26,4 @@ The new banner removes that ambiguity. At a glance, and on every page, you can s
 This update affects dealers and consultants who act on behalf of their operators. No action is required on your side — the banner appears automatically whenever you are working in an operator's account, and disappears as soon as you return to your own.
 
 ## Availability
-The banner is already live in the **Sandbox** environment, where you can try it out today. It will be rolled out to **Production** over the coming days, for **Austria** and **Germany**.
+The banner is already live in the **Sandbox** environment, where you can try it out today, and will be rolled out to **Production** across all markets over the coming days.
