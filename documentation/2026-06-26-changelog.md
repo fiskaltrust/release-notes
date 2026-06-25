@@ -1,7 +1,7 @@
 ---
 title: "Documentation – Onboarding Guides, POS System API, and Delivery Experience"
 authors: documentation
-slug: documentation/onboarding-guides-possystem-api-delivery
+slug: docs/onboarding-guides-possystem-api-delivery
 milestone: "n/a"
 date: 2026-06-26
 tags: [Documentation, Onboarding, POS System API, Migration Guide, Delivery, API documentation]
