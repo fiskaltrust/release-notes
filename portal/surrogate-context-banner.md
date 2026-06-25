@@ -1,6 +1,6 @@
 ---
 title: "Always Know When You're Acting on Behalf of an Operator"
-authors: posdealer
+authors: platform
 slug: portal/surrogate-context-banner
 milestone: "n/a"
 date: 2026-06-24
