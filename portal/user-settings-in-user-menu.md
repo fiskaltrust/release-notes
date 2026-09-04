@@ -27,6 +27,7 @@ The sidebar benefits too. It is the map of what the portal can do for your busin
 - The Language section shows your current language with its flag and offers every language the portal supports. Pick one and the portal reloads in that language, exactly as the old flag icon did.
 - The "User info" group is no longer shown in the left sidebar. The pages themselves are unchanged and keep their addresses, so any bookmarks still work.
 - The standalone language flag in the top bar is gone; use the Language section in the user menu instead.
+- The "Sign out" button at the bottom of the sidebar is gone as well. Sign out from the user menu, where it has always been available too.
 - The small drop-down under your company name in the sidebar header no longer repeats the "Profile" link. It keeps the entries that are about your company context: switching between your accounts and adding another account.
 - The user menu can be opened with the keyboard: move focus to your name and press Enter or Space.
 
