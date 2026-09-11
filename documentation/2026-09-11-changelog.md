@@ -4,7 +4,7 @@ authors: documentation
 slug: docs/einvoicing-documentation
 milestone: "n/a"
 date: 2026-09-11
-tags: [Documentation, eInvoicing, PosCreators, POS System API, Austria, Germany, France, Italy, Poland]
+tags: [Documentation, eInvoicing, PosCreators, Austria, Germany, France, Italy, Poland]
 ---
 
 # Documentation – eInvoicing Guides for PosCreators
