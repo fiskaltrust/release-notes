@@ -81,6 +81,7 @@ Each release note entry should:
 - Not include technical details, especially not any code
 - Reference the PR number for traceability
 - Be concise but informative
+- Keep the detailed description short: about 2–4 sentences covering the problem, the fix, and any action required when updating
 
 ## Important Notes
 
