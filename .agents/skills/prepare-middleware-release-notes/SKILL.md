@@ -17,6 +17,7 @@ You are tasked with creating comprehensive release notes for the fiskaltrust Mid
     - Search for pull requests in milestone v{{version}} with label `meta-needs-release-notes`
     - Use the GitHub search query: `repo:fiskaltrust/middleware milestone:v{{version}} label:meta-needs-release-notes is:pr`
     - Use available GitHub tooling (MCP GitHub tools if available, otherwise the `gh` CLI, e.g. `gh search prs` / `gh pr view` / `gh api`)
+    - If no PRs in the milestone carry the label, do not fall back to other PRs. Ask the user to add the `meta-needs-release-notes` label to the relevant PRs first, then re-run the search before continuing
 
 3. **Process Each Pull Request**
     - For each PR found, spawn a sub-agent (`spawn_agent`) to analyze it and draft its release note entry. Include all necessary context in the sub-agent's message (PR number, repository, format requirements below), since sub-agents don't see the conversation history.
@@ -57,13 +58,24 @@ You are tasked with creating comprehensive release notes for the fiskaltrust Mid
         slug: middleware/{{version}}
         tags: [Middleware, {{All affected markets}}]
         ---
+
         # Middleware {{version}}
-        [![Static Badge](https://img.shields.io/badge/milestone-v{{version}}-green?logo=github)]({{Milestone url}})
+        [![Static Badge](https://img.shields.io/badge/milestone-v{{version}}-green?logo=github)](https://github.com/fiskaltrust/middleware/milestone/{{milestone number}}?closed=1)
 
         {{Summary of the release}}
+        <!--truncate-->
+
+        :::caution
+
+        Customers in Austria and France should continue to use version 1.2 of the middleware.
+        We are working on a unified version for all markets.
+
+        :::
 
         {{Release notes for each Pull Request}}
         ```
+    - The summary typically starts with "With this release, ..." and mentions the main changes per market
+    - Link to previous release notes with relative file links (e.g. `[Middleware 1.3.87](./2026-07-27-1.3.87.md)`), not absolute `/changelog/...` URLs, so the build's link check verifies them
     - Wrap long lines at periods
 
 5. **Review and Finalize**
