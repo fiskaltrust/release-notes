@@ -84,6 +84,8 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 ## Improved: Navigation
 
 - The Developer sidebar was restructured: a new fiskaltrust.Middleware category groups the Compliance Middleware and the Experience Middleware, and the country guides are now listed at the top level.
+- Each country guide in the Developer sidebar now shows its flag.
+- The Developer menu has a new **Market Guides** entry: nine flags side by side, each linking to that country's guide.
 - The [Austria Introduction](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria) is now the entry point for the Austrian section, with what is required for the Austrian market and links to the pages that cover each obligation.
 
 **Why it matters:** Readers reach their market's pages faster and find each topic in one place.
