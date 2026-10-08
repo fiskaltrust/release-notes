@@ -26,7 +26,7 @@ Added two new onboarding guides to support partners throughout the fiskaltrust o
 
 ### New POS System API section
 
-Added a dedicated [POS System API](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/introduction) section under PosCreators, including documentation for the API, a new guide for integrating with the POS System API using [Android Intents](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/android-intent), and a new [migration guide from v0 to v2](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/migration-guide-v0-v2) to support upgrading existing implementations.
+Added a dedicated [POS System API](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/introduction) section under PosCreators, including documentation for the API, a new guide for integrating with the POS System API using [Android Intents](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/introduction), and a new [migration guide from v0 to v2](https://docs.fiskaltrust.eu/docs/poscreators/possystem-api/migration-guide-v0-v2) to support upgrading existing implementations.
 
 **Why it matters:** Users now have a single, structured entry point for POS System API documentation, including practical Android integration guidance and a clear migration path for moving from v0 to v2, making adoption and upgrades more straightforward and consistent.
 
