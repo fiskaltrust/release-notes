@@ -9,7 +9,7 @@ tags: [Documentation, PosCreators, PosDealers, POS System API, eInvoicing, InSto
 
 # Documentation – Refunds and Voids, Error Handling, and Market Updates
 
-This release focuses on improvements to the fiskaltrust documentation experience, including content updates, navigation enhancements, usability improvements, and maintenance activities. It covers the changes published between 14 September and 8 October 2026.
+This release focuses on improvements to the fiskaltrust documentation experience, including content updates, navigation enhancements, usability improvements, and maintenance activities.
 
 <!-- truncate -->
 
@@ -50,6 +50,25 @@ The cash register integration page has a new [Closing Receipts](https://docs.fis
 
 **Why it matters:** PosCreators entering Belgium get an overview of the setup and their responsibilities before they start; PosCreators in Portugal can resolve rejected requests on their own.
 
+## Updated: Market documentation
+
+- Austria: The [reference tables](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria/reference-tables) now include the v2 tables; the v0 tables and rksv.sign (retired product) were removed from the sidebar.
+- Italy: the [data structures](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures) page has a new [cbCustomer](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures#customer-data-cbcustomer) subsection (sent as a serialized JSON string; the codice fiscale belongs in `CustomerTaxId`) and a new section on [how refunds and voids reference the original receipt](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures#reference-to-the-original-receipt-in-refunds-and-voids).
+- Greece: the [data structures](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/greece/data-structures) page documents the external MARK for refunds and voids of receipts from another device or system, and has a new [cbArea](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/greece/data-structures#cbarea) section (sent to myDATA as `tableAA`, max 50 characters).
+- Portugal: the [Certification](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/certification) page has a new section [Receipt options, configuration, and extension points](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/certification#receipt-options-configuration-and-extension-points) for the certified document, and states that numbering series and starting numbers are set by fiskaltrust.
+
+**Why it matters:** The market pages reflect the current behavior of the Middleware in each market.
+
+## Updated: InStore App and PosDealer guides
+
+- InStore App: [Available settings](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/instore-app/available-settings) updated for v1.3.2, including the `No printing` and `No payment` options, the Dummy Payment Provider and a SumUp section.
+- [Registration](https://docs.fiskaltrust.eu/docs/posdealers/getting-started/registration): aligned with the new registration wizard in the fiskaltrust.Portal.
+- [Desktop launchers](https://docs.fiskaltrust.eu/docs/posdealers/technical-operations/middleware/launchers/desktop#downloading-the-middleware-launcher): explicit steps to download a Middleware launcher from the fiskaltrust.Portal.
+- [Network requirements](https://docs.fiskaltrust.eu/docs/posdealers/technical-operations/middleware/network-requirements): the Helipad helper uploads to `helipad.fiskaltrust.eu` and falls back to `helipad.fiskaltrust.cloud`.
+- [DATEV MeinFiskal](https://docs.fiskaltrust.eu/docs/posdealers/buy-resell/products/3rd-party/datev-meinfiskal): updated onboarding process.
+
+**Why it matters:** The guides match the current InStore App release, the current fiskaltrust.Portal and the current network endpoints.
+
 ## Improved: General data structures
 
 The [data structures](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/data-structures) page has new sections:
@@ -65,8 +84,6 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 ## Improved: Navigation
 
 - The PosCreators sidebar was restructured: the Middleware is grouped and the countries are listed at the top level.
-- PosDealer tab blocks now show all nine markets.
-- The FAQ folder was removed; its content moved to the PosDealers pages and to existing pages.
 - The [Austria Introduction](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria) is now the entry point for the Austrian section, with what is required for the Austrian market and links to the pages that cover each obligation.
 
 **Why it matters:** Readers reach their market's pages faster and find each topic in one place.
@@ -77,22 +94,3 @@ Every documentation page now has tags and a short description. The tags name the
 
 **Why it matters:** Readers find all pages on a topic from one place, for example the [pages tagged eInvoicing](https://docs.fiskaltrust.eu/docs/tags/e-invoicing), across PosCreator and PosDealer sections and markets.
 
-## Updated: Market documentation
-
-- Austria: [Terminology](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria/terminology) grows from 14 to 28 entries, including the RKSV receipt terms and the distinction between fiskaltrust components. The [reference tables](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria/reference-tables) now include the v2 tables; the v0 tables and rksv.sign (retired product) were removed from the sidebar.
-- Italy: the [data structures](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures) page has a new [cbCustomer](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures#customer-data-cbcustomer) subsection (sent as a serialized JSON string; the codice fiscale belongs in `CustomerTaxId`) and a new section on [how refunds and voids reference the original receipt](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/data-structures#reference-to-the-original-receipt-in-refunds-and-voids).
-- Greece: the [data structures](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/greece/data-structures) page documents the external MARK for refunds and voids of receipts from another device or system, and has a new [cbArea](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/greece/data-structures#cbarea) section (sent to myDATA as `tableAA`, max 50 characters).
-- Portugal: the [Certification](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/certification) page has a new section [Receipt options, configuration, and extension points](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/certification#receipt-options-configuration-and-extension-points) for the certified document, and states that numbering series and starting numbers are set by fiskaltrust.
-
-**Why it matters:** The market pages reflect the current behavior of the Middleware in each market.
-
-## Updated: InStore App and PosDealer guides
-
-- InStore App: [Available settings](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/instore-app/available-settings) updated for v1.3.2, including the `No printing` and `No payment` options, the Dummy Payment Provider and a SumUp section.
-- [Registration](https://docs.fiskaltrust.eu/docs/posdealers/getting-started/registration): aligned with the new registration wizard in the fiskaltrust.Portal.
-- [Desktop launchers](https://docs.fiskaltrust.eu/docs/posdealers/technical-operations/middleware/launchers/desktop#downloading-the-middleware-launcher): explicit steps to download a Middleware launcher from the fiskaltrust.Portal.
-- [Network requirements](https://docs.fiskaltrust.eu/docs/posdealers/technical-operations/middleware/network-requirements): the Helipad helper uploads to `helipad.fiskaltrust.eu` and falls back to `helipad.fiskaltrust.cloud`.
-- [DATEV MeinFiskal](https://docs.fiskaltrust.eu/docs/posdealers/buy-resell/products/3rd-party/datev-meinfiskal): updated onboarding process.
-- General reference tables: updated field descriptions.
-
-**Why it matters:** The guides match the current InStore App release, the current fiskaltrust.Portal and the current network endpoints.
