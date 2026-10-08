@@ -92,7 +92,7 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 
 ## Improved: Discoverability with page tags
 
-Every documentation page now has tags and a short description. The tags name the topic, product, market or regulation a page covers, for example `eInvoicing`, `InStore App`, `POS System API`, `KassenSichV` or `myDATA`. Each tag has its own page that lists all pages with that tag; the [tags overview](https://docs.fiskaltrust.eu/docs/tags) lists all tags.
+Every documentation page now has tags. They name the topic, product, market or regulation a page covers, for example `eInvoicing`, `InStore App`, `POS System API`, `KassenSichV` or `myDATA`. Each tag has its own page that lists all pages with that tag; the [tags overview](https://docs.fiskaltrust.eu/docs/tags) lists all tags.
 
 **Why it matters:** Readers find all pages on a topic from one place, for example the [pages tagged eInvoicing](https://docs.fiskaltrust.eu/docs/tags/e-invoicing), across the Developer and Partner sections and markets.
 
