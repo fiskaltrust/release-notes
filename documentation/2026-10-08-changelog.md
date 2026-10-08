@@ -15,7 +15,7 @@ This release focuses on improvements to the fiskaltrust documentation experience
 
 ## Added: Refunds, voids, discounts and error handling for all markets
 
-Three new market-independent pages in the Compliance Middleware cash register integration:
+Three new market-independent pages in the Compliance Middleware Cash Register Integration section:
 
 - [Refunds and Voids](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration/refunds-and-voids): how to void a receipt, refund it in full or in part, exchange goods and void single positions, using the `IsVoid` and `IsReturn`/`IsRefund` flags and `cbPreviousReceiptReference`. Covers referenced and unreferenced refunds and market-specific considerations.
 - [Discounts and Extras](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration/discounts-and-extras): how to record discounts and extras (surcharges) with the Discount flag of `ftChargeItemCase`, including percentage discounts, discounts on several positions or the whole receipt, discounts in refunds and voids, and how discounts differ from vouchers.
@@ -25,7 +25,7 @@ Three new market-independent pages in the Compliance Middleware cash register in
 
 ## Added: Closing Receipts section
 
-The cash register integration page has a new [Closing Receipts](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration#closing-receipts) section. Daily, monthly and yearly closings are required independent of local regulations; shift closings only when the business works in shifts. The section describes the required order and how a due closing shows up in `ftState`.
+The Cash Register Integration page has a new [Closing Receipts](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration#closing-receipts) section. Daily, monthly and yearly closings are required independent of local regulations; shift closings only when the business works in shifts. The section describes the required order and how a due closing shows up in `ftState`.
 
 **Why it matters:** Developers know which closings to integrate and how the Middleware signals that a closing is due.
 
