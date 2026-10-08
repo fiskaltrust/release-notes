@@ -4,7 +4,7 @@ authors: documentation
 slug: docs/refunds-voids-error-handling-market-updates
 milestone: "n/a"
 date: 2026-10-08
-tags: [Documentation, PosCreators, PosDealers, POS System API, eInvoicing, InStore App, Austria, Belgium, Greece, Italy, Portugal]
+tags: [Documentation, Developers, Partners, POS System API, eInvoicing, InStore App, Austria, Belgium, Greece, Italy, Portugal]
 ---
 
 # Documentation – Refunds and Voids, Error Handling, and Market Updates
@@ -21,13 +21,13 @@ Three new market-independent pages in the Compliance Middleware cash register in
 - [Discounts and Extras](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration/discounts-and-extras): how to record discounts and extras (surcharges) with the Discount flag of `ftChargeItemCase`, including percentage discounts, discounts on several positions or the whole receipt, discounts in refunds and voids, and how discounts differ from vouchers.
 - [Error Handling](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration/error-handling): how transport, HTTP and Middleware errors reach the POS system, how to evaluate `ftState` and error messages, and how the POS system should react.
 
-**Why it matters:** PosCreators find the rules for corrections, price reductions and errors in one place for every market, with examples and links to the market-specific considerations.
+**Why it matters:** Developers find the rules for corrections, price reductions and errors in one place for every market, with examples and links to the market-specific considerations.
 
 ## Added: Closing Receipts section
 
 The cash register integration page has a new [Closing Receipts](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/general/cash-register-integration#closing-receipts) section. Daily, monthly and yearly closings are required independent of local regulations; shift closings only when the business works in shifts. The section describes the required order and how a due closing shows up in `ftState`.
 
-**Why it matters:** PosCreators know which closings to integrate and how the Middleware signals that a closing is due.
+**Why it matters:** Developers know which closings to integrate and how the Middleware signals that a closing is due.
 
 ## Added: POS System API Receipt Formats and Android IPC Transport
 
@@ -41,14 +41,14 @@ The cash register integration page has a new [Closing Receipts](https://docs.fis
 - [Buyer data (cbCustomer)](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/e-invoicing/cbcustomer): maps the `cbCustomer` fields to the buyer fields of EN 16931, including the fields for routing and buyer reference.
 - [FatturaPA mapping (Italy)](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/italy/e-invoicing/fatturapa-mapping): how an Italian invoice receipt becomes a FatturaPA document (FPR12): which receipts get one, document types, the source of every FatturaPA element, the output and the validation rules.
 
-**Why it matters:** PosCreators see which receipt data ends up in which eInvoice field and which validation rules a receipt has to pass before it is fiscalized.
+**Why it matters:** Developers see which receipt data ends up in which eInvoice field and which validation rules a receipt has to pass before it is fiscalized.
 
 ## Added: Belgium Go-to-Market and Portugal Error Handling
 
-- Belgium: [Go-to-Market](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/belgium/go-to-market) and [FAQ](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/belgium/go-to-market/faq) describe the parties in the Belgian registered cash register system (RCRS) and FDM setup, where the fiskaltrust.Middleware sits, what it provides, what remains with the PosCreator, and the onboarding steps.
+- Belgium: [Go-to-Market](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/belgium/go-to-market) and [FAQ](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/belgium/go-to-market/faq) describe the parties in the Belgian registered cash register system (RCRS) and FDM setup, where the fiskaltrust.Middleware sits, what it provides, what remains with the developer, and the onboarding steps.
 - Portugal: [Error Handling](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/cash-register-integration/error-handling) lists the validation errors the Portuguese Middleware returns and how to fix a rejected request.
 
-**Why it matters:** PosCreators entering Belgium get an overview of the setup and their responsibilities before they start; PosCreators in Portugal can resolve rejected requests on their own.
+**Why it matters:** Developers entering Belgium get an overview of the setup and their responsibilities before they start; Developers in Portugal can resolve rejected requests on their own.
 
 ## Updated: Market documentation
 
@@ -59,7 +59,7 @@ The cash register integration page has a new [Closing Receipts](https://docs.fis
 
 **Why it matters:** The market pages reflect the current behavior of the Middleware in each market.
 
-## Updated: InStore App and PosDealer guides
+## Updated: InStore App and Partner guides
 
 - InStore App: [Available settings](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/instore-app/available-settings) updated for v1.3.2, including the `No printing` and `No payment` options, the Dummy Payment Provider and a SumUp section.
 - [Registration](https://docs.fiskaltrust.eu/docs/posdealers/getting-started/registration): aligned with the new registration wizard in the fiskaltrust.Portal.
@@ -83,7 +83,7 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 
 ## Improved: Navigation
 
-- The PosCreators sidebar was restructured: the Middleware is grouped and the countries are listed at the top level.
+- The Developer sidebar was restructured: a new fiskaltrust.Middleware category groups the Compliance Middleware and the Experience Middleware, and the country guides are now listed at the top level.
 - The [Austria Introduction](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria) is now the entry point for the Austrian section, with what is required for the Austrian market and links to the pages that cover each obligation.
 
 **Why it matters:** Readers reach their market's pages faster and find each topic in one place.
@@ -92,5 +92,5 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 
 Every documentation page now has tags and a short description. The tags name the topic, product, market or regulation a page covers, for example `eInvoicing`, `InStore App`, `POS System API`, `KassenSichV` or `myDATA`. Each tag has its own page that lists all pages with that tag; the [tags overview](https://docs.fiskaltrust.eu/docs/tags) lists all tags.
 
-**Why it matters:** Readers find all pages on a topic from one place, for example the [pages tagged eInvoicing](https://docs.fiskaltrust.eu/docs/tags/e-invoicing), across PosCreator and PosDealer sections and markets.
+**Why it matters:** Readers find all pages on a topic from one place, for example the [pages tagged eInvoicing](https://docs.fiskaltrust.eu/docs/tags/e-invoicing), across the Developer and Partner sections and markets.
 
