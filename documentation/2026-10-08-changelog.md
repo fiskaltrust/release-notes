@@ -71,6 +71,12 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 
 **Why it matters:** Readers reach their market's pages faster and find each topic in one place.
 
+## Improved: Discoverability with page tags
+
+Every documentation page now has tags and a short description. The tags name the topic, product, market or regulation a page covers, for example `eInvoicing`, `InStore App`, `POS System API`, `KassenSichV` or `myDATA`. Each tag has its own page that lists all pages with that tag; the [tags overview](https://docs.fiskaltrust.eu/docs/tags) lists all tags.
+
+**Why it matters:** Readers find all pages on a topic from one place, for example the [pages tagged eInvoicing](https://docs.fiskaltrust.eu/docs/tags/e-invoicing), across PosCreator and PosDealer sections and markets.
+
 ## Updated: Market documentation
 
 - Austria: [Terminology](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria/terminology) grows from 14 to 28 entries, including the RKSV receipt terms and the distinction between fiskaltrust components. The [reference tables](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/austria/reference-tables) now include the v2 tables; the v0 tables and rksv.sign (retired product) were removed from the sidebar.
@@ -90,25 +96,3 @@ The [eInvoicing overview](https://docs.fiskaltrust.eu/docs/poscreators/middlewar
 - General reference tables: updated field descriptions.
 
 **Why it matters:** The guides match the current InStore App release, the current fiskaltrust.Portal and the current network endpoints.
-
-## Updated: Images and page metadata
-
-- Diagrams were redrawn as SVGs, descriptive alt text was added to 163 images, and 429 unused images were removed.
-- All pages now have `description` and `tags` front matter.
-
-**Why it matters:** Images are readable for screen readers, and every page has a description and tags.
-
-## Fixed: Content accuracy
-
-- Belgium: the [ftChargeItemCase](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/belgium/reference-tables/ftchargeitemcase) VAT tables contained content copied from the Italian appendix. They now list the Belgian rates (6 %, 12 %, 21 %, 0 %).
-- Italy: the general reference tables no longer list Italy-specific `ftReceiptCaseData` values for voids. Receipts from another queue, device or system cannot be referenced in Italian refunds and voids.
-- Portugal: daily, monthly and yearly closings and the zero receipt were described as no-ops. The [Certification](https://docs.fiskaltrust.eu/docs/poscreators/middleware-doc/portugal/certification) page now states that closings must be integrated as in every other market.
-
-**Why it matters:** PosCreators no longer integrate against values or behavior that do not apply to their market.
-
-## Fixed: Links
-
-- Links use `docs.fiskaltrust.eu` instead of `docs.fiskaltrust.cloud`.
-- Links were fixed and wording improved on the PosCreator integration checklist, portal registration and PosDealer sandbox pages.
-
-**Why it matters:** Links lead to the current documentation domain and the intended pages.
